@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "fb9f74a44a04da8e79d06a9b2b119b71"
+build_time: [503004925, 950038000]
+inputs:
+  "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/MenuVC.swift": [503001294, 0]
+  "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/Asia shops/Seznam.swift": [503004556, 0]
+  "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/Asia shops/About.swift": [503004571, 0]
+  "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/Asia shops/AppDelegate.swift": [502884659, 0]
+  "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/Asia shops/Map.swift": [503004923, 0]

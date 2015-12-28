@@ -1,0 +1,267 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "About"
+provides-nominal:
+- "C10Asia_shops5About"
+provides-member:
+- ["C10Asia_shops5About", ""]
+provides-dynamic-lookup:
+- "loadView"
+- "Open"
+- "aboutView"
+depends-top-level:
+- "About"
+- "AboutView"
+- !private "CGRectZero"
+- "UIBarButtonItem"
+- !private "UIViewAutoresizing"
+- "UIViewController"
+depends-member:
+- ["C10Asia_shops5About", "AboutView"]
+- !private ["C10Asia_shops5About", "CGRectZero"]
+- ["C10Asia_shops5About", "Open"]
+- ["C10Asia_shops5About", "UIBarButtonItem"]
+- !private ["C10Asia_shops5About", "UIViewAutoresizing"]
+- ["C10Asia_shops5About", "aboutView"]
+- ["C10Asia_shops5About", "deinit"]
+- ["C10Asia_shops5About", "init"]
+- ["C10Asia_shops5About", "loadView"]
+- !private ["C10Asia_shops5About", "view"]
+- !private ["C10Asia_shops9AboutView", "autoresizingMask"]
+- !private ["C10Asia_shops9AboutView", "init"]
+- !private ["PSs9AnyObject", "AboutView"]
+- !private ["PSs9AnyObject", "CGRectZero"]
+- ["PSs9AnyObject", "Open"]
+- !private ["PSs9AnyObject", "UIViewAutoresizing"]
+- ["PSs9AnyObject", "aboutView"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "autoresizingMask"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "loadView"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "FlexibleWidth"]
+- !private ["PSs11CVarArgType", "AboutView"]
+- !private ["PSs11CVarArgType", "CGRectZero"]
+- ["PSs11CVarArgType", "Open"]
+- !private ["PSs11CVarArgType", "UIViewAutoresizing"]
+- ["PSs11CVarArgType", "aboutView"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "autoresizingMask"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "loadView"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "AboutView"]
+- !private ["PSs23CustomStringConvertible", "CGRectZero"]
+- ["PSs23CustomStringConvertible", "Open"]
+- !private ["PSs23CustomStringConvertible", "UIViewAutoresizing"]
+- ["PSs23CustomStringConvertible", "aboutView"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "autoresizingMask"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "loadView"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "AboutView"]
+- !private ["PSs9Equatable", "CGRectZero"]
+- !private ["PSs9Equatable", "FlexibleWidth"]
+- ["PSs9Equatable", "Open"]
+- !private ["PSs9Equatable", "UIViewAutoresizing"]
+- ["PSs9Equatable", "aboutView"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "autoresizingMask"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "loadView"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "AboutView"]
+- !private ["PSs8Hashable", "CGRectZero"]
+- ["PSs8Hashable", "Open"]
+- !private ["PSs8Hashable", "UIViewAutoresizing"]
+- ["PSs8Hashable", "aboutView"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "autoresizingMask"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "loadView"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "AboutView"]
+- !private ["PSo8NSCoding", "CGRectZero"]
+- ["PSo8NSCoding", "Open"]
+- !private ["PSo8NSCoding", "UIViewAutoresizing"]
+- ["PSo8NSCoding", "aboutView"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "autoresizingMask"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loadView"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "AboutView"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectZero"]
+- ["PSo26NSExtensionRequestHandling", "Open"]
+- !private ["PSo26NSExtensionRequestHandling", "UIViewAutoresizing"]
+- ["PSo26NSExtensionRequestHandling", "aboutView"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loadView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AboutView"]
+- !private ["CSo8NSObject", "CGRectZero"]
+- ["CSo8NSObject", "Open"]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIViewAutoresizing"]
+- ["CSo8NSObject", "aboutView"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "autoresizingMask"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadView"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "AboutView"]
+- !private ["PSo16NSObjectProtocol", "CGRectZero"]
+- ["PSo16NSObjectProtocol", "Open"]
+- !private ["PSo16NSObjectProtocol", "UIViewAutoresizing"]
+- ["PSo16NSObjectProtocol", "aboutView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "autoresizingMask"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadView"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs13OptionSetType", "FlexibleWidth"]
+- !private ["PSs16RawRepresentable", "FlexibleWidth"]
+- !private ["PSs14SetAlgebraType", "FlexibleWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "autoresizingMask"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "autoresizingMask"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "AboutView"]
+- !private ["PSo21UIAppearanceContainer", "CGRectZero"]
+- ["PSo21UIAppearanceContainer", "Open"]
+- !private ["PSo21UIAppearanceContainer", "UIViewAutoresizing"]
+- ["PSo21UIAppearanceContainer", "aboutView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "autoresizingMask"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loadView"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AboutView"]
+- !private ["PSo18UIContentContainer", "CGRectZero"]
+- ["PSo18UIContentContainer", "Open"]
+- !private ["PSo18UIContentContainer", "UIViewAutoresizing"]
+- ["PSo18UIContentContainer", "aboutView"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loadView"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "autoresizingMask"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "autoresizingMask"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "AboutView"]
+- !private ["PSo18UIFocusEnvironment", "CGRectZero"]
+- ["PSo18UIFocusEnvironment", "Open"]
+- !private ["PSo18UIFocusEnvironment", "UIViewAutoresizing"]
+- ["PSo18UIFocusEnvironment", "aboutView"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "autoresizingMask"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loadView"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AboutView"]
+- !private ["CSo11UIResponder", "CGRectZero"]
+- ["CSo11UIResponder", "Open"]
+- ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIViewAutoresizing"]
+- ["CSo11UIResponder", "aboutView"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "autoresizingMask"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loadView"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo16UIStateRestoring", "AboutView"]
+- !private ["PSo16UIStateRestoring", "CGRectZero"]
+- ["PSo16UIStateRestoring", "Open"]
+- !private ["PSo16UIStateRestoring", "UIViewAutoresizing"]
+- ["PSo16UIStateRestoring", "aboutView"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loadView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AboutView"]
+- !private ["PSo18UITraitEnvironment", "CGRectZero"]
+- ["PSo18UITraitEnvironment", "Open"]
+- !private ["PSo18UITraitEnvironment", "UIViewAutoresizing"]
+- ["PSo18UITraitEnvironment", "aboutView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "autoresizingMask"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loadView"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "autoresizingMask"]
+- !private ["CSo6UIView", "init"]
+- !private ["VSC18UIViewAutoresizing", "FlexibleWidth"]
+- ["CSo16UIViewController", "AboutView"]
+- !private ["CSo16UIViewController", "CGRectZero"]
+- ["CSo16UIViewController", "Open"]
+- ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIViewAutoresizing"]
+- ["CSo16UIViewController", "aboutView"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loadView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "autoresizingMask"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "C10Asia_shops5About"
+- !private "C10Asia_shops9AboutView"
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs13OptionSetType"
+- !private "PSs16RawRepresentable"
+- !private "PSs14SetAlgebraType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC18UIViewAutoresizing"
+- "CSo16UIViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "ec7131fbbdf07fea9b5959e735e2aafe"
