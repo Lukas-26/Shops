@@ -7,20 +7,22 @@ provides-member:
 - ["C10Asia_shops5About", ""]
 provides-dynamic-lookup:
 - "loadView"
-- "Open"
 - "aboutView"
+- "Open"
 depends-top-level:
-- "About"
 - "UIViewController"
-- !private "UIViewAutoresizing"
+- "UIBarButtonItem"
+- "About"
 - !private "CGRectZero"
 - "AboutView"
-- "UIBarButtonItem"
+- !private "UIView"
+- !private "UIViewAutoresizing"
 depends-member:
 - ["C10Asia_shops5About", "AboutView"]
 - !private ["C10Asia_shops5About", "CGRectZero"]
 - ["C10Asia_shops5About", "Open"]
 - ["C10Asia_shops5About", "UIBarButtonItem"]
+- !private ["C10Asia_shops5About", "UIView"]
 - !private ["C10Asia_shops5About", "UIViewAutoresizing"]
 - ["C10Asia_shops5About", "aboutView"]
 - ["C10Asia_shops5About", "deinit"]
@@ -32,6 +34,7 @@ depends-member:
 - !private ["PSs9AnyObject", "AboutView"]
 - !private ["PSs9AnyObject", "CGRectZero"]
 - ["PSs9AnyObject", "Open"]
+- !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "UIViewAutoresizing"]
 - ["PSs9AnyObject", "aboutView"]
 - !private ["PSs9AnyObject", "addSubview"]
@@ -44,6 +47,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "AboutView"]
 - !private ["PSs11CVarArgType", "CGRectZero"]
 - ["PSs11CVarArgType", "Open"]
+- !private ["PSs11CVarArgType", "UIView"]
 - !private ["PSs11CVarArgType", "UIViewAutoresizing"]
 - ["PSs11CVarArgType", "aboutView"]
 - !private ["PSs11CVarArgType", "addSubview"]
@@ -55,6 +59,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "AboutView"]
 - !private ["PSs23CustomStringConvertible", "CGRectZero"]
 - ["PSs23CustomStringConvertible", "Open"]
+- !private ["PSs23CustomStringConvertible", "UIView"]
 - !private ["PSs23CustomStringConvertible", "UIViewAutoresizing"]
 - ["PSs23CustomStringConvertible", "aboutView"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
@@ -67,6 +72,7 @@ depends-member:
 - !private ["PSs9Equatable", "CGRectZero"]
 - !private ["PSs9Equatable", "FlexibleWidth"]
 - ["PSs9Equatable", "Open"]
+- !private ["PSs9Equatable", "UIView"]
 - !private ["PSs9Equatable", "UIViewAutoresizing"]
 - ["PSs9Equatable", "aboutView"]
 - !private ["PSs9Equatable", "addSubview"]
@@ -78,6 +84,7 @@ depends-member:
 - !private ["PSs8Hashable", "AboutView"]
 - !private ["PSs8Hashable", "CGRectZero"]
 - ["PSs8Hashable", "Open"]
+- !private ["PSs8Hashable", "UIView"]
 - !private ["PSs8Hashable", "UIViewAutoresizing"]
 - ["PSs8Hashable", "aboutView"]
 - !private ["PSs8Hashable", "addSubview"]
@@ -89,6 +96,7 @@ depends-member:
 - !private ["PSo8NSCoding", "AboutView"]
 - !private ["PSo8NSCoding", "CGRectZero"]
 - ["PSo8NSCoding", "Open"]
+- !private ["PSo8NSCoding", "UIView"]
 - !private ["PSo8NSCoding", "UIViewAutoresizing"]
 - ["PSo8NSCoding", "aboutView"]
 - !private ["PSo8NSCoding", "addSubview"]
@@ -100,6 +108,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "AboutView"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectZero"]
 - ["PSo26NSExtensionRequestHandling", "Open"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
 - !private ["PSo26NSExtensionRequestHandling", "UIViewAutoresizing"]
 - ["PSo26NSExtensionRequestHandling", "aboutView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
@@ -110,6 +119,7 @@ depends-member:
 - !private ["CSo8NSObject", "CGRectZero"]
 - ["CSo8NSObject", "Open"]
 - ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "UIViewAutoresizing"]
 - ["CSo8NSObject", "aboutView"]
 - !private ["CSo8NSObject", "addSubview"]
@@ -120,6 +130,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "AboutView"]
 - !private ["PSo16NSObjectProtocol", "CGRectZero"]
 - ["PSo16NSObjectProtocol", "Open"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
 - !private ["PSo16NSObjectProtocol", "UIViewAutoresizing"]
 - ["PSo16NSObjectProtocol", "aboutView"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
@@ -140,6 +151,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "AboutView"]
 - !private ["PSo21UIAppearanceContainer", "CGRectZero"]
 - ["PSo21UIAppearanceContainer", "Open"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
 - !private ["PSo21UIAppearanceContainer", "UIViewAutoresizing"]
 - ["PSo21UIAppearanceContainer", "aboutView"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
@@ -151,6 +163,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "AboutView"]
 - !private ["PSo18UIContentContainer", "CGRectZero"]
 - ["PSo18UIContentContainer", "Open"]
+- !private ["PSo18UIContentContainer", "UIView"]
 - !private ["PSo18UIContentContainer", "UIViewAutoresizing"]
 - ["PSo18UIContentContainer", "aboutView"]
 - ["PSo18UIContentContainer", "init"]
@@ -166,6 +179,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "AboutView"]
 - !private ["PSo18UIFocusEnvironment", "CGRectZero"]
 - ["PSo18UIFocusEnvironment", "Open"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
 - !private ["PSo18UIFocusEnvironment", "UIViewAutoresizing"]
 - ["PSo18UIFocusEnvironment", "aboutView"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
@@ -178,6 +192,7 @@ depends-member:
 - !private ["CSo11UIResponder", "CGRectZero"]
 - ["CSo11UIResponder", "Open"]
 - ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "UIViewAutoresizing"]
 - ["CSo11UIResponder", "aboutView"]
 - !private ["CSo11UIResponder", "addSubview"]
@@ -188,6 +203,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "AboutView"]
 - !private ["PSo16UIStateRestoring", "CGRectZero"]
 - ["PSo16UIStateRestoring", "Open"]
+- !private ["PSo16UIStateRestoring", "UIView"]
 - !private ["PSo16UIStateRestoring", "UIViewAutoresizing"]
 - ["PSo16UIStateRestoring", "aboutView"]
 - ["PSo16UIStateRestoring", "init"]
@@ -197,6 +213,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "AboutView"]
 - !private ["PSo18UITraitEnvironment", "CGRectZero"]
 - ["PSo18UITraitEnvironment", "Open"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
 - !private ["PSo18UITraitEnvironment", "UIViewAutoresizing"]
 - ["PSo18UITraitEnvironment", "aboutView"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
@@ -213,6 +230,7 @@ depends-member:
 - !private ["CSo16UIViewController", "CGRectZero"]
 - ["CSo16UIViewController", "Open"]
 - ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIView"]
 - !private ["CSo16UIViewController", "UIViewAutoresizing"]
 - ["CSo16UIViewController", "aboutView"]
 - ["CSo16UIViewController", "init"]
@@ -255,8 +273,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/Asia shops-Bridging-Header.h"
-- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/SWRevealViewController.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"

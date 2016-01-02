@@ -16,7 +16,7 @@ class About: UIViewController{
     @IBOutlet var Open: UIBarButtonItem!
     
     override func loadView() {
-        //self.view=UIView()
+        self.view=UIView()
         
         let av = AboutView(frame: CGRectZero)
         av.autoresizingMask = UIViewAutoresizing.FlexibleWidth;
