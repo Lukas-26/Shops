@@ -19,6 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="iyi-nH-dMV"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <segue destination="Z0Q-7b-7Iu" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="bbW-Lh-do4"/>
                         <segue destination="Igv-03-Pns" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="EUm-J6-kqa"/>
@@ -77,6 +78,7 @@
                             <outlet property="delegate" destination="Z0Q-7b-7Iu" id="q6o-fL-K2k"/>
                         </connections>
                     </tableView>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OTl-q4-bdu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -216,7 +218,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.039215686270000001" green="0.31372549020000001" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.035294117647058823" green="0.31372549019607843" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -255,7 +257,7 @@
         <image name="MenuIcon" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Q8x-aI-ykz"/>
+        <segue reference="EUm-J6-kqa"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

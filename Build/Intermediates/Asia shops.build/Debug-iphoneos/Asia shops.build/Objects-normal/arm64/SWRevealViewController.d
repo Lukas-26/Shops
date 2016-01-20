@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/lukaspechac/Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m \
-  /Users/lukaspechac/Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h
+  /Users/lukaspechac/GitHub/Asia\ shops/Shops/Asia\ shops/SWRevealViewController.m \
+  /Users/lukaspechac/GitHub/Asia\ shops/Shops/Asia\ shops/SWRevealViewController.h

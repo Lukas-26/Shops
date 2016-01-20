@@ -7,19 +7,19 @@ provides-member:
 - ["C10Asia_shops6MenuVC", ""]
 provides-dynamic-lookup:
 - "MenuArray"
-- "tableView"
-- "tableView"
 - "viewDidLoad"
+- "tableView"
+- "tableView"
 depends-top-level:
 - "NSIndexPath"
-- !private "Array"
-- "String"
-- "UITableViewCell"
-- "UITableView"
-- "UITableViewController"
-- "MenuVC"
 - "Int"
+- !private "Array"
+- "UITableViewController"
+- "String"
 - !private "StringLiteralType"
+- "UITableView"
+- "UITableViewCell"
+- "MenuVC"
 depends-member:
 - ["PSs9AnyObject", "MenuArray"]
 - ["PSs9AnyObject", "String"]
@@ -477,14 +477,14 @@ depends-nominal:
 - !private "PSs11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
-- "/Users/lukaspechac/Documents/Lukas/refera\u0301ty a ve\u030Cci do s\u030Ckoly/CVUT - FIT/IOS/Semestralka/Asia shops/Asia shops/Asia shops-Bridging-Header.h"
-- "/Users/lukaspechac/Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
 interface-hash: "82cd56aead8bb97bb5375f1c760931da"

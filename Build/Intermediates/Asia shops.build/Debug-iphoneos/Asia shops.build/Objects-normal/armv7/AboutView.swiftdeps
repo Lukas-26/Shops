@@ -1,29 +1,34 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "AboutView"
+- "AboutViewDelegate"
 provides-nominal:
 - "C10Asia_shops9AboutView"
+- "P10Asia_shops17AboutViewDelegate"
 provides-member:
 - ["C10Asia_shops9AboutView", ""]
+- ["P10Asia_shops17AboutViewDelegate", ""]
 provides-dynamic-lookup:
-- "contactButt"
 - "contactButton"
 - "layoutSubviews"
+- "contactButt"
 depends-top-level:
-- !private "UIColor"
-- !private "CGRectGetWidth"
-- "UIButton"
 - !private "-"
+- !private "UIColor"
 - "AboutView"
-- !private "StringLiteralType"
-- !private "print"
+- !private "CGRectGetWidth"
 - "NSCoder"
-- "UIView"
-- !private "CGRectGetHeight"
-- !private "fatalError"
-- "CGRect"
+- !private "StringLiteralType"
 - !private "CGRectMake"
+- !private "print"
+- !private "fatalError"
+- "UIView"
+- "AboutViewDelegate"
+- !private "CGRectGetHeight"
+- "UIButton"
+- "CGRect"
 depends-member:
+- ["C10Asia_shops9AboutView", "AboutViewDelegate"]
 - ["C10Asia_shops9AboutView", "CGRect"]
 - !private ["C10Asia_shops9AboutView", "CGRectGetHeight"]
 - !private ["C10Asia_shops9AboutView", "CGRectGetWidth"]
@@ -36,10 +41,12 @@ depends-member:
 - ["C10Asia_shops9AboutView", "contactButt"]
 - ["C10Asia_shops9AboutView", "contactButton"]
 - ["C10Asia_shops9AboutView", "deinit"]
+- ["C10Asia_shops9AboutView", "delegate"]
 - !private ["C10Asia_shops9AboutView", "fatalError"]
 - ["C10Asia_shops9AboutView", "init"]
 - ["C10Asia_shops9AboutView", "layoutSubviews"]
 - !private ["C10Asia_shops9AboutView", "print"]
+- ["P10Asia_shops17AboutViewDelegate", "showAlert"]
 - !private ["PSs9AnyObject", "CGRectGetHeight"]
 - !private ["PSs9AnyObject", "CGRectGetWidth"]
 - !private ["PSs9AnyObject", "CGRectMake"]
@@ -48,10 +55,10 @@ depends-member:
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "addTarget"]
 - !private ["PSs9AnyObject", "backgroundColor"]
-- !private ["PSs9AnyObject", "blueColor"]
 - !private ["PSs9AnyObject", "bounds"]
 - ["PSs9AnyObject", "contactButt"]
 - ["PSs9AnyObject", "contactButton"]
+- ["PSs9AnyObject", "delegate"]
 - !private ["PSs9AnyObject", "fatalError"]
 - !private ["PSs9AnyObject", "frame"]
 - ["PSs9AnyObject", "init"]
@@ -72,10 +79,10 @@ depends-member:
 - !private ["PSs11CVarArgType", "addSubview"]
 - !private ["PSs11CVarArgType", "addTarget"]
 - !private ["PSs11CVarArgType", "backgroundColor"]
-- !private ["PSs11CVarArgType", "blueColor"]
 - !private ["PSs11CVarArgType", "bounds"]
 - ["PSs11CVarArgType", "contactButt"]
 - ["PSs11CVarArgType", "contactButton"]
+- ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "fatalError"]
 - !private ["PSs11CVarArgType", "frame"]
 - ["PSs11CVarArgType", "init"]
@@ -93,10 +100,10 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "addSubview"]
 - !private ["PSs23CustomStringConvertible", "addTarget"]
 - !private ["PSs23CustomStringConvertible", "backgroundColor"]
-- !private ["PSs23CustomStringConvertible", "blueColor"]
 - !private ["PSs23CustomStringConvertible", "bounds"]
 - ["PSs23CustomStringConvertible", "contactButt"]
 - ["PSs23CustomStringConvertible", "contactButton"]
+- ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "fatalError"]
 - !private ["PSs23CustomStringConvertible", "frame"]
 - ["PSs23CustomStringConvertible", "init"]
@@ -116,10 +123,10 @@ depends-member:
 - !private ["PSs9Equatable", "addSubview"]
 - !private ["PSs9Equatable", "addTarget"]
 - !private ["PSs9Equatable", "backgroundColor"]
-- !private ["PSs9Equatable", "blueColor"]
 - !private ["PSs9Equatable", "bounds"]
 - ["PSs9Equatable", "contactButt"]
 - ["PSs9Equatable", "contactButton"]
+- ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "fatalError"]
 - !private ["PSs9Equatable", "frame"]
 - ["PSs9Equatable", "init"]
@@ -137,10 +144,10 @@ depends-member:
 - !private ["PSs8Hashable", "addSubview"]
 - !private ["PSs8Hashable", "addTarget"]
 - !private ["PSs8Hashable", "backgroundColor"]
-- !private ["PSs8Hashable", "blueColor"]
 - !private ["PSs8Hashable", "bounds"]
 - ["PSs8Hashable", "contactButt"]
 - ["PSs8Hashable", "contactButton"]
+- ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "fatalError"]
 - !private ["PSs8Hashable", "frame"]
 - ["PSs8Hashable", "init"]
@@ -158,10 +165,10 @@ depends-member:
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "addTarget"]
 - !private ["PSo8NSCoding", "backgroundColor"]
-- !private ["PSo8NSCoding", "blueColor"]
 - !private ["PSo8NSCoding", "bounds"]
 - ["PSo8NSCoding", "contactButt"]
 - ["PSo8NSCoding", "contactButton"]
+- ["PSo8NSCoding", "delegate"]
 - !private ["PSo8NSCoding", "fatalError"]
 - !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "init"]
@@ -171,8 +178,9 @@ depends-member:
 - !private ["PSo8NSCoding", "setTitleColor"]
 - !private ["PSo8NSCoding", "whiteColor"]
 - ["PSo8NSCoding", ""]
-- !private ["PSo9NSCopying", "blueColor"]
+- !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "whiteColor"]
+- ["CSo8NSObject", "AboutViewDelegate"]
 - ["CSo8NSObject", "CGRect"]
 - !private ["CSo8NSObject", "CGRectGetHeight"]
 - !private ["CSo8NSObject", "CGRectGetWidth"]
@@ -183,10 +191,10 @@ depends-member:
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
 - !private ["CSo8NSObject", "backgroundColor"]
-- !private ["CSo8NSObject", "blueColor"]
 - !private ["CSo8NSObject", "bounds"]
 - ["CSo8NSObject", "contactButt"]
 - ["CSo8NSObject", "contactButton"]
+- ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "fatalError"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "init"]
@@ -203,10 +211,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
-- !private ["PSo16NSObjectProtocol", "blueColor"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
 - ["PSo16NSObjectProtocol", "contactButt"]
 - ["PSo16NSObjectProtocol", "contactButton"]
+- ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "fatalError"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "init"]
@@ -216,7 +224,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setTitleColor"]
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo14NSSecureCoding", "blueColor"]
+- !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
 - !private ["PSs13OptionSetType", "Normal"]
 - !private ["PSs13OptionSetType", "TouchUpInside"]
@@ -238,6 +246,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "bounds"]
 - ["PSo29UIAccessibilityIdentification", "contactButt"]
 - ["PSo29UIAccessibilityIdentification", "contactButton"]
+- ["PSo29UIAccessibilityIdentification", "delegate"]
 - !private ["PSo29UIAccessibilityIdentification", "fatalError"]
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
 - ["PSo29UIAccessibilityIdentification", "init"]
@@ -257,6 +266,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "bounds"]
 - ["PSo12UIAppearance", "contactButt"]
 - ["PSo12UIAppearance", "contactButton"]
+- ["PSo12UIAppearance", "delegate"]
 - !private ["PSo12UIAppearance", "fatalError"]
 - !private ["PSo12UIAppearance", "frame"]
 - ["PSo12UIAppearance", "init"]
@@ -276,6 +286,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "bounds"]
 - ["PSo21UIAppearanceContainer", "contactButt"]
 - ["PSo21UIAppearanceContainer", "contactButton"]
+- ["PSo21UIAppearanceContainer", "delegate"]
 - !private ["PSo21UIAppearanceContainer", "fatalError"]
 - !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "init"]
@@ -290,7 +301,7 @@ depends-member:
 - !private ["CSo8UIButton", "init"]
 - !private ["CSo8UIButton", "setTitle"]
 - !private ["CSo8UIButton", "setTitleColor"]
-- !private ["CSo7UIColor", "blueColor"]
+- !private ["CSo7UIColor", "init"]
 - !private ["CSo7UIColor", "whiteColor"]
 - !private ["CSo9UIControl", "addTarget"]
 - !private ["CSo9UIControl", "backgroundColor"]
@@ -311,6 +322,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "bounds"]
 - ["PSo17UICoordinateSpace", "contactButt"]
 - ["PSo17UICoordinateSpace", "contactButton"]
+- ["PSo17UICoordinateSpace", "delegate"]
 - !private ["PSo17UICoordinateSpace", "fatalError"]
 - !private ["PSo17UICoordinateSpace", "frame"]
 - ["PSo17UICoordinateSpace", "init"]
@@ -330,6 +342,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "bounds"]
 - ["PSo13UIDynamicItem", "contactButt"]
 - ["PSo13UIDynamicItem", "contactButton"]
+- ["PSo13UIDynamicItem", "delegate"]
 - !private ["PSo13UIDynamicItem", "fatalError"]
 - !private ["PSo13UIDynamicItem", "frame"]
 - ["PSo13UIDynamicItem", "init"]
@@ -349,6 +362,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "bounds"]
 - ["PSo18UIFocusEnvironment", "contactButt"]
 - ["PSo18UIFocusEnvironment", "contactButton"]
+- ["PSo18UIFocusEnvironment", "delegate"]
 - !private ["PSo18UIFocusEnvironment", "fatalError"]
 - !private ["PSo18UIFocusEnvironment", "frame"]
 - ["PSo18UIFocusEnvironment", "init"]
@@ -357,6 +371,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "setTitle"]
 - !private ["PSo18UIFocusEnvironment", "setTitleColor"]
 - ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "AboutViewDelegate"]
 - ["CSo11UIResponder", "CGRect"]
 - !private ["CSo11UIResponder", "CGRectGetHeight"]
 - !private ["CSo11UIResponder", "CGRectGetWidth"]
@@ -370,6 +385,7 @@ depends-member:
 - !private ["CSo11UIResponder", "bounds"]
 - ["CSo11UIResponder", "contactButt"]
 - ["CSo11UIResponder", "contactButton"]
+- ["CSo11UIResponder", "delegate"]
 - !private ["CSo11UIResponder", "fatalError"]
 - !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "init"]
@@ -388,6 +404,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "bounds"]
 - ["PSo18UITraitEnvironment", "contactButt"]
 - ["PSo18UITraitEnvironment", "contactButton"]
+- ["PSo18UITraitEnvironment", "delegate"]
 - !private ["PSo18UITraitEnvironment", "fatalError"]
 - !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "init"]
@@ -396,6 +413,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "setTitleColor"]
 - ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AboutViewDelegate"]
 - ["CSo6UIView", "CGRect"]
 - !private ["CSo6UIView", "CGRectGetHeight"]
 - !private ["CSo6UIView", "CGRectGetWidth"]
@@ -409,6 +427,7 @@ depends-member:
 - !private ["CSo6UIView", "bounds"]
 - ["CSo6UIView", "contactButt"]
 - ["CSo6UIView", "contactButton"]
+- ["CSo6UIView", "delegate"]
 - !private ["CSo6UIView", "fatalError"]
 - !private ["CSo6UIView", "frame"]
 - ["CSo6UIView", "init"]
@@ -417,7 +436,7 @@ depends-member:
 - !private ["CSo6UIView", "setTitle"]
 - !private ["CSo6UIView", "setTitleColor"]
 - ["CSo6UIView", ""]
-- !private ["PSs24_ColorLiteralConvertible", "blueColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
 - !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
 - !private ["PSs12_Reflectable", "CGRectGetHeight"]
 - !private ["PSs12_Reflectable", "CGRectGetWidth"]
@@ -430,6 +449,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "bounds"]
 - ["PSs12_Reflectable", "contactButt"]
 - ["PSs12_Reflectable", "contactButton"]
+- ["PSs12_Reflectable", "delegate"]
 - !private ["PSs12_Reflectable", "fatalError"]
 - !private ["PSs12_Reflectable", "frame"]
 - ["PSs12_Reflectable", "init"]
@@ -440,6 +460,7 @@ depends-member:
 - ["PSs12_Reflectable", ""]
 depends-nominal:
 - "C10Asia_shops9AboutView"
+- "P10Asia_shops17AboutViewDelegate"
 - "PSs9AnyObject"
 - !private "PSs23ArrayLiteralConvertible"
 - !private "V12CoreGraphics7CGFloat"
@@ -476,14 +497,14 @@ depends-nominal:
 - "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
-- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/Asia shops-Bridging-Header.h"
-- "/Users/lukaspechac/GitHub/Asia shops/Asia shops/SWRevealViewController.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
-interface-hash: "292c4dabb415db663caca908dee05718"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "2532485f09eef03ac5aced58cb51fc7c"
