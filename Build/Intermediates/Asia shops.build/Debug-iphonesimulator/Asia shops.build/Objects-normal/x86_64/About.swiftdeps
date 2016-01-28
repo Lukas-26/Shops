@@ -6,43 +6,43 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops5About", ""]
 provides-dynamic-lookup:
-- "Open"
-- "sendEmial"
-- "aboutView"
-- "mailComposeController"
 - "showAlert"
+- "aboutView"
+- "Open"
 - "viewWillLayoutSubviews"
-- "viewDidLoad"
-- "loadView"
-- "configuredMailComposeViewController"
 - "showSendMailErrorAlert"
+- "configuredMailComposeViewController"
+- "loadView"
+- "mailComposeController"
+- "viewDidLoad"
+- "sendEmial"
 depends-top-level:
-- "UIBarButtonItem"
-- !private "StringLiteralType"
-- "MFMailComposeViewController"
-- !private "UIAlertAction"
-- !private "UIAlertView"
-- !private "||"
-- !private "UITextField"
-- "MFMailComposeResult"
 - !private "print"
-- !private "CGRectMake"
-- !private "=="
-- "AboutView"
-- !private "Void"
 - "UIViewController"
-- !private "UIColor"
-- !private "UIAlertController"
-- "About"
-- !private "BooleanLiteralType"
+- "MFMailComposeResult"
 - !private "UIView"
-- !private "Array"
-- "AboutViewDelegate"
-- !private "Selector"
-- "NSError"
-- "MFMailComposeViewControllerDelegate"
-- "String"
 - !private "UIViewAutoresizing"
+- "NSError"
+- !private "Void"
+- !private "+"
+- !private "BooleanLiteralType"
+- !private "Array"
+- "MFMailComposeViewControllerDelegate"
+- "UIBarButtonItem"
+- "String"
+- !private "=="
+- !private "Selector"
+- !private "UITextField"
+- "AboutViewDelegate"
+- !private "StringLiteralType"
+- !private "UIAlertController"
+- "MFMailComposeViewController"
+- "About"
+- !private "CGRectMake"
+- !private "||"
+- !private "UIColor"
+- !private "UIAlertAction"
+- "AboutView"
 depends-member:
 - ["C10Asia_shops5About", "AboutView"]
 - !private ["C10Asia_shops5About", "CGRectMake"]
@@ -54,7 +54,6 @@ depends-member:
 - ["C10Asia_shops5About", "String"]
 - !private ["C10Asia_shops5About", "UIAlertAction"]
 - !private ["C10Asia_shops5About", "UIAlertController"]
-- !private ["C10Asia_shops5About", "UIAlertView"]
 - ["C10Asia_shops5About", "UIBarButtonItem"]
 - !private ["C10Asia_shops5About", "UIColor"]
 - !private ["C10Asia_shops5About", "UITextField"]
@@ -86,7 +85,6 @@ depends-member:
 - !private ["P10Asia_shops17AboutViewDelegate", "Selector"]
 - !private ["P10Asia_shops17AboutViewDelegate", "UIAlertAction"]
 - !private ["P10Asia_shops17AboutViewDelegate", "UIAlertController"]
-- !private ["P10Asia_shops17AboutViewDelegate", "UIAlertView"]
 - !private ["P10Asia_shops17AboutViewDelegate", "UIColor"]
 - !private ["P10Asia_shops17AboutViewDelegate", "UIView"]
 - !private ["P10Asia_shops17AboutViewDelegate", "UIViewAutoresizing"]
@@ -108,7 +106,6 @@ depends-member:
 - !private ["PSs9AnyObject", "Selector"]
 - !private ["PSs9AnyObject", "UIAlertAction"]
 - !private ["PSs9AnyObject", "UIAlertController"]
-- !private ["PSs9AnyObject", "UIAlertView"]
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIView"]
 - !private ["PSs9AnyObject", "UIViewAutoresizing"]
@@ -138,7 +135,6 @@ depends-member:
 - !private ["PSs9AnyObject", "setMessageBody"]
 - !private ["PSs9AnyObject", "setSubject"]
 - !private ["PSs9AnyObject", "setToRecipients"]
-- !private ["PSs9AnyObject", "show"]
 - ["PSs9AnyObject", "showAlert"]
 - ["PSs9AnyObject", "showSendMailErrorAlert"]
 - !private ["PSs9AnyObject", "target"]
@@ -164,7 +160,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "Selector"]
 - !private ["PSs11CVarArgType", "UIAlertAction"]
 - !private ["PSs11CVarArgType", "UIAlertController"]
-- !private ["PSs11CVarArgType", "UIAlertView"]
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIView"]
 - !private ["PSs11CVarArgType", "UIViewAutoresizing"]
@@ -194,7 +189,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "setMessageBody"]
 - !private ["PSs11CVarArgType", "setSubject"]
 - !private ["PSs11CVarArgType", "setToRecipients"]
-- !private ["PSs11CVarArgType", "show"]
 - ["PSs11CVarArgType", "showAlert"]
 - ["PSs11CVarArgType", "showSendMailErrorAlert"]
 - !private ["PSs11CVarArgType", "target"]
@@ -214,7 +208,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "Selector"]
 - !private ["PSs23CustomStringConvertible", "UIAlertAction"]
 - !private ["PSs23CustomStringConvertible", "UIAlertController"]
-- !private ["PSs23CustomStringConvertible", "UIAlertView"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIView"]
 - !private ["PSs23CustomStringConvertible", "UIViewAutoresizing"]
@@ -245,7 +238,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "setMessageBody"]
 - !private ["PSs23CustomStringConvertible", "setSubject"]
 - !private ["PSs23CustomStringConvertible", "setToRecipients"]
-- !private ["PSs23CustomStringConvertible", "show"]
 - ["PSs23CustomStringConvertible", "showAlert"]
 - ["PSs23CustomStringConvertible", "showSendMailErrorAlert"]
 - !private ["PSs23CustomStringConvertible", "target"]
@@ -266,7 +258,6 @@ depends-member:
 - !private ["PSs9Equatable", "Selector"]
 - !private ["PSs9Equatable", "UIAlertAction"]
 - !private ["PSs9Equatable", "UIAlertController"]
-- !private ["PSs9Equatable", "UIAlertView"]
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIView"]
 - !private ["PSs9Equatable", "UIViewAutoresizing"]
@@ -298,7 +289,6 @@ depends-member:
 - !private ["PSs9Equatable", "setMessageBody"]
 - !private ["PSs9Equatable", "setSubject"]
 - !private ["PSs9Equatable", "setToRecipients"]
-- !private ["PSs9Equatable", "show"]
 - ["PSs9Equatable", "showAlert"]
 - ["PSs9Equatable", "showSendMailErrorAlert"]
 - !private ["PSs9Equatable", "target"]
@@ -320,7 +310,6 @@ depends-member:
 - !private ["PSs8Hashable", "Selector"]
 - !private ["PSs8Hashable", "UIAlertAction"]
 - !private ["PSs8Hashable", "UIAlertController"]
-- !private ["PSs8Hashable", "UIAlertView"]
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIView"]
 - !private ["PSs8Hashable", "UIViewAutoresizing"]
@@ -351,7 +340,6 @@ depends-member:
 - !private ["PSs8Hashable", "setMessageBody"]
 - !private ["PSs8Hashable", "setSubject"]
 - !private ["PSs8Hashable", "setToRecipients"]
-- !private ["PSs8Hashable", "show"]
 - ["PSs8Hashable", "showAlert"]
 - ["PSs8Hashable", "showSendMailErrorAlert"]
 - !private ["PSs8Hashable", "target"]
@@ -377,7 +365,6 @@ depends-member:
 - !private ["PSo35MFMailComposeViewControllerDelegate", "Selector"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertAction"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertController"]
-- !private ["PSo35MFMailComposeViewControllerDelegate", "UIAlertView"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "UIColor"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "UIView"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "UIViewAutoresizing"]
@@ -402,7 +389,6 @@ depends-member:
 - !private ["PSo8NSCoding", "Selector"]
 - !private ["PSo8NSCoding", "UIAlertAction"]
 - !private ["PSo8NSCoding", "UIAlertController"]
-- !private ["PSo8NSCoding", "UIAlertView"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIView"]
 - !private ["PSo8NSCoding", "UIViewAutoresizing"]
@@ -432,7 +418,6 @@ depends-member:
 - !private ["PSo8NSCoding", "setMessageBody"]
 - !private ["PSo8NSCoding", "setSubject"]
 - !private ["PSo8NSCoding", "setToRecipients"]
-- !private ["PSo8NSCoding", "show"]
 - ["PSo8NSCoding", "showAlert"]
 - ["PSo8NSCoding", "showSendMailErrorAlert"]
 - !private ["PSo8NSCoding", "target"]
@@ -451,7 +436,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Selector"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
-- !private ["PSo26NSExtensionRequestHandling", "UIAlertView"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIView"]
 - !private ["PSo26NSExtensionRequestHandling", "UIViewAutoresizing"]
@@ -489,7 +473,6 @@ depends-member:
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIAlertAction"]
 - !private ["CSo8NSObject", "UIAlertController"]
-- !private ["CSo8NSObject", "UIAlertView"]
 - ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UITextField"]
@@ -522,7 +505,6 @@ depends-member:
 - !private ["CSo8NSObject", "setMessageBody"]
 - !private ["CSo8NSObject", "setSubject"]
 - !private ["CSo8NSObject", "setToRecipients"]
-- !private ["CSo8NSObject", "show"]
 - ["CSo8NSObject", "showAlert"]
 - ["CSo8NSObject", "showSendMailErrorAlert"]
 - !private ["CSo8NSObject", "target"]
@@ -538,7 +520,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Selector"]
 - !private ["PSo16NSObjectProtocol", "UIAlertAction"]
 - !private ["PSo16NSObjectProtocol", "UIAlertController"]
-- !private ["PSo16NSObjectProtocol", "UIAlertView"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIView"]
 - !private ["PSo16NSObjectProtocol", "UIViewAutoresizing"]
@@ -568,7 +549,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "setMessageBody"]
 - !private ["PSo16NSObjectProtocol", "setSubject"]
 - !private ["PSo16NSObjectProtocol", "setToRecipients"]
-- !private ["PSo16NSObjectProtocol", "show"]
 - ["PSo16NSObjectProtocol", "showAlert"]
 - ["PSo16NSObjectProtocol", "showSendMailErrorAlert"]
 - !private ["PSo16NSObjectProtocol", "target"]
@@ -601,7 +581,6 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "frame"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "placeholder"]
-- !private ["PSo29UIAccessibilityIdentification", "show"]
 - !private ["PSo29UIAccessibilityIdentification", "target"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["CSo13UIAlertAction", "init"]
@@ -611,8 +590,6 @@ depends-member:
 - !private ["CSo17UIAlertController", "addTextFieldWithConfigurationHandler"]
 - !private ["CSo17UIAlertController", "init"]
 - !private ["OSC22UIAlertControllerStyle", "Alert"]
-- !private ["CSo11UIAlertView", "init"]
-- !private ["CSo11UIAlertView", "show"]
 - !private ["PSo12UIAppearance", "action"]
 - !private ["PSo12UIAppearance", "addGestureRecognizer"]
 - !private ["PSo12UIAppearance", "addSubview"]
@@ -622,7 +599,6 @@ depends-member:
 - !private ["PSo12UIAppearance", "frame"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "placeholder"]
-- !private ["PSo12UIAppearance", "show"]
 - !private ["PSo12UIAppearance", "target"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "AboutView"]
@@ -632,7 +608,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Selector"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertController"]
-- !private ["PSo21UIAppearanceContainer", "UIAlertView"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIView"]
 - !private ["PSo21UIAppearanceContainer", "UIViewAutoresizing"]
@@ -661,7 +636,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "setMessageBody"]
 - !private ["PSo21UIAppearanceContainer", "setSubject"]
 - !private ["PSo21UIAppearanceContainer", "setToRecipients"]
-- !private ["PSo21UIAppearanceContainer", "show"]
 - ["PSo21UIAppearanceContainer", "showAlert"]
 - ["PSo21UIAppearanceContainer", "showSendMailErrorAlert"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -681,7 +655,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Selector"]
 - !private ["PSo18UIContentContainer", "UIAlertAction"]
 - !private ["PSo18UIContentContainer", "UIAlertController"]
-- !private ["PSo18UIContentContainer", "UIAlertView"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIView"]
 - !private ["PSo18UIContentContainer", "UIViewAutoresizing"]
@@ -719,7 +692,6 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "frame"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "placeholder"]
-- !private ["PSo17UICoordinateSpace", "show"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
@@ -729,7 +701,6 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "frame"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "placeholder"]
-- !private ["PSo13UIDynamicItem", "show"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "AboutView"]
 - !private ["PSo18UIFocusEnvironment", "CGRectMake"]
@@ -738,7 +709,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Selector"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertController"]
-- !private ["PSo18UIFocusEnvironment", "UIAlertView"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
 - !private ["PSo18UIFocusEnvironment", "UIView"]
 - !private ["PSo18UIFocusEnvironment", "UIViewAutoresizing"]
@@ -767,7 +737,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "setMessageBody"]
 - !private ["PSo18UIFocusEnvironment", "setSubject"]
 - !private ["PSo18UIFocusEnvironment", "setToRecipients"]
-- !private ["PSo18UIFocusEnvironment", "show"]
 - ["PSo18UIFocusEnvironment", "showAlert"]
 - ["PSo18UIFocusEnvironment", "showSendMailErrorAlert"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -794,7 +763,6 @@ depends-member:
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
 - !private ["CSo11UIResponder", "UIAlertController"]
-- !private ["CSo11UIResponder", "UIAlertView"]
 - ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UITextField"]
@@ -826,7 +794,6 @@ depends-member:
 - !private ["CSo11UIResponder", "setMessageBody"]
 - !private ["CSo11UIResponder", "setSubject"]
 - !private ["CSo11UIResponder", "setToRecipients"]
-- !private ["CSo11UIResponder", "show"]
 - ["CSo11UIResponder", "showAlert"]
 - ["CSo11UIResponder", "showSendMailErrorAlert"]
 - !private ["CSo11UIResponder", "text"]
@@ -840,7 +807,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Selector"]
 - !private ["PSo16UIStateRestoring", "UIAlertAction"]
 - !private ["PSo16UIStateRestoring", "UIAlertController"]
-- !private ["PSo16UIStateRestoring", "UIAlertView"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIView"]
 - !private ["PSo16UIStateRestoring", "UIViewAutoresizing"]
@@ -881,7 +847,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Selector"]
 - !private ["PSo18UITraitEnvironment", "UIAlertAction"]
 - !private ["PSo18UITraitEnvironment", "UIAlertController"]
-- !private ["PSo18UITraitEnvironment", "UIAlertView"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIView"]
 - !private ["PSo18UITraitEnvironment", "UIViewAutoresizing"]
@@ -910,7 +875,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "setMessageBody"]
 - !private ["PSo18UITraitEnvironment", "setSubject"]
 - !private ["PSo18UITraitEnvironment", "setToRecipients"]
-- !private ["PSo18UITraitEnvironment", "show"]
 - ["PSo18UITraitEnvironment", "showAlert"]
 - ["PSo18UITraitEnvironment", "showSendMailErrorAlert"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -926,7 +890,6 @@ depends-member:
 - !private ["CSo6UIView", "frame"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "placeholder"]
-- !private ["CSo6UIView", "show"]
 - !private ["CSo6UIView", "text"]
 - !private ["VSC18UIViewAutoresizing", "FlexibleWidth"]
 - ["CSo16UIViewController", "AboutView"]
@@ -939,7 +902,6 @@ depends-member:
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
 - !private ["CSo16UIViewController", "UIAlertController"]
-- !private ["CSo16UIViewController", "UIAlertView"]
 - ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UITextField"]
@@ -989,7 +951,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "height"]
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "placeholder"]
-- !private ["PSs12_Reflectable", "show"]
 - !private ["PSs12_Reflectable", "text"]
 - !private ["PSs12_Reflectable", "width"]
 depends-nominal:
@@ -1039,7 +1000,6 @@ depends-nominal:
 - !private "OSC18UIAlertActionStyle"
 - !private "CSo17UIAlertController"
 - !private "OSC22UIAlertControllerStyle"
-- !private "CSo11UIAlertView"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - !private "CSo15UIBarButtonItem"
@@ -1071,14 +1031,19 @@ depends-nominal:
 - !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "abadba413b44d20be77529eafa654179"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "2cd4ac2fb1c5078da0a6b94db3232b08"
