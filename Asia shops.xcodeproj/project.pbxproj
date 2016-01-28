@@ -10,6 +10,9 @@
 		80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80193B891C2001B700E0C8CD /* Main.storyboard */; };
 		806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806AAC311C31962500BF14DA /* SWRevealViewController.m */; };
 		8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8083ADDC1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld */; };
+		809F79DE1C5A440400A366BE /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DC1C5A440400A366BE /* Home.gpx */; };
+		809F79DF1C5A440400A366BE /* Vietnamec-soused.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */; };
+		809F79E11C5A48AB00A366BE /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F79E01C5A48AB00A366BE /* AutoLayout.swift */; };
 		80C912451C18A37700EC9C08 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912441C18A37700EC9C08 /* MenuVC.swift */; };
 		80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912491C18B1AD00EC9C08 /* About.swift */; };
 		80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9124B1C18B2F100EC9C08 /* Seznam.swift */; };
@@ -44,6 +47,9 @@
 		806AAC301C31962500BF14DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806AAC311C31962500BF14DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8083ADDD1C1AFBD3000BB131 /* Database_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		809F79DC1C5A440400A366BE /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
+		809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vietnamec-soused.gpx"; sourceTree = "<group>"; };
+		809F79E01C5A48AB00A366BE /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 		80C912401C189E9B00EC9C08 /* Asia shops-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asia shops-Bridging-Header.h"; sourceTree = "<group>"; };
 		80C912441C18A37700EC9C08 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = ../MenuVC.swift; sourceTree = "<group>"; };
 		80C912491C18B1AD00EC9C08 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 		80DE3AD91C16E43300D09D54 /* Asia shops */ = {
 			isa = PBXGroup;
 			children = (
+				809F79E01C5A48AB00A366BE /* AutoLayout.swift */,
+				809F79DC1C5A440400A366BE /* Home.gpx */,
+				809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */,
 				806AAC301C31962500BF14DA /* SWRevealViewController.h */,
 				806AAC311C31962500BF14DA /* SWRevealViewController.m */,
 				80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */,
@@ -255,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */,
+				809F79DF1C5A440400A366BE /* Vietnamec-soused.gpx in Resources */,
 				80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */,
+				809F79DE1C5A440400A366BE /* Home.gpx in Resources */,
 				80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +295,7 @@
 				80CA311B1C205797000ADF2B /* AboutView.swift in Sources */,
 				80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
+				809F79E11C5A48AB00A366BE /* AutoLayout.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,
 				8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */,
 				80C912451C18A37700EC9C08 /* MenuVC.swift in Sources */,
