@@ -8,8 +8,7 @@
 
 import Foundation
 class Seznam: UIViewController {
-    
-    
+        
     @IBOutlet var Open: UIBarButtonItem!
     override func viewDidLoad() {
         Open.target=self.revealViewController()

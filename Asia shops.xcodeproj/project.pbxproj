@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1056C7C4800E9FB626466DDB /* Pods_Asia_shops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58851286248A40375828D3FD /* Pods_Asia_shops.framework */; };
 		1C04D54C9BD700E0D38A8FBA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9B32C42F6D270BA45CA416 /* Pods.framework */; };
 		80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80193B891C2001B700E0C8CD /* Main.storyboard */; };
 		806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806AAC311C31962500BF14DA /* SWRevealViewController.m */; };
 		8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8083ADDC1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld */; };
+		8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */; };
 		809F79DE1C5A440400A366BE /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DC1C5A440400A366BE /* Home.gpx */; };
 		809F79DF1C5A440400A366BE /* Vietnamec-soused.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */; };
 		80C912451C18A37700EC9C08 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912441C18A37700EC9C08 /* MenuVC.swift */; };
 		80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912491C18B1AD00EC9C08 /* About.swift */; };
 		80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9124B1C18B2F100EC9C08 /* Seznam.swift */; };
 		80CA311B1C205797000ADF2B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA311A1C205797000ADF2B /* AboutView.swift */; };
+		80D481521C5B86AA008584EB /* MapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D481511C5B86AA008584EB /* MapPin.png */; };
 		80DE3ADB1C16E43300D09D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */; };
 		80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADC1C16E43300D09D54 /* Map.swift */; };
 		80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE11C16E43300D09D54 /* Assets.xcassets */; };
@@ -44,14 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35F22A42912903B3ADFA8ED5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3D9B32C42F6D270BA45CA416 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DF75E6FA784CD0D0BDBB294 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5329E1FFCE19391D783FB891 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		58851286248A40375828D3FD /* Pods_Asia_shops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asia_shops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80193B8A1C2001B700E0C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806AAC301C31962500BF14DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806AAC311C31962500BF14DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8083ADDD1C1AFBD3000BB131 /* Database_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewShopController.swift; sourceTree = "<group>"; };
 		809F79DC1C5A440400A366BE /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
 		809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vietnamec-soused.gpx"; sourceTree = "<group>"; };
 		80C912401C189E9B00EC9C08 /* Asia shops-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asia shops-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		80C912491C18B1AD00EC9C08 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		80C9124B1C18B2F100EC9C08 /* Seznam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seznam.swift; sourceTree = "<group>"; };
 		80CA311A1C205797000ADF2B /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		80D481511C5B86AA008584EB /* MapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPin.png; sourceTree = SOURCE_ROOT; };
+		80D868E41C5BC99000A2A7A4 /* VietnamecUProvyho.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VietnamecUProvyho.gpx; sourceTree = "<group>"; };
 		80DE3AD71C16E43300D09D54 /* Asia shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asia shops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DE3ADC1C16E43300D09D54 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		80DE3AF61C16E43300D09D54 /* Asia shopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asia shopsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3AFA1C16E43300D09D54 /* Asia_shopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_shopsUITests.swift; sourceTree = "<group>"; };
 		80DE3AFC1C16E43300D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D816BFD288B0DD058E13B25C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +82,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C04D54C9BD700E0D38A8FBA /* Pods.framework in Frameworks */,
-				1056C7C4800E9FB626466DDB /* Pods_Asia_shops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,16 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				3D9B32C42F6D270BA45CA416 /* Pods.framework */,
-				58851286248A40375828D3FD /* Pods_Asia_shops.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5AB4E8F047AD017C6FA186E3 /* Pods */ = {
+		01DF10677A62EACADC1F5C49 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DF75E6FA784CD0D0BDBB294 /* Pods.debug.xcconfig */,
-				5329E1FFCE19391D783FB891 /* Pods.release.xcconfig */,
+				D816BFD288B0DD058E13B25C /* Pods.debug.xcconfig */,
+				35F22A42912903B3ADFA8ED5 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -125,8 +126,8 @@
 				80DE3AEE1C16E43300D09D54 /* Asia shopsTests */,
 				80DE3AF91C16E43300D09D54 /* Asia shopsUITests */,
 				80DE3AD81C16E43300D09D54 /* Products */,
-				5AB4E8F047AD017C6FA186E3 /* Pods */,
 				00404D41D57BA91DECF7D87A /* Frameworks */,
+				01DF10677A62EACADC1F5C49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,15 +146,18 @@
 			children = (
 				809F79DC1C5A440400A366BE /* Home.gpx */,
 				809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */,
+				80D868E41C5BC99000A2A7A4 /* VietnamecUProvyho.gpx */,
 				806AAC301C31962500BF14DA /* SWRevealViewController.h */,
 				806AAC311C31962500BF14DA /* SWRevealViewController.m */,
 				80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */,
 				80DE3ADC1C16E43300D09D54 /* Map.swift */,
 				80C9124B1C18B2F100EC9C08 /* Seznam.swift */,
 				80C912491C18B1AD00EC9C08 /* About.swift */,
+				8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */,
 				80CA311A1C205797000ADF2B /* AboutView.swift */,
 				80193B891C2001B700E0C8CD /* Main.storyboard */,
 				80DE3AE11C16E43300D09D54 /* Assets.xcassets */,
+				80D481511C5B86AA008584EB /* MapPin.png */,
 				80DE3AE31C16E43300D09D54 /* LaunchScreen.storyboard */,
 				80DE3AE61C16E43300D09D54 /* Info.plist */,
 				80C912401C189E9B00EC9C08 /* Asia shops-Bridging-Header.h */,
@@ -188,12 +192,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DE3AFF1C16E43300D09D54 /* Build configuration list for PBXNativeTarget "Asia shops" */;
 			buildPhases = (
-				46929BF99D0EF36F4887D835 /* Check Pods Manifest.lock */,
 				80DE3AD31C16E43300D09D54 /* Sources */,
 				80DE3AD41C16E43300D09D54 /* Frameworks */,
 				80DE3AD51C16E43300D09D54 /* Resources */,
-				E848F51F3E4F922086253CB6 /* Embed Pods Frameworks */,
-				6D34FB6658FEA5D62420C2B7 /* Copy Pods Resources */,
+				E1B32F7DC67CBA4E39959504 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +297,7 @@
 				809F79DF1C5A440400A366BE /* Vietnamec-soused.gpx in Resources */,
 				80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */,
 				809F79DE1C5A440400A366BE /* Home.gpx in Resources */,
+				80D481521C5B86AA008584EB /* MapPin.png in Resources */,
 				80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,37 +319,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		46929BF99D0EF36F4887D835 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6D34FB6658FEA5D62420C2B7 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E848F51F3E4F922086253CB6 /* Embed Pods Frameworks */ = {
+		E1B32F7DC67CBA4E39959504 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Asia shops/Pods-Asia shops-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -370,6 +343,7 @@
 			files = (
 				80CA311B1C205797000ADF2B /* AboutView.swift in Sources */,
 				80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */,
+				8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,
 				8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */,
@@ -513,7 +487,7 @@
 		};
 		80DE3B001C16E43300D09D54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DF75E6FA784CD0D0BDBB294 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D816BFD288B0DD058E13B25C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -528,7 +502,7 @@
 		};
 		80DE3B011C16E43300D09D54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5329E1FFCE19391D783FB891 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 35F22A42912903B3ADFA8ED5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
