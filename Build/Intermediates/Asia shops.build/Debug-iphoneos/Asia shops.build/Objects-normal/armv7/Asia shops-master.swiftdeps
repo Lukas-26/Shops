@@ -1,10 +1,10 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "8de46d081f91c33441a0fbc6bcf14d71"
-build_time: [507298798, 531989000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "9f35028133ac33d053672305be0745d5"
+build_time: [507404282, 758567000]
 inputs:
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AppDelegate.swift": [505743353, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/About.swift": [506621503, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Map.swift": [507297641, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AboutView.swift": [506621271, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/About.swift": [506621503, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Map.swift": [507399401, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/MenuVC.swift": [504064460, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Seznam.swift": [504064460, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AppDelegate.swift": [505743353, 0]

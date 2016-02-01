@@ -10,6 +10,7 @@
 		1C04D54C9BD700E0D38A8FBA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9B32C42F6D270BA45CA416 /* Pods.framework */; };
 		80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80193B891C2001B700E0C8CD /* Main.storyboard */; };
 		806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806AAC311C31962500BF14DA /* SWRevealViewController.m */; };
+		807F79711C5D0E70009F1F4C /* addFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F79701C5D0E70009F1F4C /* addFormView.swift */; };
 		8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8083ADDC1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld */; };
 		8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */; };
 		809F79DE1C5A440400A366BE /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DC1C5A440400A366BE /* Home.gpx */; };
@@ -50,6 +51,7 @@
 		80193B8A1C2001B700E0C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806AAC301C31962500BF14DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806AAC311C31962500BF14DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		807F79701C5D0E70009F1F4C /* addFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addFormView.swift; sourceTree = "<group>"; };
 		8083ADDD1C1AFBD3000BB131 /* Database_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewShopController.swift; sourceTree = "<group>"; };
 		809F79DC1C5A440400A366BE /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				80C9124B1C18B2F100EC9C08 /* Seznam.swift */,
 				80C912491C18B1AD00EC9C08 /* About.swift */,
 				8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */,
+				807F79701C5D0E70009F1F4C /* addFormView.swift */,
 				80CA311A1C205797000ADF2B /* AboutView.swift */,
 				80193B891C2001B700E0C8CD /* Main.storyboard */,
 				80DE3AE11C16E43300D09D54 /* Assets.xcassets */,
@@ -343,6 +346,7 @@
 			files = (
 				80CA311B1C205797000ADF2B /* AboutView.swift in Sources */,
 				80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */,
+				807F79711C5D0E70009F1F4C /* addFormView.swift in Sources */,
 				8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,

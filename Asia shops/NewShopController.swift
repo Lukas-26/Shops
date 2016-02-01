@@ -15,11 +15,24 @@ class NewShopController: UIViewController,MKMapViewDelegate {
     var coordinates : CLLocationCoordinate2D?
     var shopAnnotation : MKPointAnnotation?
     weak var map : MKMapView!
+    weak var formView : addFormView!
     var mapcontroler = Map()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view=UIView()
         view.backgroundColor = UIColor.whiteColor()
+        
+        let af=addFormView()
+        self.view.addSubview(af)
+        af.snp_makeConstraints { (make) -> Void in
+            make.height.equalTo(self.view.snp_height).multipliedBy(0.5)
+            make.width.equalTo(self.view.snp_width)
+            make.topMargin.equalTo(70)
+        }
+        self.formView=af
+        
         let m = MKMapView()
         m.showsUserLocation=false
         m.mapType = MKMapType.Standard
@@ -41,7 +54,11 @@ class NewShopController: UIViewController,MKMapViewDelegate {
         
         map.setRegion(region, animated: false)
         map.addAnnotation(shopAnnotation!)
-        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.formView.frame = CGRectMake(0, 20, CGRectGetWidth(self.view.bounds), (CGRectGetHeight(self.view.bounds)-20)/2);
+
     }
     
     func mapView(mapView: MKMapView, viewForAnnotation shopAnnotation: MKAnnotation) -> MKAnnotationView? {
@@ -56,7 +73,6 @@ class NewShopController: UIViewController,MKMapViewDelegate {
         pin?.animatesDrop = false
         pin?.draggable = false
         pin?.canShowCallout = false
-
         return pin;
     }
     

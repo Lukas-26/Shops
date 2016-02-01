@@ -9,68 +9,79 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 - "Open"
 depends-top-level:
-- "UIViewController"
 - !private "StringLiteralType"
+- "UIViewController"
 - !private "Selector"
-- "UIBarButtonItem"
 - "Seznam"
+- "UIBarButtonItem"
 depends-member:
-- ["PSs9AnyObject", "Open"]
-- !private ["PSs9AnyObject", "Selector"]
-- !private ["PSs9AnyObject", "action"]
-- !private ["PSs9AnyObject", "addGestureRecognizer"]
-- ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "panGestureRecognizer"]
-- !private ["PSs9AnyObject", "revealViewController"]
-- !private ["PSs9AnyObject", "target"]
-- !private ["PSs9AnyObject", "view"]
-- ["PSs9AnyObject", "viewDidLoad"]
-- ["PSs9AnyObject", ""]
-- ["PSs11CVarArgType", "Open"]
-- !private ["PSs11CVarArgType", "Selector"]
-- !private ["PSs11CVarArgType", "action"]
-- !private ["PSs11CVarArgType", "addGestureRecognizer"]
-- ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "panGestureRecognizer"]
-- !private ["PSs11CVarArgType", "revealViewController"]
-- !private ["PSs11CVarArgType", "target"]
-- !private ["PSs11CVarArgType", "view"]
-- ["PSs11CVarArgType", "viewDidLoad"]
-- ["PSs11CVarArgType", ""]
-- ["PSs23CustomStringConvertible", "Open"]
-- !private ["PSs23CustomStringConvertible", "Selector"]
-- !private ["PSs23CustomStringConvertible", "action"]
-- !private ["PSs23CustomStringConvertible", "addGestureRecognizer"]
-- ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "panGestureRecognizer"]
-- !private ["PSs23CustomStringConvertible", "revealViewController"]
-- !private ["PSs23CustomStringConvertible", "target"]
-- !private ["PSs23CustomStringConvertible", "view"]
-- ["PSs23CustomStringConvertible", "viewDidLoad"]
-- ["PSs23CustomStringConvertible", ""]
-- ["PSs9Equatable", "Open"]
-- !private ["PSs9Equatable", "Selector"]
-- !private ["PSs9Equatable", "action"]
-- !private ["PSs9Equatable", "addGestureRecognizer"]
-- ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "panGestureRecognizer"]
-- !private ["PSs9Equatable", "revealViewController"]
-- !private ["PSs9Equatable", "target"]
-- !private ["PSs9Equatable", "view"]
-- ["PSs9Equatable", "viewDidLoad"]
-- ["PSs9Equatable", ""]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- ["PSs8Hashable", "Open"]
-- !private ["PSs8Hashable", "Selector"]
-- !private ["PSs8Hashable", "action"]
-- !private ["PSs8Hashable", "addGestureRecognizer"]
-- ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "panGestureRecognizer"]
-- !private ["PSs8Hashable", "revealViewController"]
-- !private ["PSs8Hashable", "target"]
-- !private ["PSs8Hashable", "view"]
-- ["PSs8Hashable", "viewDidLoad"]
-- ["PSs8Hashable", ""]
+- ["Ps9AnyObject", "Open"]
+- !private ["Ps9AnyObject", "Selector"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "panGestureRecognizer"]
+- !private ["Ps9AnyObject", "revealViewController"]
+- !private ["Ps9AnyObject", "target"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "Open"]
+- !private ["Ps11CVarArgType", "Selector"]
+- !private ["Ps11CVarArgType", "action"]
+- !private ["Ps11CVarArgType", "addGestureRecognizer"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "panGestureRecognizer"]
+- !private ["Ps11CVarArgType", "revealViewController"]
+- !private ["Ps11CVarArgType", "target"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Open"]
+- !private ["Ps28CustomDebugStringConvertible", "Selector"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "panGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "revealViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "target"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Open"]
+- !private ["Ps23CustomStringConvertible", "Selector"]
+- !private ["Ps23CustomStringConvertible", "action"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "panGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "revealViewController"]
+- !private ["Ps23CustomStringConvertible", "target"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Open"]
+- !private ["Ps9Equatable", "Selector"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "panGestureRecognizer"]
+- !private ["Ps9Equatable", "revealViewController"]
+- !private ["Ps9Equatable", "target"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps8Hashable", "Open"]
+- !private ["Ps8Hashable", "Selector"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "panGestureRecognizer"]
+- !private ["Ps8Hashable", "revealViewController"]
+- !private ["Ps8Hashable", "target"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
 - !private ["SQ", "deinit"]
 - ["PSo8NSCoding", "Open"]
 - !private ["PSo8NSCoding", "Selector"]
@@ -113,7 +124,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["Ps21NilLiteralConvertible", "init"]
 - !private ["CSo22SWRevealViewController", "panGestureRecognizer"]
 - !private ["V10ObjectiveC8Selector", "init"]
 - ["C10Asia_shops6Seznam", "Open"]
@@ -124,7 +135,7 @@ depends-member:
 - !private ["C10Asia_shops6Seznam", "revealViewController"]
 - !private ["C10Asia_shops6Seznam", "view"]
 - ["C10Asia_shops6Seznam", "viewDidLoad"]
-- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "action"]
 - !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
 - !private ["PSo29UIAccessibilityIdentification", "target"]
@@ -199,26 +210,27 @@ depends-member:
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs12_Reflectable", "addGestureRecognizer"]
-- !private ["PSs12_Reflectable", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "addGestureRecognizer"]
+- !private ["Ps12_Reflectable", "init"]
 depends-nominal:
-- "PSs9AnyObject"
-- "PSs11CVarArgType"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
-- "PSs8Hashable"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
 - !private "SQ"
 - "PSo8NSCoding"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSs21NilLiteralConvertible"
+- !private "Ps21NilLiteralConvertible"
 - !private "CSo22SWRevealViewController"
 - !private "V10ObjectiveC8Selector"
 - "C10Asia_shops6Seznam"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -233,23 +245,23 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs12_Reflectable"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 interface-hash: "e3883aaa86db1bc435b8da2ea9d0fadd"

@@ -1,10 +1,12 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "0061762a897850f5d535616456188018"
-build_time: [507306990, 342675000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "ab4b0f1a59930c011a8ad4c5cd2ab5d8"
+build_time: [507495750, 960887000]
 inputs:
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Map.swift": [507306072, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AboutView.swift": [506621271, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/MenuVC.swift": [504064460, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AppDelegate.swift": [505743353, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Seznam.swift": [504064460, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AboutView.swift": [507415949, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/About.swift": [506621503, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/addFormView.swift": [507495608, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/NewShopController.swift": [507493110, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Map.swift": [507479659, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/MenuVC.swift": [504064460, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Seznam.swift": [507468912, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/AppDelegate.swift": [505743353, 0]

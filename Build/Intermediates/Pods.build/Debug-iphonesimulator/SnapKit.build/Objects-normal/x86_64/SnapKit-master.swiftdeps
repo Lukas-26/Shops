@@ -1,16 +1,16 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "a7fa86906df74d5591046de6a4f3d4ae"
-build_time: [507306272, 539937000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "0e97c29d8fb46a116db35ff275d71267"
+build_time: [507482784, 376519000]
 inputs:
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/EdgeInsets.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/Constraint.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintAttributes.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/LayoutConstraint.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/Debugging.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintRelation.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintDescription.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/View+SnapKit.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/SnapKit.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintItem.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ViewController+SnapKit.swift": [507302931, 0]
-  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintMaker.swift": [507302931, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/Constraint.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintAttributes.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintDescription.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintItem.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintMaker.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintRelation.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/Debugging.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/EdgeInsets.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/LayoutConstraint.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/SnapKit.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/View+SnapKit.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ViewController+SnapKit.swift": [507377610, 0]

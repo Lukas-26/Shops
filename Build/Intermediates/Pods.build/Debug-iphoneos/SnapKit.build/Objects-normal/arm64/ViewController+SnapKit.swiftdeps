@@ -9,60 +9,68 @@ provides-member:
 - ["CSo16UIViewController", "snp_bottomLayoutGuideBottom"]
 provides-dynamic-lookup:
 depends-top-level:
+- "ConstraintItem"
 - "UIViewController"
 - !private "ConstraintAttributes"
-- "ConstraintItem"
 depends-member:
-- !private ["PSs9AnyObject", "ConstraintAttributes"]
-- !private ["PSs9AnyObject", "ConstraintItem"]
-- !private ["PSs9AnyObject", "bottomLayoutGuide"]
-- !private ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", "snp_bottomLayoutGuideBottom"]
-- ["PSs9AnyObject", "snp_bottomLayoutGuideTop"]
-- ["PSs9AnyObject", "snp_topLayoutGuideBottom"]
-- ["PSs9AnyObject", "snp_topLayoutGuideTop"]
-- !private ["PSs9AnyObject", "topLayoutGuide"]
-- !private ["PSs23ArrayLiteralConvertible", "Bottom"]
-- !private ["PSs23ArrayLiteralConvertible", "Top"]
-- !private ["PSs11BooleanType", "Bottom"]
-- !private ["PSs11BooleanType", "Top"]
-- !private ["PSs11CVarArgType", "ConstraintAttributes"]
-- !private ["PSs11CVarArgType", "ConstraintItem"]
-- !private ["PSs11CVarArgType", "bottomLayoutGuide"]
-- ["PSs11CVarArgType", "snp_bottomLayoutGuideBottom"]
-- ["PSs11CVarArgType", "snp_bottomLayoutGuideTop"]
-- ["PSs11CVarArgType", "snp_topLayoutGuideBottom"]
-- ["PSs11CVarArgType", "snp_topLayoutGuideTop"]
-- !private ["PSs11CVarArgType", "topLayoutGuide"]
+- !private ["Ps9AnyObject", "ConstraintAttributes"]
+- !private ["Ps9AnyObject", "ConstraintItem"]
+- !private ["Ps9AnyObject", "bottomLayoutGuide"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "snp_bottomLayoutGuideBottom"]
+- ["Ps9AnyObject", "snp_bottomLayoutGuideTop"]
+- ["Ps9AnyObject", "snp_topLayoutGuideBottom"]
+- ["Ps9AnyObject", "snp_topLayoutGuideTop"]
+- !private ["Ps9AnyObject", "topLayoutGuide"]
+- !private ["Ps23ArrayLiteralConvertible", "Bottom"]
+- !private ["Ps23ArrayLiteralConvertible", "Top"]
+- !private ["Ps11BooleanType", "Bottom"]
+- !private ["Ps11BooleanType", "Top"]
+- !private ["Ps11CVarArgType", "ConstraintAttributes"]
+- !private ["Ps11CVarArgType", "ConstraintItem"]
+- !private ["Ps11CVarArgType", "bottomLayoutGuide"]
+- ["Ps11CVarArgType", "snp_bottomLayoutGuideBottom"]
+- ["Ps11CVarArgType", "snp_bottomLayoutGuideTop"]
+- ["Ps11CVarArgType", "snp_topLayoutGuideBottom"]
+- ["Ps11CVarArgType", "snp_topLayoutGuideTop"]
+- !private ["Ps11CVarArgType", "topLayoutGuide"]
 - !private ["V7SnapKit20ConstraintAttributes", "Bottom"]
 - !private ["V7SnapKit20ConstraintAttributes", "Top"]
 - !private ["C7SnapKit14ConstraintItem", "init"]
-- !private ["PSs23CustomStringConvertible", "ConstraintAttributes"]
-- !private ["PSs23CustomStringConvertible", "ConstraintItem"]
-- !private ["PSs23CustomStringConvertible", "bottomLayoutGuide"]
-- ["PSs23CustomStringConvertible", "snp_bottomLayoutGuideBottom"]
-- ["PSs23CustomStringConvertible", "snp_bottomLayoutGuideTop"]
-- ["PSs23CustomStringConvertible", "snp_topLayoutGuideBottom"]
-- ["PSs23CustomStringConvertible", "snp_topLayoutGuideTop"]
-- !private ["PSs23CustomStringConvertible", "topLayoutGuide"]
-- !private ["PSs9Equatable", "Bottom"]
-- !private ["PSs9Equatable", "ConstraintAttributes"]
-- !private ["PSs9Equatable", "ConstraintItem"]
-- !private ["PSs9Equatable", "Top"]
-- !private ["PSs9Equatable", "bottomLayoutGuide"]
-- ["PSs9Equatable", "snp_bottomLayoutGuideBottom"]
-- ["PSs9Equatable", "snp_bottomLayoutGuideTop"]
-- ["PSs9Equatable", "snp_topLayoutGuideBottom"]
-- ["PSs9Equatable", "snp_topLayoutGuideTop"]
-- !private ["PSs9Equatable", "topLayoutGuide"]
-- !private ["PSs8Hashable", "ConstraintAttributes"]
-- !private ["PSs8Hashable", "ConstraintItem"]
-- !private ["PSs8Hashable", "bottomLayoutGuide"]
-- ["PSs8Hashable", "snp_bottomLayoutGuideBottom"]
-- ["PSs8Hashable", "snp_bottomLayoutGuideTop"]
-- ["PSs8Hashable", "snp_topLayoutGuideBottom"]
-- ["PSs8Hashable", "snp_topLayoutGuideTop"]
-- !private ["PSs8Hashable", "topLayoutGuide"]
+- !private ["Ps28CustomDebugStringConvertible", "ConstraintAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "ConstraintItem"]
+- !private ["Ps28CustomDebugStringConvertible", "bottomLayoutGuide"]
+- ["Ps28CustomDebugStringConvertible", "snp_bottomLayoutGuideBottom"]
+- ["Ps28CustomDebugStringConvertible", "snp_bottomLayoutGuideTop"]
+- ["Ps28CustomDebugStringConvertible", "snp_topLayoutGuideBottom"]
+- ["Ps28CustomDebugStringConvertible", "snp_topLayoutGuideTop"]
+- !private ["Ps28CustomDebugStringConvertible", "topLayoutGuide"]
+- !private ["Ps23CustomStringConvertible", "ConstraintAttributes"]
+- !private ["Ps23CustomStringConvertible", "ConstraintItem"]
+- !private ["Ps23CustomStringConvertible", "bottomLayoutGuide"]
+- ["Ps23CustomStringConvertible", "snp_bottomLayoutGuideBottom"]
+- ["Ps23CustomStringConvertible", "snp_bottomLayoutGuideTop"]
+- ["Ps23CustomStringConvertible", "snp_topLayoutGuideBottom"]
+- ["Ps23CustomStringConvertible", "snp_topLayoutGuideTop"]
+- !private ["Ps23CustomStringConvertible", "topLayoutGuide"]
+- !private ["Ps9Equatable", "Bottom"]
+- !private ["Ps9Equatable", "ConstraintAttributes"]
+- !private ["Ps9Equatable", "ConstraintItem"]
+- !private ["Ps9Equatable", "Top"]
+- !private ["Ps9Equatable", "bottomLayoutGuide"]
+- ["Ps9Equatable", "snp_bottomLayoutGuideBottom"]
+- ["Ps9Equatable", "snp_bottomLayoutGuideTop"]
+- ["Ps9Equatable", "snp_topLayoutGuideBottom"]
+- ["Ps9Equatable", "snp_topLayoutGuideTop"]
+- !private ["Ps9Equatable", "topLayoutGuide"]
+- !private ["Ps8Hashable", "ConstraintAttributes"]
+- !private ["Ps8Hashable", "ConstraintItem"]
+- !private ["Ps8Hashable", "bottomLayoutGuide"]
+- ["Ps8Hashable", "snp_bottomLayoutGuideBottom"]
+- ["Ps8Hashable", "snp_bottomLayoutGuideTop"]
+- ["Ps8Hashable", "snp_topLayoutGuideBottom"]
+- ["Ps8Hashable", "snp_topLayoutGuideTop"]
+- !private ["Ps8Hashable", "topLayoutGuide"]
 - !private ["PSo8NSCoding", "ConstraintAttributes"]
 - !private ["PSo8NSCoding", "ConstraintItem"]
 - !private ["PSo8NSCoding", "bottomLayoutGuide"]
@@ -87,12 +95,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "snp_topLayoutGuideBottom"]
 - ["PSo16NSObjectProtocol", "snp_topLayoutGuideTop"]
 - !private ["PSo16NSObjectProtocol", "topLayoutGuide"]
-- !private ["PSs13OptionSetType", "Bottom"]
-- !private ["PSs13OptionSetType", "Top"]
-- !private ["PSs16RawRepresentable", "Bottom"]
-- !private ["PSs16RawRepresentable", "Top"]
-- !private ["PSs14SetAlgebraType", "Bottom"]
-- !private ["PSs14SetAlgebraType", "Top"]
+- !private ["Ps13OptionSetType", "Bottom"]
+- !private ["Ps13OptionSetType", "Top"]
+- !private ["Ps16RawRepresentable", "Bottom"]
+- !private ["Ps16RawRepresentable", "Top"]
+- !private ["Ps14SetAlgebraType", "Bottom"]
+- !private ["Ps14SetAlgebraType", "Top"]
 - !private ["PSo21UIAppearanceContainer", "ConstraintAttributes"]
 - !private ["PSo21UIAppearanceContainer", "ConstraintItem"]
 - !private ["PSo21UIAppearanceContainer", "bottomLayoutGuide"]
@@ -130,22 +138,23 @@ depends-member:
 - ["CSo16UIViewController", "snp_topLayoutGuideTop"]
 - !private ["CSo16UIViewController", "topLayoutGuide"]
 depends-nominal:
-- "PSs9AnyObject"
-- !private "PSs23ArrayLiteralConvertible"
-- !private "PSs11BooleanType"
-- "PSs11CVarArgType"
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
 - !private "V7SnapKit20ConstraintAttributes"
 - !private "C7SnapKit14ConstraintItem"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- "PSs8Hashable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
 - !private "PSo8NSCoding"
 - !private "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSs13OptionSetType"
-- !private "PSs16RawRepresentable"
-- !private "PSs14SetAlgebraType"
+- !private "Ps13OptionSetType"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo18UIContentContainer"
 - !private "PSo18UIFocusEnvironment"
@@ -155,14 +164,14 @@ depends-nominal:
 - "CSo16UIViewController"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 interface-hash: "e72a179b763f5b6517444b3de643bfd8"

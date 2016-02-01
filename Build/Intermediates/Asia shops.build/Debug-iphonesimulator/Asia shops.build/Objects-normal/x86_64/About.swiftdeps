@@ -6,43 +6,43 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops5About", ""]
 provides-dynamic-lookup:
-- "showAlert"
-- "aboutView"
 - "Open"
-- "viewWillLayoutSubviews"
-- "showSendMailErrorAlert"
-- "configuredMailComposeViewController"
-- "loadView"
 - "mailComposeController"
+- "configuredMailComposeViewController"
 - "viewDidLoad"
+- "showSendMailErrorAlert"
+- "loadView"
+- "viewWillLayoutSubviews"
+- "aboutView"
+- "showAlert"
 - "sendEmial"
 depends-top-level:
-- !private "print"
-- "UIViewController"
-- "MFMailComposeResult"
-- !private "UIView"
-- !private "UIViewAutoresizing"
-- "NSError"
-- !private "Void"
-- !private "+"
-- !private "BooleanLiteralType"
-- !private "Array"
-- "MFMailComposeViewControllerDelegate"
-- "UIBarButtonItem"
-- "String"
-- !private "=="
-- !private "Selector"
-- !private "UITextField"
-- "AboutViewDelegate"
-- !private "StringLiteralType"
-- !private "UIAlertController"
-- "MFMailComposeViewController"
-- "About"
-- !private "CGRectMake"
-- !private "||"
 - !private "UIColor"
+- !private "UIAlertController"
+- !private "BooleanLiteralType"
+- !private "Void"
+- "AboutViewDelegate"
+- "UIViewController"
+- "MFMailComposeViewControllerDelegate"
+- "String"
 - !private "UIAlertAction"
+- "NSError"
+- !private "Array"
+- !private "Selector"
+- !private "UIViewAutoresizing"
 - "AboutView"
+- "About"
+- "MFMailComposeViewController"
+- !private "StringLiteralType"
+- !private "UIView"
+- !private "print"
+- "UIBarButtonItem"
+- !private "||"
+- "MFMailComposeResult"
+- !private "CGRectMake"
+- !private "=="
+- !private "UITextField"
+- !private "+"
 depends-member:
 - ["C10Asia_shops5About", "AboutView"]
 - !private ["C10Asia_shops5About", "CGRectMake"]
@@ -99,258 +99,303 @@ depends-member:
 - !private ["P10Asia_shops17AboutViewDelegate", "showSendMailErrorAlert"]
 - !private ["P10Asia_shops17AboutViewDelegate", "view"]
 - ["P10Asia_shops17AboutViewDelegate", ""]
-- !private ["PSs9AnyObject", "AboutView"]
-- !private ["PSs9AnyObject", "CGRectMake"]
-- !private ["PSs9AnyObject", "MFMailComposeViewController"]
-- ["PSs9AnyObject", "Open"]
-- !private ["PSs9AnyObject", "Selector"]
-- !private ["PSs9AnyObject", "UIAlertAction"]
-- !private ["PSs9AnyObject", "UIAlertController"]
-- !private ["PSs9AnyObject", "UIColor"]
-- !private ["PSs9AnyObject", "UIView"]
-- !private ["PSs9AnyObject", "UIViewAutoresizing"]
-- ["PSs9AnyObject", "aboutView"]
-- !private ["PSs9AnyObject", "action"]
-- !private ["PSs9AnyObject", "addAction"]
-- !private ["PSs9AnyObject", "addGestureRecognizer"]
-- !private ["PSs9AnyObject", "addSubview"]
-- !private ["PSs9AnyObject", "addTextFieldWithConfigurationHandler"]
-- !private ["PSs9AnyObject", "autoresizingMask"]
-- !private ["PSs9AnyObject", "backgroundColor"]
-- !private ["PSs9AnyObject", "canSendMail"]
-- ["PSs9AnyObject", "configuredMailComposeViewController"]
-- !private ["PSs9AnyObject", "delegate"]
-- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
-- !private ["PSs9AnyObject", "frame"]
-- ["PSs9AnyObject", "init"]
-- ["PSs9AnyObject", "loadView"]
-- ["PSs9AnyObject", "mailComposeController"]
-- !private ["PSs9AnyObject", "mailComposeDelegate"]
-- !private ["PSs9AnyObject", "panGestureRecognizer"]
-- !private ["PSs9AnyObject", "placeholder"]
-- !private ["PSs9AnyObject", "presentViewController"]
-- !private ["PSs9AnyObject", "print"]
-- !private ["PSs9AnyObject", "revealViewController"]
-- ["PSs9AnyObject", "sendEmial"]
-- !private ["PSs9AnyObject", "setMessageBody"]
-- !private ["PSs9AnyObject", "setSubject"]
-- !private ["PSs9AnyObject", "setToRecipients"]
-- ["PSs9AnyObject", "showAlert"]
-- ["PSs9AnyObject", "showSendMailErrorAlert"]
-- !private ["PSs9AnyObject", "target"]
-- !private ["PSs9AnyObject", "text"]
-- !private ["PSs9AnyObject", "view"]
-- ["PSs9AnyObject", "viewDidLoad"]
-- ["PSs9AnyObject", "viewWillLayoutSubviews"]
-- !private ["PSs9AnyObject", "whiteColor"]
-- ["PSs9AnyObject", ""]
+- !private ["Ps9AnyObject", "AboutView"]
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "MFMailComposeViewController"]
+- ["Ps9AnyObject", "Open"]
+- !private ["Ps9AnyObject", "Selector"]
+- !private ["Ps9AnyObject", "UIAlertAction"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UIViewAutoresizing"]
+- ["Ps9AnyObject", "aboutView"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addAction"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps9AnyObject", "autoresizingMask"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "canSendMail"]
+- ["Ps9AnyObject", "configuredMailComposeViewController"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadView"]
+- ["Ps9AnyObject", "mailComposeController"]
+- !private ["Ps9AnyObject", "mailComposeDelegate"]
+- !private ["Ps9AnyObject", "panGestureRecognizer"]
+- !private ["Ps9AnyObject", "placeholder"]
+- !private ["Ps9AnyObject", "presentViewController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "revealViewController"]
+- ["Ps9AnyObject", "sendEmial"]
+- !private ["Ps9AnyObject", "setMessageBody"]
+- !private ["Ps9AnyObject", "setSubject"]
+- !private ["Ps9AnyObject", "setToRecipients"]
+- ["Ps9AnyObject", "showAlert"]
+- ["Ps9AnyObject", "showSendMailErrorAlert"]
+- !private ["Ps9AnyObject", "target"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillLayoutSubviews"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- ["Ps9AnyObject", ""]
 - !private ["Sa", "Element"]
-- !private ["PSs23ArrayLiteralConvertible", "Element"]
-- !private ["PSs23ArrayLiteralConvertible", "FlexibleWidth"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "FlexibleWidth"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["VSC6CGRect", "height"]
 - !private ["VSC6CGRect", "width"]
-- !private ["PSs11CVarArgType", "AboutView"]
-- !private ["PSs11CVarArgType", "CGRectMake"]
-- !private ["PSs11CVarArgType", "MFMailComposeViewController"]
-- ["PSs11CVarArgType", "Open"]
-- !private ["PSs11CVarArgType", "Selector"]
-- !private ["PSs11CVarArgType", "UIAlertAction"]
-- !private ["PSs11CVarArgType", "UIAlertController"]
-- !private ["PSs11CVarArgType", "UIColor"]
-- !private ["PSs11CVarArgType", "UIView"]
-- !private ["PSs11CVarArgType", "UIViewAutoresizing"]
-- ["PSs11CVarArgType", "aboutView"]
-- !private ["PSs11CVarArgType", "action"]
-- !private ["PSs11CVarArgType", "addAction"]
-- !private ["PSs11CVarArgType", "addGestureRecognizer"]
-- !private ["PSs11CVarArgType", "addSubview"]
-- !private ["PSs11CVarArgType", "addTextFieldWithConfigurationHandler"]
-- !private ["PSs11CVarArgType", "autoresizingMask"]
-- !private ["PSs11CVarArgType", "backgroundColor"]
-- !private ["PSs11CVarArgType", "canSendMail"]
-- ["PSs11CVarArgType", "configuredMailComposeViewController"]
-- !private ["PSs11CVarArgType", "delegate"]
-- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
-- !private ["PSs11CVarArgType", "frame"]
-- ["PSs11CVarArgType", "init"]
-- ["PSs11CVarArgType", "loadView"]
-- ["PSs11CVarArgType", "mailComposeController"]
-- !private ["PSs11CVarArgType", "mailComposeDelegate"]
-- !private ["PSs11CVarArgType", "panGestureRecognizer"]
-- !private ["PSs11CVarArgType", "placeholder"]
-- !private ["PSs11CVarArgType", "presentViewController"]
-- !private ["PSs11CVarArgType", "print"]
-- !private ["PSs11CVarArgType", "revealViewController"]
-- ["PSs11CVarArgType", "sendEmial"]
-- !private ["PSs11CVarArgType", "setMessageBody"]
-- !private ["PSs11CVarArgType", "setSubject"]
-- !private ["PSs11CVarArgType", "setToRecipients"]
-- ["PSs11CVarArgType", "showAlert"]
-- ["PSs11CVarArgType", "showSendMailErrorAlert"]
-- !private ["PSs11CVarArgType", "target"]
-- !private ["PSs11CVarArgType", "text"]
-- !private ["PSs11CVarArgType", "view"]
-- ["PSs11CVarArgType", "viewDidLoad"]
-- ["PSs11CVarArgType", "viewWillLayoutSubviews"]
-- !private ["PSs11CVarArgType", "whiteColor"]
-- ["PSs11CVarArgType", ""]
-- !private ["PSs14CollectionType", "Element"]
-- !private ["PSs28CustomDebugStringConvertible", "Element"]
-- !private ["PSs23CustomStringConvertible", "AboutView"]
-- !private ["PSs23CustomStringConvertible", "CGRectMake"]
-- !private ["PSs23CustomStringConvertible", "Element"]
-- !private ["PSs23CustomStringConvertible", "MFMailComposeViewController"]
-- ["PSs23CustomStringConvertible", "Open"]
-- !private ["PSs23CustomStringConvertible", "Selector"]
-- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
-- !private ["PSs23CustomStringConvertible", "UIAlertController"]
-- !private ["PSs23CustomStringConvertible", "UIColor"]
-- !private ["PSs23CustomStringConvertible", "UIView"]
-- !private ["PSs23CustomStringConvertible", "UIViewAutoresizing"]
-- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
-- ["PSs23CustomStringConvertible", "aboutView"]
-- !private ["PSs23CustomStringConvertible", "action"]
-- !private ["PSs23CustomStringConvertible", "addAction"]
-- !private ["PSs23CustomStringConvertible", "addGestureRecognizer"]
-- !private ["PSs23CustomStringConvertible", "addSubview"]
-- !private ["PSs23CustomStringConvertible", "addTextFieldWithConfigurationHandler"]
-- !private ["PSs23CustomStringConvertible", "autoresizingMask"]
-- !private ["PSs23CustomStringConvertible", "backgroundColor"]
-- !private ["PSs23CustomStringConvertible", "canSendMail"]
-- ["PSs23CustomStringConvertible", "configuredMailComposeViewController"]
-- !private ["PSs23CustomStringConvertible", "delegate"]
-- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
-- !private ["PSs23CustomStringConvertible", "frame"]
-- ["PSs23CustomStringConvertible", "init"]
-- ["PSs23CustomStringConvertible", "loadView"]
-- ["PSs23CustomStringConvertible", "mailComposeController"]
-- !private ["PSs23CustomStringConvertible", "mailComposeDelegate"]
-- !private ["PSs23CustomStringConvertible", "panGestureRecognizer"]
-- !private ["PSs23CustomStringConvertible", "placeholder"]
-- !private ["PSs23CustomStringConvertible", "presentViewController"]
-- !private ["PSs23CustomStringConvertible", "print"]
-- !private ["PSs23CustomStringConvertible", "revealViewController"]
-- ["PSs23CustomStringConvertible", "sendEmial"]
-- !private ["PSs23CustomStringConvertible", "setMessageBody"]
-- !private ["PSs23CustomStringConvertible", "setSubject"]
-- !private ["PSs23CustomStringConvertible", "setToRecipients"]
-- ["PSs23CustomStringConvertible", "showAlert"]
-- ["PSs23CustomStringConvertible", "showSendMailErrorAlert"]
-- !private ["PSs23CustomStringConvertible", "target"]
-- !private ["PSs23CustomStringConvertible", "text"]
-- !private ["PSs23CustomStringConvertible", "view"]
-- ["PSs23CustomStringConvertible", "viewDidLoad"]
-- ["PSs23CustomStringConvertible", "viewWillLayoutSubviews"]
-- !private ["PSs23CustomStringConvertible", "whiteColor"]
-- ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "AboutView"]
-- !private ["PSs9Equatable", "Alert"]
-- !private ["PSs9Equatable", "CGRectMake"]
-- !private ["PSs9Equatable", "Cancel"]
-- !private ["PSs9Equatable", "Default"]
-- !private ["PSs9Equatable", "FlexibleWidth"]
-- !private ["PSs9Equatable", "MFMailComposeViewController"]
-- ["PSs9Equatable", "Open"]
-- !private ["PSs9Equatable", "Selector"]
-- !private ["PSs9Equatable", "UIAlertAction"]
-- !private ["PSs9Equatable", "UIAlertController"]
-- !private ["PSs9Equatable", "UIColor"]
-- !private ["PSs9Equatable", "UIView"]
-- !private ["PSs9Equatable", "UIViewAutoresizing"]
-- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
-- ["PSs9Equatable", "aboutView"]
-- !private ["PSs9Equatable", "action"]
-- !private ["PSs9Equatable", "addAction"]
-- !private ["PSs9Equatable", "addGestureRecognizer"]
-- !private ["PSs9Equatable", "addSubview"]
-- !private ["PSs9Equatable", "addTextFieldWithConfigurationHandler"]
-- !private ["PSs9Equatable", "autoresizingMask"]
-- !private ["PSs9Equatable", "backgroundColor"]
-- !private ["PSs9Equatable", "canSendMail"]
-- ["PSs9Equatable", "configuredMailComposeViewController"]
-- !private ["PSs9Equatable", "delegate"]
-- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
-- !private ["PSs9Equatable", "frame"]
-- !private ["PSs9Equatable", "height"]
-- ["PSs9Equatable", "init"]
-- ["PSs9Equatable", "loadView"]
-- ["PSs9Equatable", "mailComposeController"]
-- !private ["PSs9Equatable", "mailComposeDelegate"]
-- !private ["PSs9Equatable", "panGestureRecognizer"]
-- !private ["PSs9Equatable", "placeholder"]
-- !private ["PSs9Equatable", "presentViewController"]
-- !private ["PSs9Equatable", "print"]
-- !private ["PSs9Equatable", "revealViewController"]
-- ["PSs9Equatable", "sendEmial"]
-- !private ["PSs9Equatable", "setMessageBody"]
-- !private ["PSs9Equatable", "setSubject"]
-- !private ["PSs9Equatable", "setToRecipients"]
-- ["PSs9Equatable", "showAlert"]
-- ["PSs9Equatable", "showSendMailErrorAlert"]
-- !private ["PSs9Equatable", "target"]
-- !private ["PSs9Equatable", "text"]
-- !private ["PSs9Equatable", "view"]
-- ["PSs9Equatable", "viewDidLoad"]
-- ["PSs9Equatable", "viewWillLayoutSubviews"]
-- !private ["PSs9Equatable", "whiteColor"]
-- !private ["PSs9Equatable", "width"]
-- ["PSs9Equatable", ""]
-- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["PSs8Hashable", "AboutView"]
-- !private ["PSs8Hashable", "Alert"]
-- !private ["PSs8Hashable", "CGRectMake"]
-- !private ["PSs8Hashable", "Cancel"]
-- !private ["PSs8Hashable", "Default"]
-- !private ["PSs8Hashable", "MFMailComposeViewController"]
-- ["PSs8Hashable", "Open"]
-- !private ["PSs8Hashable", "Selector"]
-- !private ["PSs8Hashable", "UIAlertAction"]
-- !private ["PSs8Hashable", "UIAlertController"]
-- !private ["PSs8Hashable", "UIColor"]
-- !private ["PSs8Hashable", "UIView"]
-- !private ["PSs8Hashable", "UIViewAutoresizing"]
-- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
-- ["PSs8Hashable", "aboutView"]
-- !private ["PSs8Hashable", "action"]
-- !private ["PSs8Hashable", "addAction"]
-- !private ["PSs8Hashable", "addGestureRecognizer"]
-- !private ["PSs8Hashable", "addSubview"]
-- !private ["PSs8Hashable", "addTextFieldWithConfigurationHandler"]
-- !private ["PSs8Hashable", "autoresizingMask"]
-- !private ["PSs8Hashable", "backgroundColor"]
-- !private ["PSs8Hashable", "canSendMail"]
-- ["PSs8Hashable", "configuredMailComposeViewController"]
-- !private ["PSs8Hashable", "delegate"]
-- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
-- !private ["PSs8Hashable", "frame"]
-- ["PSs8Hashable", "init"]
-- ["PSs8Hashable", "loadView"]
-- ["PSs8Hashable", "mailComposeController"]
-- !private ["PSs8Hashable", "mailComposeDelegate"]
-- !private ["PSs8Hashable", "panGestureRecognizer"]
-- !private ["PSs8Hashable", "placeholder"]
-- !private ["PSs8Hashable", "presentViewController"]
-- !private ["PSs8Hashable", "print"]
-- !private ["PSs8Hashable", "revealViewController"]
-- ["PSs8Hashable", "sendEmial"]
-- !private ["PSs8Hashable", "setMessageBody"]
-- !private ["PSs8Hashable", "setSubject"]
-- !private ["PSs8Hashable", "setToRecipients"]
-- ["PSs8Hashable", "showAlert"]
-- ["PSs8Hashable", "showSendMailErrorAlert"]
-- !private ["PSs8Hashable", "target"]
-- !private ["PSs8Hashable", "text"]
-- !private ["PSs8Hashable", "view"]
-- ["PSs8Hashable", "viewDidLoad"]
-- ["PSs8Hashable", "viewWillLayoutSubviews"]
-- !private ["PSs8Hashable", "whiteColor"]
-- ["PSs8Hashable", ""]
+- !private ["Ps11CVarArgType", "AboutView"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "MFMailComposeViewController"]
+- ["Ps11CVarArgType", "Open"]
+- !private ["Ps11CVarArgType", "Selector"]
+- !private ["Ps11CVarArgType", "UIAlertAction"]
+- !private ["Ps11CVarArgType", "UIAlertController"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIView"]
+- !private ["Ps11CVarArgType", "UIViewAutoresizing"]
+- ["Ps11CVarArgType", "aboutView"]
+- !private ["Ps11CVarArgType", "action"]
+- !private ["Ps11CVarArgType", "addAction"]
+- !private ["Ps11CVarArgType", "addGestureRecognizer"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps11CVarArgType", "autoresizingMask"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "canSendMail"]
+- ["Ps11CVarArgType", "configuredMailComposeViewController"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "loadView"]
+- ["Ps11CVarArgType", "mailComposeController"]
+- !private ["Ps11CVarArgType", "mailComposeDelegate"]
+- !private ["Ps11CVarArgType", "panGestureRecognizer"]
+- !private ["Ps11CVarArgType", "placeholder"]
+- !private ["Ps11CVarArgType", "presentViewController"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "revealViewController"]
+- ["Ps11CVarArgType", "sendEmial"]
+- !private ["Ps11CVarArgType", "setMessageBody"]
+- !private ["Ps11CVarArgType", "setSubject"]
+- !private ["Ps11CVarArgType", "setToRecipients"]
+- ["Ps11CVarArgType", "showAlert"]
+- ["Ps11CVarArgType", "showSendMailErrorAlert"]
+- !private ["Ps11CVarArgType", "target"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillLayoutSubviews"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "AboutView"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "MFMailComposeViewController"]
+- ["Ps28CustomDebugStringConvertible", "Open"]
+- !private ["Ps28CustomDebugStringConvertible", "Selector"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewAutoresizing"]
+- ["Ps28CustomDebugStringConvertible", "aboutView"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "addAction"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps28CustomDebugStringConvertible", "autoresizingMask"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "canSendMail"]
+- ["Ps28CustomDebugStringConvertible", "configuredMailComposeViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loadView"]
+- ["Ps28CustomDebugStringConvertible", "mailComposeController"]
+- !private ["Ps28CustomDebugStringConvertible", "mailComposeDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "panGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "placeholder"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "revealViewController"]
+- ["Ps28CustomDebugStringConvertible", "sendEmial"]
+- !private ["Ps28CustomDebugStringConvertible", "setMessageBody"]
+- !private ["Ps28CustomDebugStringConvertible", "setSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "setToRecipients"]
+- ["Ps28CustomDebugStringConvertible", "showAlert"]
+- ["Ps28CustomDebugStringConvertible", "showSendMailErrorAlert"]
+- !private ["Ps28CustomDebugStringConvertible", "target"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillLayoutSubviews"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "AboutView"]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "MFMailComposeViewController"]
+- ["Ps23CustomStringConvertible", "Open"]
+- !private ["Ps23CustomStringConvertible", "Selector"]
+- !private ["Ps23CustomStringConvertible", "UIAlertAction"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "UIViewAutoresizing"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "aboutView"]
+- !private ["Ps23CustomStringConvertible", "action"]
+- !private ["Ps23CustomStringConvertible", "addAction"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps23CustomStringConvertible", "autoresizingMask"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "canSendMail"]
+- ["Ps23CustomStringConvertible", "configuredMailComposeViewController"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loadView"]
+- ["Ps23CustomStringConvertible", "mailComposeController"]
+- !private ["Ps23CustomStringConvertible", "mailComposeDelegate"]
+- !private ["Ps23CustomStringConvertible", "panGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "placeholder"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "revealViewController"]
+- ["Ps23CustomStringConvertible", "sendEmial"]
+- !private ["Ps23CustomStringConvertible", "setMessageBody"]
+- !private ["Ps23CustomStringConvertible", "setSubject"]
+- !private ["Ps23CustomStringConvertible", "setToRecipients"]
+- ["Ps23CustomStringConvertible", "showAlert"]
+- ["Ps23CustomStringConvertible", "showSendMailErrorAlert"]
+- !private ["Ps23CustomStringConvertible", "target"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillLayoutSubviews"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AboutView"]
+- !private ["Ps9Equatable", "Alert"]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "Cancel"]
+- !private ["Ps9Equatable", "Default"]
+- !private ["Ps9Equatable", "FlexibleWidth"]
+- !private ["Ps9Equatable", "MFMailComposeViewController"]
+- ["Ps9Equatable", "Open"]
+- !private ["Ps9Equatable", "Selector"]
+- !private ["Ps9Equatable", "UIAlertAction"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "UIViewAutoresizing"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "aboutView"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "addAction"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps9Equatable", "autoresizingMask"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "canSendMail"]
+- ["Ps9Equatable", "configuredMailComposeViewController"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loadView"]
+- ["Ps9Equatable", "mailComposeController"]
+- !private ["Ps9Equatable", "mailComposeDelegate"]
+- !private ["Ps9Equatable", "panGestureRecognizer"]
+- !private ["Ps9Equatable", "placeholder"]
+- !private ["Ps9Equatable", "presentViewController"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "revealViewController"]
+- ["Ps9Equatable", "sendEmial"]
+- !private ["Ps9Equatable", "setMessageBody"]
+- !private ["Ps9Equatable", "setSubject"]
+- !private ["Ps9Equatable", "setToRecipients"]
+- ["Ps9Equatable", "showAlert"]
+- ["Ps9Equatable", "showSendMailErrorAlert"]
+- !private ["Ps9Equatable", "target"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillLayoutSubviews"]
+- !private ["Ps9Equatable", "whiteColor"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps8Hashable", "AboutView"]
+- !private ["Ps8Hashable", "Alert"]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "Cancel"]
+- !private ["Ps8Hashable", "Default"]
+- !private ["Ps8Hashable", "MFMailComposeViewController"]
+- ["Ps8Hashable", "Open"]
+- !private ["Ps8Hashable", "Selector"]
+- !private ["Ps8Hashable", "UIAlertAction"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "UIViewAutoresizing"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "aboutView"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "addAction"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "addTextFieldWithConfigurationHandler"]
+- !private ["Ps8Hashable", "autoresizingMask"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "canSendMail"]
+- ["Ps8Hashable", "configuredMailComposeViewController"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loadView"]
+- ["Ps8Hashable", "mailComposeController"]
+- !private ["Ps8Hashable", "mailComposeDelegate"]
+- !private ["Ps8Hashable", "panGestureRecognizer"]
+- !private ["Ps8Hashable", "placeholder"]
+- !private ["Ps8Hashable", "presentViewController"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "revealViewController"]
+- ["Ps8Hashable", "sendEmial"]
+- !private ["Ps8Hashable", "setMessageBody"]
+- !private ["Ps8Hashable", "setSubject"]
+- !private ["Ps8Hashable", "setToRecipients"]
+- ["Ps8Hashable", "showAlert"]
+- ["Ps8Hashable", "showSendMailErrorAlert"]
+- !private ["Ps8Hashable", "target"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillLayoutSubviews"]
+- !private ["Ps8Hashable", "whiteColor"]
+- ["Ps8Hashable", ""]
 - !private ["SQ", "deinit"]
-- !private ["PSs9Indexable", "Element"]
+- !private ["Ps9Indexable", "Element"]
 - !private ["CSo27MFMailComposeViewController", "canSendMail"]
 - !private ["CSo27MFMailComposeViewController", "dismissViewControllerAnimated"]
 - !private ["CSo27MFMailComposeViewController", "init"]
@@ -379,9 +424,9 @@ depends-member:
 - !private ["PSo35MFMailComposeViewControllerDelegate", "showSendMailErrorAlert"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "view"]
 - ["PSo35MFMailComposeViewControllerDelegate", ""]
-- !private ["PSs21MutableCollectionType", "Element"]
-- !private ["PSs16MutableIndexable", "Element"]
-- !private ["PSs16MutableSliceable", "Element"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableSliceable", "Element"]
 - !private ["PSo8NSCoding", "AboutView"]
 - !private ["PSo8NSCoding", "CGRectMake"]
 - !private ["PSo8NSCoding", "MFMailComposeViewController"]
@@ -559,19 +604,19 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
-- !private ["PSs21NilLiteralConvertible", "init"]
-- !private ["PSs13OptionSetType", "FlexibleWidth"]
+- !private ["Ps21NilLiteralConvertible", "init"]
+- !private ["Ps13OptionSetType", "FlexibleWidth"]
 - !private ["Sq", "deinit"]
-- !private ["PSs30RangeReplaceableCollectionType", "Element"]
-- !private ["PSs16RawRepresentable", "Alert"]
-- !private ["PSs16RawRepresentable", "Cancel"]
-- !private ["PSs16RawRepresentable", "Default"]
-- !private ["PSs16RawRepresentable", "FlexibleWidth"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps16RawRepresentable", "Alert"]
+- !private ["Ps16RawRepresentable", "Cancel"]
+- !private ["Ps16RawRepresentable", "Default"]
+- !private ["Ps16RawRepresentable", "FlexibleWidth"]
 - !private ["CSo22SWRevealViewController", "panGestureRecognizer"]
 - !private ["V10ObjectiveC8Selector", "init"]
-- !private ["PSs12SequenceType", "Element"]
-- !private ["PSs14SetAlgebraType", "FlexibleWidth"]
-- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps14SetAlgebraType", "FlexibleWidth"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "action"]
 - !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
@@ -932,69 +977,69 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewWillLayoutSubviews"]
 - ["CSo16UIViewController", ""]
-- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
-- !private ["PSs10_ArrayType", "Element"]
-- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
-- !private ["PSs24_DestructorSafeContainer", "Element"]
-- !private ["PSs21_ObjectiveCBridgeable", "Element"]
-- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["VSs26_OptionalNilComparisonType", "deinit"]
-- !private ["PSs12_Reflectable", "Element"]
-- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
-- !private ["PSs12_Reflectable", "addGestureRecognizer"]
-- !private ["PSs12_Reflectable", "addSubview"]
-- !private ["PSs12_Reflectable", "autoresizingMask"]
-- !private ["PSs12_Reflectable", "backgroundColor"]
-- !private ["PSs12_Reflectable", "delegate"]
-- !private ["PSs12_Reflectable", "frame"]
-- !private ["PSs12_Reflectable", "height"]
-- !private ["PSs12_Reflectable", "init"]
-- !private ["PSs12_Reflectable", "placeholder"]
-- !private ["PSs12_Reflectable", "text"]
-- !private ["PSs12_Reflectable", "width"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addGestureRecognizer"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "autoresizingMask"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "delegate"]
+- !private ["Ps12_Reflectable", "frame"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "placeholder"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps12_Reflectable", "width"]
 depends-nominal:
 - "C10Asia_shops5About"
 - !private "C10Asia_shops9AboutView"
 - "P10Asia_shops17AboutViewDelegate"
-- "PSs9AnyObject"
+- "Ps9AnyObject"
 - !private "Sa"
-- !private "PSs23ArrayLiteralConvertible"
+- !private "Ps23ArrayLiteralConvertible"
 - !private "Sb"
-- !private "PSs25BooleanLiteralConvertible"
-- !private "PSs11BooleanType"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
 - !private "V12CoreGraphics7CGFloat"
 - !private "VSC6CGRect"
-- "PSs11CVarArgType"
-- !private "PSs14CollectionType"
-- !private "PSs28CustomDebugStringConvertible"
-- "PSs23CustomStringConvertible"
-- "PSs9Equatable"
-- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
-- "PSs8Hashable"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
 - !private "SQ"
-- !private "PSs9Indexable"
+- !private "Ps9Indexable"
 - !private "CSo27MFMailComposeViewController"
 - "PSo35MFMailComposeViewControllerDelegate"
-- !private "PSs21MutableCollectionType"
-- !private "PSs16MutableIndexable"
-- !private "PSs16MutableSliceable"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
-- !private "PSs21NilLiteralConvertible"
-- !private "PSs13OptionSetType"
+- !private "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
 - !private "Sq"
-- !private "PSs30RangeReplaceableCollectionType"
-- !private "PSs16RawRepresentable"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
 - !private "CSo22SWRevealViewController"
 - !private "V10ObjectiveC8Selector"
-- !private "PSs12SequenceType"
-- !private "PSs14SetAlgebraType"
-- !private "PSs24StringLiteralConvertible"
+- !private "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- !private "Ps24StringLiteralConvertible"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "CSo13UIAlertAction"
 - !private "OSC18UIAlertActionStyle"
@@ -1021,29 +1066,29 @@ depends-nominal:
 - !private "CSo6UIView"
 - !private "VSC18UIViewAutoresizing"
 - "CSo16UIViewController"
-- !private "PSs31UnicodeScalarLiteralConvertible"
-- !private "PSs10_ArrayType"
-- !private "PSs33_BuiltinBooleanLiteralConvertible"
-- !private "PSs24_ColorLiteralConvertible"
-- !private "PSs24_DestructorSafeContainer"
-- !private "PSs21_ObjectiveCBridgeable"
-- !private "VSs26_OptionalNilComparisonType"
-- !private "PSs12_Reflectable"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 interface-hash: "2cd4ac2fb1c5078da0a6b94db3232b08"

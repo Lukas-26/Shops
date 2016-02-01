@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "471b2d6720bf74a2dda4e75a82321fc6"
+build_time: [507404274, 237065000]
+inputs:
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Alamofire.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Download.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Error.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Manager.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/MultipartFormData.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/ParameterEncoding.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Request.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Response.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/ResponseSerialization.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Result.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/ServerTrustPolicy.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Stream.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Upload.swift": [507377610, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Validation.swift": [507377610, 0]
