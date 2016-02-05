@@ -18,25 +18,14 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     weak var map : MKMapView!
     var addAnnotation : MKPointAnnotation?
     let manager = CLLocationManager()
-    weak var topAddButton : UIBarButtonItem!
-    weak var topCancelButton : UIBarButtonItem!
     
     override func viewDidLoad() {
         Open.target=self.revealViewController()
         Open.action=Selector("revealToggle:")
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view = UIView()
-        let m = MKMapView()
         
-        m.showsUserLocation=true
-        m.userTrackingMode=MKUserTrackingMode.None
-        m.mapType = MKMapType.Standard
-        m.delegate = self
-        self.view.addSubview(m)
-        m.snp_makeConstraints { (make) -> Void in
-            make.edges.equalTo(view)
-        }
-        map = m
+        let longPress = UILongPressGestureRecognizer(target: self, action: "longPressed:")
         
         switch CLLocationManager.authorizationStatus() {
         case .NotDetermined:
@@ -48,30 +37,69 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         self.manager.desiredAccuracy = kCLLocationAccuracyBest
         self.manager.startUpdatingLocation()
         
+        let m = MKMapView()
+        m.showsUserLocation=true
+        m.userTrackingMode=MKUserTrackingMode.None
+        m.mapType = MKMapType.Standard
+        m.delegate = self
+        self.view.addSubview(m)
+        m.snp_makeConstraints { (make) -> Void in
+            make.edges.equalTo(view)
+        }
+        m.addGestureRecognizer(longPress)
+        map = m
         
-        let cb=UIBarButtonItem(barButtonSystemItem: .Stop, target: self, action: "cancelAdding:")
-        self.topCancelButton=cb
-        
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addNew:")
+        if(CLLocationManager.authorizationStatus()==CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus()==CLAuthorizationStatus.AuthorizedAlways){
+            let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
+            let location = CLLocationCoordinate2D(latitude: (manager.location?.coordinate.latitude)!, longitude: (manager.location?.coordinate.longitude)!)
+            let region: MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
+            map.setRegion(region, animated: true)
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "topBarItemAdd:")
+        }
+        else{
+            ShowDismisLocationAlert();
+        }
     }
     
-    func addNew(sender : UIBarButtonItem) {
+    func ShowDismisLocationAlert(){
+        let message="Určování polohy není povoleno. Nebudete mít zpřístupněné některé funkce aplikace jako například určení vaší aktuální polohy. Pro změnu povolte určování polohy aplikace v Nastavení vašeho telefonu"
+        let alert = UIAlertController(title: "Určování polohy není povoleno", message: message, preferredStyle: .Alert)
+        let ok = UIAlertAction(title: "OK", style: .Default, handler: { (action) -> Void in })
+        alert.addAction(ok)
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    func longPressed(sender:UILongPressGestureRecognizer){
+        if (sender.state != UIGestureRecognizerState.Began) {return}
+        print("dlouhy stisk")
+        let touchLocation = sender.locationInView(map)
+        let locationCoordinate = map.convertPoint(touchLocation, toCoordinateFromView: map)
+        addNew(locationCoordinate)
+    }
+    func topBarItemAdd(sender: UIBarButtonItem) {
+        addNew(self.manager.location!.coordinate)
+    }
+    func topBarItemCancel(sender: UIBarButtonItem) {
+        cancelAdding()
+    }
+    func addNew(coord: CLLocationCoordinate2D) {
         print("pridej novy obchod")
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Trash, target: self, action: "cancelAdding:")
-
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Trash, target: self, action: "topBarItemCancel:")
         if addAnnotation == nil {
             self.addAnnotation = MKPointAnnotation()
         }
-        let loc : CLLocation=self.manager.location!
-        addAnnotation?.coordinate = loc.coordinate
+        addAnnotation?.coordinate = coord
         addAnnotation?.title = "Nový obchod"
         map.addAnnotation(addAnnotation!)
     }
-    func cancelAdding(sender : UIBarButtonItem) {
+    func cancelAdding() {
         print("zrus pridavani")
-        
         self.map.removeAnnotation(addAnnotation!)
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addNew:")
+        if(CLLocationManager.authorizationStatus()==CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus()==CLAuthorizationStatus.AuthorizedAlways){
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "topBarItemAdd:")
+        }
+        else{
+            self.navigationItem.rightBarButtonItem = nil
+        }
     }
     
     func locationManager(manager: CLLocationManager, didUpdateToLocation newLocation: CLLocation, fromLocation oldLocation: CLLocation) {
@@ -79,10 +107,7 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     }
     
     func mapView(mapView: MKMapView, didUpdateUserLocation userLocation: MKUserLocation) {
-        let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
-        let location = CLLocationCoordinate2D(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
-        let region: MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
-        mapView.setRegion(region, animated: true)
+     
     }
     
     func mapView(mapView: MKMapView, viewForAnnotation addAnnotation: MKAnnotation) -> MKAnnotationView? {
@@ -98,7 +123,6 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         pin?.animatesDrop = true
         pin?.draggable = true
         pin?.canShowCallout = true
-        pin?.image = UIImage(named: "MapPin")
         
         pin?.rightCalloutAccessoryView = UIButton(type: .ContactAdd) as UIButton
         return pin;
@@ -108,6 +132,7 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let ns=NewShopController()
         ns.coordinates=self.addAnnotation?.coordinate
+        self.navigationItem.title="Mapa"
         self.navigationController?.pushViewController(ns, animated: true)
         print("novy obchod")
     }

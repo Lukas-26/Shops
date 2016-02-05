@@ -172,30 +172,11 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="Open" destination="HSO-kw-k28" id="pbQ-jo-xof"/>
-                        <segue destination="nC0-ll-8SZ" kind="show" identifier="mySeque" id="2Fr-PC-aAd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R2U-FR-TS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604" y="-179"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="RhK-Qa-TDS">
-            <objects>
-                <viewController id="nC0-ll-8SZ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="73O-vi-lJt"/>
-                        <viewControllerLayoutGuide type="bottom" id="iZb-Pb-yTW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lev-bA-Kfl">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mKu-N3-p5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1344" y="-179"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QhH-FQ-8SC">
