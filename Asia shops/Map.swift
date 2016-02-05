@@ -10,13 +10,13 @@ import Foundation
 import UIKit
 import SnapKit
 import MapKit
-
+import MagicalRecord
 
 class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     @IBOutlet var Open: UIBarButtonItem!
     weak var map : MKMapView!
-    var addAnnotation : MKPointAnnotation?
+    var addAnnotation : MKPointAnnotation?=nil
     let manager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -59,6 +59,7 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         else{
             ShowDismisLocationAlert();
         }
+        showShops()
     }
     
     func ShowDismisLocationAlert(){
@@ -115,16 +116,27 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         if(addAnnotation is MKUserLocation) {
             return nil
         }
-        var pin = mapView.dequeueReusableAnnotationViewWithIdentifier("myPin") as! MKPinAnnotationView?
-        if (pin == nil) {
-            pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: "myPin")
+        var pin = mapView.dequeueReusableAnnotationViewWithIdentifier("shopPin") as! MKPinAnnotationView?
+        if(addAnnotation.isKindOfClass(ShopAnnotation)){
+            if(pin==nil){
+                pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: "shopPin")
+                pin?.animatesDrop = false
+                pin?.draggable = false
+                pin?.canShowCallout = true
+                pin?.pinTintColor=UIColor.purpleColor()
+                pin?.leftCalloutAccessoryView = UIButton(type: .DetailDisclosure) as UIButton
+            }
         }
-        
-        pin?.animatesDrop = true
-        pin?.draggable = true
-        pin?.canShowCallout = true
-        
-        pin?.rightCalloutAccessoryView = UIButton(type: .ContactAdd) as UIButton
+        else{
+            pin = mapView.dequeueReusableAnnotationViewWithIdentifier("myPin") as! MKPinAnnotationView?
+            if (pin == nil) {
+                pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: "myPin")
+                pin?.animatesDrop = true
+                pin?.draggable = true
+                pin?.canShowCallout = true
+                pin?.rightCalloutAccessoryView = UIButton(type: .ContactAdd) as UIButton
+            }
+        }
         return pin;
     }
     
@@ -149,6 +161,22 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
                     self.title = mark.locality
                 }
             })
+        }
+    }
+    
+    func showShops(){
+        let shops=Shop.MR_findAll()
+        let nrRow=shops.count
+        for row in 0..<nrRow{
+            let data: NSManagedObject = shops[row] as! NSManagedObject
+            
+            let latNumb = (data.valueForKey("latitude") as? Double)!
+            let longNumb = (data.valueForKey("longitude") as? Double)!
+            let name = (data.valueForKey("name") as? String)!
+            
+            let shopAnnotation:ShopAnnotation=ShopAnnotation(name: name,coord: CLLocationCoordinate2DMake(latNumb,longNumb), rating: 1)
+            
+            self.map.addAnnotation(shopAnnotation)
         }
     }
     

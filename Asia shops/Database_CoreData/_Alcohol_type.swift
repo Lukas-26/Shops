@@ -53,13 +53,13 @@ extension _Alcohol_type {
 
     func addAlcoholtype_bottle(objects: NSSet) {
         let mutable = self.alcoholtype_bottle.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.alcoholtype_bottle = mutable.copy() as! NSSet
     }
 
     func removeAlcoholtype_bottle(objects: NSSet) {
         let mutable = self.alcoholtype_bottle.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.alcoholtype_bottle = mutable.copy() as! NSSet
     }
 

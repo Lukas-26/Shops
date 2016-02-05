@@ -29,12 +29,12 @@
     </entity>
     <entity name="Rating" representedClassName="Rating" syncable="YES">
         <attribute name="date" attributeType="Date" syncable="YES"/>
-        <attribute name="star" attributeType="Integer 32" minValueString="1" maxValueString="5" defaultValueString="1" syncable="YES"/>
+        <attribute name="star" attributeType="Integer 16" minValueString="1" maxValueString="5" defaultValueString="1" syncable="YES"/>
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="rating_shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shop_rating" inverseEntity="Shop" syncable="YES"/>
     </entity>
     <entity name="Rel" representedClassName="Rel" syncable="YES">
-        <attribute name="prize" attributeType="Integer 32" minValueString="0" maxValueString="5000" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="prize" attributeType="Integer 16" minValueString="0" maxValueString="5000" defaultValueString="0.0" syncable="YES"/>
         <attribute name="size" attributeType="Double" minValueString="0" maxValueString="5" defaultValueString="0.0" syncable="YES"/>
         <relationship name="rel_bottle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bottle" inverseName="bottle_rel" inverseEntity="Bottle" syncable="YES"/>
         <relationship name="rel_shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shop_rel" inverseEntity="Shop" syncable="YES"/>
@@ -59,8 +59,8 @@
         <element name="Bottle_image" positionX="-36" positionY="81" width="128" height="75"/>
         <element name="Days" positionX="-36" positionY="-264" width="128" height="75"/>
         <element name="Open_time" positionX="-117" positionY="-117" width="126" height="120"/>
-        <element name="Rating" positionX="-549" positionY="-153" width="126" height="103"/>
-        <element name="Rel" positionX="-549" positionY="53" width="126" height="103"/>
+        <element name="Rating" positionX="-549" positionY="-153" width="126" height="105"/>
+        <element name="Rel" positionX="-549" positionY="53" width="126" height="105"/>
         <element name="Shop" positionX="-335" positionY="-162" width="128" height="163"/>
         <element name="Shop_image" positionX="-218" positionY="-267" width="128" height="75"/>
     </elements>

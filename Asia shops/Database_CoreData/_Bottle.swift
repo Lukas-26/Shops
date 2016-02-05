@@ -77,13 +77,13 @@ extension _Bottle {
 
     func addBottle_rel(objects: NSSet) {
         let mutable = self.bottle_rel.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.bottle_rel = mutable.copy() as! NSSet
     }
 
     func removeBottle_rel(objects: NSSet) {
         let mutable = self.bottle_rel.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.bottle_rel = mutable.copy() as! NSSet
     }
 

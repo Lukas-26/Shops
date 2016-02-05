@@ -53,13 +53,13 @@ extension _Bottle_image {
 
     func addBottleimage_bottle(objects: NSSet) {
         let mutable = self.bottleimage_bottle.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.bottleimage_bottle = mutable.copy() as! NSSet
     }
 
     func removeBottleimage_bottle(objects: NSSet) {
         let mutable = self.bottleimage_bottle.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.bottleimage_bottle = mutable.copy() as! NSSet
     }
 

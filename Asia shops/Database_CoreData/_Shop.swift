@@ -83,13 +83,13 @@ extension _Shop {
 
     func addShop_image(objects: NSSet) {
         let mutable = self.shop_image.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.shop_image = mutable.copy() as! NSSet
     }
 
     func removeShop_image(objects: NSSet) {
         let mutable = self.shop_image.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.shop_image = mutable.copy() as! NSSet
     }
 
@@ -111,13 +111,13 @@ extension _Shop {
 
     func addShop_opentime(objects: NSSet) {
         let mutable = self.shop_opentime.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.shop_opentime = mutable.copy() as! NSSet
     }
 
     func removeShop_opentime(objects: NSSet) {
         let mutable = self.shop_opentime.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.shop_opentime = mutable.copy() as! NSSet
     }
 
@@ -139,13 +139,13 @@ extension _Shop {
 
     func addShop_rating(objects: NSSet) {
         let mutable = self.shop_rating.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.shop_rating = mutable.copy() as! NSSet
     }
 
     func removeShop_rating(objects: NSSet) {
         let mutable = self.shop_rating.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.shop_rating = mutable.copy() as! NSSet
     }
 
@@ -167,13 +167,13 @@ extension _Shop {
 
     func addShop_rel(objects: NSSet) {
         let mutable = self.shop_rel.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.shop_rel = mutable.copy() as! NSSet
     }
 
     func removeShop_rel(objects: NSSet) {
         let mutable = self.shop_rel.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.shop_rel = mutable.copy() as! NSSet
     }
 

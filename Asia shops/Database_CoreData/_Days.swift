@@ -53,13 +53,13 @@ extension _Days {
 
     func addDays_opentime(objects: NSSet) {
         let mutable = self.days_opentime.mutableCopy() as! NSMutableSet
-        mutable.unionSet(objects as Set<NSObject>)
+        mutable.unionSet(objects as! Set<NSObject>)
         self.days_opentime = mutable.copy() as! NSSet
     }
 
     func removeDays_opentime(objects: NSSet) {
         let mutable = self.days_opentime.mutableCopy() as! NSMutableSet
-        mutable.minusSet(objects as Set<NSObject>)
+        mutable.minusSet(objects as! Set<NSObject>)
         self.days_opentime = mutable.copy() as! NSSet
     }
 

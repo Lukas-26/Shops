@@ -50,6 +50,7 @@
 		80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912491C18B1AD00EC9C08 /* About.swift */; };
 		80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9124B1C18B2F100EC9C08 /* Seznam.swift */; };
 		80CA311B1C205797000ADF2B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA311A1C205797000ADF2B /* AboutView.swift */; };
+		80CA39F61C64B5A00023BA30 /* ShopAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */; };
 		80D481521C5B86AA008584EB /* MapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D481511C5B86AA008584EB /* MapPin.png */; };
 		80DE3ADB1C16E43300D09D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */; };
 		80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADC1C16E43300D09D54 /* Map.swift */; };
@@ -110,6 +111,7 @@
 		80C912491C18B1AD00EC9C08 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		80C9124B1C18B2F100EC9C08 /* Seznam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seznam.swift; sourceTree = "<group>"; };
 		80CA311A1C205797000ADF2B /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopAnnotation.swift; sourceTree = "<group>"; };
 		80D481511C5B86AA008584EB /* MapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPin.png; sourceTree = SOURCE_ROOT; };
 		80D868E41C5BC99000A2A7A4 /* VietnamecUProvyho.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VietnamecUProvyho.gpx; sourceTree = "<group>"; };
 		80DE3AD71C16E43300D09D54 /* Asia shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asia shops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +245,7 @@
 				80C912441C18A37700EC9C08 /* MenuVC.swift */,
 				8083ADDC1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld */,
 				809367C21C639FFB008F3FA2 /* magicrecord.h */,
+				80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */,
 			);
 			path = "Asia shops";
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				808077021C649A5800F79EA4 /* Alcohol_type.swift in Sources */,
 				808076FF1C649A5800F79EA4 /* _Rel.swift in Sources */,
 				808077061C649A5800F79EA4 /* Open_time.swift in Sources */,
+				80CA39F61C64B5A00023BA30 /* ShopAnnotation.swift in Sources */,
 				808077041C649A5800F79EA4 /* Bottle_image.swift in Sources */,
 				8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */,
 				808077071C649A5800F79EA4 /* Rating.swift in Sources */,

@@ -9,6 +9,9 @@
 import UIKit
 import SnapKit
 import MapKit
+import MagicalRecord
+import Foundation
+import CoreData
 
 class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate{
     
@@ -29,6 +32,7 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
         view.backgroundColor = UIColor.whiteColor()
         let saveImage:UIImage = UIImage(named:"saveNavBarIcon")!
         let saveButton:UIButton = UIButton()
+        
         saveButton.addTarget(self, action: "saveShop:", forControlEvents: .TouchUpInside)
         saveButton.setTitle("Uložit", forState: .Normal)
         saveButton.setImage(saveImage, forState: .Normal)
@@ -199,7 +203,21 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
     func saveShop(source: UIBarButtonItem){
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         
+
+        let context = NSManagedObjectContext.MR_defaultContext()
+        
+        var ps=Shop.MR_createEntity()
+        
+        
+        context.MR_saveToPersistentStoreWithCompletion { (Status:Bool, error:NSError!) in
+            if (Status) {
+                print("You successfully saved your context.")
+            } else if ((error) != nil) {
+                print("Error saving context: \(error.description)")
+            }
+        }
         UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        navigationController?.popViewControllerAnimated(true)
     }
     override func viewDidAppear(animated: Bool) {
     }
