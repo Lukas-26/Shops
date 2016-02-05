@@ -7,19 +7,19 @@ provides-member:
 - ["V9Alamofire8Response", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- "ErrorType"
-- "NSURLRequest"
-- "NSHTTPURLResponse"
-- !private "!="
-- "NSData"
+- "Result"
+- "CustomStringConvertible"
 - "Response"
 - !private "UnicodeScalarType"
 - "CustomDebugStringConvertible"
-- !private "StringLiteralType"
-- "Result"
+- "NSURLRequest"
+- "String"
+- "ErrorType"
 - !private "??"
-- "CustomStringConvertible"
+- !private "StringLiteralType"
+- "NSHTTPURLResponse"
+- !private "!="
+- "NSData"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "length"]

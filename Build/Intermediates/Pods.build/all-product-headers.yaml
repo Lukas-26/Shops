@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,190 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CoreData+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/CoreData+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalImportFunctions.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/MagicalImportFunctions.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+Actions.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Actions.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+ErrorHandling.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+ErrorHandling.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+Options.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Options.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+Setup.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+Setup.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+ShorthandSupport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+ShorthandSupport.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord+iCloud.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord+iCloud.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord-Swift.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord-umbrella.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Target Support Files/MagicalRecord/MagicalRecord-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "MagicalRecordShorthand.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Core/MagicalRecordShorthand.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSAttributeDescription+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSEntityDescription+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObject+MagicalAggregation.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObject+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObject+MagicalFinders.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObject+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObject+MagicalRequests.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObjectContext+MagicalObserving.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObjectContext+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObjectContext+MagicalSaves.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObjectContext+MagicalThreading.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSManagedObjectModel+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSNumber+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSPersistentStore+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSPersistentStoreCoordinator+MagicalRecord.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSRelationshipDescription+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+MagicalDataImport.h",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/MagicalRecord/MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/MagicalRecord.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
         },
         {
           'type': 'file',
@@ -47,23 +214,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
@@ -74,12 +241,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
         }
       ]
     }

@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
 options: "d4d2b9185d722fe8ebfb944806583766"
-build_time: [507384129, 291399000]
+build_time: [507916017, 231867000]
 inputs:
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Alamofire.swift": [507377610, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Alamofire/Source/Download.swift": [507377610, 0]

@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
 options: "7d612d2f58ab6b3fe4181b3aa82d80ad"
-build_time: [507384141, 738547000]
+build_time: [507916017, 358010000]
 inputs:
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/Constraint.swift": [507377610, 0]
   "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/SnapKit/Source/ConstraintAttributes.swift": [507377610, 0]

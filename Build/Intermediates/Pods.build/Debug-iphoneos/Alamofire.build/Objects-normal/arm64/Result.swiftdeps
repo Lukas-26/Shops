@@ -7,13 +7,13 @@ provides-member:
 - ["O9Alamofire6Result", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "CustomStringConvertible"
 - "String"
-- !private "!"
 - "Result"
 - "ErrorType"
-- "CustomStringConvertible"
-- "CustomDebugStringConvertible"
 - !private "BooleanLiteralType"
+- !private "!"
+- "CustomDebugStringConvertible"
 - "Bool"
 - !private "StringLiteralType"
 depends-member:

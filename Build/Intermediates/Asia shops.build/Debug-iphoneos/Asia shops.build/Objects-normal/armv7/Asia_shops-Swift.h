@@ -153,6 +153,7 @@ SWIFT_CLASS("_TtC10Asia_shops11AppDelegate")
 
 @class MKPointAnnotation;
 @class CLLocationManager;
+@class UILongPressGestureRecognizer;
 @class CLLocation;
 @class MKMapView;
 @class MKUserLocation;
@@ -166,11 +167,13 @@ SWIFT_CLASS("_TtC10Asia_shops3Map")
 @property (nonatomic, weak) MKMapView * _Null_unspecified map;
 @property (nonatomic, strong) MKPointAnnotation * _Nullable addAnnotation;
 @property (nonatomic, readonly, strong) CLLocationManager * _Nonnull manager;
-@property (nonatomic, weak) UIBarButtonItem * _Null_unspecified topAddButton;
-@property (nonatomic, weak) UIBarButtonItem * _Null_unspecified topCancelButton;
 - (void)viewDidLoad;
-- (void)addNew:(UIBarButtonItem * _Nonnull)sender;
-- (void)cancelAdding:(UIBarButtonItem * _Nonnull)sender;
+- (void)ShowDismisLocationAlert;
+- (void)longPressed:(UILongPressGestureRecognizer * _Nonnull)sender;
+- (void)topBarItemAdd:(UIBarButtonItem * _Nonnull)sender;
+- (void)topBarItemCancel:(UIBarButtonItem * _Nonnull)sender;
+- (void)addNew:(CLLocationCoordinate2D)coord;
+- (void)cancelAdding;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateToLocation:(CLLocation * _Nonnull)newLocation fromLocation:(CLLocation * _Nonnull)oldLocation;
 - (void)mapView:(MKMapView * _Nonnull)mapView didUpdateUserLocation:(MKUserLocation * _Nonnull)userLocation;
 - (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)addAnnotation;
@@ -193,6 +196,34 @@ SWIFT_CLASS("_TtC10Asia_shops6MenuVC")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImagePickerController;
+@class UIImageView;
+@class UITextField;
+@class UILabel;
+
+SWIFT_CLASS("_TtC10Asia_shops17NewShopController")
+@interface NewShopController : UIViewController <MKMapViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
+@property (nonatomic, strong) MKPointAnnotation * _Nullable shopAnnotation;
+@property (nonatomic, weak) MKMapView * _Null_unspecified map;
+@property (nonatomic, weak) UIImageView * _Null_unspecified img;
+@property (nonatomic, readonly, strong) UIImagePickerController * _Nonnull picker;
+@property (nonatomic, weak) UILabel * _Null_unspecified name;
+@property (nonatomic, weak) UITextField * _Null_unspecified textName;
+- (void)viewDidLoad;
+- (void)cameraPicker:(UIImageView * _Nonnull)img;
+- (void)selectFromGallery;
+- (void)takePhoto;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)shopAnnotation;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
+- (void)nameEditing:(UITextField * _Nonnull)source;
+- (void)saveShop:(UIBarButtonItem * _Nonnull)source;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ConstraintMaker"
-- "String"
-- "Void"
-- !private "BooleanLiteralType"
-- "UInt"
-- "ConstraintDescription"
-- !private "ConstraintItem"
-- "ConstraintAttributes"
-- "View"
-- "Constraint"
 - "ConstraintDescriptionExtendable"
-- "StringLiteralType"
+- "Constraint"
+- "ConstraintAttributes"
+- "String"
+- !private "BooleanLiteralType"
+- "View"
+- "ConstraintDescription"
+- "UInt"
+- !private "ConstraintItem"
 - !private "ConcreteConstraint"
+- "Void"
+- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "ConstraintAttributes"]
 - ["Ps9AnyObject", "ConstraintDescription"]

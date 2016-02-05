@@ -9,17 +9,17 @@ provides-member:
 - ["OV9Alamofire5Error4Code", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Error"
 - "String"
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "=="
-- "Int"
-- "NSError"
-- !private "Dictionary"
-- !private "~="
-- !private "NSLocalizedFailureReasonErrorKey"
 - "StringLiteralType"
+- "=="
+- "IntegerLiteralType"
+- "Int"
+- !private "~="
+- !private "Dictionary"
+- "Error"
+- "FloatLiteralType"
+- !private "NSLocalizedFailureReasonErrorKey"
+- "NSError"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps22BidirectionalIndexType", "Distance"]

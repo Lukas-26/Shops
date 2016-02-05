@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops11addFormView", ""]
 provides-dynamic-lookup:
-- "textName"
-- "layoutSubviews"
 - "name"
+- "layoutSubviews"
+- "textName"
 depends-top-level:
-- !private "StringLiteralType"
-- !private "CGRectGetWidth"
-- "NSCoder"
-- "addFormView"
-- !private "-"
-- "UIView"
-- "CGRect"
-- "UILabel"
-- !private "UIColor"
-- "UITextField"
 - !private "fatalError"
 - !private "CGRectMake"
+- !private "UIColor"
+- "NSCoder"
+- !private "-"
+- !private "StringLiteralType"
+- "UILabel"
+- "UITextField"
+- "CGRect"
+- !private "CGRectGetWidth"
+- "addFormView"
+- "UIView"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "CGRectGetWidth"]
