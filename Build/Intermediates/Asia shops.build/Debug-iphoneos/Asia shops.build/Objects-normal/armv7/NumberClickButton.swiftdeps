@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NumberClickButton"
+provides-nominal:
+- "C10Asia_shops17NumberClickButton"
+provides-member:
+- ["C10Asia_shops17NumberClickButton", ""]
+provides-dynamic-lookup:
+- "max"
+- "Click"
+- "Reset"
+- "setMaxClicked"
+- "counter"
+depends-top-level:
+- "Int"
+- "UIButton"
+- !private "BooleanLiteralType"
+- "NumberClickButton"
+- !private "+="
+- !private "fatalError"
+- !private "StringLiteralType"
+- "Bool"
+- !private ">="
+- "NSCoder"
+depends-member:
+- ["Ps9AnyObject", "Click"]
+- ["Ps9AnyObject", "Reset"]
+- ["Ps9AnyObject", "counter"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "max"]
+- ["Ps9AnyObject", "setMaxClicked"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "Click"]
+- ["Ps11CVarArgType", "Reset"]
+- ["Ps11CVarArgType", "counter"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "max"]
+- ["Ps11CVarArgType", "setMaxClicked"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Click"]
+- ["Ps28CustomDebugStringConvertible", "Reset"]
+- ["Ps28CustomDebugStringConvertible", "counter"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "max"]
+- ["Ps28CustomDebugStringConvertible", "setMaxClicked"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Click"]
+- ["Ps23CustomStringConvertible", "Reset"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "counter"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "max"]
+- ["Ps23CustomStringConvertible", "setMaxClicked"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Click"]
+- ["Ps9Equatable", "Reset"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "counter"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "max"]
+- ["Ps9Equatable", "setMaxClicked"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "Click"]
+- ["Ps8Hashable", "Reset"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "counter"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "max"]
+- ["Ps8Hashable", "setMaxClicked"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "Click"]
+- ["PSo8NSCoding", "Reset"]
+- ["PSo8NSCoding", "counter"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "max"]
+- ["PSo8NSCoding", "setMaxClicked"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Click"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "Reset"]
+- ["CSo8NSObject", "counter"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "max"]
+- ["CSo8NSObject", "setMaxClicked"]
+- ["PSo16NSObjectProtocol", "Click"]
+- ["PSo16NSObjectProtocol", "Reset"]
+- ["PSo16NSObjectProtocol", "counter"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "max"]
+- ["PSo16NSObjectProtocol", "setMaxClicked"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C10Asia_shops17NumberClickButton", "Bool"]
+- ["C10Asia_shops17NumberClickButton", "Click"]
+- ["C10Asia_shops17NumberClickButton", "Int"]
+- ["C10Asia_shops17NumberClickButton", "NSCoder"]
+- ["C10Asia_shops17NumberClickButton", "Reset"]
+- ["C10Asia_shops17NumberClickButton", "counter"]
+- ["C10Asia_shops17NumberClickButton", "deinit"]
+- !private ["C10Asia_shops17NumberClickButton", "fatalError"]
+- ["C10Asia_shops17NumberClickButton", "init"]
+- ["C10Asia_shops17NumberClickButton", "max"]
+- ["C10Asia_shops17NumberClickButton", "setMaxClicked"]
+- !private ["Vs12StaticString", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "Click"]
+- ["PSo29UIAccessibilityIdentification", "Reset"]
+- ["PSo29UIAccessibilityIdentification", "counter"]
+- !private ["PSo29UIAccessibilityIdentification", "fatalError"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "max"]
+- ["PSo29UIAccessibilityIdentification", "setMaxClicked"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "Click"]
+- ["PSo12UIAppearance", "Reset"]
+- ["PSo12UIAppearance", "counter"]
+- !private ["PSo12UIAppearance", "fatalError"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "max"]
+- ["PSo12UIAppearance", "setMaxClicked"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "Click"]
+- ["PSo21UIAppearanceContainer", "Reset"]
+- ["PSo21UIAppearanceContainer", "counter"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "max"]
+- ["PSo21UIAppearanceContainer", "setMaxClicked"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "Bool"]
+- ["CSo8UIButton", "Click"]
+- ["CSo8UIButton", "Int"]
+- ["CSo8UIButton", "NSCoder"]
+- ["CSo8UIButton", "Reset"]
+- ["CSo8UIButton", "counter"]
+- !private ["CSo8UIButton", "fatalError"]
+- ["CSo8UIButton", "init"]
+- ["CSo8UIButton", "max"]
+- ["CSo8UIButton", "setMaxClicked"]
+- ["CSo8UIButton", ""]
+- ["CSo9UIControl", "Bool"]
+- ["CSo9UIControl", "Click"]
+- ["CSo9UIControl", "Int"]
+- ["CSo9UIControl", "NSCoder"]
+- ["CSo9UIControl", "Reset"]
+- ["CSo9UIControl", "counter"]
+- !private ["CSo9UIControl", "fatalError"]
+- ["CSo9UIControl", "init"]
+- ["CSo9UIControl", "max"]
+- ["CSo9UIControl", "setMaxClicked"]
+- ["PSo17UICoordinateSpace", "Click"]
+- ["PSo17UICoordinateSpace", "Reset"]
+- ["PSo17UICoordinateSpace", "counter"]
+- !private ["PSo17UICoordinateSpace", "fatalError"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "max"]
+- ["PSo17UICoordinateSpace", "setMaxClicked"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "Click"]
+- ["PSo13UIDynamicItem", "Reset"]
+- ["PSo13UIDynamicItem", "counter"]
+- !private ["PSo13UIDynamicItem", "fatalError"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "max"]
+- ["PSo13UIDynamicItem", "setMaxClicked"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "Click"]
+- ["PSo18UIFocusEnvironment", "Reset"]
+- ["PSo18UIFocusEnvironment", "counter"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "max"]
+- ["PSo18UIFocusEnvironment", "setMaxClicked"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Click"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "Reset"]
+- ["CSo11UIResponder", "counter"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "max"]
+- ["CSo11UIResponder", "setMaxClicked"]
+- ["PSo18UITraitEnvironment", "Click"]
+- ["PSo18UITraitEnvironment", "Reset"]
+- ["PSo18UITraitEnvironment", "counter"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "max"]
+- ["PSo18UITraitEnvironment", "setMaxClicked"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "Click"]
+- ["CSo6UIView", "Int"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "Reset"]
+- ["CSo6UIView", "counter"]
+- !private ["CSo6UIView", "fatalError"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "max"]
+- ["CSo6UIView", "setMaxClicked"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "Click"]
+- ["Ps12_Reflectable", "Reset"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "counter"]
+- !private ["Ps12_Reflectable", "fatalError"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "max"]
+- ["Ps12_Reflectable", "setMaxClicked"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10Asia_shops17NumberClickButton"
+- !private "Vs12StaticString"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+interface-hash: "b67dbbdad5e0b348facfc37948521318"

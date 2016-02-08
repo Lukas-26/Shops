@@ -16,7 +16,7 @@ class About: UIViewController, AboutViewDelegate, MFMailComposeViewControllerDel
     weak var aboutView : AboutView!
     
     override func loadView() {
-        super.loadView();
+        super.loadView()
     }
     
     override func viewDidLoad() {

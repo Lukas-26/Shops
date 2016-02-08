@@ -1,0 +1,467 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Alcohol_typeAttributes"
+- "Alcohol_typeRelationships"
+- "_Alcohol_type"
+provides-nominal:
+- "O10Asia_shops22Alcohol_typeAttributes"
+- "O10Asia_shops25Alcohol_typeRelationships"
+- "C10Asia_shops13_Alcohol_type"
+provides-member:
+- ["O10Asia_shops22Alcohol_typeAttributes", ""]
+- ["O10Asia_shops25Alcohol_typeRelationships", ""]
+- ["C10Asia_shops13_Alcohol_type", ""]
+- ["C10Asia_shops13_Alcohol_type", "addAlcoholtype_bottle"]
+- ["C10Asia_shops13_Alcohol_type", "removeAlcoholtype_bottle"]
+- ["C10Asia_shops13_Alcohol_type", "addAlcoholtype_bottleObject"]
+- ["C10Asia_shops13_Alcohol_type", "removeAlcoholtype_bottleObject"]
+provides-dynamic-lookup:
+- "type"
+- "alcoholtype_bottle"
+- "entity"
+- "addAlcoholtype_bottle"
+- "addAlcoholtype_bottleObject"
+- "removeAlcoholtype_bottleObject"
+- "entityName"
+- "removeAlcoholtype_bottle"
+depends-top-level:
+- "Alcohol_typeAttributes"
+- "=="
+- "Bottle"
+- !private "NSObject"
+- !private "~="
+- "NSManagedObject"
+- !private "Set"
+- "NSManagedObjectContext"
+- "StringLiteralType"
+- "_Alcohol_type"
+- "Alcohol_typeRelationships"
+- "NSEntityDescription"
+- !private "NSMutableSet"
+- "NSSet"
+- "String"
+depends-member:
+- ["O10Asia_shops22Alcohol_typeAttributes", "RawValue"]
+- ["O10Asia_shops22Alcohol_typeAttributes", "deinit"]
+- ["O10Asia_shops22Alcohol_typeAttributes", "hashValue"]
+- ["O10Asia_shops22Alcohol_typeAttributes", "init"]
+- ["O10Asia_shops22Alcohol_typeAttributes", "rawValue"]
+- ["O10Asia_shops22Alcohol_typeAttributes", "type"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "RawValue"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "alcoholtype_bottle"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "deinit"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "hashValue"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "init"]
+- ["O10Asia_shops25Alcohol_typeRelationships", "rawValue"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "_Alcohol_type"]
+- ["Ps9AnyObject", "addAlcoholtype_bottle"]
+- ["Ps9AnyObject", "addAlcoholtype_bottleObject"]
+- !private ["Ps9AnyObject", "addObject"]
+- ["Ps9AnyObject", "alcoholtype_bottle"]
+- !private ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "entity"]
+- !private ["Ps9AnyObject", "entityForName"]
+- ["Ps9AnyObject", "entityName"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "minusSet"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- ["Ps9AnyObject", "removeAlcoholtype_bottle"]
+- ["Ps9AnyObject", "removeAlcoholtype_bottleObject"]
+- !private ["Ps9AnyObject", "removeObject"]
+- ["Ps9AnyObject", "type"]
+- !private ["Ps9AnyObject", "unionSet"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "addObject"]
+- !private ["Ps23ArrayLiteralConvertible", "copy"]
+- !private ["Ps23ArrayLiteralConvertible", "minusSet"]
+- !private ["Ps23ArrayLiteralConvertible", "mutableCopy"]
+- !private ["Ps23ArrayLiteralConvertible", "removeObject"]
+- !private ["Ps23ArrayLiteralConvertible", "unionSet"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSEntityDescription"]
+- !private ["Ps11CVarArgType", "_Alcohol_type"]
+- ["Ps11CVarArgType", "addAlcoholtype_bottle"]
+- ["Ps11CVarArgType", "addAlcoholtype_bottleObject"]
+- !private ["Ps11CVarArgType", "addObject"]
+- ["Ps11CVarArgType", "alcoholtype_bottle"]
+- !private ["Ps11CVarArgType", "copy"]
+- ["Ps11CVarArgType", "entity"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- ["Ps11CVarArgType", "entityName"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "minusSet"]
+- !private ["Ps11CVarArgType", "mutableCopy"]
+- ["Ps11CVarArgType", "removeAlcoholtype_bottle"]
+- ["Ps11CVarArgType", "removeAlcoholtype_bottleObject"]
+- !private ["Ps11CVarArgType", "removeObject"]
+- ["Ps11CVarArgType", "type"]
+- !private ["Ps11CVarArgType", "unionSet"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "_Alcohol_type"]
+- ["Ps28CustomDebugStringConvertible", "addAlcoholtype_bottle"]
+- ["Ps28CustomDebugStringConvertible", "addAlcoholtype_bottleObject"]
+- !private ["Ps28CustomDebugStringConvertible", "addObject"]
+- ["Ps28CustomDebugStringConvertible", "alcoholtype_bottle"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- ["Ps28CustomDebugStringConvertible", "entity"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- ["Ps28CustomDebugStringConvertible", "entityName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "minusSet"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- ["Ps28CustomDebugStringConvertible", "removeAlcoholtype_bottle"]
+- ["Ps28CustomDebugStringConvertible", "removeAlcoholtype_bottleObject"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObject"]
+- ["Ps28CustomDebugStringConvertible", "type"]
+- !private ["Ps28CustomDebugStringConvertible", "unionSet"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "_Alcohol_type"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "addAlcoholtype_bottle"]
+- ["Ps23CustomStringConvertible", "addAlcoholtype_bottleObject"]
+- !private ["Ps23CustomStringConvertible", "addObject"]
+- ["Ps23CustomStringConvertible", "alcoholtype_bottle"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- ["Ps23CustomStringConvertible", "entity"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- ["Ps23CustomStringConvertible", "entityName"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "minusSet"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- ["Ps23CustomStringConvertible", "removeAlcoholtype_bottle"]
+- ["Ps23CustomStringConvertible", "removeAlcoholtype_bottleObject"]
+- !private ["Ps23CustomStringConvertible", "removeObject"]
+- ["Ps23CustomStringConvertible", "type"]
+- !private ["Ps23CustomStringConvertible", "unionSet"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_Alcohol_type"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "addAlcoholtype_bottle"]
+- ["Ps9Equatable", "addAlcoholtype_bottleObject"]
+- !private ["Ps9Equatable", "addObject"]
+- ["Ps9Equatable", "alcoholtype_bottle"]
+- !private ["Ps9Equatable", "copy"]
+- ["Ps9Equatable", "entity"]
+- !private ["Ps9Equatable", "entityForName"]
+- ["Ps9Equatable", "entityName"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "minusSet"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "removeAlcoholtype_bottle"]
+- ["Ps9Equatable", "removeAlcoholtype_bottleObject"]
+- !private ["Ps9Equatable", "removeObject"]
+- ["Ps9Equatable", "type"]
+- !private ["Ps9Equatable", "unionSet"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_Alcohol_type"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "addAlcoholtype_bottle"]
+- ["Ps8Hashable", "addAlcoholtype_bottleObject"]
+- !private ["Ps8Hashable", "addObject"]
+- ["Ps8Hashable", "alcoholtype_bottle"]
+- !private ["Ps8Hashable", "copy"]
+- ["Ps8Hashable", "entity"]
+- !private ["Ps8Hashable", "entityForName"]
+- ["Ps8Hashable", "entityName"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "minusSet"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "removeAlcoholtype_bottle"]
+- ["Ps8Hashable", "removeAlcoholtype_bottleObject"]
+- !private ["Ps8Hashable", "removeObject"]
+- ["Ps8Hashable", "type"]
+- !private ["Ps8Hashable", "unionSet"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "copy"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "minusSet"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "removeObject"]
+- !private ["PSo8NSCoding", "unionSet"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "copy"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "minusSet"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "removeObject"]
+- !private ["PSo9NSCopying", "unionSet"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "copy"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "minusSet"]
+- !private ["PSo17NSFastEnumeration", "mutableCopy"]
+- !private ["PSo17NSFastEnumeration", "removeObject"]
+- !private ["PSo17NSFastEnumeration", "unionSet"]
+- ["CSo15NSManagedObject", "Bottle"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- !private ["CSo15NSManagedObject", "NSMutableSet"]
+- !private ["CSo15NSManagedObject", "NSObject"]
+- ["CSo15NSManagedObject", "NSSet"]
+- !private ["CSo15NSManagedObject", "Set"]
+- ["CSo15NSManagedObject", "String"]
+- !private ["CSo15NSManagedObject", "_Alcohol_type"]
+- ["CSo15NSManagedObject", "addAlcoholtype_bottle"]
+- ["CSo15NSManagedObject", "addAlcoholtype_bottleObject"]
+- ["CSo15NSManagedObject", "alcoholtype_bottle"]
+- ["CSo15NSManagedObject", "entity"]
+- ["CSo15NSManagedObject", "entityName"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "removeAlcoholtype_bottle"]
+- ["CSo15NSManagedObject", "removeAlcoholtype_bottleObject"]
+- ["CSo15NSManagedObject", "type"]
+- ["CSo15NSManagedObject", ""]
+- !private ["PSo16NSMutableCopying", "addObject"]
+- !private ["PSo16NSMutableCopying", "copy"]
+- !private ["PSo16NSMutableCopying", "minusSet"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["PSo16NSMutableCopying", "removeObject"]
+- !private ["PSo16NSMutableCopying", "unionSet"]
+- !private ["CSo12NSMutableSet", "addObject"]
+- !private ["CSo12NSMutableSet", "copy"]
+- !private ["CSo12NSMutableSet", "minusSet"]
+- !private ["CSo12NSMutableSet", "removeObject"]
+- !private ["CSo12NSMutableSet", "unionSet"]
+- ["CSo8NSObject", "Bottle"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "NSMutableSet"]
+- !private ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSSet"]
+- !private ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "_Alcohol_type"]
+- ["CSo8NSObject", "addAlcoholtype_bottle"]
+- ["CSo8NSObject", "addAlcoholtype_bottleObject"]
+- !private ["CSo8NSObject", "addObject"]
+- ["CSo8NSObject", "alcoholtype_bottle"]
+- !private ["CSo8NSObject", "copy"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "entity"]
+- !private ["CSo8NSObject", "entityForName"]
+- ["CSo8NSObject", "entityName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "minusSet"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- ["CSo8NSObject", "removeAlcoholtype_bottle"]
+- ["CSo8NSObject", "removeAlcoholtype_bottleObject"]
+- !private ["CSo8NSObject", "removeObject"]
+- ["CSo8NSObject", "type"]
+- !private ["CSo8NSObject", "unionSet"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "_Alcohol_type"]
+- ["PSo16NSObjectProtocol", "addAlcoholtype_bottle"]
+- ["PSo16NSObjectProtocol", "addAlcoholtype_bottleObject"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- ["PSo16NSObjectProtocol", "alcoholtype_bottle"]
+- !private ["PSo16NSObjectProtocol", "copy"]
+- ["PSo16NSObjectProtocol", "entity"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- ["PSo16NSObjectProtocol", "entityName"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "minusSet"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- ["PSo16NSObjectProtocol", "removeAlcoholtype_bottle"]
+- ["PSo16NSObjectProtocol", "removeAlcoholtype_bottleObject"]
+- !private ["PSo16NSObjectProtocol", "removeObject"]
+- ["PSo16NSObjectProtocol", "type"]
+- !private ["PSo16NSObjectProtocol", "unionSet"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "addObject"]
+- !private ["PSo14NSSecureCoding", "copy"]
+- !private ["PSo14NSSecureCoding", "minusSet"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "removeObject"]
+- !private ["PSo14NSSecureCoding", "unionSet"]
+- !private ["CSo5NSSet", "addObject"]
+- !private ["CSo5NSSet", "copy"]
+- !private ["CSo5NSSet", "deinit"]
+- !private ["CSo5NSSet", "minusSet"]
+- !private ["CSo5NSSet", "mutableCopy"]
+- !private ["CSo5NSSet", "removeObject"]
+- !private ["CSo5NSSet", "unionSet"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps12SequenceType", "addObject"]
+- !private ["Ps12SequenceType", "copy"]
+- !private ["Ps12SequenceType", "minusSet"]
+- !private ["Ps12SequenceType", "mutableCopy"]
+- !private ["Ps12SequenceType", "removeObject"]
+- !private ["Ps12SequenceType", "unionSet"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["C10Asia_shops13_Alcohol_type", "Bottle"]
+- ["C10Asia_shops13_Alcohol_type", "NSEntityDescription"]
+- ["C10Asia_shops13_Alcohol_type", "NSManagedObjectContext"]
+- !private ["C10Asia_shops13_Alcohol_type", "NSMutableSet"]
+- !private ["C10Asia_shops13_Alcohol_type", "NSObject"]
+- ["C10Asia_shops13_Alcohol_type", "NSSet"]
+- !private ["C10Asia_shops13_Alcohol_type", "Set"]
+- ["C10Asia_shops13_Alcohol_type", "String"]
+- !private ["C10Asia_shops13_Alcohol_type", "_Alcohol_type"]
+- ["C10Asia_shops13_Alcohol_type", "addAlcoholtype_bottle"]
+- ["C10Asia_shops13_Alcohol_type", "addAlcoholtype_bottleObject"]
+- ["C10Asia_shops13_Alcohol_type", "alcoholtype_bottle"]
+- ["C10Asia_shops13_Alcohol_type", "deinit"]
+- ["C10Asia_shops13_Alcohol_type", "entity"]
+- ["C10Asia_shops13_Alcohol_type", "entityName"]
+- ["C10Asia_shops13_Alcohol_type", "init"]
+- ["C10Asia_shops13_Alcohol_type", "removeAlcoholtype_bottle"]
+- ["C10Asia_shops13_Alcohol_type", "removeAlcoholtype_bottleObject"]
+- ["C10Asia_shops13_Alcohol_type", "type"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addObject"]
+- !private ["Ps12_Reflectable", "copy"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "minusSet"]
+- !private ["Ps12_Reflectable", "mutableCopy"]
+- !private ["Ps12_Reflectable", "removeObject"]
+- !private ["Ps12_Reflectable", "unionSet"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "O10Asia_shops22Alcohol_typeAttributes"
+- "O10Asia_shops25Alcohol_typeRelationships"
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo12NSMutableSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "CSo8NSString"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- "C10Asia_shops13_Alcohol_type"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+interface-hash: "2c54f4fd806a14fd30e4e7742df280c4"

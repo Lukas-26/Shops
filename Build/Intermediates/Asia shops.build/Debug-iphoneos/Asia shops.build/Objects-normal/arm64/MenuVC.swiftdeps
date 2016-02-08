@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 - "tableView"
 - "tableView"
-- "MenuArray"
 - "viewDidLoad"
+- "MenuArray"
 depends-top-level:
-- !private "StringLiteralType"
-- "UITableViewCell"
-- "Int"
-- !private "Array"
 - "UITableViewController"
-- "UITableView"
-- "NSIndexPath"
-- "String"
 - "MenuVC"
+- "String"
+- "UITableViewCell"
+- "NSIndexPath"
+- "Int"
+- !private "StringLiteralType"
+- !private "Array"
+- "UITableView"
 depends-member:
 - ["Ps9AnyObject", "MenuArray"]
 - ["Ps9AnyObject", "String"]
@@ -505,6 +505,7 @@ depends-external:
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
@@ -540,5 +541,4 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 interface-hash: "82cd56aead8bb97bb5375f1c760931da"

@@ -7,8 +7,8 @@ provides-member:
 - ["C10Asia_shops3Rel", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "NSManagedObject"
 - "Rel"
-- "_Rel"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", ""]
@@ -23,13 +23,12 @@ depends-member:
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", ""]
 - ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", ""]
 - ["CSo8NSObject", "init"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", ""]
 - ["C10Asia_shops3Rel", "deinit"]
 - ["C10Asia_shops3Rel", "init"]
-- ["C10Asia_shops4_Rel", "init"]
-- ["C10Asia_shops4_Rel", ""]
 depends-nominal:
 - "Ps9AnyObject"
 - "Ps11CVarArgType"
@@ -41,7 +40,6 @@ depends-nominal:
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "C10Asia_shops3Rel"
-- "C10Asia_shops4_Rel"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -90,4 +88,4 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules/module.modulemap"
-interface-hash: "f23c70cd738f15ba3536f9054fa414e4"
+interface-hash: "77c4b7baa08b9a59834485a8dd9e7818"

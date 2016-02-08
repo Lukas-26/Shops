@@ -6,20 +6,20 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops6MenuVC", ""]
 provides-dynamic-lookup:
-- "tableView"
-- "tableView"
 - "viewDidLoad"
+- "tableView"
+- "tableView"
 - "MenuArray"
 depends-top-level:
-- "UITableViewController"
-- "UITableViewCell"
-- "String"
-- !private "StringLiteralType"
-- "MenuVC"
-- "Int"
-- "NSIndexPath"
 - "UITableView"
+- "String"
+- "NSIndexPath"
 - !private "Array"
+- "UITableViewController"
+- "Int"
+- "UITableViewCell"
+- "MenuVC"
+- !private "StringLiteralType"
 depends-member:
 - ["Ps9AnyObject", "MenuArray"]
 - ["Ps9AnyObject", "String"]

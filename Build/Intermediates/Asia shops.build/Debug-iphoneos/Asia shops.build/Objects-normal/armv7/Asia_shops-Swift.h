@@ -95,8 +95,11 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import MessageUI;
 @import CoreGraphics;
+@import CoreData;
 @import MapKit;
 @import CoreLocation;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -135,6 +138,21 @@ SWIFT_CLASS("_TtC10Asia_shops9AboutView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("Alcohol_type")
+@interface Alcohol_type : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSSet;
+
+@interface Alcohol_type (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, copy) NSString * _Nullable type;
+@property (nonatomic, strong) NSSet * _Nullable alcoholtype_bottle;
+@end
+
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
@@ -149,6 +167,58 @@ SWIFT_CLASS("_TtC10Asia_shops11AppDelegate")
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Bottle")
+@interface Bottle : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSNumber;
+@class Bottle_image;
+
+@interface Bottle (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, copy) NSString * _Nullable descript;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, strong) NSNumber * _Nullable vol;
+@property (nonatomic, strong) Alcohol_type * _Nullable bottle_alctype;
+@property (nonatomic, strong) Bottle_image * _Nullable bottle_image;
+@property (nonatomic, strong) NSSet * _Nullable bottle_rel;
+@end
+
+
+SWIFT_CLASS_NAMED("Bottle_image")
+@interface Bottle_image : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSData;
+
+@interface Bottle_image (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, strong) NSData * _Nullable image_name;
+@property (nonatomic, strong) NSSet * _Nullable bottleimage_bottle;
+@end
+
+
+SWIFT_CLASS("_TtC10Asia_shops18ButtonWithNSObject")
+@interface ButtonWithNSObject : UIButton
+@property (nonatomic, strong) NSManagedObject * _Nullable object;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Days")
+@interface Days : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Days (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, copy) NSString * _Nullable shortcut;
+@property (nonatomic, strong) NSSet * _Nullable days_opentime;
 @end
 
 @class MKPointAnnotation;
@@ -179,6 +249,8 @@ SWIFT_CLASS("_TtC10Asia_shops3Map")
 - (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)addAnnotation;
 - (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view calloutAccessoryControlTapped:(UIControl * _Nonnull)control;
 - (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view didChangeDragState:(MKAnnotationViewDragState)newState fromOldState:(MKAnnotationViewDragState)oldState;
+- (void)showShops;
+- (void)showShopDetail:(ButtonWithNSObject * _Nonnull)target;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -201,20 +273,34 @@ SWIFT_CLASS("_TtC10Asia_shops6MenuVC")
 @end
 
 @class UIImagePickerController;
+@class UIPickerView;
 @class UIImageView;
 @class UITextField;
-@class UILabel;
+@class UIScrollView;
 
 SWIFT_CLASS("_TtC10Asia_shops17NewShopController")
-@interface NewShopController : UIViewController <MKMapViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
+@interface NewShopController : UIViewController <MKMapViewDelegate, UIImagePickerControllerDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
 @property (nonatomic, strong) MKPointAnnotation * _Nullable shopAnnotation;
 @property (nonatomic, weak) MKMapView * _Null_unspecified map;
 @property (nonatomic, weak) UIImageView * _Null_unspecified img;
+@property (nonatomic, weak) UIButton * _Null_unspecified addDays;
 @property (nonatomic, readonly, strong) UIImagePickerController * _Nonnull picker;
-@property (nonatomic, weak) UILabel * _Null_unspecified name;
 @property (nonatomic, weak) UITextField * _Null_unspecified textName;
+@property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull unusedDays;
+@property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull usedDays;
+@property (nonatomic, copy) NSDictionary<NSManagedObject *, NSNumber *> * _Nonnull opentime;
+@property (nonatomic, copy) NSDictionary<NSManagedObject *, NSNumber *> * _Nonnull closetime;
+@property (nonatomic) BOOL isImage;
+@property (nonatomic, weak) UIScrollView * _Nullable timesView;
+@property (nonatomic, strong) UIView * _Nonnull actionView;
+@property (nonatomic, strong) UIPickerView * _Nonnull pickerDays;
 - (void)viewDidLoad;
+- (void)loadDays;
 - (void)cameraPicker:(UIImageView * _Nonnull)img;
+- (void)timePicker:(UIImageView * _Nonnull)img;
+- (void)daysPickerDoneClicked:(UIBarButtonItem * _Nonnull)from;
+- (void)cancelPickerSelectionButtonClicked:(UIBarButtonItem * _Nonnull)from;
+- (void)hidePicker;
 - (void)selectFromGallery;
 - (void)takePhoto;
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
@@ -223,9 +309,69 @@ SWIFT_CLASS("_TtC10Asia_shops17NewShopController")
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
 - (void)nameEditing:(UITextField * _Nonnull)source;
 - (void)saveShop:(UIBarButtonItem * _Nonnull)source;
+- (void)ShowAlert:(NSString * _Nonnull)title string:(NSString * _Nonnull)string;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)_pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
 - (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Asia_shops17NumberClickButton")
+@interface NumberClickButton : UIButton
+@property (nonatomic) NSInteger counter;
+@property (nonatomic) NSInteger max;
+- (void)setMaxClicked:(NSInteger)maxClicked;
+- (void)Reset;
+- (BOOL)Click;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Open_time")
+@interface Open_time : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class Shop;
+
+@interface Open_time (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, strong) NSNumber * _Nullable from;
+@property (nonatomic, strong) NSNumber * _Nullable nonstop;
+@property (nonatomic, strong) NSNumber * _Nullable to;
+@property (nonatomic, strong) Days * _Nullable time_days;
+@property (nonatomic, strong) Shop * _Nullable time_shop;
+@end
+
+
+SWIFT_CLASS_NAMED("Rating")
+@interface Rating : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSDate;
+
+@interface Rating (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, strong) NSDate * _Nullable date;
+@property (nonatomic, strong) NSNumber * _Nullable star;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic, strong) Shop * _Nullable rating_shop;
+@end
+
+
+SWIFT_CLASS_NAMED("Rel")
+@interface Rel : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Rel (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, strong) NSNumber * _Nullable prize;
+@property (nonatomic, strong) NSNumber * _Nullable size;
+@property (nonatomic, strong) Bottle * _Nullable rel_bottle;
+@property (nonatomic, strong) Shop * _Nullable rel_shop;
 @end
 
 
@@ -235,6 +381,62 @@ SWIFT_CLASS("_TtC10Asia_shops6Seznam")
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Shop")
+@interface Shop : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Shop (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, copy) NSString * _Nullable descript;
+@property (nonatomic, strong) NSNumber * _Nullable latitude;
+@property (nonatomic, strong) NSNumber * _Nullable longitude;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, strong) NSSet * _Nullable shop_image;
+@property (nonatomic, strong) NSSet * _Nullable shop_opentime;
+@property (nonatomic, strong) NSSet * _Nullable shop_rating;
+@property (nonatomic, strong) NSSet * _Nullable shop_rel;
+@end
+
+@class UIColor;
+
+SWIFT_CLASS("_TtC10Asia_shops14ShopAnnotation")
+@interface ShopAnnotation : MKPointAnnotation <NSCopying>
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic) double rating;
++ (UIColor * _Nonnull)color;
++ (void)setColor:(UIColor * _Nonnull)value;
+@property (nonatomic, strong) NSManagedObject * _Nullable shop;
+- (nonnull instancetype)initWithName:(NSString * _Nonnull)name coord:(CLLocationCoordinate2D)coord rating:(double)rating shop:(NSManagedObject * _Nullable)shop OBJC_DESIGNATED_INITIALIZER;
+- (id _Nonnull)copyWithZone:(struct _NSZone * _Null_unspecified)zone;
+@end
+
+
+SWIFT_CLASS("_TtC10Asia_shops14ShopController")
+@interface ShopController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, strong) NSManagedObject * _Nullable shop;
+@property (nonatomic, weak) UIImageView * _Nullable shopImage;
+@property (nonatomic, weak) UIView * _Nullable textView;
+- (void)viewDidLoad;
+- (void)enterToShop:(UIButton * _Nonnull)button;
+- (double)calculateRating;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("Shop_image")
+@interface Shop_image : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface Shop_image (SWIFT_EXTENSION(Asia_shops))
+@property (nonatomic, strong) NSData * _Nullable image_name;
+@property (nonatomic, strong) Shop * _Nullable shopimage_shop;
 @end
 
 #pragma clang diagnostic pop

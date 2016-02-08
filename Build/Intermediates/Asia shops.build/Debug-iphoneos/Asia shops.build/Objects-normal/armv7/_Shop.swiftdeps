@@ -1,0 +1,699 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShopAttributes"
+- "ShopRelationships"
+- "_Shop"
+provides-nominal:
+- "O10Asia_shops14ShopAttributes"
+- "O10Asia_shops17ShopRelationships"
+- "C10Asia_shops5_Shop"
+provides-member:
+- ["O10Asia_shops14ShopAttributes", ""]
+- ["O10Asia_shops17ShopRelationships", ""]
+- ["C10Asia_shops5_Shop", ""]
+- ["C10Asia_shops5_Shop", "addShop_image"]
+- ["C10Asia_shops5_Shop", "removeShop_image"]
+- ["C10Asia_shops5_Shop", "addShop_imageObject"]
+- ["C10Asia_shops5_Shop", "removeShop_imageObject"]
+- ["C10Asia_shops5_Shop", "addShop_opentime"]
+- ["C10Asia_shops5_Shop", "removeShop_opentime"]
+- ["C10Asia_shops5_Shop", "addShop_opentimeObject"]
+- ["C10Asia_shops5_Shop", "removeShop_opentimeObject"]
+- ["C10Asia_shops5_Shop", "addShop_rating"]
+- ["C10Asia_shops5_Shop", "removeShop_rating"]
+- ["C10Asia_shops5_Shop", "addShop_ratingObject"]
+- ["C10Asia_shops5_Shop", "removeShop_ratingObject"]
+- ["C10Asia_shops5_Shop", "addShop_rel"]
+- ["C10Asia_shops5_Shop", "removeShop_rel"]
+- ["C10Asia_shops5_Shop", "addShop_relObject"]
+- ["C10Asia_shops5_Shop", "removeShop_relObject"]
+provides-dynamic-lookup:
+- "longitude"
+- "name"
+- "addShop_ratingObject"
+- "removeShop_rel"
+- "addShop_image"
+- "addShop_opentime"
+- "shop_rating"
+- "descript"
+- "entity"
+- "removeShop_image"
+- "addShop_relObject"
+- "removeShop_relObject"
+- "addShop_rel"
+- "shop_opentime"
+- "addShop_opentimeObject"
+- "addShop_imageObject"
+- "removeShop_opentimeObject"
+- "removeShop_rating"
+- "latitude"
+- "removeShop_imageObject"
+- "removeShop_ratingObject"
+- "shop_image"
+- "addShop_rating"
+- "entityName"
+- "shop_rel"
+- "removeShop_opentime"
+depends-top-level:
+- "NSManagedObjectContext"
+- !private "~="
+- !private "NSMutableSet"
+- "NSSet"
+- "Rating"
+- !private "NSObject"
+- "NSManagedObject"
+- "_Shop"
+- "=="
+- "String"
+- "NSNumber"
+- "StringLiteralType"
+- "ShopAttributes"
+- "Rel"
+- !private "Set"
+- "Shop_image"
+- "NSEntityDescription"
+- "ShopRelationships"
+- "Open_time"
+depends-member:
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "_Shop"]
+- !private ["Ps9AnyObject", "addObject"]
+- ["Ps9AnyObject", "addShop_image"]
+- ["Ps9AnyObject", "addShop_imageObject"]
+- ["Ps9AnyObject", "addShop_opentime"]
+- ["Ps9AnyObject", "addShop_opentimeObject"]
+- ["Ps9AnyObject", "addShop_rating"]
+- ["Ps9AnyObject", "addShop_ratingObject"]
+- ["Ps9AnyObject", "addShop_rel"]
+- ["Ps9AnyObject", "addShop_relObject"]
+- !private ["Ps9AnyObject", "copy"]
+- ["Ps9AnyObject", "descript"]
+- ["Ps9AnyObject", "entity"]
+- !private ["Ps9AnyObject", "entityForName"]
+- ["Ps9AnyObject", "entityName"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "latitude"]
+- ["Ps9AnyObject", "longitude"]
+- !private ["Ps9AnyObject", "minusSet"]
+- !private ["Ps9AnyObject", "mutableCopy"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "removeObject"]
+- ["Ps9AnyObject", "removeShop_image"]
+- ["Ps9AnyObject", "removeShop_imageObject"]
+- ["Ps9AnyObject", "removeShop_opentime"]
+- ["Ps9AnyObject", "removeShop_opentimeObject"]
+- ["Ps9AnyObject", "removeShop_rating"]
+- ["Ps9AnyObject", "removeShop_ratingObject"]
+- ["Ps9AnyObject", "removeShop_rel"]
+- ["Ps9AnyObject", "removeShop_relObject"]
+- ["Ps9AnyObject", "shop_image"]
+- ["Ps9AnyObject", "shop_opentime"]
+- ["Ps9AnyObject", "shop_rating"]
+- ["Ps9AnyObject", "shop_rel"]
+- !private ["Ps9AnyObject", "unionSet"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23ArrayLiteralConvertible", "addObject"]
+- !private ["Ps23ArrayLiteralConvertible", "copy"]
+- !private ["Ps23ArrayLiteralConvertible", "minusSet"]
+- !private ["Ps23ArrayLiteralConvertible", "mutableCopy"]
+- !private ["Ps23ArrayLiteralConvertible", "removeObject"]
+- !private ["Ps23ArrayLiteralConvertible", "unionSet"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "NSEntityDescription"]
+- !private ["Ps11CVarArgType", "_Shop"]
+- !private ["Ps11CVarArgType", "addObject"]
+- ["Ps11CVarArgType", "addShop_image"]
+- ["Ps11CVarArgType", "addShop_imageObject"]
+- ["Ps11CVarArgType", "addShop_opentime"]
+- ["Ps11CVarArgType", "addShop_opentimeObject"]
+- ["Ps11CVarArgType", "addShop_rating"]
+- ["Ps11CVarArgType", "addShop_ratingObject"]
+- ["Ps11CVarArgType", "addShop_rel"]
+- ["Ps11CVarArgType", "addShop_relObject"]
+- !private ["Ps11CVarArgType", "copy"]
+- ["Ps11CVarArgType", "descript"]
+- ["Ps11CVarArgType", "entity"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- ["Ps11CVarArgType", "entityName"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "latitude"]
+- ["Ps11CVarArgType", "longitude"]
+- !private ["Ps11CVarArgType", "minusSet"]
+- !private ["Ps11CVarArgType", "mutableCopy"]
+- ["Ps11CVarArgType", "name"]
+- !private ["Ps11CVarArgType", "removeObject"]
+- ["Ps11CVarArgType", "removeShop_image"]
+- ["Ps11CVarArgType", "removeShop_imageObject"]
+- ["Ps11CVarArgType", "removeShop_opentime"]
+- ["Ps11CVarArgType", "removeShop_opentimeObject"]
+- ["Ps11CVarArgType", "removeShop_rating"]
+- ["Ps11CVarArgType", "removeShop_ratingObject"]
+- ["Ps11CVarArgType", "removeShop_rel"]
+- ["Ps11CVarArgType", "removeShop_relObject"]
+- ["Ps11CVarArgType", "shop_image"]
+- ["Ps11CVarArgType", "shop_opentime"]
+- ["Ps11CVarArgType", "shop_rating"]
+- ["Ps11CVarArgType", "shop_rel"]
+- !private ["Ps11CVarArgType", "unionSet"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "_Shop"]
+- !private ["Ps28CustomDebugStringConvertible", "addObject"]
+- ["Ps28CustomDebugStringConvertible", "addShop_image"]
+- ["Ps28CustomDebugStringConvertible", "addShop_imageObject"]
+- ["Ps28CustomDebugStringConvertible", "addShop_opentime"]
+- ["Ps28CustomDebugStringConvertible", "addShop_opentimeObject"]
+- ["Ps28CustomDebugStringConvertible", "addShop_rating"]
+- ["Ps28CustomDebugStringConvertible", "addShop_ratingObject"]
+- ["Ps28CustomDebugStringConvertible", "addShop_rel"]
+- ["Ps28CustomDebugStringConvertible", "addShop_relObject"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- ["Ps28CustomDebugStringConvertible", "descript"]
+- ["Ps28CustomDebugStringConvertible", "entity"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- ["Ps28CustomDebugStringConvertible", "entityName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "latitude"]
+- ["Ps28CustomDebugStringConvertible", "longitude"]
+- !private ["Ps28CustomDebugStringConvertible", "minusSet"]
+- !private ["Ps28CustomDebugStringConvertible", "mutableCopy"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObject"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_image"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_imageObject"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_opentime"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_opentimeObject"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_rating"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_ratingObject"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_rel"]
+- ["Ps28CustomDebugStringConvertible", "removeShop_relObject"]
+- ["Ps28CustomDebugStringConvertible", "shop_image"]
+- ["Ps28CustomDebugStringConvertible", "shop_opentime"]
+- ["Ps28CustomDebugStringConvertible", "shop_rating"]
+- ["Ps28CustomDebugStringConvertible", "shop_rel"]
+- !private ["Ps28CustomDebugStringConvertible", "unionSet"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "_Shop"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObject"]
+- ["Ps23CustomStringConvertible", "addShop_image"]
+- ["Ps23CustomStringConvertible", "addShop_imageObject"]
+- ["Ps23CustomStringConvertible", "addShop_opentime"]
+- ["Ps23CustomStringConvertible", "addShop_opentimeObject"]
+- ["Ps23CustomStringConvertible", "addShop_rating"]
+- ["Ps23CustomStringConvertible", "addShop_ratingObject"]
+- ["Ps23CustomStringConvertible", "addShop_rel"]
+- ["Ps23CustomStringConvertible", "addShop_relObject"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- ["Ps23CustomStringConvertible", "descript"]
+- ["Ps23CustomStringConvertible", "entity"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- ["Ps23CustomStringConvertible", "entityName"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "latitude"]
+- ["Ps23CustomStringConvertible", "longitude"]
+- !private ["Ps23CustomStringConvertible", "minusSet"]
+- !private ["Ps23CustomStringConvertible", "mutableCopy"]
+- ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "removeObject"]
+- ["Ps23CustomStringConvertible", "removeShop_image"]
+- ["Ps23CustomStringConvertible", "removeShop_imageObject"]
+- ["Ps23CustomStringConvertible", "removeShop_opentime"]
+- ["Ps23CustomStringConvertible", "removeShop_opentimeObject"]
+- ["Ps23CustomStringConvertible", "removeShop_rating"]
+- ["Ps23CustomStringConvertible", "removeShop_ratingObject"]
+- ["Ps23CustomStringConvertible", "removeShop_rel"]
+- ["Ps23CustomStringConvertible", "removeShop_relObject"]
+- ["Ps23CustomStringConvertible", "shop_image"]
+- ["Ps23CustomStringConvertible", "shop_opentime"]
+- ["Ps23CustomStringConvertible", "shop_rating"]
+- ["Ps23CustomStringConvertible", "shop_rel"]
+- !private ["Ps23CustomStringConvertible", "unionSet"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_Shop"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObject"]
+- ["Ps9Equatable", "addShop_image"]
+- ["Ps9Equatable", "addShop_imageObject"]
+- ["Ps9Equatable", "addShop_opentime"]
+- ["Ps9Equatable", "addShop_opentimeObject"]
+- ["Ps9Equatable", "addShop_rating"]
+- ["Ps9Equatable", "addShop_ratingObject"]
+- ["Ps9Equatable", "addShop_rel"]
+- ["Ps9Equatable", "addShop_relObject"]
+- !private ["Ps9Equatable", "copy"]
+- ["Ps9Equatable", "descript"]
+- ["Ps9Equatable", "entity"]
+- !private ["Ps9Equatable", "entityForName"]
+- ["Ps9Equatable", "entityName"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "latitude"]
+- ["Ps9Equatable", "longitude"]
+- !private ["Ps9Equatable", "minusSet"]
+- !private ["Ps9Equatable", "mutableCopy"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "removeObject"]
+- ["Ps9Equatable", "removeShop_image"]
+- ["Ps9Equatable", "removeShop_imageObject"]
+- ["Ps9Equatable", "removeShop_opentime"]
+- ["Ps9Equatable", "removeShop_opentimeObject"]
+- ["Ps9Equatable", "removeShop_rating"]
+- ["Ps9Equatable", "removeShop_ratingObject"]
+- ["Ps9Equatable", "removeShop_rel"]
+- ["Ps9Equatable", "removeShop_relObject"]
+- ["Ps9Equatable", "shop_image"]
+- ["Ps9Equatable", "shop_opentime"]
+- ["Ps9Equatable", "shop_rating"]
+- ["Ps9Equatable", "shop_rel"]
+- !private ["Ps9Equatable", "unionSet"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_Shop"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObject"]
+- ["Ps8Hashable", "addShop_image"]
+- ["Ps8Hashable", "addShop_imageObject"]
+- ["Ps8Hashable", "addShop_opentime"]
+- ["Ps8Hashable", "addShop_opentimeObject"]
+- ["Ps8Hashable", "addShop_rating"]
+- ["Ps8Hashable", "addShop_ratingObject"]
+- ["Ps8Hashable", "addShop_rel"]
+- ["Ps8Hashable", "addShop_relObject"]
+- !private ["Ps8Hashable", "copy"]
+- ["Ps8Hashable", "descript"]
+- ["Ps8Hashable", "entity"]
+- !private ["Ps8Hashable", "entityForName"]
+- ["Ps8Hashable", "entityName"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "latitude"]
+- ["Ps8Hashable", "longitude"]
+- !private ["Ps8Hashable", "minusSet"]
+- !private ["Ps8Hashable", "mutableCopy"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "removeObject"]
+- ["Ps8Hashable", "removeShop_image"]
+- ["Ps8Hashable", "removeShop_imageObject"]
+- ["Ps8Hashable", "removeShop_opentime"]
+- ["Ps8Hashable", "removeShop_opentimeObject"]
+- ["Ps8Hashable", "removeShop_rating"]
+- ["Ps8Hashable", "removeShop_ratingObject"]
+- ["Ps8Hashable", "removeShop_rel"]
+- ["Ps8Hashable", "removeShop_relObject"]
+- ["Ps8Hashable", "shop_image"]
+- ["Ps8Hashable", "shop_opentime"]
+- ["Ps8Hashable", "shop_rating"]
+- ["Ps8Hashable", "shop_rel"]
+- !private ["Ps8Hashable", "unionSet"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "copy"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "minusSet"]
+- !private ["PSo8NSCoding", "mutableCopy"]
+- !private ["PSo8NSCoding", "removeObject"]
+- !private ["PSo8NSCoding", "unionSet"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "copy"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "minusSet"]
+- !private ["PSo9NSCopying", "mutableCopy"]
+- !private ["PSo9NSCopying", "removeObject"]
+- !private ["PSo9NSCopying", "unionSet"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "copy"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "minusSet"]
+- !private ["PSo17NSFastEnumeration", "mutableCopy"]
+- !private ["PSo17NSFastEnumeration", "removeObject"]
+- !private ["PSo17NSFastEnumeration", "unionSet"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- !private ["CSo15NSManagedObject", "NSMutableSet"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- !private ["CSo15NSManagedObject", "NSObject"]
+- ["CSo15NSManagedObject", "NSSet"]
+- ["CSo15NSManagedObject", "Open_time"]
+- ["CSo15NSManagedObject", "Rating"]
+- ["CSo15NSManagedObject", "Rel"]
+- !private ["CSo15NSManagedObject", "Set"]
+- ["CSo15NSManagedObject", "Shop_image"]
+- ["CSo15NSManagedObject", "String"]
+- !private ["CSo15NSManagedObject", "_Shop"]
+- ["CSo15NSManagedObject", "addShop_image"]
+- ["CSo15NSManagedObject", "addShop_imageObject"]
+- ["CSo15NSManagedObject", "addShop_opentime"]
+- ["CSo15NSManagedObject", "addShop_opentimeObject"]
+- ["CSo15NSManagedObject", "addShop_rating"]
+- ["CSo15NSManagedObject", "addShop_ratingObject"]
+- ["CSo15NSManagedObject", "addShop_rel"]
+- ["CSo15NSManagedObject", "addShop_relObject"]
+- ["CSo15NSManagedObject", "descript"]
+- ["CSo15NSManagedObject", "entity"]
+- ["CSo15NSManagedObject", "entityName"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "latitude"]
+- ["CSo15NSManagedObject", "longitude"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "removeShop_image"]
+- ["CSo15NSManagedObject", "removeShop_imageObject"]
+- ["CSo15NSManagedObject", "removeShop_opentime"]
+- ["CSo15NSManagedObject", "removeShop_opentimeObject"]
+- ["CSo15NSManagedObject", "removeShop_rating"]
+- ["CSo15NSManagedObject", "removeShop_ratingObject"]
+- ["CSo15NSManagedObject", "removeShop_rel"]
+- ["CSo15NSManagedObject", "removeShop_relObject"]
+- ["CSo15NSManagedObject", "shop_image"]
+- ["CSo15NSManagedObject", "shop_opentime"]
+- ["CSo15NSManagedObject", "shop_rating"]
+- ["CSo15NSManagedObject", "shop_rel"]
+- ["CSo15NSManagedObject", ""]
+- !private ["PSo16NSMutableCopying", "addObject"]
+- !private ["PSo16NSMutableCopying", "copy"]
+- !private ["PSo16NSMutableCopying", "minusSet"]
+- !private ["PSo16NSMutableCopying", "mutableCopy"]
+- !private ["PSo16NSMutableCopying", "removeObject"]
+- !private ["PSo16NSMutableCopying", "unionSet"]
+- !private ["CSo12NSMutableSet", "addObject"]
+- !private ["CSo12NSMutableSet", "copy"]
+- !private ["CSo12NSMutableSet", "minusSet"]
+- !private ["CSo12NSMutableSet", "removeObject"]
+- !private ["CSo12NSMutableSet", "unionSet"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "NSMutableSet"]
+- ["CSo8NSObject", "NSNumber"]
+- !private ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSSet"]
+- ["CSo8NSObject", "Open_time"]
+- ["CSo8NSObject", "Rating"]
+- ["CSo8NSObject", "Rel"]
+- !private ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "Shop_image"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "_Shop"]
+- !private ["CSo8NSObject", "addObject"]
+- ["CSo8NSObject", "addShop_image"]
+- ["CSo8NSObject", "addShop_imageObject"]
+- ["CSo8NSObject", "addShop_opentime"]
+- ["CSo8NSObject", "addShop_opentimeObject"]
+- ["CSo8NSObject", "addShop_rating"]
+- ["CSo8NSObject", "addShop_ratingObject"]
+- ["CSo8NSObject", "addShop_rel"]
+- ["CSo8NSObject", "addShop_relObject"]
+- !private ["CSo8NSObject", "copy"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "descript"]
+- ["CSo8NSObject", "entity"]
+- !private ["CSo8NSObject", "entityForName"]
+- ["CSo8NSObject", "entityName"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "latitude"]
+- ["CSo8NSObject", "longitude"]
+- !private ["CSo8NSObject", "minusSet"]
+- !private ["CSo8NSObject", "mutableCopy"]
+- ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "removeObject"]
+- ["CSo8NSObject", "removeShop_image"]
+- ["CSo8NSObject", "removeShop_imageObject"]
+- ["CSo8NSObject", "removeShop_opentime"]
+- ["CSo8NSObject", "removeShop_opentimeObject"]
+- ["CSo8NSObject", "removeShop_rating"]
+- ["CSo8NSObject", "removeShop_ratingObject"]
+- ["CSo8NSObject", "removeShop_rel"]
+- ["CSo8NSObject", "removeShop_relObject"]
+- ["CSo8NSObject", "shop_image"]
+- ["CSo8NSObject", "shop_opentime"]
+- ["CSo8NSObject", "shop_rating"]
+- ["CSo8NSObject", "shop_rel"]
+- !private ["CSo8NSObject", "unionSet"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "_Shop"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- ["PSo16NSObjectProtocol", "addShop_image"]
+- ["PSo16NSObjectProtocol", "addShop_imageObject"]
+- ["PSo16NSObjectProtocol", "addShop_opentime"]
+- ["PSo16NSObjectProtocol", "addShop_opentimeObject"]
+- ["PSo16NSObjectProtocol", "addShop_rating"]
+- ["PSo16NSObjectProtocol", "addShop_ratingObject"]
+- ["PSo16NSObjectProtocol", "addShop_rel"]
+- ["PSo16NSObjectProtocol", "addShop_relObject"]
+- !private ["PSo16NSObjectProtocol", "copy"]
+- ["PSo16NSObjectProtocol", "descript"]
+- ["PSo16NSObjectProtocol", "entity"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- ["PSo16NSObjectProtocol", "entityName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "latitude"]
+- ["PSo16NSObjectProtocol", "longitude"]
+- !private ["PSo16NSObjectProtocol", "minusSet"]
+- !private ["PSo16NSObjectProtocol", "mutableCopy"]
+- ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "removeObject"]
+- ["PSo16NSObjectProtocol", "removeShop_image"]
+- ["PSo16NSObjectProtocol", "removeShop_imageObject"]
+- ["PSo16NSObjectProtocol", "removeShop_opentime"]
+- ["PSo16NSObjectProtocol", "removeShop_opentimeObject"]
+- ["PSo16NSObjectProtocol", "removeShop_rating"]
+- ["PSo16NSObjectProtocol", "removeShop_ratingObject"]
+- ["PSo16NSObjectProtocol", "removeShop_rel"]
+- ["PSo16NSObjectProtocol", "removeShop_relObject"]
+- ["PSo16NSObjectProtocol", "shop_image"]
+- ["PSo16NSObjectProtocol", "shop_opentime"]
+- ["PSo16NSObjectProtocol", "shop_rating"]
+- ["PSo16NSObjectProtocol", "shop_rel"]
+- !private ["PSo16NSObjectProtocol", "unionSet"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "addObject"]
+- !private ["PSo14NSSecureCoding", "copy"]
+- !private ["PSo14NSSecureCoding", "minusSet"]
+- !private ["PSo14NSSecureCoding", "mutableCopy"]
+- !private ["PSo14NSSecureCoding", "removeObject"]
+- !private ["PSo14NSSecureCoding", "unionSet"]
+- !private ["CSo5NSSet", "addObject"]
+- !private ["CSo5NSSet", "copy"]
+- !private ["CSo5NSSet", "deinit"]
+- !private ["CSo5NSSet", "minusSet"]
+- !private ["CSo5NSSet", "mutableCopy"]
+- !private ["CSo5NSSet", "removeObject"]
+- !private ["CSo5NSSet", "unionSet"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps12SequenceType", "addObject"]
+- !private ["Ps12SequenceType", "copy"]
+- !private ["Ps12SequenceType", "minusSet"]
+- !private ["Ps12SequenceType", "mutableCopy"]
+- !private ["Ps12SequenceType", "removeObject"]
+- !private ["Ps12SequenceType", "unionSet"]
+- ["O10Asia_shops14ShopAttributes", "RawValue"]
+- ["O10Asia_shops14ShopAttributes", "deinit"]
+- ["O10Asia_shops14ShopAttributes", "descript"]
+- ["O10Asia_shops14ShopAttributes", "hashValue"]
+- ["O10Asia_shops14ShopAttributes", "init"]
+- ["O10Asia_shops14ShopAttributes", "latitude"]
+- ["O10Asia_shops14ShopAttributes", "longitude"]
+- ["O10Asia_shops14ShopAttributes", "name"]
+- ["O10Asia_shops14ShopAttributes", "rawValue"]
+- ["O10Asia_shops17ShopRelationships", "RawValue"]
+- ["O10Asia_shops17ShopRelationships", "deinit"]
+- ["O10Asia_shops17ShopRelationships", "hashValue"]
+- ["O10Asia_shops17ShopRelationships", "init"]
+- ["O10Asia_shops17ShopRelationships", "rawValue"]
+- ["O10Asia_shops17ShopRelationships", "shop_image"]
+- ["O10Asia_shops17ShopRelationships", "shop_opentime"]
+- ["O10Asia_shops17ShopRelationships", "shop_rating"]
+- ["O10Asia_shops17ShopRelationships", "shop_rel"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addObject"]
+- !private ["Ps12_Reflectable", "copy"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "minusSet"]
+- !private ["Ps12_Reflectable", "mutableCopy"]
+- !private ["Ps12_Reflectable", "removeObject"]
+- !private ["Ps12_Reflectable", "unionSet"]
+- ["C10Asia_shops5_Shop", "NSEntityDescription"]
+- ["C10Asia_shops5_Shop", "NSManagedObjectContext"]
+- !private ["C10Asia_shops5_Shop", "NSMutableSet"]
+- ["C10Asia_shops5_Shop", "NSNumber"]
+- !private ["C10Asia_shops5_Shop", "NSObject"]
+- ["C10Asia_shops5_Shop", "NSSet"]
+- ["C10Asia_shops5_Shop", "Open_time"]
+- ["C10Asia_shops5_Shop", "Rating"]
+- ["C10Asia_shops5_Shop", "Rel"]
+- !private ["C10Asia_shops5_Shop", "Set"]
+- ["C10Asia_shops5_Shop", "Shop_image"]
+- ["C10Asia_shops5_Shop", "String"]
+- !private ["C10Asia_shops5_Shop", "_Shop"]
+- ["C10Asia_shops5_Shop", "addShop_image"]
+- ["C10Asia_shops5_Shop", "addShop_imageObject"]
+- ["C10Asia_shops5_Shop", "addShop_opentime"]
+- ["C10Asia_shops5_Shop", "addShop_opentimeObject"]
+- ["C10Asia_shops5_Shop", "addShop_rating"]
+- ["C10Asia_shops5_Shop", "addShop_ratingObject"]
+- ["C10Asia_shops5_Shop", "addShop_rel"]
+- ["C10Asia_shops5_Shop", "addShop_relObject"]
+- ["C10Asia_shops5_Shop", "deinit"]
+- ["C10Asia_shops5_Shop", "descript"]
+- ["C10Asia_shops5_Shop", "entity"]
+- ["C10Asia_shops5_Shop", "entityName"]
+- ["C10Asia_shops5_Shop", "init"]
+- ["C10Asia_shops5_Shop", "latitude"]
+- ["C10Asia_shops5_Shop", "longitude"]
+- ["C10Asia_shops5_Shop", "name"]
+- ["C10Asia_shops5_Shop", "removeShop_image"]
+- ["C10Asia_shops5_Shop", "removeShop_imageObject"]
+- ["C10Asia_shops5_Shop", "removeShop_opentime"]
+- ["C10Asia_shops5_Shop", "removeShop_opentimeObject"]
+- ["C10Asia_shops5_Shop", "removeShop_rating"]
+- ["C10Asia_shops5_Shop", "removeShop_ratingObject"]
+- ["C10Asia_shops5_Shop", "removeShop_rel"]
+- ["C10Asia_shops5_Shop", "removeShop_relObject"]
+- ["C10Asia_shops5_Shop", "shop_image"]
+- ["C10Asia_shops5_Shop", "shop_opentime"]
+- ["C10Asia_shops5_Shop", "shop_rating"]
+- ["C10Asia_shops5_Shop", "shop_rel"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- !private "CSo12NSMutableSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "CSo8NSString"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- "O10Asia_shops14ShopAttributes"
+- "O10Asia_shops17ShopRelationships"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- "C10Asia_shops5_Shop"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+interface-hash: "808778cc46e64ab19b5dc7865a16a415"

@@ -9,24 +9,24 @@ provides-member:
 - ["C10Asia_shops9AboutView", ""]
 - ["P10Asia_shops17AboutViewDelegate", ""]
 provides-dynamic-lookup:
-- "layoutSubviews"
-- "contactButton"
 - "contactButt"
+- "contactButton"
+- "layoutSubviews"
 depends-top-level:
-- !private "print"
-- "AboutView"
-- !private "CGRectMake"
-- "CGRect"
-- !private "UIColor"
-- !private "StringLiteralType"
-- "NSCoder"
 - !private "CGRectGetHeight"
-- !private "fatalError"
-- !private "-"
-- "UIView"
 - "UIButton"
+- "NSCoder"
+- !private "print"
+- !private "StringLiteralType"
+- !private "CGRectMake"
+- !private "-"
+- !private "UIColor"
 - "AboutViewDelegate"
 - !private "CGRectGetWidth"
+- !private "fatalError"
+- "CGRect"
+- "UIView"
+- "AboutView"
 depends-member:
 - ["C10Asia_shops9AboutView", "AboutViewDelegate"]
 - ["C10Asia_shops9AboutView", "CGRect"]

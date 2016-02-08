@@ -1,0 +1,161 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C10Asia_shops6Bottle", ""]
+- ["C10Asia_shops6Bottle", "descript"]
+- ["C10Asia_shops6Bottle", "name"]
+- ["C10Asia_shops6Bottle", "vol"]
+- ["C10Asia_shops6Bottle", "bottle_alctype"]
+- ["C10Asia_shops6Bottle", "bottle_image"]
+- ["C10Asia_shops6Bottle", "bottle_rel"]
+provides-dynamic-lookup:
+- "vol"
+- "bottle_rel"
+- "bottle_image"
+- "descript"
+- "name"
+- "bottle_alctype"
+depends-top-level:
+- "NSNumber"
+- "Bottle"
+- "NSSet"
+- "String"
+- "Bottle_image"
+- "Alcohol_type"
+depends-member:
+- ["Ps9AnyObject", "bottle_alctype"]
+- ["Ps9AnyObject", "bottle_image"]
+- ["Ps9AnyObject", "bottle_rel"]
+- ["Ps9AnyObject", "descript"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "vol"]
+- ["C10Asia_shops6Bottle", "Alcohol_type"]
+- ["C10Asia_shops6Bottle", "Bottle_image"]
+- ["C10Asia_shops6Bottle", "NSNumber"]
+- ["C10Asia_shops6Bottle", "NSSet"]
+- ["C10Asia_shops6Bottle", "String"]
+- ["C10Asia_shops6Bottle", "bottle_alctype"]
+- ["C10Asia_shops6Bottle", "bottle_image"]
+- ["C10Asia_shops6Bottle", "bottle_rel"]
+- ["C10Asia_shops6Bottle", "descript"]
+- ["C10Asia_shops6Bottle", "name"]
+- ["C10Asia_shops6Bottle", "vol"]
+- ["Ps11CVarArgType", "bottle_alctype"]
+- ["Ps11CVarArgType", "bottle_image"]
+- ["Ps11CVarArgType", "bottle_rel"]
+- ["Ps11CVarArgType", "descript"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "vol"]
+- ["Ps28CustomDebugStringConvertible", "bottle_alctype"]
+- ["Ps28CustomDebugStringConvertible", "bottle_image"]
+- ["Ps28CustomDebugStringConvertible", "bottle_rel"]
+- ["Ps28CustomDebugStringConvertible", "descript"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "vol"]
+- ["Ps23CustomStringConvertible", "bottle_alctype"]
+- ["Ps23CustomStringConvertible", "bottle_image"]
+- ["Ps23CustomStringConvertible", "bottle_rel"]
+- ["Ps23CustomStringConvertible", "descript"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "vol"]
+- ["Ps9Equatable", "bottle_alctype"]
+- ["Ps9Equatable", "bottle_image"]
+- ["Ps9Equatable", "bottle_rel"]
+- ["Ps9Equatable", "descript"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "vol"]
+- ["Ps8Hashable", "bottle_alctype"]
+- ["Ps8Hashable", "bottle_image"]
+- ["Ps8Hashable", "bottle_rel"]
+- ["Ps8Hashable", "descript"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "vol"]
+- ["CSo15NSManagedObject", "Alcohol_type"]
+- ["CSo15NSManagedObject", "Bottle_image"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "NSSet"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "bottle_alctype"]
+- ["CSo15NSManagedObject", "bottle_image"]
+- ["CSo15NSManagedObject", "bottle_rel"]
+- ["CSo15NSManagedObject", "descript"]
+- ["CSo15NSManagedObject", "name"]
+- ["CSo15NSManagedObject", "vol"]
+- ["CSo8NSObject", "Alcohol_type"]
+- ["CSo8NSObject", "Bottle_image"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "NSSet"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "bottle_alctype"]
+- ["CSo8NSObject", "bottle_image"]
+- ["CSo8NSObject", "bottle_rel"]
+- ["CSo8NSObject", "descript"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "vol"]
+- ["PSo16NSObjectProtocol", "bottle_alctype"]
+- ["PSo16NSObjectProtocol", "bottle_image"]
+- ["PSo16NSObjectProtocol", "bottle_rel"]
+- ["PSo16NSObjectProtocol", "descript"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "vol"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Asia_shops6Bottle"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+interface-hash: "64d71e16b8131f9de4a6fb2f6dba9774"

@@ -59,7 +59,6 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         else{
             ShowDismisLocationAlert();
         }
-        showShops()
     }
     
     func ShowDismisLocationAlert(){
@@ -124,7 +123,13 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
                 pin?.draggable = false
                 pin?.canShowCallout = true
                 pin?.pinTintColor=UIColor.purpleColor()
-                pin?.leftCalloutAccessoryView = UIButton(type: .DetailDisclosure) as UIButton
+                let button=ButtonWithNSObject(type: .DetailDisclosure) as ButtonWithNSObject
+                let object=(addAnnotation as! ShopAnnotation).shop
+                button.object=object
+                button.addTarget(self, action: "showShopDetail:", forControlEvents: .TouchUpInside)
+                let view=UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
+                view.addSubview(button)
+                pin?.addSubview(view)
             }
         }
         else{
@@ -153,14 +158,6 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         if newState == MKAnnotationViewDragState.Ending {
             let droppedAt = view.annotation!.coordinate
             print("Pin dropped at \(droppedAt.latitude), \(droppedAt.longitude) ")
-            let geo = CLGeocoder()
-            let loc = CLLocation(latitude: droppedAt.latitude, longitude: droppedAt.longitude)
-            geo.reverseGeocodeLocation(loc, completionHandler: { ( marks : [CLPlacemark]?, err: NSError?) -> Void in
-                if let placemarks = marks {
-                    let mark = placemarks.first!
-                    self.title = mark.locality
-                }
-            })
         }
     }
     
@@ -169,21 +166,25 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         let nrRow=shops.count
         for row in 0..<nrRow{
             let data: NSManagedObject = shops[row] as! NSManagedObject
-            
             let latNumb = (data.valueForKey("latitude") as? Double)!
             let longNumb = (data.valueForKey("longitude") as? Double)!
             let name = (data.valueForKey("name") as? String)!
-            
-            let shopAnnotation:ShopAnnotation=ShopAnnotation(name: name,coord: CLLocationCoordinate2DMake(latNumb,longNumb), rating: 1)
-            
+            let shopAnnotation:ShopAnnotation=ShopAnnotation(name: name,coord: CLLocationCoordinate2DMake(latNumb,longNumb), rating: 1,shop: data)
             self.map.addAnnotation(shopAnnotation)
         }
     }
-    
+    func showShopDetail(target: ButtonWithNSObject){
+        print("detailObchodu")
+        let sc=ShopController()
+        sc.shop=target.object
+        self.navigationItem.title="Mapa"
+        self.navigationController?.pushViewController(sc, animated: true)
+    }
     //funkce probihajici v dobe, kdy se LocationManager zmeni
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
     }
     
     override func viewDidAppear(animated: Bool) {
+        showShops()
     }
 }

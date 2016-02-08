@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
 - "applicationWillTerminate"
+- "applicationDidEnterBackground"
+- "application"
 - "applicationWillResignActive"
 - "applicationDidBecomeActive"
 - "window"
-- "application"
-- "applicationWillEnterForeground"
 depends-top-level:
-- !private "MagicalRecord"
-- "AppDelegate"
-- !private "BooleanLiteralType"
-- "UIApplication"
-- "AnyObject"
 - "UIApplicationDelegate"
-- "NSObject"
-- "UIWindow"
-- !private "StringLiteralType"
-- "UIResponder"
 - "Bool"
+- "AppDelegate"
+- "UIResponder"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- !private "MagicalRecord"
+- "UIWindow"
+- "NSObject"
+- !private "StringLiteralType"
+- "UIApplication"
 depends-member:
 - !private ["Ps9AnyObject", "MagicalRecord"]
 - ["Ps9AnyObject", "application"]
@@ -260,6 +260,7 @@ depends-external:
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
@@ -295,5 +296,4 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
 interface-hash: "d061981c7aaed4fc4eadcb8fb74fd288"

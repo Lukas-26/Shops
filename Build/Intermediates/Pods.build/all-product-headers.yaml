@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,18 +20,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -76,7 +76,7 @@
         {
           'type': 'file',
           'name': "MagicalRecord-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-Swift.h"
         },
         {
           'type': 'file',
@@ -187,23 +187,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/MagicalRecord.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/MagicalRecord.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
         },
         {
           'type': 'file',
@@ -214,23 +214,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Pods.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SnapKit-Swift.h",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
         },
         {
           'type': 'file',
@@ -241,12 +241,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules",
+      'name': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/module.modulemap"
+          'external-contents': "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/SnapKit.build/module.modulemap"
         }
       ]
     }

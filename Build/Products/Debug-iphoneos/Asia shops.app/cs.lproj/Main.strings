@@ -1,0 +1,24 @@
+
+/* Class = "UINavigationItem"; title = "O Aplikaci"; ObjectID = "3V6-5K-4LY"; */
+"3V6-5K-4LY.title" = "O Aplikaci";
+
+/* Class = "UILabel"; text = "O Aplikaci"; ObjectID = "5Iw-2h-Tqn"; */
+"5Iw-2h-Tqn.text" = "O Aplikaci";
+
+/* Class = "UIBarButtonItem"; title = "O aplikaci"; ObjectID = "AzQ-Vg-qPh"; */
+"AzQ-Vg-qPh.title" = "O aplikaci";
+
+/* Class = "UILabel"; text = "Seznam"; ObjectID = "Cwo-7p-L5O"; */
+"Cwo-7p-L5O.text" = "Seznam";
+
+/* Class = "UINavigationItem"; title = "Mapa"; ObjectID = "X0g-md-tOM"; */
+"X0g-md-tOM.title" = "Mapa";
+
+/* Class = "UINavigationItem"; title = "Seznam"; ObjectID = "e4i-mo-ExE"; */
+"e4i-mo-ExE.title" = "Seznam";
+
+/* Class = "UIBarButtonItem"; title = "Mapa"; ObjectID = "hpV-2l-6Vk"; */
+"hpV-2l-6Vk.title" = "Mapa";
+
+/* Class = "UIBarButtonItem"; title = "Seznam"; ObjectID = "uQ5-k5-0IY"; */
+"uQ5-k5-0IY.title" = "Seznam";

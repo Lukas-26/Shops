@@ -2,6 +2,60 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Bottle_image+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Bottle_image.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Days+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Days.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Open_time+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Open_time.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Rating+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Rating.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Shop+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Shop.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Rel+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Rel.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Alcohol_type+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Alcohol_type.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Bottle+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Bottle.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Shop_image+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Shop_image.swift">
+   </FileRef>
+   <FileRef
       location = "group:Asia shops.xcodeproj">
    </FileRef>
    <FileRef

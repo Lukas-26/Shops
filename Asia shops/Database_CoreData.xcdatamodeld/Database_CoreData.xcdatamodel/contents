@@ -13,11 +13,12 @@
         <relationship name="bottle_rel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rel" inverseName="rel_bottle" inverseEntity="Rel" syncable="YES"/>
     </entity>
     <entity name="Bottle_image" representedClassName="Bottle_image" syncable="YES">
-        <attribute name="image_name" attributeType="String" syncable="YES"/>
+        <attribute name="image_name" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="bottleimage_bottle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bottle" inverseName="bottle_image" inverseEntity="Bottle" syncable="YES"/>
     </entity>
     <entity name="Days" representedClassName="Days" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="shortcut" attributeType="String" syncable="YES"/>
         <relationship name="days_opentime" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Open_time" inverseName="time_days" inverseEntity="Open_time" syncable="YES"/>
     </entity>
     <entity name="Open_time" representedClassName="Open_time" syncable="YES">
@@ -50,14 +51,14 @@
         <relationship name="shop_rel" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rel" inverseName="rel_shop" inverseEntity="Rel" syncable="YES"/>
     </entity>
     <entity name="Shop_image" representedClassName="Shop_image" syncable="YES">
-        <attribute name="image_name" attributeType="String" syncable="YES"/>
+        <attribute name="image_name" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="shopimage_shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shop_image" inverseEntity="Shop" syncable="YES"/>
     </entity>
     <elements>
         <element name="Alcohol_type" positionX="-38" positionY="-36" width="128" height="75"/>
         <element name="Bottle" positionX="-299" positionY="27" width="128" height="133"/>
         <element name="Bottle_image" positionX="-36" positionY="81" width="128" height="75"/>
-        <element name="Days" positionX="-36" positionY="-264" width="128" height="75"/>
+        <element name="Days" positionX="-36" positionY="-264" width="128" height="90"/>
         <element name="Open_time" positionX="-117" positionY="-117" width="126" height="120"/>
         <element name="Rating" positionX="-549" positionY="-153" width="126" height="105"/>
         <element name="Rel" positionX="-549" positionY="53" width="126" height="105"/>

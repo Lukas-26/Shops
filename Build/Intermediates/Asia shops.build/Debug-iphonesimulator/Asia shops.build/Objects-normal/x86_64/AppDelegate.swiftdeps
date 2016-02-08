@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
-- "applicationWillEnterForeground"
 - "applicationDidBecomeActive"
-- "application"
-- "applicationWillTerminate"
+- "window"
 - "applicationWillResignActive"
+- "applicationWillTerminate"
 - "applicationDidEnterBackground"
+- "application"
+- "applicationWillEnterForeground"
 depends-top-level:
-- "Bool"
-- "UIResponder"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
-- "AppDelegate"
-- "AnyObject"
-- "UIApplication"
-- !private "MagicalRecord"
 - "NSObject"
+- "AnyObject"
 - "UIWindow"
+- "UIApplicationDelegate"
+- "AppDelegate"
 - !private "StringLiteralType"
+- "UIResponder"
+- "UIApplication"
+- "Bool"
+- !private "MagicalRecord"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "MagicalRecord"]
 - ["Ps9AnyObject", "application"]

@@ -6,68 +6,75 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops17NewShopController", ""]
 provides-dynamic-lookup:
+- "nameEditing"
+- "nameLabel"
 - "textFieldShouldReturn"
+- "mapView"
+- "map"
+- "imagePickerControllerDidCancel"
+- "cameraPicker"
 - "picker"
 - "saveShop"
-- "nameEditing"
-- "textName"
-- "cameraPicker"
-- "shopAnnotation"
-- "mapView"
-- "imagePickerController"
 - "takePhoto"
-- "imagePickerControllerDidCancel"
-- "img"
-- "viewDidLoad"
-- "selectFromGallery"
-- "map"
-- "name"
+- "imagePickerController"
 - "viewDidAppear"
+- "img"
+- "shopAnnotation"
+- "selectFromGallery"
+- "viewDidLoad"
+- "textName"
 depends-top-level:
-- !private "UIImagePickerControllerOriginalImage"
-- !private "UIView"
-- "UIImagePickerController"
-- "MKPointAnnotation"
-- !private "MKCoordinateSpanMake"
-- "NewShopController"
-- !private "+"
+- !private "NSEntityDescription"
+- "UITextFieldDelegate"
+- "MKMapViewDelegate"
 - "UIViewController"
-- !private "<="
 - "UILabel"
-- "MKAnnotation"
-- !private "UIAlertController"
-- !private "UITapGestureRecognizer"
-- !private "UIAlertAction"
-- !private "MKUserLocation"
-- !private "UIColor"
-- !private "BooleanLiteralType"
+- !private "!="
 - !private "Selector"
-- !private "UIImagePickerControllerSourceType"
-- "String"
-- !private "UIButton"
-- !private "CGAffineTransformMakeScale"
-- "UIImagePickerControllerDelegate"
-- "Bool"
-- "UIImageView"
-- "UIBarButtonItem"
-- "UINavigationControllerDelegate"
+- !private "<="
 - !private "MKCoordinateRegion"
 - !private "print"
-- "MKAnnotationView"
-- "UITextFieldDelegate"
-- !private "Void"
-- !private "MKPinAnnotationView"
-- "MKMapViewDelegate"
-- !private "UIApplication"
-- !private "=="
-- "CLLocationCoordinate2D"
-- "AnyObject"
+- !private "MKUserLocation"
+- "UIImagePickerControllerDelegate"
+- !private "BooleanLiteralType"
+- "UIImagePickerController"
+- "Bool"
+- "UINavigationControllerDelegate"
 - !private "MKMapType"
-- "UITextField"
-- !private "StringLiteralType"
-- !private "UIEdgeInsetsMake"
-- "MKMapView"
+- !private "Void"
+- !private "NSManagedObjectContext"
+- "UIImageView"
+- "UnicodeScalarType"
+- "CLLocationCoordinate2D"
+- "UIBarButtonItem"
+- !private "+"
+- !private "=="
+- "AnyObject"
+- "MKPointAnnotation"
+- !private "MKCoordinateSpanMake"
 - !private "CGRectMake"
+- !private "CGAffineTransformMakeScale"
+- !private "UIColor"
+- "UITextField"
+- "MKAnnotationView"
+- !private "UIImagePickerControllerOriginalImage"
+- !private "NSError"
+- "MKMapView"
+- !private "UIImagePickerControllerSourceType"
+- !private "UIEdgeInsetsMake"
+- !private "UIAlertController"
+- "String"
+- !private "UIView"
+- !private "UITapGestureRecognizer"
+- !private "MKPinAnnotationView"
+- "MKAnnotation"
+- !private "UIAlertAction"
+- !private "NSNumber"
+- !private "UIButton"
+- !private "UIApplication"
+- !private "StringLiteralType"
+- "NewShopController"
+- !private "Shop"
 - !private "UIImage"
 depends-member:
 - !private ["Ps9AnyObject", "CGAffineTransformMakeScale"]
@@ -78,7 +85,13 @@ depends-member:
 - !private ["Ps9AnyObject", "MKMapView"]
 - !private ["Ps9AnyObject", "MKPinAnnotationView"]
 - !private ["Ps9AnyObject", "MKPointAnnotation"]
+- !private ["Ps9AnyObject", "MR_contextForCurrentThread"]
+- !private ["Ps9AnyObject", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "NSManagedObjectContext"]
+- !private ["Ps9AnyObject", "NSNumber"]
 - !private ["Ps9AnyObject", "Selector"]
+- !private ["Ps9AnyObject", "Shop"]
 - !private ["Ps9AnyObject", "UIAlertAction"]
 - !private ["Ps9AnyObject", "UIAlertController"]
 - !private ["Ps9AnyObject", "UIApplication"]
@@ -113,8 +126,10 @@ depends-member:
 - !private ["Ps9AnyObject", "customView"]
 - !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps9AnyObject", "description"]
 - !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
 - !private ["Ps9AnyObject", "draggable"]
+- !private ["Ps9AnyObject", "entityForName"]
 - !private ["Ps9AnyObject", "frame"]
 - !private ["Ps9AnyObject", "height"]
 - !private ["Ps9AnyObject", "image"]
@@ -125,8 +140,10 @@ depends-member:
 - ["Ps9AnyObject", "img"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "isSourceTypeAvailable"]
+- !private ["Ps9AnyObject", "latitude"]
 - !private ["Ps9AnyObject", "left"]
 - !private ["Ps9AnyObject", "leftMargin"]
+- !private ["Ps9AnyObject", "longitude"]
 - ["Ps9AnyObject", "map"]
 - !private ["Ps9AnyObject", "mapType"]
 - ["Ps9AnyObject", "mapView"]
@@ -138,8 +155,9 @@ depends-member:
 - ["Ps9AnyObject", "mapViewWillStartLocatingUser"]
 - ["Ps9AnyObject", "mapViewWillStartRenderingMap"]
 - !private ["Ps9AnyObject", "modalPresentationStyle"]
-- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "name"]
 - ["Ps9AnyObject", "nameEditing"]
+- ["Ps9AnyObject", "nameLabel"]
 - ["Ps9AnyObject", "navigationController"]
 - ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
@@ -147,6 +165,7 @@ depends-member:
 - !private ["Ps9AnyObject", "networkActivityIndicatorVisible"]
 - ["Ps9AnyObject", "picker"]
 - !private ["Ps9AnyObject", "placeholder"]
+- !private ["Ps9AnyObject", "popViewControllerAnimated"]
 - !private ["Ps9AnyObject", "presentViewController"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "redColor"]
@@ -200,11 +219,15 @@ depends-member:
 - !private ["Ps22BidirectionalIndexType", "advancedBy"]
 - !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "init"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["VSC7CGPoint", "deinit"]
 - !private ["VSC6CGSize", "deinit"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
 - !private ["Ps11CVarArgType", "CGAffineTransformMakeScale"]
 - !private ["Ps11CVarArgType", "CGRectMake"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
@@ -214,7 +237,13 @@ depends-member:
 - !private ["Ps11CVarArgType", "MKMapView"]
 - !private ["Ps11CVarArgType", "MKPinAnnotationView"]
 - !private ["Ps11CVarArgType", "MKPointAnnotation"]
+- !private ["Ps11CVarArgType", "MR_contextForCurrentThread"]
+- !private ["Ps11CVarArgType", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps11CVarArgType", "NSEntityDescription"]
+- !private ["Ps11CVarArgType", "NSManagedObjectContext"]
+- !private ["Ps11CVarArgType", "NSNumber"]
 - !private ["Ps11CVarArgType", "Selector"]
+- !private ["Ps11CVarArgType", "Shop"]
 - !private ["Ps11CVarArgType", "UIAlertAction"]
 - !private ["Ps11CVarArgType", "UIAlertController"]
 - !private ["Ps11CVarArgType", "UIApplication"]
@@ -248,8 +277,10 @@ depends-member:
 - !private ["Ps11CVarArgType", "customView"]
 - !private ["Ps11CVarArgType", "delegate"]
 - !private ["Ps11CVarArgType", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps11CVarArgType", "description"]
 - !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
 - !private ["Ps11CVarArgType", "draggable"]
+- !private ["Ps11CVarArgType", "entityForName"]
 - !private ["Ps11CVarArgType", "frame"]
 - !private ["Ps11CVarArgType", "image"]
 - !private ["Ps11CVarArgType", "imageEdgeInsets"]
@@ -259,6 +290,8 @@ depends-member:
 - ["Ps11CVarArgType", "img"]
 - ["Ps11CVarArgType", "init"]
 - !private ["Ps11CVarArgType", "isSourceTypeAvailable"]
+- !private ["Ps11CVarArgType", "latitude"]
+- !private ["Ps11CVarArgType", "longitude"]
 - ["Ps11CVarArgType", "map"]
 - !private ["Ps11CVarArgType", "mapType"]
 - ["Ps11CVarArgType", "mapView"]
@@ -270,8 +303,9 @@ depends-member:
 - ["Ps11CVarArgType", "mapViewWillStartLocatingUser"]
 - ["Ps11CVarArgType", "mapViewWillStartRenderingMap"]
 - !private ["Ps11CVarArgType", "modalPresentationStyle"]
-- ["Ps11CVarArgType", "name"]
+- !private ["Ps11CVarArgType", "name"]
 - ["Ps11CVarArgType", "nameEditing"]
+- ["Ps11CVarArgType", "nameLabel"]
 - ["Ps11CVarArgType", "navigationController"]
 - ["Ps11CVarArgType", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps11CVarArgType", "navigationControllerSupportedInterfaceOrientations"]
@@ -279,6 +313,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "networkActivityIndicatorVisible"]
 - ["Ps11CVarArgType", "picker"]
 - !private ["Ps11CVarArgType", "placeholder"]
+- !private ["Ps11CVarArgType", "popViewControllerAnimated"]
 - !private ["Ps11CVarArgType", "presentViewController"]
 - !private ["Ps11CVarArgType", "print"]
 - !private ["Ps11CVarArgType", "redColor"]
@@ -320,6 +355,7 @@ depends-member:
 - ["Ps11CVarArgType", "viewDidLoad"]
 - !private ["Ps11CVarArgType", "whiteColor"]
 - ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
 - !private ["VSS13CharacterView", "Generator"]
 - !private ["VSS13CharacterView", "Index"]
 - !private ["VSS13CharacterView", "SubSequence"]
@@ -334,6 +370,7 @@ depends-member:
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "advancedBy"]
 - !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
 - !private ["Ps10Comparable", "startIndex"]
 - !private ["Ps10Comparable", "substringToIndex"]
 - !private ["P7SnapKit29ConstraintDescriptionEditable", "multipliedBy"]
@@ -362,7 +399,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "MKMapView"]
 - !private ["Ps28CustomDebugStringConvertible", "MKPinAnnotationView"]
 - !private ["Ps28CustomDebugStringConvertible", "MKPointAnnotation"]
+- !private ["Ps28CustomDebugStringConvertible", "MR_contextForCurrentThread"]
+- !private ["Ps28CustomDebugStringConvertible", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "NSManagedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNumber"]
 - !private ["Ps28CustomDebugStringConvertible", "Selector"]
+- !private ["Ps28CustomDebugStringConvertible", "Shop"]
 - !private ["Ps28CustomDebugStringConvertible", "UIAlertAction"]
 - !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
@@ -396,8 +439,10 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "customView"]
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
 - !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
 - !private ["Ps28CustomDebugStringConvertible", "draggable"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
 - !private ["Ps28CustomDebugStringConvertible", "frame"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
 - !private ["Ps28CustomDebugStringConvertible", "imageEdgeInsets"]
@@ -407,6 +452,8 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "img"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "isSourceTypeAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "latitude"]
+- !private ["Ps28CustomDebugStringConvertible", "longitude"]
 - ["Ps28CustomDebugStringConvertible", "map"]
 - !private ["Ps28CustomDebugStringConvertible", "mapType"]
 - ["Ps28CustomDebugStringConvertible", "mapView"]
@@ -418,8 +465,9 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "mapViewWillStartLocatingUser"]
 - ["Ps28CustomDebugStringConvertible", "mapViewWillStartRenderingMap"]
 - !private ["Ps28CustomDebugStringConvertible", "modalPresentationStyle"]
-- ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
 - ["Ps28CustomDebugStringConvertible", "nameEditing"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
 - ["Ps28CustomDebugStringConvertible", "navigationController"]
 - ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
@@ -427,6 +475,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "networkActivityIndicatorVisible"]
 - ["Ps28CustomDebugStringConvertible", "picker"]
 - !private ["Ps28CustomDebugStringConvertible", "placeholder"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewControllerAnimated"]
 - !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "redColor"]
@@ -479,7 +528,13 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "MKMapView"]
 - !private ["Ps23CustomStringConvertible", "MKPinAnnotationView"]
 - !private ["Ps23CustomStringConvertible", "MKPointAnnotation"]
+- !private ["Ps23CustomStringConvertible", "MR_contextForCurrentThread"]
+- !private ["Ps23CustomStringConvertible", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "NSManagedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "NSNumber"]
 - !private ["Ps23CustomStringConvertible", "Selector"]
+- !private ["Ps23CustomStringConvertible", "Shop"]
 - !private ["Ps23CustomStringConvertible", "UIAlertAction"]
 - !private ["Ps23CustomStringConvertible", "UIAlertController"]
 - !private ["Ps23CustomStringConvertible", "UIApplication"]
@@ -514,8 +569,10 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "customView"]
 - !private ["Ps23CustomStringConvertible", "delegate"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "description"]
 - !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
 - !private ["Ps23CustomStringConvertible", "draggable"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
 - !private ["Ps23CustomStringConvertible", "frame"]
 - !private ["Ps23CustomStringConvertible", "image"]
 - !private ["Ps23CustomStringConvertible", "imageEdgeInsets"]
@@ -525,6 +582,8 @@ depends-member:
 - ["Ps23CustomStringConvertible", "img"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "isSourceTypeAvailable"]
+- !private ["Ps23CustomStringConvertible", "latitude"]
+- !private ["Ps23CustomStringConvertible", "longitude"]
 - ["Ps23CustomStringConvertible", "map"]
 - !private ["Ps23CustomStringConvertible", "mapType"]
 - ["Ps23CustomStringConvertible", "mapView"]
@@ -536,8 +595,9 @@ depends-member:
 - ["Ps23CustomStringConvertible", "mapViewWillStartLocatingUser"]
 - ["Ps23CustomStringConvertible", "mapViewWillStartRenderingMap"]
 - !private ["Ps23CustomStringConvertible", "modalPresentationStyle"]
-- ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "name"]
 - ["Ps23CustomStringConvertible", "nameEditing"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
 - ["Ps23CustomStringConvertible", "navigationController"]
 - ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
@@ -545,6 +605,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "networkActivityIndicatorVisible"]
 - ["Ps23CustomStringConvertible", "picker"]
 - !private ["Ps23CustomStringConvertible", "placeholder"]
+- !private ["Ps23CustomStringConvertible", "popViewControllerAnimated"]
 - !private ["Ps23CustomStringConvertible", "presentViewController"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "redColor"]
@@ -609,10 +670,16 @@ depends-member:
 - !private ["Ps9Equatable", "MKMapView"]
 - !private ["Ps9Equatable", "MKPinAnnotationView"]
 - !private ["Ps9Equatable", "MKPointAnnotation"]
+- !private ["Ps9Equatable", "MR_contextForCurrentThread"]
+- !private ["Ps9Equatable", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "NSManagedObjectContext"]
+- !private ["Ps9Equatable", "NSNumber"]
 - !private ["Ps9Equatable", "Normal"]
 - !private ["Ps9Equatable", "Photo"]
 - !private ["Ps9Equatable", "PhotoLibrary"]
 - !private ["Ps9Equatable", "Selector"]
+- !private ["Ps9Equatable", "Shop"]
 - !private ["Ps9Equatable", "Standard"]
 - !private ["Ps9Equatable", "TouchUpInside"]
 - !private ["Ps9Equatable", "UIAlertAction"]
@@ -650,8 +717,10 @@ depends-member:
 - !private ["Ps9Equatable", "customView"]
 - !private ["Ps9Equatable", "delegate"]
 - !private ["Ps9Equatable", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps9Equatable", "description"]
 - !private ["Ps9Equatable", "dismissViewControllerAnimated"]
 - !private ["Ps9Equatable", "draggable"]
+- !private ["Ps9Equatable", "entityForName"]
 - !private ["Ps9Equatable", "frame"]
 - !private ["Ps9Equatable", "image"]
 - !private ["Ps9Equatable", "imageEdgeInsets"]
@@ -661,6 +730,8 @@ depends-member:
 - ["Ps9Equatable", "img"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "isSourceTypeAvailable"]
+- !private ["Ps9Equatable", "latitude"]
+- !private ["Ps9Equatable", "longitude"]
 - ["Ps9Equatable", "map"]
 - !private ["Ps9Equatable", "mapType"]
 - ["Ps9Equatable", "mapView"]
@@ -672,8 +743,9 @@ depends-member:
 - ["Ps9Equatable", "mapViewWillStartLocatingUser"]
 - ["Ps9Equatable", "mapViewWillStartRenderingMap"]
 - !private ["Ps9Equatable", "modalPresentationStyle"]
-- ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "name"]
 - ["Ps9Equatable", "nameEditing"]
+- ["Ps9Equatable", "nameLabel"]
 - ["Ps9Equatable", "navigationController"]
 - ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
@@ -681,6 +753,7 @@ depends-member:
 - !private ["Ps9Equatable", "networkActivityIndicatorVisible"]
 - ["Ps9Equatable", "picker"]
 - !private ["Ps9Equatable", "placeholder"]
+- !private ["Ps9Equatable", "popViewControllerAnimated"]
 - !private ["Ps9Equatable", "presentViewController"]
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "redColor"]
@@ -722,10 +795,13 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - !private ["Ps9Equatable", "whiteColor"]
 - ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "description"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "startIndex"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "substringToIndex"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps16ForwardIndexType", "advancedBy"]
@@ -744,9 +820,15 @@ depends-member:
 - !private ["Ps8Hashable", "MKMapView"]
 - !private ["Ps8Hashable", "MKPinAnnotationView"]
 - !private ["Ps8Hashable", "MKPointAnnotation"]
+- !private ["Ps8Hashable", "MR_contextForCurrentThread"]
+- !private ["Ps8Hashable", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "NSManagedObjectContext"]
+- !private ["Ps8Hashable", "NSNumber"]
 - !private ["Ps8Hashable", "Photo"]
 - !private ["Ps8Hashable", "PhotoLibrary"]
 - !private ["Ps8Hashable", "Selector"]
+- !private ["Ps8Hashable", "Shop"]
 - !private ["Ps8Hashable", "Standard"]
 - !private ["Ps8Hashable", "UIAlertAction"]
 - !private ["Ps8Hashable", "UIAlertController"]
@@ -782,8 +864,10 @@ depends-member:
 - !private ["Ps8Hashable", "customView"]
 - !private ["Ps8Hashable", "delegate"]
 - !private ["Ps8Hashable", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["Ps8Hashable", "description"]
 - !private ["Ps8Hashable", "dismissViewControllerAnimated"]
 - !private ["Ps8Hashable", "draggable"]
+- !private ["Ps8Hashable", "entityForName"]
 - !private ["Ps8Hashable", "frame"]
 - !private ["Ps8Hashable", "image"]
 - !private ["Ps8Hashable", "imageEdgeInsets"]
@@ -793,6 +877,8 @@ depends-member:
 - ["Ps8Hashable", "img"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "isSourceTypeAvailable"]
+- !private ["Ps8Hashable", "latitude"]
+- !private ["Ps8Hashable", "longitude"]
 - ["Ps8Hashable", "map"]
 - !private ["Ps8Hashable", "mapType"]
 - ["Ps8Hashable", "mapView"]
@@ -804,8 +890,9 @@ depends-member:
 - ["Ps8Hashable", "mapViewWillStartLocatingUser"]
 - ["Ps8Hashable", "mapViewWillStartRenderingMap"]
 - !private ["Ps8Hashable", "modalPresentationStyle"]
-- ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "name"]
 - ["Ps8Hashable", "nameEditing"]
+- ["Ps8Hashable", "nameLabel"]
 - ["Ps8Hashable", "navigationController"]
 - ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
@@ -813,6 +900,7 @@ depends-member:
 - !private ["Ps8Hashable", "networkActivityIndicatorVisible"]
 - ["Ps8Hashable", "picker"]
 - !private ["Ps8Hashable", "placeholder"]
+- !private ["Ps8Hashable", "popViewControllerAnimated"]
 - !private ["Ps8Hashable", "presentViewController"]
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "redColor"]
@@ -866,8 +954,13 @@ depends-member:
 - !private ["Vs17IndexingGenerator", "Element"]
 - !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
 - !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
 - !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["PSo12MKAnnotation", "coordinate"]
 - !private ["PSo12MKAnnotation", "init"]
@@ -894,7 +987,11 @@ depends-member:
 - !private ["PSo17MKMapViewDelegate", "MKMapView"]
 - !private ["PSo17MKMapViewDelegate", "MKPinAnnotationView"]
 - !private ["PSo17MKMapViewDelegate", "MKPointAnnotation"]
+- !private ["PSo17MKMapViewDelegate", "NSEntityDescription"]
+- !private ["PSo17MKMapViewDelegate", "NSManagedObjectContext"]
+- !private ["PSo17MKMapViewDelegate", "NSNumber"]
 - !private ["PSo17MKMapViewDelegate", "Selector"]
+- !private ["PSo17MKMapViewDelegate", "Shop"]
 - !private ["PSo17MKMapViewDelegate", "UIAlertAction"]
 - !private ["PSo17MKMapViewDelegate", "UIAlertController"]
 - !private ["PSo17MKMapViewDelegate", "UIApplication"]
@@ -925,7 +1022,7 @@ depends-member:
 - ["PSo17MKMapViewDelegate", "mapViewWillStartLoadingMap"]
 - ["PSo17MKMapViewDelegate", "mapViewWillStartLocatingUser"]
 - ["PSo17MKMapViewDelegate", "mapViewWillStartRenderingMap"]
-- !private ["PSo17MKMapViewDelegate", "name"]
+- !private ["PSo17MKMapViewDelegate", "nameLabel"]
 - ["PSo17MKMapViewDelegate", "navigationController"]
 - ["PSo17MKMapViewDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo17MKMapViewDelegate", "navigationControllerSupportedInterfaceOrientations"]
@@ -957,6 +1054,7 @@ depends-member:
 - !private ["CSo7MKShape", "init"]
 - !private ["Ps14MirrorPathType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "characters"]
+- !private ["Ps14MirrorPathType", "init"]
 - !private ["Ps14MirrorPathType", "startIndex"]
 - !private ["Ps14MirrorPathType", "substringToIndex"]
 - !private ["PSo8NSCoding", "CGAffineTransformMakeScale"]
@@ -967,7 +1065,13 @@ depends-member:
 - !private ["PSo8NSCoding", "MKMapView"]
 - !private ["PSo8NSCoding", "MKPinAnnotationView"]
 - !private ["PSo8NSCoding", "MKPointAnnotation"]
+- !private ["PSo8NSCoding", "MR_contextForCurrentThread"]
+- !private ["PSo8NSCoding", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["PSo8NSCoding", "NSEntityDescription"]
+- !private ["PSo8NSCoding", "NSManagedObjectContext"]
+- !private ["PSo8NSCoding", "NSNumber"]
 - !private ["PSo8NSCoding", "Selector"]
+- !private ["PSo8NSCoding", "Shop"]
 - !private ["PSo8NSCoding", "UIAlertAction"]
 - !private ["PSo8NSCoding", "UIAlertController"]
 - !private ["PSo8NSCoding", "UIApplication"]
@@ -1000,8 +1104,10 @@ depends-member:
 - !private ["PSo8NSCoding", "customView"]
 - !private ["PSo8NSCoding", "delegate"]
 - !private ["PSo8NSCoding", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["PSo8NSCoding", "description"]
 - !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
 - !private ["PSo8NSCoding", "draggable"]
+- !private ["PSo8NSCoding", "entityForName"]
 - !private ["PSo8NSCoding", "frame"]
 - !private ["PSo8NSCoding", "image"]
 - !private ["PSo8NSCoding", "imageEdgeInsets"]
@@ -1022,14 +1128,15 @@ depends-member:
 - ["PSo8NSCoding", "mapViewWillStartLocatingUser"]
 - ["PSo8NSCoding", "mapViewWillStartRenderingMap"]
 - !private ["PSo8NSCoding", "modalPresentationStyle"]
-- ["PSo8NSCoding", "name"]
 - ["PSo8NSCoding", "nameEditing"]
+- ["PSo8NSCoding", "nameLabel"]
 - ["PSo8NSCoding", "navigationController"]
 - ["PSo8NSCoding", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo8NSCoding", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo8NSCoding", "navigationItem"]
 - ["PSo8NSCoding", "picker"]
 - !private ["PSo8NSCoding", "placeholder"]
+- !private ["PSo8NSCoding", "popViewControllerAnimated"]
 - !private ["PSo8NSCoding", "presentViewController"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "redColor"]
@@ -1071,11 +1178,16 @@ depends-member:
 - !private ["PSo8NSCoding", "whiteColor"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "description"]
+- !private ["PSo9NSCopying", "entityForName"]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "redColor"]
 - !private ["PSo9NSCopying", "startIndex"]
 - !private ["PSo9NSCopying", "substringToIndex"]
 - !private ["PSo9NSCopying", "whiteColor"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "description"]
 - !private ["PSo26NSExtensionRequestHandling", "CGAffineTransformMakeScale"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
 - !private ["PSo26NSExtensionRequestHandling", "MKCoordinateRegion"]
@@ -1084,7 +1196,11 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "MKMapView"]
 - !private ["PSo26NSExtensionRequestHandling", "MKPinAnnotationView"]
 - !private ["PSo26NSExtensionRequestHandling", "MKPointAnnotation"]
+- !private ["PSo26NSExtensionRequestHandling", "NSEntityDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "NSManagedObjectContext"]
+- !private ["PSo26NSExtensionRequestHandling", "NSNumber"]
 - !private ["PSo26NSExtensionRequestHandling", "Selector"]
+- !private ["PSo26NSExtensionRequestHandling", "Shop"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
 - !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
@@ -1123,13 +1239,14 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "mapViewWillStartLocatingUser"]
 - ["PSo26NSExtensionRequestHandling", "mapViewWillStartRenderingMap"]
 - !private ["PSo26NSExtensionRequestHandling", "modalPresentationStyle"]
-- ["PSo26NSExtensionRequestHandling", "name"]
 - ["PSo26NSExtensionRequestHandling", "nameEditing"]
+- ["PSo26NSExtensionRequestHandling", "nameLabel"]
 - ["PSo26NSExtensionRequestHandling", "navigationController"]
 - ["PSo26NSExtensionRequestHandling", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo26NSExtensionRequestHandling", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
 - ["PSo26NSExtensionRequestHandling", "picker"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewControllerAnimated"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "saveShop"]
@@ -1150,10 +1267,21 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo9NSLocking", "MR_contextForCurrentThread"]
+- !private ["PSo9NSLocking", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "latitude"]
+- !private ["CSo15NSManagedObject", "longitude"]
+- !private ["CSo15NSManagedObject", "name"]
+- !private ["CSo22NSManagedObjectContext", "MR_contextForCurrentThread"]
+- !private ["CSo22NSManagedObjectContext", "MR_saveToPersistentStoreWithCompletion"]
 - !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
 - !private ["PSo16NSMutableCopying", "startIndex"]
 - !private ["PSo16NSMutableCopying", "substringToIndex"]
 - !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSNumber", "init"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGAffineTransformMakeScale"]
@@ -1168,7 +1296,14 @@ depends-member:
 - !private ["CSo8NSObject", "MKPinAnnotationView"]
 - ["CSo8NSObject", "MKPointAnnotation"]
 - !private ["CSo8NSObject", "MKUserLocation"]
+- !private ["CSo8NSObject", "MR_contextForCurrentThread"]
+- !private ["CSo8NSObject", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "NSNumber"]
 - !private ["CSo8NSObject", "Selector"]
+- !private ["CSo8NSObject", "Shop"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIAlertAction"]
 - !private ["CSo8NSObject", "UIAlertController"]
@@ -1202,10 +1337,13 @@ depends-member:
 - !private ["CSo8NSObject", "coordinate"]
 - ["CSo8NSObject", "coordinates"]
 - !private ["CSo8NSObject", "customView"]
+- !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["CSo8NSObject", "description"]
 - !private ["CSo8NSObject", "dismissViewControllerAnimated"]
 - !private ["CSo8NSObject", "draggable"]
+- !private ["CSo8NSObject", "entityForName"]
 - !private ["CSo8NSObject", "frame"]
 - !private ["CSo8NSObject", "image"]
 - !private ["CSo8NSObject", "imageEdgeInsets"]
@@ -1215,6 +1353,8 @@ depends-member:
 - ["CSo8NSObject", "img"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "isSourceTypeAvailable"]
+- !private ["CSo8NSObject", "latitude"]
+- !private ["CSo8NSObject", "longitude"]
 - ["CSo8NSObject", "map"]
 - !private ["CSo8NSObject", "mapType"]
 - ["CSo8NSObject", "mapView"]
@@ -1226,8 +1366,9 @@ depends-member:
 - ["CSo8NSObject", "mapViewWillStartLocatingUser"]
 - ["CSo8NSObject", "mapViewWillStartRenderingMap"]
 - !private ["CSo8NSObject", "modalPresentationStyle"]
-- ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "nameEditing"]
+- ["CSo8NSObject", "nameLabel"]
 - ["CSo8NSObject", "navigationController"]
 - ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
@@ -1235,6 +1376,7 @@ depends-member:
 - !private ["CSo8NSObject", "networkActivityIndicatorVisible"]
 - ["CSo8NSObject", "picker"]
 - !private ["CSo8NSObject", "placeholder"]
+- !private ["CSo8NSObject", "popViewControllerAnimated"]
 - !private ["CSo8NSObject", "presentViewController"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "redColor"]
@@ -1283,7 +1425,13 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "MKMapView"]
 - !private ["PSo16NSObjectProtocol", "MKPinAnnotationView"]
 - !private ["PSo16NSObjectProtocol", "MKPointAnnotation"]
+- !private ["PSo16NSObjectProtocol", "MR_contextForCurrentThread"]
+- !private ["PSo16NSObjectProtocol", "MR_saveToPersistentStoreWithCompletion"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "NSManagedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "NSNumber"]
 - !private ["PSo16NSObjectProtocol", "Selector"]
+- !private ["PSo16NSObjectProtocol", "Shop"]
 - !private ["PSo16NSObjectProtocol", "UIAlertAction"]
 - !private ["PSo16NSObjectProtocol", "UIAlertController"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
@@ -1317,8 +1465,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "customView"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableAnnotationViewWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "description"]
 - !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
 - !private ["PSo16NSObjectProtocol", "draggable"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - !private ["PSo16NSObjectProtocol", "image"]
 - !private ["PSo16NSObjectProtocol", "imageEdgeInsets"]
@@ -1328,6 +1478,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "img"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "isSourceTypeAvailable"]
+- !private ["PSo16NSObjectProtocol", "latitude"]
+- !private ["PSo16NSObjectProtocol", "longitude"]
 - ["PSo16NSObjectProtocol", "map"]
 - !private ["PSo16NSObjectProtocol", "mapType"]
 - ["PSo16NSObjectProtocol", "mapView"]
@@ -1339,8 +1491,9 @@ depends-member:
 - ["PSo16NSObjectProtocol", "mapViewWillStartLocatingUser"]
 - ["PSo16NSObjectProtocol", "mapViewWillStartRenderingMap"]
 - !private ["PSo16NSObjectProtocol", "modalPresentationStyle"]
-- ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "nameEditing"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
 - ["PSo16NSObjectProtocol", "navigationController"]
 - ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
@@ -1348,6 +1501,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "networkActivityIndicatorVisible"]
 - ["PSo16NSObjectProtocol", "picker"]
 - !private ["PSo16NSObjectProtocol", "placeholder"]
+- !private ["PSo16NSObjectProtocol", "popViewControllerAnimated"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "redColor"]
@@ -1390,14 +1544,18 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "description"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "redColor"]
 - !private ["PSo14NSSecureCoding", "startIndex"]
 - !private ["PSo14NSSecureCoding", "substringToIndex"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
 - !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
 - !private ["CSo8NSString", "startIndex"]
 - !private ["CSo8NSString", "substringToIndex"]
+- !private ["CSo7NSValue", "init"]
 - ["C10Asia_shops17NewShopController", "AnyObject"]
 - ["C10Asia_shops17NewShopController", "Bool"]
 - !private ["C10Asia_shops17NewShopController", "CGAffineTransformMakeScale"]
@@ -1412,7 +1570,12 @@ depends-member:
 - !private ["C10Asia_shops17NewShopController", "MKPinAnnotationView"]
 - ["C10Asia_shops17NewShopController", "MKPointAnnotation"]
 - !private ["C10Asia_shops17NewShopController", "MKUserLocation"]
+- !private ["C10Asia_shops17NewShopController", "NSEntityDescription"]
+- !private ["C10Asia_shops17NewShopController", "NSError"]
+- !private ["C10Asia_shops17NewShopController", "NSManagedObjectContext"]
+- !private ["C10Asia_shops17NewShopController", "NSNumber"]
 - !private ["C10Asia_shops17NewShopController", "Selector"]
+- !private ["C10Asia_shops17NewShopController", "Shop"]
 - ["C10Asia_shops17NewShopController", "String"]
 - !private ["C10Asia_shops17NewShopController", "UIAlertAction"]
 - !private ["C10Asia_shops17NewShopController", "UIAlertController"]
@@ -1448,8 +1611,8 @@ depends-member:
 - ["C10Asia_shops17NewShopController", "mapViewWillStartLoadingMap"]
 - ["C10Asia_shops17NewShopController", "mapViewWillStartLocatingUser"]
 - ["C10Asia_shops17NewShopController", "mapViewWillStartRenderingMap"]
-- ["C10Asia_shops17NewShopController", "name"]
 - ["C10Asia_shops17NewShopController", "nameEditing"]
+- ["C10Asia_shops17NewShopController", "nameLabel"]
 - ["C10Asia_shops17NewShopController", "navigationController"]
 - ["C10Asia_shops17NewShopController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["C10Asia_shops17NewShopController", "navigationControllerSupportedInterfaceOrientations"]
@@ -1479,6 +1642,7 @@ depends-member:
 - !private ["Ps13OptionSetType", "TouchUpInside"]
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "characters"]
+- !private ["Ps16OutputStreamType", "init"]
 - !private ["Ps16OutputStreamType", "startIndex"]
 - !private ["Ps16OutputStreamType", "substringToIndex"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
@@ -1509,6 +1673,10 @@ depends-member:
 - !private ["Ps14SetAlgebraType", "EditingChanged"]
 - !private ["Ps14SetAlgebraType", "Normal"]
 - !private ["Ps14SetAlgebraType", "TouchUpInside"]
+- !private ["C10Asia_shops4Shop", "init"]
+- !private ["C10Asia_shops4Shop", "latitude"]
+- !private ["C10Asia_shops4Shop", "longitude"]
+- !private ["C10Asia_shops4Shop", "name"]
 - !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps16SignedNumberType", "IntegerLiteralType"]
 - !private ["Vs5Slice", "Generator"]
@@ -1516,13 +1684,16 @@ depends-member:
 - !private ["Vs5Slice", "SubSequence"]
 - !private ["Vs5Slice", "_Element"]
 - !private ["Ps10Streamable", "characters"]
+- !private ["Ps10Streamable", "init"]
 - !private ["Ps10Streamable", "startIndex"]
 - !private ["Ps10Streamable", "substringToIndex"]
 - !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["SS", "characters"]
+- !private ["SS", "init"]
 - !private ["SS", "startIndex"]
 - !private ["SS", "substringToIndex"]
 - !private ["Ps30StringInterpolationConvertible", "characters"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
 - !private ["Ps30StringInterpolationConvertible", "startIndex"]
 - !private ["Ps30StringInterpolationConvertible", "substringToIndex"]
 - !private ["Ps24StringLiteralConvertible", "characters"]
@@ -1609,7 +1780,11 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "MKMapView"]
 - !private ["PSo21UIAppearanceContainer", "MKPinAnnotationView"]
 - !private ["PSo21UIAppearanceContainer", "MKPointAnnotation"]
+- !private ["PSo21UIAppearanceContainer", "NSEntityDescription"]
+- !private ["PSo21UIAppearanceContainer", "NSManagedObjectContext"]
+- !private ["PSo21UIAppearanceContainer", "NSNumber"]
 - !private ["PSo21UIAppearanceContainer", "Selector"]
+- !private ["PSo21UIAppearanceContainer", "Shop"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertController"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
@@ -1662,14 +1837,15 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "mapViewWillStartLocatingUser"]
 - ["PSo21UIAppearanceContainer", "mapViewWillStartRenderingMap"]
 - !private ["PSo21UIAppearanceContainer", "modalPresentationStyle"]
-- ["PSo21UIAppearanceContainer", "name"]
 - ["PSo21UIAppearanceContainer", "nameEditing"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
 - ["PSo21UIAppearanceContainer", "navigationController"]
 - ["PSo21UIAppearanceContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo21UIAppearanceContainer", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo21UIAppearanceContainer", "navigationItem"]
 - ["PSo21UIAppearanceContainer", "picker"]
 - !private ["PSo21UIAppearanceContainer", "placeholder"]
+- !private ["PSo21UIAppearanceContainer", "popViewControllerAnimated"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "resignFirstResponder"]
@@ -1731,7 +1907,11 @@ depends-member:
 - !private ["PSo18UIContentContainer", "MKMapView"]
 - !private ["PSo18UIContentContainer", "MKPinAnnotationView"]
 - !private ["PSo18UIContentContainer", "MKPointAnnotation"]
+- !private ["PSo18UIContentContainer", "NSEntityDescription"]
+- !private ["PSo18UIContentContainer", "NSManagedObjectContext"]
+- !private ["PSo18UIContentContainer", "NSNumber"]
 - !private ["PSo18UIContentContainer", "Selector"]
+- !private ["PSo18UIContentContainer", "Shop"]
 - !private ["PSo18UIContentContainer", "UIAlertAction"]
 - !private ["PSo18UIContentContainer", "UIAlertController"]
 - !private ["PSo18UIContentContainer", "UIApplication"]
@@ -1770,13 +1950,14 @@ depends-member:
 - ["PSo18UIContentContainer", "mapViewWillStartLocatingUser"]
 - ["PSo18UIContentContainer", "mapViewWillStartRenderingMap"]
 - !private ["PSo18UIContentContainer", "modalPresentationStyle"]
-- ["PSo18UIContentContainer", "name"]
 - ["PSo18UIContentContainer", "nameEditing"]
+- ["PSo18UIContentContainer", "nameLabel"]
 - ["PSo18UIContentContainer", "navigationController"]
 - ["PSo18UIContentContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo18UIContentContainer", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo18UIContentContainer", "navigationItem"]
 - ["PSo18UIContentContainer", "picker"]
+- !private ["PSo18UIContentContainer", "popViewControllerAnimated"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "saveShop"]
@@ -1888,7 +2069,11 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "MKMapView"]
 - !private ["PSo18UIFocusEnvironment", "MKPinAnnotationView"]
 - !private ["PSo18UIFocusEnvironment", "MKPointAnnotation"]
+- !private ["PSo18UIFocusEnvironment", "NSEntityDescription"]
+- !private ["PSo18UIFocusEnvironment", "NSManagedObjectContext"]
+- !private ["PSo18UIFocusEnvironment", "NSNumber"]
 - !private ["PSo18UIFocusEnvironment", "Selector"]
+- !private ["PSo18UIFocusEnvironment", "Shop"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
 - !private ["PSo18UIFocusEnvironment", "UIAlertController"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
@@ -1941,14 +2126,15 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "mapViewWillStartLocatingUser"]
 - ["PSo18UIFocusEnvironment", "mapViewWillStartRenderingMap"]
 - !private ["PSo18UIFocusEnvironment", "modalPresentationStyle"]
-- ["PSo18UIFocusEnvironment", "name"]
 - ["PSo18UIFocusEnvironment", "nameEditing"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
 - ["PSo18UIFocusEnvironment", "navigationController"]
 - ["PSo18UIFocusEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo18UIFocusEnvironment", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo18UIFocusEnvironment", "navigationItem"]
 - ["PSo18UIFocusEnvironment", "picker"]
 - !private ["PSo18UIFocusEnvironment", "placeholder"]
+- !private ["PSo18UIFocusEnvironment", "popViewControllerAnimated"]
 - !private ["PSo18UIFocusEnvironment", "presentViewController"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "resignFirstResponder"]
@@ -2002,7 +2188,11 @@ depends-member:
 - !private ["PSo31UIImagePickerControllerDelegate", "MKMapView"]
 - !private ["PSo31UIImagePickerControllerDelegate", "MKPinAnnotationView"]
 - !private ["PSo31UIImagePickerControllerDelegate", "MKPointAnnotation"]
+- !private ["PSo31UIImagePickerControllerDelegate", "NSEntityDescription"]
+- !private ["PSo31UIImagePickerControllerDelegate", "NSManagedObjectContext"]
+- !private ["PSo31UIImagePickerControllerDelegate", "NSNumber"]
 - !private ["PSo31UIImagePickerControllerDelegate", "Selector"]
+- !private ["PSo31UIImagePickerControllerDelegate", "Shop"]
 - !private ["PSo31UIImagePickerControllerDelegate", "UIAlertAction"]
 - !private ["PSo31UIImagePickerControllerDelegate", "UIAlertController"]
 - !private ["PSo31UIImagePickerControllerDelegate", "UIApplication"]
@@ -2033,7 +2223,7 @@ depends-member:
 - ["PSo31UIImagePickerControllerDelegate", "mapViewWillStartLoadingMap"]
 - ["PSo31UIImagePickerControllerDelegate", "mapViewWillStartLocatingUser"]
 - ["PSo31UIImagePickerControllerDelegate", "mapViewWillStartRenderingMap"]
-- !private ["PSo31UIImagePickerControllerDelegate", "name"]
+- !private ["PSo31UIImagePickerControllerDelegate", "nameLabel"]
 - ["PSo31UIImagePickerControllerDelegate", "navigationController"]
 - ["PSo31UIImagePickerControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo31UIImagePickerControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
@@ -2084,6 +2274,7 @@ depends-member:
 - ["CSo22UINavigationController", "init"]
 - !private ["CSo22UINavigationController", "isSourceTypeAvailable"]
 - !private ["CSo22UINavigationController", "modalPresentationStyle"]
+- !private ["CSo22UINavigationController", "popViewControllerAnimated"]
 - !private ["CSo22UINavigationController", "sourceType"]
 - !private ["PSo30UINavigationControllerDelegate", "CGAffineTransformMakeScale"]
 - !private ["PSo30UINavigationControllerDelegate", "CGRectMake"]
@@ -2093,7 +2284,11 @@ depends-member:
 - !private ["PSo30UINavigationControllerDelegate", "MKMapView"]
 - !private ["PSo30UINavigationControllerDelegate", "MKPinAnnotationView"]
 - !private ["PSo30UINavigationControllerDelegate", "MKPointAnnotation"]
+- !private ["PSo30UINavigationControllerDelegate", "NSEntityDescription"]
+- !private ["PSo30UINavigationControllerDelegate", "NSManagedObjectContext"]
+- !private ["PSo30UINavigationControllerDelegate", "NSNumber"]
 - !private ["PSo30UINavigationControllerDelegate", "Selector"]
+- !private ["PSo30UINavigationControllerDelegate", "Shop"]
 - !private ["PSo30UINavigationControllerDelegate", "UIAlertAction"]
 - !private ["PSo30UINavigationControllerDelegate", "UIAlertController"]
 - !private ["PSo30UINavigationControllerDelegate", "UIApplication"]
@@ -2124,7 +2319,7 @@ depends-member:
 - ["PSo30UINavigationControllerDelegate", "mapViewWillStartLoadingMap"]
 - ["PSo30UINavigationControllerDelegate", "mapViewWillStartLocatingUser"]
 - ["PSo30UINavigationControllerDelegate", "mapViewWillStartRenderingMap"]
-- !private ["PSo30UINavigationControllerDelegate", "name"]
+- !private ["PSo30UINavigationControllerDelegate", "nameLabel"]
 - ["PSo30UINavigationControllerDelegate", "navigationController"]
 - ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
@@ -2161,7 +2356,12 @@ depends-member:
 - !private ["CSo11UIResponder", "MKPinAnnotationView"]
 - ["CSo11UIResponder", "MKPointAnnotation"]
 - !private ["CSo11UIResponder", "MKUserLocation"]
+- !private ["CSo11UIResponder", "NSEntityDescription"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NSManagedObjectContext"]
+- !private ["CSo11UIResponder", "NSNumber"]
 - !private ["CSo11UIResponder", "Selector"]
+- !private ["CSo11UIResponder", "Shop"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
 - !private ["CSo11UIResponder", "UIAlertController"]
@@ -2216,8 +2416,8 @@ depends-member:
 - ["CSo11UIResponder", "mapViewWillStartLocatingUser"]
 - ["CSo11UIResponder", "mapViewWillStartRenderingMap"]
 - !private ["CSo11UIResponder", "modalPresentationStyle"]
-- ["CSo11UIResponder", "name"]
 - ["CSo11UIResponder", "nameEditing"]
+- ["CSo11UIResponder", "nameLabel"]
 - ["CSo11UIResponder", "navigationController"]
 - ["CSo11UIResponder", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["CSo11UIResponder", "navigationControllerSupportedInterfaceOrientations"]
@@ -2225,6 +2425,7 @@ depends-member:
 - !private ["CSo11UIResponder", "networkActivityIndicatorVisible"]
 - ["CSo11UIResponder", "picker"]
 - !private ["CSo11UIResponder", "placeholder"]
+- !private ["CSo11UIResponder", "popViewControllerAnimated"]
 - !private ["CSo11UIResponder", "presentViewController"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "resignFirstResponder"]
@@ -2268,7 +2469,11 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "MKMapView"]
 - !private ["PSo16UIStateRestoring", "MKPinAnnotationView"]
 - !private ["PSo16UIStateRestoring", "MKPointAnnotation"]
+- !private ["PSo16UIStateRestoring", "NSEntityDescription"]
+- !private ["PSo16UIStateRestoring", "NSManagedObjectContext"]
+- !private ["PSo16UIStateRestoring", "NSNumber"]
 - !private ["PSo16UIStateRestoring", "Selector"]
+- !private ["PSo16UIStateRestoring", "Shop"]
 - !private ["PSo16UIStateRestoring", "UIAlertAction"]
 - !private ["PSo16UIStateRestoring", "UIAlertController"]
 - !private ["PSo16UIStateRestoring", "UIApplication"]
@@ -2307,13 +2512,14 @@ depends-member:
 - ["PSo16UIStateRestoring", "mapViewWillStartLocatingUser"]
 - ["PSo16UIStateRestoring", "mapViewWillStartRenderingMap"]
 - !private ["PSo16UIStateRestoring", "modalPresentationStyle"]
-- ["PSo16UIStateRestoring", "name"]
 - ["PSo16UIStateRestoring", "nameEditing"]
+- ["PSo16UIStateRestoring", "nameLabel"]
 - ["PSo16UIStateRestoring", "navigationController"]
 - ["PSo16UIStateRestoring", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo16UIStateRestoring", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo16UIStateRestoring", "navigationItem"]
 - ["PSo16UIStateRestoring", "picker"]
+- !private ["PSo16UIStateRestoring", "popViewControllerAnimated"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "saveShop"]
@@ -2350,7 +2556,11 @@ depends-member:
 - !private ["PSo19UITextFieldDelegate", "MKMapView"]
 - !private ["PSo19UITextFieldDelegate", "MKPinAnnotationView"]
 - !private ["PSo19UITextFieldDelegate", "MKPointAnnotation"]
+- !private ["PSo19UITextFieldDelegate", "NSEntityDescription"]
+- !private ["PSo19UITextFieldDelegate", "NSManagedObjectContext"]
+- !private ["PSo19UITextFieldDelegate", "NSNumber"]
 - !private ["PSo19UITextFieldDelegate", "Selector"]
+- !private ["PSo19UITextFieldDelegate", "Shop"]
 - !private ["PSo19UITextFieldDelegate", "UIAlertAction"]
 - !private ["PSo19UITextFieldDelegate", "UIAlertController"]
 - !private ["PSo19UITextFieldDelegate", "UIApplication"]
@@ -2381,7 +2591,7 @@ depends-member:
 - ["PSo19UITextFieldDelegate", "mapViewWillStartLoadingMap"]
 - ["PSo19UITextFieldDelegate", "mapViewWillStartLocatingUser"]
 - ["PSo19UITextFieldDelegate", "mapViewWillStartRenderingMap"]
-- !private ["PSo19UITextFieldDelegate", "name"]
+- !private ["PSo19UITextFieldDelegate", "nameLabel"]
 - ["PSo19UITextFieldDelegate", "navigationController"]
 - ["PSo19UITextFieldDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo19UITextFieldDelegate", "navigationControllerSupportedInterfaceOrientations"]
@@ -2425,7 +2635,11 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "MKMapView"]
 - !private ["PSo18UITraitEnvironment", "MKPinAnnotationView"]
 - !private ["PSo18UITraitEnvironment", "MKPointAnnotation"]
+- !private ["PSo18UITraitEnvironment", "NSEntityDescription"]
+- !private ["PSo18UITraitEnvironment", "NSManagedObjectContext"]
+- !private ["PSo18UITraitEnvironment", "NSNumber"]
 - !private ["PSo18UITraitEnvironment", "Selector"]
+- !private ["PSo18UITraitEnvironment", "Shop"]
 - !private ["PSo18UITraitEnvironment", "UIAlertAction"]
 - !private ["PSo18UITraitEnvironment", "UIAlertController"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
@@ -2478,14 +2692,15 @@ depends-member:
 - ["PSo18UITraitEnvironment", "mapViewWillStartLocatingUser"]
 - ["PSo18UITraitEnvironment", "mapViewWillStartRenderingMap"]
 - !private ["PSo18UITraitEnvironment", "modalPresentationStyle"]
-- ["PSo18UITraitEnvironment", "name"]
 - ["PSo18UITraitEnvironment", "nameEditing"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
 - ["PSo18UITraitEnvironment", "navigationController"]
 - ["PSo18UITraitEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["PSo18UITraitEnvironment", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["PSo18UITraitEnvironment", "navigationItem"]
 - ["PSo18UITraitEnvironment", "picker"]
 - !private ["PSo18UITraitEnvironment", "placeholder"]
+- !private ["PSo18UITraitEnvironment", "popViewControllerAnimated"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "resignFirstResponder"]
@@ -2568,7 +2783,12 @@ depends-member:
 - !private ["CSo16UIViewController", "MKPinAnnotationView"]
 - ["CSo16UIViewController", "MKPointAnnotation"]
 - !private ["CSo16UIViewController", "MKUserLocation"]
+- !private ["CSo16UIViewController", "NSEntityDescription"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NSManagedObjectContext"]
+- !private ["CSo16UIViewController", "NSNumber"]
 - !private ["CSo16UIViewController", "Selector"]
+- !private ["CSo16UIViewController", "Shop"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
 - !private ["CSo16UIViewController", "UIAlertController"]
@@ -2609,13 +2829,14 @@ depends-member:
 - ["CSo16UIViewController", "mapViewWillStartLocatingUser"]
 - ["CSo16UIViewController", "mapViewWillStartRenderingMap"]
 - !private ["CSo16UIViewController", "modalPresentationStyle"]
-- ["CSo16UIViewController", "name"]
 - ["CSo16UIViewController", "nameEditing"]
+- ["CSo16UIViewController", "nameLabel"]
 - ["CSo16UIViewController", "navigationController"]
 - ["CSo16UIViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["CSo16UIViewController", "navigationControllerSupportedInterfaceOrientations"]
 - !private ["CSo16UIViewController", "navigationItem"]
 - ["CSo16UIViewController", "picker"]
+- !private ["CSo16UIViewController", "popViewControllerAnimated"]
 - !private ["CSo16UIViewController", "presentViewController"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "saveShop"]
@@ -2637,22 +2858,31 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "startIndex"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "substringToIndex"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "startIndex"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "substringToIndex"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "startIndex"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "substringToIndex"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "startIndex"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "substringToIndex"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "startIndex"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "substringToIndex"]
 - !private ["Ps24_ColorLiteralConvertible", "redColor"]
@@ -2667,6 +2897,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "startIndex"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps21_ObjectiveCBridgeable", "substringToIndex"]
@@ -2725,7 +2956,9 @@ depends-nominal:
 - !private "V12CoreGraphics7CGFloat"
 - !private "VSC7CGPoint"
 - !private "VSC6CGSize"
+- !private "VSC22CLLocationCoordinate2D"
 - "Ps11CVarArgType"
+- !private "Vs9Character"
 - !private "VSS13CharacterView"
 - !private "Ps14CollectionType"
 - !private "Ps10Comparable"
@@ -2742,7 +2975,10 @@ depends-nominal:
 - !private "Ps28DictionaryLiteralConvertible"
 - !private "Sd"
 - "Ps9Equatable"
+- !private "Ps9ErrorType"
 - !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
 - !private "Ps16ForwardIndexType"
 - !private "Ps13GeneratorType"
 - "Ps8Hashable"
@@ -2751,6 +2987,10 @@ depends-nominal:
 - !private "Ps9Indexable"
 - !private "Vs17IndexingGenerator"
 - !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
 - !private "Ps21IntegerArithmeticType"
 - !private "Ps25IntegerLiteralConvertible"
 - !private "Ps11IntegerType"
@@ -2766,13 +3006,20 @@ depends-nominal:
 - !private "Ps14MirrorPathType"
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "CSo7NSError"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo9NSLocking"
+- !private "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
 - !private "PSo16NSMutableCopying"
 - !private "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
+- !private "CSo7NSValue"
 - "C10Asia_shops17NewShopController"
 - !private "Ps21NilLiteralConvertible"
 - !private "Ps13OptionSetType"
@@ -2784,6 +3031,7 @@ depends-nominal:
 - !private "V10ObjectiveC8Selector"
 - !private "Ps12SequenceType"
 - !private "Ps14SetAlgebraType"
+- !private "C10Asia_shops4Shop"
 - !private "Ps17SignedIntegerType"
 - !private "Ps16SignedNumberType"
 - !private "Vs5Slice"
@@ -2837,6 +3085,11 @@ depends-nominal:
 - !private "CSo6UIView"
 - "CSo16UIViewController"
 - !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
 - !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
 - !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
@@ -2902,4 +3155,4 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules/module.modulemap"
-interface-hash: "7bb7b10fd5ef9be33dab5c57cedf8f54"
+interface-hash: "96a85e44780dca6c38a8558b76f70e95"

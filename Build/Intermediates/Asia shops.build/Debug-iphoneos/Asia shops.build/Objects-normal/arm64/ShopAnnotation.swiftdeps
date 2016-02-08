@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShopAnnotation"
+provides-nominal:
+- "C10Asia_shops14ShopAnnotation"
+provides-member:
+- ["C10Asia_shops14ShopAnnotation", ""]
+provides-dynamic-lookup:
+- "copyWithZone"
+- "name"
+- "color"
+- "rating"
+- "shop"
+depends-top-level:
+- "CLLocationCoordinate2D"
+- "String"
+- "NSManagedObject"
+- "ShopAnnotation"
+- "NSZone"
+- "AnyObject"
+- !private "CLLocationCoordinate2DMake"
+- "MKPointAnnotation"
+- "Double"
+- "StringLiteralType"
+- "UIColor"
+- "NSCopying"
+depends-member:
+- !private ["Ps9AnyObject", "CLLocationCoordinate2DMake"]
+- !private ["Ps9AnyObject", "ShopAnnotation"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "color"]
+- !private ["Ps9AnyObject", "coordinate"]
+- ["Ps9AnyObject", "copyWithZone"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "purpleColor"]
+- ["Ps9AnyObject", "rating"]
+- ["Ps9AnyObject", "shop"]
+- !private ["Ps9AnyObject", "subtitle"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["Ps11CVarArgType", "CLLocationCoordinate2DMake"]
+- !private ["Ps11CVarArgType", "ShopAnnotation"]
+- !private ["Ps11CVarArgType", "String"]
+- ["Ps11CVarArgType", "UIColor"]
+- ["Ps11CVarArgType", "color"]
+- !private ["Ps11CVarArgType", "coordinate"]
+- ["Ps11CVarArgType", "copyWithZone"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "name"]
+- ["Ps11CVarArgType", "purpleColor"]
+- ["Ps11CVarArgType", "rating"]
+- ["Ps11CVarArgType", "shop"]
+- !private ["Ps11CVarArgType", "subtitle"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationCoordinate2DMake"]
+- !private ["Ps28CustomDebugStringConvertible", "ShopAnnotation"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- ["Ps28CustomDebugStringConvertible", "color"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- ["Ps28CustomDebugStringConvertible", "purpleColor"]
+- ["Ps28CustomDebugStringConvertible", "rating"]
+- ["Ps28CustomDebugStringConvertible", "shop"]
+- !private ["Ps28CustomDebugStringConvertible", "subtitle"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CLLocationCoordinate2DMake"]
+- !private ["Ps23CustomStringConvertible", "ShopAnnotation"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- ["Ps23CustomStringConvertible", "color"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- ["Ps23CustomStringConvertible", "copyWithZone"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "purpleColor"]
+- ["Ps23CustomStringConvertible", "rating"]
+- ["Ps23CustomStringConvertible", "shop"]
+- !private ["Ps23CustomStringConvertible", "subtitle"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CLLocationCoordinate2DMake"]
+- !private ["Ps9Equatable", "ShopAnnotation"]
+- !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "color"]
+- !private ["Ps9Equatable", "coordinate"]
+- ["Ps9Equatable", "copyWithZone"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- ["Ps9Equatable", "purpleColor"]
+- ["Ps9Equatable", "rating"]
+- ["Ps9Equatable", "shop"]
+- !private ["Ps9Equatable", "subtitle"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps8Hashable", "CLLocationCoordinate2DMake"]
+- !private ["Ps8Hashable", "ShopAnnotation"]
+- !private ["Ps8Hashable", "String"]
+- ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "color"]
+- !private ["Ps8Hashable", "coordinate"]
+- ["Ps8Hashable", "copyWithZone"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "name"]
+- ["Ps8Hashable", "purpleColor"]
+- ["Ps8Hashable", "rating"]
+- ["Ps8Hashable", "shop"]
+- !private ["Ps8Hashable", "subtitle"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", ""]
+- !private ["PSo12MKAnnotation", "CLLocationCoordinate2DMake"]
+- !private ["PSo12MKAnnotation", "ShopAnnotation"]
+- !private ["PSo12MKAnnotation", "String"]
+- ["PSo12MKAnnotation", "UIColor"]
+- ["PSo12MKAnnotation", "color"]
+- !private ["PSo12MKAnnotation", "coordinate"]
+- ["PSo12MKAnnotation", "copyWithZone"]
+- ["PSo12MKAnnotation", "init"]
+- ["PSo12MKAnnotation", "name"]
+- ["PSo12MKAnnotation", "rating"]
+- ["PSo12MKAnnotation", "shop"]
+- !private ["PSo12MKAnnotation", "subtitle"]
+- !private ["PSo12MKAnnotation", "title"]
+- ["PSo12MKAnnotation", ""]
+- ["CSo17MKPointAnnotation", "AnyObject"]
+- ["CSo17MKPointAnnotation", "CLLocationCoordinate2D"]
+- !private ["CSo17MKPointAnnotation", "CLLocationCoordinate2DMake"]
+- ["CSo17MKPointAnnotation", "Double"]
+- ["CSo17MKPointAnnotation", "NSManagedObject"]
+- ["CSo17MKPointAnnotation", "NSZone"]
+- !private ["CSo17MKPointAnnotation", "ShopAnnotation"]
+- ["CSo17MKPointAnnotation", "String"]
+- ["CSo17MKPointAnnotation", "UIColor"]
+- ["CSo17MKPointAnnotation", "color"]
+- !private ["CSo17MKPointAnnotation", "coordinate"]
+- ["CSo17MKPointAnnotation", "copyWithZone"]
+- ["CSo17MKPointAnnotation", "init"]
+- ["CSo17MKPointAnnotation", "name"]
+- ["CSo17MKPointAnnotation", "rating"]
+- ["CSo17MKPointAnnotation", "shop"]
+- !private ["CSo17MKPointAnnotation", "subtitle"]
+- !private ["CSo17MKPointAnnotation", "title"]
+- ["CSo17MKPointAnnotation", ""]
+- ["CSo7MKShape", "AnyObject"]
+- ["CSo7MKShape", "CLLocationCoordinate2D"]
+- !private ["CSo7MKShape", "CLLocationCoordinate2DMake"]
+- ["CSo7MKShape", "Double"]
+- ["CSo7MKShape", "NSManagedObject"]
+- ["CSo7MKShape", "NSZone"]
+- !private ["CSo7MKShape", "ShopAnnotation"]
+- ["CSo7MKShape", "String"]
+- ["CSo7MKShape", "UIColor"]
+- ["CSo7MKShape", "color"]
+- !private ["CSo7MKShape", "coordinate"]
+- ["CSo7MKShape", "copyWithZone"]
+- ["CSo7MKShape", "init"]
+- ["CSo7MKShape", "name"]
+- ["CSo7MKShape", "rating"]
+- ["CSo7MKShape", "shop"]
+- !private ["CSo7MKShape", "subtitle"]
+- !private ["CSo7MKShape", "title"]
+- !private ["Ps14MirrorPathType", "init"]
+- ["PSo8NSCoding", "purpleColor"]
+- !private ["PSo9NSCopying", "CLLocationCoordinate2DMake"]
+- !private ["PSo9NSCopying", "ShopAnnotation"]
+- !private ["PSo9NSCopying", "String"]
+- ["PSo9NSCopying", "UIColor"]
+- !private ["PSo9NSCopying", "coordinate"]
+- ["PSo9NSCopying", "copyWithZone"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "name"]
+- ["PSo9NSCopying", "purpleColor"]
+- !private ["PSo9NSCopying", "rating"]
+- !private ["PSo9NSCopying", "shop"]
+- !private ["PSo9NSCopying", "subtitle"]
+- !private ["PSo9NSCopying", "title"]
+- ["PSo9NSCopying", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- !private ["CSo8NSObject", "CLLocationCoordinate2DMake"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "NSManagedObject"]
+- ["CSo8NSObject", "NSZone"]
+- !private ["CSo8NSObject", "ShopAnnotation"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "color"]
+- !private ["CSo8NSObject", "coordinate"]
+- ["CSo8NSObject", "copyWithZone"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "purpleColor"]
+- ["CSo8NSObject", "rating"]
+- ["CSo8NSObject", "shop"]
+- !private ["CSo8NSObject", "subtitle"]
+- !private ["CSo8NSObject", "title"]
+- !private ["PSo16NSObjectProtocol", "CLLocationCoordinate2DMake"]
+- !private ["PSo16NSObjectProtocol", "ShopAnnotation"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "color"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", "copyWithZone"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "purpleColor"]
+- ["PSo16NSObjectProtocol", "rating"]
+- ["PSo16NSObjectProtocol", "shop"]
+- !private ["PSo16NSObjectProtocol", "subtitle"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "purpleColor"]
+- !private ["Ps16OutputStreamType", "init"]
+- ["C10Asia_shops14ShopAnnotation", "AnyObject"]
+- ["C10Asia_shops14ShopAnnotation", "CLLocationCoordinate2D"]
+- !private ["C10Asia_shops14ShopAnnotation", "CLLocationCoordinate2DMake"]
+- ["C10Asia_shops14ShopAnnotation", "Double"]
+- ["C10Asia_shops14ShopAnnotation", "NSManagedObject"]
+- ["C10Asia_shops14ShopAnnotation", "NSZone"]
+- !private ["C10Asia_shops14ShopAnnotation", "ShopAnnotation"]
+- ["C10Asia_shops14ShopAnnotation", "String"]
+- ["C10Asia_shops14ShopAnnotation", "UIColor"]
+- ["C10Asia_shops14ShopAnnotation", "color"]
+- !private ["C10Asia_shops14ShopAnnotation", "coordinate"]
+- ["C10Asia_shops14ShopAnnotation", "copyWithZone"]
+- ["C10Asia_shops14ShopAnnotation", "deinit"]
+- ["C10Asia_shops14ShopAnnotation", "init"]
+- ["C10Asia_shops14ShopAnnotation", "name"]
+- ["C10Asia_shops14ShopAnnotation", "rating"]
+- ["C10Asia_shops14ShopAnnotation", "shop"]
+- !private ["C10Asia_shops14ShopAnnotation", "subtitle"]
+- !private ["C10Asia_shops14ShopAnnotation", "title"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- ["CSo7UIColor", "purpleColor"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["Ps24_ColorLiteralConvertible", "purpleColor"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "VSC22CLLocationCoordinate2D"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- "PSo12MKAnnotation"
+- "CSo17MKPointAnnotation"
+- "CSo7MKShape"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "Ps16OutputStreamType"
+- "C10Asia_shops14ShopAnnotation"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "CSo7UIColor"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps24_ColorLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+interface-hash: "49cee4afd94e9bf593d10cc8091963de"
