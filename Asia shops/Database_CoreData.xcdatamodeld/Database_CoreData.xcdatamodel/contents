@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10137.1" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
-    <entity name="Alcohol_type" representedClassName="Alcohol_type" syncable="YES">
+    <entity name="AlcoholType" representedClassName="Alcohol_type" syncable="YES">
         <attribute name="type" attributeType="String" syncable="YES"/>
         <relationship name="alcoholtype_bottle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bottle" inverseName="bottle_alctype" inverseEntity="Bottle" syncable="YES"/>
     </entity>
@@ -8,22 +8,22 @@
         <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="vol" optional="YES" attributeType="Double" minValueString="0" maxValueString="100" defaultValueString="0" syncable="YES"/>
-        <relationship name="bottle_alctype" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Alcohol_type" inverseName="alcoholtype_bottle" inverseEntity="Alcohol_type" syncable="YES"/>
-        <relationship name="bottle_image" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bottle_image" inverseName="bottleimage_bottle" inverseEntity="Bottle_image" syncable="YES"/>
+        <relationship name="bottle_alctype" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AlcoholType" inverseName="alcoholtype_bottle" inverseEntity="AlcoholType" syncable="YES"/>
+        <relationship name="bottle_image" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BottleImage" inverseName="bottleimage_bottle" inverseEntity="BottleImage" syncable="YES"/>
         <relationship name="bottle_rel" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Rel" inverseName="rel_bottle" inverseEntity="Rel" syncable="YES"/>
     </entity>
-    <entity name="Bottle_image" representedClassName="Bottle_image" syncable="YES">
-        <attribute name="image_name" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    <entity name="BottleImage" representedClassName="Bottle_image" syncable="YES">
+        <attribute name="imageData" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="bottleimage_bottle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bottle" inverseName="bottle_image" inverseEntity="Bottle" syncable="YES"/>
     </entity>
     <entity name="Days" representedClassName="Days" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
         <attribute name="shortcut" attributeType="String" syncable="YES"/>
-        <relationship name="days_opentime" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Open_time" inverseName="time_days" inverseEntity="Open_time" syncable="YES"/>
+        <relationship name="days_opentime" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="OpenTime" inverseName="time_days" inverseEntity="OpenTime" syncable="YES"/>
     </entity>
-    <entity name="Open_time" representedClassName="Open_time" syncable="YES">
+    <entity name="OpenTime" representedClassName="Open_time" syncable="YES">
         <attribute name="from" optional="YES" attributeType="Double" minValueString="0" maxValueString="23.59" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="nonstop" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="nonstop" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="to" optional="YES" attributeType="Double" minValueString="0" maxValueString="23.59" defaultValueString="0.0" syncable="YES"/>
         <relationship name="time_days" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Days" inverseName="days_opentime" inverseEntity="Days" syncable="YES"/>
         <relationship name="time_shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shop_opentime" inverseEntity="Shop" syncable="YES"/>
@@ -45,24 +45,24 @@
         <attribute name="latitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="longitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
-        <relationship name="shop_image" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Shop_image" inverseName="shopimage_shop" inverseEntity="Shop_image" syncable="YES"/>
-        <relationship name="shop_opentime" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Open_time" inverseName="time_shop" inverseEntity="Open_time" syncable="YES"/>
+        <relationship name="shop_image" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ShopImage" inverseName="shopimage_shop" inverseEntity="ShopImage" syncable="YES"/>
+        <relationship name="shop_opentime" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="OpenTime" inverseName="time_shop" inverseEntity="OpenTime" syncable="YES"/>
         <relationship name="shop_rating" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rating" inverseName="rating_shop" inverseEntity="Rating" syncable="YES"/>
         <relationship name="shop_rel" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Rel" inverseName="rel_shop" inverseEntity="Rel" syncable="YES"/>
     </entity>
-    <entity name="Shop_image" representedClassName="Shop_image" syncable="YES">
-        <attribute name="image_name" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    <entity name="ShopImage" representedClassName="Shop_image" syncable="YES">
+        <attribute name="imageData" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <relationship name="shopimage_shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shop" inverseName="shop_image" inverseEntity="Shop" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Alcohol_type" positionX="-38" positionY="-36" width="128" height="75"/>
+        <element name="AlcoholType" positionX="-38" positionY="-36" width="128" height="75"/>
         <element name="Bottle" positionX="-299" positionY="27" width="128" height="133"/>
-        <element name="Bottle_image" positionX="-36" positionY="81" width="128" height="75"/>
+        <element name="BottleImage" positionX="-36" positionY="81" width="128" height="75"/>
         <element name="Days" positionX="-36" positionY="-264" width="128" height="90"/>
-        <element name="Open_time" positionX="-117" positionY="-117" width="126" height="120"/>
+        <element name="OpenTime" positionX="-117" positionY="-117" width="126" height="120"/>
         <element name="Rating" positionX="-549" positionY="-153" width="126" height="105"/>
         <element name="Rel" positionX="-549" positionY="53" width="126" height="105"/>
         <element name="Shop" positionX="-335" positionY="-162" width="128" height="163"/>
-        <element name="Shop_image" positionX="-218" positionY="-267" width="128" height="75"/>
+        <element name="ShopImage" positionX="-218" positionY="-267" width="128" height="75"/>
     </elements>
 </model>

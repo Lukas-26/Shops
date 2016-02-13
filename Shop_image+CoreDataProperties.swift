@@ -2,7 +2,7 @@
 //  Shop_image+CoreDataProperties.swift
 //  
 //
-//  Created by Lukáš Pechač on 06.02.16.
+//  Created by Lukáš Pechač on 11.02.16.
 //
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,7 +14,7 @@ import CoreData
 
 extension Shop_image {
 
-    @NSManaged var image_name: NSData?
+    @NSManaged var imageData: NSData?
     @NSManaged var shopimage_shop: Shop?
 
 }

@@ -13,20 +13,20 @@ import CoreData
 
 class ShopAnnotation:MKPointAnnotation, NSCopying{
     var name:String = ""
-    var rating: Double = 0.0
     static var color=UIColor.purpleColor()
-    var shop:NSManagedObject?
+    var shop:Shop?
     
-    init(name:String,coord:CLLocationCoordinate2D,rating:Double,shop:NSManagedObject?=nil) {
+    init(name:String,coord:CLLocationCoordinate2D,shop:Shop?=nil) {
         super.init()
-        self.subtitle=String(rating)
+        self.subtitle=String(format:"%.1f", (shop?.getAvgRating())!)
         self.title=name
         self.coordinate.latitude=coord.latitude
         self.coordinate.longitude=coord.longitude
         self.shop=shop
     }
     func copyWithZone(zone: NSZone) -> AnyObject {
-        let annotation=ShopAnnotation(name: self.name, coord: CLLocationCoordinate2DMake(self.coordinate.latitude, self.coordinate.longitude), rating: self.rating,shop: self.shop)
+        let annotation=ShopAnnotation(name: self.name, coord: CLLocationCoordinate2DMake(self.coordinate.latitude, self.coordinate.longitude),shop: self.shop)
         return annotation
     }
+    
 }

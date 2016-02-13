@@ -10,42 +10,44 @@ import Foundation
 import UIKit
 import MagicalRecord
 import SnapKit
+import Cosmos
 
 class ShopController: UIViewController,UIScrollViewDelegate{
     
-    var shop:NSManagedObject?
+    var shop: Shop?
     weak var shopImage:UIImageView?
     weak var textView:UIView?
-        
-        
+    weak var rating:CosmosView?
+    var ohodnoceno=false
+    weak var ohodnocenoLabel:UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor=UIColor.whiteColor()
+        self.navigationController?.navigationBar.translucent=false
         self.title=(shop!.valueForKey("name") as? String)!
         let img=UIImageView()
-        //img.backgroundColor=UIColor.grayColor()
+        let arr:NSArray=(shop?.shop_image?.allObjects)!
+        print("Obrazku u obchodu: \(arr.count)")
+        if(arr.count>0){
+            let object=arr.objectAtIndex(0)
+            img.image=UIImage(data: (object.valueForKey("imageData") as? NSData)!)
+        }
+        img.contentMode=UIViewContentMode.ScaleAspectFit
         self.view.addSubview(img)
         img.snp_makeConstraints { (make) in
             make.width.equalTo(self.view.snp_width)
-            make.height.equalTo(self.view.snp_height).multipliedBy(0.3)
-            make.topMargin.equalTo(70)
+            make.height.equalTo(self.view.snp_height).multipliedBy(0.45)
+            make.top.left.right.equalTo(0)
         }
         self.shopImage=img
         
-        let images=(shop!.valueForKey("shop_image") as? NSSet)!
-        let arr:NSArray=NSArray(objects: images)
-        print(" Obrazku u obchodu: \(arr.count)")
-        if(arr.count>0){
-            let object=arr.objectAtIndex(0)
-            //self.shopImage?.image=UIImage(data: (object.valueForKey("image_name") as? NSData)!)
-        }
-        
         let tv=UIView()
-        tv.backgroundColor=UIColor.redColor()
+        //tv.backgroundColor=UIColor.redColor()
         self.view.addSubview(tv)
         tv.snp_makeConstraints { (make) in
             make.left.bottom.right.equalTo(0)
-            make.height.equalTo(self.view.snp_height).multipliedBy(0.5)
+            make.height.equalTo(self.view.snp_height).multipliedBy(0.55)
             make.width.equalTo(self.view.snp_width)
         }
         let name=UILabel()
@@ -58,6 +60,31 @@ class ShopController: UIViewController,UIScrollViewDelegate{
             make.centerX.equalTo(tv.center)
             make.width.equalTo(self.view.snp_width).multipliedBy(0.95)
         }
+        let stars=CosmosView()
+        stars.settings.fillMode = .Precise
+        stars.settings.starSize = 25
+        stars.settings.starMargin = 5
+        stars.settings.colorFilled = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+        stars.settings.borderColorEmpty = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+        stars.settings.updateOnTouch = true
+        stars.rating=self.shop!.getAvgRating()
+        stars.didFinishTouchingCosmos = { rating in
+            if(!(self.ohodnoceno)){
+                self.saveRating(Double(round(10*rating)/10))
+                self.ohodnoceno=true
+                stars.settings.updateOnTouch=false
+                self.showAlert("Hodnocení uloženo", text: "Děkujeme za ohodnocení tohoto obchodu")
+                self.ohodnocenoLabel?.hidden=false
+            }
+        }
+        tv.addSubview(stars)
+        stars.snp_makeConstraints { (make) in
+            make.topMargin.equalTo(40)
+            make.width.equalTo(tv.snp_width).multipliedBy(0.49)
+            make.left.equalTo(10)
+        }
+        self.rating=stars
+        
         let button=UIButton()
         button.setTitle("Sortiment obchodu", forState: .Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
@@ -71,11 +98,47 @@ class ShopController: UIViewController,UIScrollViewDelegate{
             make.width.equalTo(tv.snp_width).multipliedBy(0.9)
         }
         self.textView=tv
+        
+        let ratingplaced=UILabel()
+        ratingplaced.textColor=UIColor.grayColor()
+        ratingplaced.font = ratingplaced.font.fontWithSize(14)
+        ratingplaced.text="Hodnocení uděleno"
+        ratingplaced.hidden=true
+        tv.addSubview(ratingplaced)
+        ratingplaced.snp_makeConstraints { (make) in
+            make.topMargin.equalTo(40)
+            make.width.equalTo(tv.snp_width).multipliedBy(0.49)
+            make.height.equalTo(25)
+            make.right.equalTo(10)
+        }
+        self.ohodnocenoLabel=ratingplaced
+    }
+    func saveRating(rating: Double){
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        let localContext:NSManagedObjectContext = NSManagedObjectContext.MR_contextForCurrentThread()
+        let entity = NSEntityDescription.entityForName("Rating", inManagedObjectContext: localContext)
+        let record = Rating(entity: entity!, insertIntoManagedObjectContext: localContext)
+        record.star=NSNumber(double: rating)
+        record.date=NSDate()
+        record.rating_shop=self.shop
+        localContext.MR_saveToPersistentStoreWithCompletion { (Status:Bool, error:NSError!) in
+            if (Status) {
+                print("Ulozeno hodnocení: \(rating)")
+            } else if ((error) != nil) {
+                print("-> ERROR!!!! : \(error.description)")
+            }
+        }
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        
+    }
+    func showAlert(title: String,text:String){
+        let message=text
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+        let ok = UIAlertAction(title: "OK", style: .Default, handler: { (action) -> Void in })
+        alert.addAction(ok)
+        presentViewController(alert, animated: true, completion: nil)
     }
     func enterToShop(button:UIButton){
         print("stisknuto")
-    }
-    func calculateRating() -> Double {
-        return 0;
     }
 }

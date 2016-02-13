@@ -2,7 +2,7 @@
 //  Bottle_image+CoreDataProperties.swift
 //  
 //
-//  Created by Lukáš Pechač on 06.02.16.
+//  Created by Lukáš Pechač on 11.02.16.
 //
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -14,7 +14,7 @@ import CoreData
 
 extension Bottle_image {
 
-    @NSManaged var image_name: NSData?
+    @NSManaged var imageData: NSData?
     @NSManaged var bottleimage_bottle: NSSet?
 
 }

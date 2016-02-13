@@ -25,34 +25,35 @@
 		8004B7DF1C678AAA00444B48 /* NumberClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004B7DE1C678AAA00444B48 /* NumberClickButton.swift */; };
 		80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80193B891C2001B700E0C8CD /* Main.storyboard */; };
 		806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806AAC311C31962500BF14DA /* SWRevealViewController.m */; };
+		808087691C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087571C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift */; };
+		8080876A1C6CA8CA0068B85D /* Shop_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087581C6CA8CA0068B85D /* Shop_image.swift */; };
+		8080876B1C6CA8CA0068B85D /* Shop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087591C6CA8CA0068B85D /* Shop+CoreDataProperties.swift */; };
+		8080876C1C6CA8CA0068B85D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875A1C6CA8CA0068B85D /* Shop.swift */; };
+		8080876D1C6CA8CA0068B85D /* Bottle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875B1C6CA8CA0068B85D /* Bottle+CoreDataProperties.swift */; };
+		8080876E1C6CA8CA0068B85D /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875C1C6CA8CA0068B85D /* Bottle.swift */; };
+		8080876F1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875D1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift */; };
+		808087701C6CA8CA0068B85D /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875E1C6CA8CA0068B85D /* Rating.swift */; };
+		808087711C6CA8CA0068B85D /* Days+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8080875F1C6CA8CA0068B85D /* Days+CoreDataProperties.swift */; };
+		808087721C6CA8CA0068B85D /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087601C6CA8CA0068B85D /* Days.swift */; };
+		808087731C6CA8CA0068B85D /* Alcohol_type+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087611C6CA8CA0068B85D /* Alcohol_type+CoreDataProperties.swift */; };
+		808087741C6CA8CA0068B85D /* Alcohol_type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087621C6CA8CA0068B85D /* Alcohol_type.swift */; };
+		808087751C6CA8CA0068B85D /* Bottle_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087631C6CA8CA0068B85D /* Bottle_image+CoreDataProperties.swift */; };
+		808087761C6CA8CA0068B85D /* Bottle_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087641C6CA8CA0068B85D /* Bottle_image.swift */; };
+		808087771C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087651C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift */; };
+		808087781C6CA8CA0068B85D /* Open_time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087661C6CA8CA0068B85D /* Open_time.swift */; };
+		808087791C6CA8CA0068B85D /* Rel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087671C6CA8CA0068B85D /* Rel+CoreDataProperties.swift */; };
+		8080877A1C6CA8CA0068B85D /* Rel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087681C6CA8CA0068B85D /* Rel.swift */; };
 		8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8083ADDC1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld */; };
 		8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */; };
 		809F79DE1C5A440400A366BE /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DC1C5A440400A366BE /* Home.gpx */; };
 		809F79DF1C5A440400A366BE /* Vietnamec-soused.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */; };
+		80C2787A1C6DF4D600902839 /* ShopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C278791C6DF4D600902839 /* ShopViewCell.swift */; };
 		80C912451C18A37700EC9C08 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912441C18A37700EC9C08 /* MenuVC.swift */; };
 		80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C912491C18B1AD00EC9C08 /* About.swift */; };
 		80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9124B1C18B2F100EC9C08 /* Seznam.swift */; };
 		80CA311B1C205797000ADF2B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA311A1C205797000ADF2B /* AboutView.swift */; };
 		80CA39F61C64B5A00023BA30 /* ShopAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */; };
 		80CBC9B51C66268500AD948A /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B41C66268500AD948A /* ShopController.swift */; };
-		80CBC9C81C664FB200AD948A /* Bottle_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B61C664FB200AD948A /* Bottle_image+CoreDataProperties.swift */; };
-		80CBC9C91C664FB200AD948A /* Bottle_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B71C664FB200AD948A /* Bottle_image.swift */; };
-		80CBC9CA1C664FB200AD948A /* Days+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B81C664FB200AD948A /* Days+CoreDataProperties.swift */; };
-		80CBC9CB1C664FB200AD948A /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B91C664FB200AD948A /* Days.swift */; };
-		80CBC9CC1C664FB200AD948A /* Open_time+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BA1C664FB200AD948A /* Open_time+CoreDataProperties.swift */; };
-		80CBC9CD1C664FB200AD948A /* Open_time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BB1C664FB200AD948A /* Open_time.swift */; };
-		80CBC9CE1C664FB200AD948A /* Rating+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BC1C664FB200AD948A /* Rating+CoreDataProperties.swift */; };
-		80CBC9CF1C664FB200AD948A /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BD1C664FB200AD948A /* Rating.swift */; };
-		80CBC9D01C664FB200AD948A /* Shop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BE1C664FB200AD948A /* Shop+CoreDataProperties.swift */; };
-		80CBC9D11C664FB200AD948A /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9BF1C664FB200AD948A /* Shop.swift */; };
-		80CBC9D21C664FB200AD948A /* Rel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C01C664FB200AD948A /* Rel+CoreDataProperties.swift */; };
-		80CBC9D31C664FB200AD948A /* Rel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C11C664FB200AD948A /* Rel.swift */; };
-		80CBC9D41C664FB200AD948A /* Alcohol_type+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C21C664FB200AD948A /* Alcohol_type+CoreDataProperties.swift */; };
-		80CBC9D51C664FB200AD948A /* Alcohol_type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C31C664FB200AD948A /* Alcohol_type.swift */; };
-		80CBC9D61C664FB200AD948A /* Bottle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C41C664FB200AD948A /* Bottle+CoreDataProperties.swift */; };
-		80CBC9D71C664FB200AD948A /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C51C664FB200AD948A /* Bottle.swift */; };
-		80CBC9D81C664FB200AD948A /* Shop_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C61C664FB200AD948A /* Shop_image+CoreDataProperties.swift */; };
-		80CBC9D91C664FB200AD948A /* Shop_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9C71C664FB200AD948A /* Shop_image.swift */; };
 		80CBC9DB1C668B3500AD948A /* ButtonWithNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */; };
 		80DE3ADB1C16E43300D09D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */; };
 		80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADC1C16E43300D09D54 /* Map.swift */; };
@@ -86,11 +87,30 @@
 		80193B8A1C2001B700E0C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806AAC301C31962500BF14DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806AAC311C31962500BF14DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		808087571C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shop_image+CoreDataProperties.swift"; path = "../Shop_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087581C6CA8CA0068B85D /* Shop_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop_image.swift; path = ../Shop_image.swift; sourceTree = "<group>"; };
+		808087591C6CA8CA0068B85D /* Shop+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shop+CoreDataProperties.swift"; path = "../Shop+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8080875A1C6CA8CA0068B85D /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop.swift; path = ../Shop.swift; sourceTree = "<group>"; };
+		8080875B1C6CA8CA0068B85D /* Bottle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bottle+CoreDataProperties.swift"; path = "../Bottle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8080875C1C6CA8CA0068B85D /* Bottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bottle.swift; path = ../Bottle.swift; sourceTree = "<group>"; };
+		8080875D1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Rating+CoreDataProperties.swift"; path = "../Rating+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8080875E1C6CA8CA0068B85D /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rating.swift; path = ../Rating.swift; sourceTree = "<group>"; };
+		8080875F1C6CA8CA0068B85D /* Days+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Days+CoreDataProperties.swift"; path = "../Days+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087601C6CA8CA0068B85D /* Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Days.swift; path = ../Days.swift; sourceTree = "<group>"; };
+		808087611C6CA8CA0068B85D /* Alcohol_type+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Alcohol_type+CoreDataProperties.swift"; path = "../Alcohol_type+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087621C6CA8CA0068B85D /* Alcohol_type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alcohol_type.swift; path = ../Alcohol_type.swift; sourceTree = "<group>"; };
+		808087631C6CA8CA0068B85D /* Bottle_image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bottle_image+CoreDataProperties.swift"; path = "../Bottle_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087641C6CA8CA0068B85D /* Bottle_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bottle_image.swift; path = ../Bottle_image.swift; sourceTree = "<group>"; };
+		808087651C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Open_time+CoreDataProperties.swift"; path = "../Open_time+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087661C6CA8CA0068B85D /* Open_time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Open_time.swift; path = ../Open_time.swift; sourceTree = "<group>"; };
+		808087671C6CA8CA0068B85D /* Rel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Rel+CoreDataProperties.swift"; path = "../Rel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		808087681C6CA8CA0068B85D /* Rel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rel.swift; path = ../Rel.swift; sourceTree = "<group>"; };
 		8083ADDD1C1AFBD3000BB131 /* Database_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		8092B52A1C5BDF1A00DCEBB0 /* NewShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewShopController.swift; sourceTree = "<group>"; };
 		809367C21C639FFB008F3FA2 /* magicrecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = magicrecord.h; sourceTree = "<group>"; };
 		809F79DC1C5A440400A366BE /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
 		809F79DD1C5A440400A366BE /* Vietnamec-soused.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vietnamec-soused.gpx"; sourceTree = "<group>"; };
+		80C278791C6DF4D600902839 /* ShopViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewCell.swift; path = ../ShopViewCell.swift; sourceTree = "<group>"; };
 		80C912401C189E9B00EC9C08 /* Asia shops-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asia shops-Bridging-Header.h"; sourceTree = "<group>"; };
 		80C912441C18A37700EC9C08 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = ../MenuVC.swift; sourceTree = "<group>"; };
 		80C912491C18B1AD00EC9C08 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
@@ -98,24 +118,6 @@
 		80CA311A1C205797000ADF2B /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopAnnotation.swift; sourceTree = "<group>"; };
 		80CBC9B41C66268500AD948A /* ShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
-		80CBC9B61C664FB200AD948A /* Bottle_image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bottle_image+CoreDataProperties.swift"; path = "../Bottle_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9B71C664FB200AD948A /* Bottle_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bottle_image.swift; path = ../Bottle_image.swift; sourceTree = "<group>"; };
-		80CBC9B81C664FB200AD948A /* Days+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Days+CoreDataProperties.swift"; path = "../Days+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9B91C664FB200AD948A /* Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Days.swift; path = ../Days.swift; sourceTree = "<group>"; };
-		80CBC9BA1C664FB200AD948A /* Open_time+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Open_time+CoreDataProperties.swift"; path = "../Open_time+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9BB1C664FB200AD948A /* Open_time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Open_time.swift; path = ../Open_time.swift; sourceTree = "<group>"; };
-		80CBC9BC1C664FB200AD948A /* Rating+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Rating+CoreDataProperties.swift"; path = "../Rating+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9BD1C664FB200AD948A /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rating.swift; path = ../Rating.swift; sourceTree = "<group>"; };
-		80CBC9BE1C664FB200AD948A /* Shop+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shop+CoreDataProperties.swift"; path = "../Shop+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9BF1C664FB200AD948A /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop.swift; path = ../Shop.swift; sourceTree = "<group>"; };
-		80CBC9C01C664FB200AD948A /* Rel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Rel+CoreDataProperties.swift"; path = "../Rel+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9C11C664FB200AD948A /* Rel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rel.swift; path = ../Rel.swift; sourceTree = "<group>"; };
-		80CBC9C21C664FB200AD948A /* Alcohol_type+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Alcohol_type+CoreDataProperties.swift"; path = "../Alcohol_type+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9C31C664FB200AD948A /* Alcohol_type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alcohol_type.swift; path = ../Alcohol_type.swift; sourceTree = "<group>"; };
-		80CBC9C41C664FB200AD948A /* Bottle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bottle+CoreDataProperties.swift"; path = "../Bottle+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9C51C664FB200AD948A /* Bottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bottle.swift; path = ../Bottle.swift; sourceTree = "<group>"; };
-		80CBC9C61C664FB200AD948A /* Shop_image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shop_image+CoreDataProperties.swift"; path = "../Shop_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		80CBC9C71C664FB200AD948A /* Shop_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop_image.swift; path = ../Shop_image.swift; sourceTree = "<group>"; };
 		80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithNSObject.swift; sourceTree = "<group>"; };
 		80D868E41C5BC99000A2A7A4 /* VietnamecUProvyho.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VietnamecUProvyho.gpx; sourceTree = "<group>"; };
 		80DE3AD71C16E43300D09D54 /* Asia shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asia shops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,24 +183,24 @@
 		80CBC9DC1C668F6A00AD948A /* Database classes */ = {
 			isa = PBXGroup;
 			children = (
-				80CBC9B61C664FB200AD948A /* Bottle_image+CoreDataProperties.swift */,
-				80CBC9B71C664FB200AD948A /* Bottle_image.swift */,
-				80CBC9B81C664FB200AD948A /* Days+CoreDataProperties.swift */,
-				80CBC9B91C664FB200AD948A /* Days.swift */,
-				80CBC9BA1C664FB200AD948A /* Open_time+CoreDataProperties.swift */,
-				80CBC9BB1C664FB200AD948A /* Open_time.swift */,
-				80CBC9BC1C664FB200AD948A /* Rating+CoreDataProperties.swift */,
-				80CBC9BD1C664FB200AD948A /* Rating.swift */,
-				80CBC9BE1C664FB200AD948A /* Shop+CoreDataProperties.swift */,
-				80CBC9BF1C664FB200AD948A /* Shop.swift */,
-				80CBC9C01C664FB200AD948A /* Rel+CoreDataProperties.swift */,
-				80CBC9C11C664FB200AD948A /* Rel.swift */,
-				80CBC9C21C664FB200AD948A /* Alcohol_type+CoreDataProperties.swift */,
-				80CBC9C31C664FB200AD948A /* Alcohol_type.swift */,
-				80CBC9C41C664FB200AD948A /* Bottle+CoreDataProperties.swift */,
-				80CBC9C51C664FB200AD948A /* Bottle.swift */,
-				80CBC9C61C664FB200AD948A /* Shop_image+CoreDataProperties.swift */,
-				80CBC9C71C664FB200AD948A /* Shop_image.swift */,
+				808087571C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift */,
+				808087581C6CA8CA0068B85D /* Shop_image.swift */,
+				808087591C6CA8CA0068B85D /* Shop+CoreDataProperties.swift */,
+				8080875A1C6CA8CA0068B85D /* Shop.swift */,
+				8080875B1C6CA8CA0068B85D /* Bottle+CoreDataProperties.swift */,
+				8080875C1C6CA8CA0068B85D /* Bottle.swift */,
+				8080875D1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift */,
+				8080875E1C6CA8CA0068B85D /* Rating.swift */,
+				8080875F1C6CA8CA0068B85D /* Days+CoreDataProperties.swift */,
+				808087601C6CA8CA0068B85D /* Days.swift */,
+				808087611C6CA8CA0068B85D /* Alcohol_type+CoreDataProperties.swift */,
+				808087621C6CA8CA0068B85D /* Alcohol_type.swift */,
+				808087631C6CA8CA0068B85D /* Bottle_image+CoreDataProperties.swift */,
+				808087641C6CA8CA0068B85D /* Bottle_image.swift */,
+				808087651C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift */,
+				808087661C6CA8CA0068B85D /* Open_time.swift */,
+				808087671C6CA8CA0068B85D /* Rel+CoreDataProperties.swift */,
+				808087681C6CA8CA0068B85D /* Rel.swift */,
 			);
 			name = "Database classes";
 			sourceTree = "<group>";
@@ -258,6 +260,7 @@
 				80C912441C18A37700EC9C08 /* MenuVC.swift */,
 				809367C21C639FFB008F3FA2 /* magicrecord.h */,
 				80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */,
+				80C278791C6DF4D600902839 /* ShopViewCell.swift */,
 				80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */,
 				8004B7DE1C678AAA00444B48 /* NumberClickButton.swift */,
 			);
@@ -455,37 +458,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80CBC9CD1C664FB200AD948A /* Open_time.swift in Sources */,
-				80CBC9D81C664FB200AD948A /* Shop_image+CoreDataProperties.swift in Sources */,
-				80CBC9D01C664FB200AD948A /* Shop+CoreDataProperties.swift in Sources */,
 				80CA311B1C205797000ADF2B /* AboutView.swift in Sources */,
-				80CBC9D31C664FB200AD948A /* Rel.swift in Sources */,
-				80CBC9CB1C664FB200AD948A /* Days.swift in Sources */,
+				808087691C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift in Sources */,
+				80C2787A1C6DF4D600902839 /* ShopViewCell.swift in Sources */,
+				8080876E1C6CA8CA0068B85D /* Bottle.swift in Sources */,
+				808087761C6CA8CA0068B85D /* Bottle_image.swift in Sources */,
 				80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */,
-				80CBC9D71C664FB200AD948A /* Bottle.swift in Sources */,
 				8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */,
-				80CBC9C81C664FB200AD948A /* Bottle_image+CoreDataProperties.swift in Sources */,
+				8080876A1C6CA8CA0068B85D /* Shop_image.swift in Sources */,
+				808087711C6CA8CA0068B85D /* Days+CoreDataProperties.swift in Sources */,
+				808087701C6CA8CA0068B85D /* Rating.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
-				80CBC9C91C664FB200AD948A /* Bottle_image.swift in Sources */,
-				80CBC9D51C664FB200AD948A /* Alcohol_type.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,
-				80CBC9CC1C664FB200AD948A /* Open_time+CoreDataProperties.swift in Sources */,
+				808087791C6CA8CA0068B85D /* Rel+CoreDataProperties.swift in Sources */,
+				808087741C6CA8CA0068B85D /* Alcohol_type.swift in Sources */,
+				808087771C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift in Sources */,
 				80CA39F61C64B5A00023BA30 /* ShopAnnotation.swift in Sources */,
-				80CBC9CF1C664FB200AD948A /* Rating.swift in Sources */,
-				80CBC9D41C664FB200AD948A /* Alcohol_type+CoreDataProperties.swift in Sources */,
 				8004B7DF1C678AAA00444B48 /* NumberClickButton.swift in Sources */,
+				808087751C6CA8CA0068B85D /* Bottle_image+CoreDataProperties.swift in Sources */,
+				8080876C1C6CA8CA0068B85D /* Shop.swift in Sources */,
 				8083ADDE1C1AFBD3000BB131 /* Database_CoreData.xcdatamodeld in Sources */,
+				808087731C6CA8CA0068B85D /* Alcohol_type+CoreDataProperties.swift in Sources */,
 				80C912451C18A37700EC9C08 /* MenuVC.swift in Sources */,
+				8080877A1C6CA8CA0068B85D /* Rel.swift in Sources */,
+				808087781C6CA8CA0068B85D /* Open_time.swift in Sources */,
 				80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */,
-				80CBC9D91C664FB200AD948A /* Shop_image.swift in Sources */,
+				808087721C6CA8CA0068B85D /* Days.swift in Sources */,
+				8080876F1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift in Sources */,
 				80CBC9B51C66268500AD948A /* ShopController.swift in Sources */,
-				80CBC9CA1C664FB200AD948A /* Days+CoreDataProperties.swift in Sources */,
-				80CBC9D11C664FB200AD948A /* Shop.swift in Sources */,
-				80CBC9D21C664FB200AD948A /* Rel+CoreDataProperties.swift in Sources */,
-				80CBC9D61C664FB200AD948A /* Bottle+CoreDataProperties.swift in Sources */,
+				8080876B1C6CA8CA0068B85D /* Shop+CoreDataProperties.swift in Sources */,
 				80CBC9DB1C668B3500AD948A /* ButtonWithNSObject.swift in Sources */,
-				80CBC9CE1C664FB200AD948A /* Rating+CoreDataProperties.swift in Sources */,
 				80DE3ADB1C16E43300D09D54 /* AppDelegate.swift in Sources */,
+				8080876D1C6CA8CA0068B85D /* Bottle+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

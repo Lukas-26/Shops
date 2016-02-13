@@ -111,47 +111,62 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     }
     
     func mapView(mapView: MKMapView, viewForAnnotation addAnnotation: MKAnnotation) -> MKAnnotationView? {
-        
         if(addAnnotation is MKUserLocation) {
             return nil
         }
-        var pin = mapView.dequeueReusableAnnotationViewWithIdentifier("shopPin") as! MKPinAnnotationView?
+        var identifier="shopPin"
         if(addAnnotation.isKindOfClass(ShopAnnotation)){
+            var pin = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier)
             if(pin==nil){
-                pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: "shopPin")
-                pin?.animatesDrop = false
-                pin?.draggable = false
+                pin = MKAnnotationView(annotation: addAnnotation, reuseIdentifier: identifier)
+                //pin?.pinTintColor=UIColor.purpleColor()
                 pin?.canShowCallout = true
-                pin?.pinTintColor=UIColor.purpleColor()
+                let pinImage=UIImage(named: "blackPin")
+                pin?.image = pinImage
+                pin?.centerOffset = CGPointMake(0, -(pinImage?.size.height)! / 2);
                 let button=ButtonWithNSObject(type: .DetailDisclosure) as ButtonWithNSObject
                 let object=(addAnnotation as! ShopAnnotation).shop
                 button.object=object
-                button.addTarget(self, action: "showShopDetail:", forControlEvents: .TouchUpInside)
-                let view=UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
-                view.addSubview(button)
-                pin?.addSubview(view)
+                pin?.rightCalloutAccessoryView = button
             }
+            else{
+                pin?.annotation=addAnnotation
+            }
+            return pin
         }
         else{
-            pin = mapView.dequeueReusableAnnotationViewWithIdentifier("myPin") as! MKPinAnnotationView?
+            identifier="newShopPin"
+            var pin = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier) as! MKPinAnnotationView?
             if (pin == nil) {
-                pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: "myPin")
+                pin = MKPinAnnotationView(annotation: addAnnotation, reuseIdentifier: identifier)
                 pin?.animatesDrop = true
                 pin?.draggable = true
                 pin?.canShowCallout = true
                 pin?.rightCalloutAccessoryView = UIButton(type: .ContactAdd) as UIButton
             }
+            else{
+                pin?.annotation=addAnnotation
+            }
+            return pin
         }
-        return pin;
     }
     
     //funkce stisknuti tlacitka v popisku pinu
     func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        if(view.reuseIdentifier=="newShopPin"){
         let ns=NewShopController()
         ns.coordinates=self.addAnnotation?.coordinate
         self.navigationItem.title="Mapa"
         self.navigationController?.pushViewController(ns, animated: true)
         print("novy obchod")
+        }
+        else{
+            print("detail obchodu")
+            let sc=ShopController()
+            sc.shop=(control as! ButtonWithNSObject).object as? Shop
+            self.navigationItem.title="Mapa"
+            self.navigationController?.pushViewController(sc, animated: true)
+        }
     }
     //pozice pri presunuti pinu
     func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, didChangeDragState newState: MKAnnotationViewDragState, fromOldState oldState: MKAnnotationViewDragState) {
@@ -165,20 +180,13 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         let shops=Shop.MR_findAll()
         let nrRow=shops.count
         for row in 0..<nrRow{
-            let data: NSManagedObject = shops[row] as! NSManagedObject
-            let latNumb = (data.valueForKey("latitude") as? Double)!
-            let longNumb = (data.valueForKey("longitude") as? Double)!
-            let name = (data.valueForKey("name") as? String)!
-            let shopAnnotation:ShopAnnotation=ShopAnnotation(name: name,coord: CLLocationCoordinate2DMake(latNumb,longNumb), rating: 1,shop: data)
+            let data = shops[row] as! Shop
+            let latNumb = data.latitude?.doubleValue
+            let longNumb = data.longitude?.doubleValue
+            let name = data.name
+            let shopAnnotation:ShopAnnotation=ShopAnnotation(name: name!,coord: CLLocationCoordinate2DMake(latNumb!,longNumb!),shop: data)
             self.map.addAnnotation(shopAnnotation)
         }
-    }
-    func showShopDetail(target: ButtonWithNSObject){
-        print("detailObchodu")
-        let sc=ShopController()
-        sc.shop=target.object
-        self.navigationItem.title="Mapa"
-        self.navigationController?.pushViewController(sc, animated: true)
     }
     //funkce probihajici v dobe, kdy se LocationManager zmeni
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

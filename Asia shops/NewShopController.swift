@@ -33,46 +33,34 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view=UIView()
         picker.delegate=self
         picker.allowsEditing=false
         view.backgroundColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.translucent=false
         let saveImage:UIImage = UIImage(named:"saveShop")!
-        let saveButton:UIButton = UIButton()
         
+        let saveButton:UIButton = UIButton()
         saveButton.addTarget(self, action: "saveShop:", forControlEvents: .TouchUpInside)
-        //saveButton.setTitle("", forState: .Normal)
         saveButton.setImage(saveImage, forState: .Normal)
         saveButton.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0)
-        //saveButton.titleEdgeInsets = UIEdgeInsetsMake(0, 15, 0, 0)
-        //saveButton.transform = CGAffineTransformMakeScale(-1.0, 1.0);
-        //saveButton.titleLabel!.transform = CGAffineTransformMakeScale(-1.0, 1.0);
-        //saveButton.imageView!.transform = CGAffineTransformMakeScale(-1.0, 1.0);
         saveButton.frame = CGRectMake(0, 0, 22, 23)
+        
         let rightBarButton = UIBarButtonItem()
         rightBarButton.customView = saveButton
         self.navigationItem.rightBarButtonItem = rightBarButton
-        let m = MKMapView()
-        m.showsUserLocation=false
-        m.mapType = MKMapType.Standard
-        m.delegate = self
-        self.view.addSubview(m)
-        m.snp_makeConstraints { (make) -> Void in
-            make.height.equalTo(self.view.snp_height).multipliedBy(0.4)
-            make.width.equalTo(self.view.snp_width)
-            make.bottomMargin.equalTo(0)
-        }
-        map = m
-        
+
         let coord = coordinates
         let span = MKCoordinateSpanMake(0.004, 0.004)
         let region = MKCoordinateRegion(center: coord!, span: span)
         let pa = MKPointAnnotation()
         pa.coordinate = coordinates!
-        self.shopAnnotation=pa
         
-        map.setRegion(region, animated: false)
-        map.addAnnotation(shopAnnotation!)
+        let m = MKMapView()
+        m.showsUserLocation=false
+        m.mapType = MKMapType.Standard
+        m.delegate = self
+        m.setRegion(region, animated: false)
+        m.addAnnotation(pa)
         
         let label=UILabel()
         label.text="Otevírací doba:"
@@ -82,78 +70,84 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
         textNm.delegate=self
         textNm.addTarget(self, action: "nameEditing:", forControlEvents: .EditingChanged)
         
-        self.view.addSubview(label)
-        self.view.addSubview(textNm)
-        textNm.snp_makeConstraints { (make) -> Void in
-            make.topMargin.equalTo(90)
-            make.left.equalTo(view).offset(50)
-            make.right.equalTo(view).offset(-15)
-            
-        }
-        label.snp_makeConstraints { (make) -> Void in
-            make.top.equalTo(180)
-            make.left.equalTo(0).offset(15)
-        }
-        self.textName=textNm
-        
         let imageViewObject=UIImageView()
         imageViewObject.image = UIImage(named:"shopName")
-        self.view.addSubview(imageViewObject)
-        imageViewObject.snp_makeConstraints { (make) -> Void in
-            make.topMargin.equalTo(90)
-            make.leftMargin.equalTo(10)
-            make.width.equalTo(20)
-            make.height.equalTo(20)
-        }
+    
         let cameraIcon=UIButton()
         cameraIcon.setBackgroundImage(UIImage(named:"cameraIcon"), forState: .Normal)
         cameraIcon.addTarget(self, action: "cameraPicker:", forControlEvents: .TouchUpInside)
-        self.view.addSubview(cameraIcon)
-        cameraIcon.snp_makeConstraints { (make) -> Void in
-            make.topMargin.equalTo(140)
-            make.leftMargin.equalTo(10)
-            make.width.equalTo(27)
-            make.height.equalTo(20)
-        }
         
         let timeIcon=UIButton()
-        
         timeIcon.setBackgroundImage(UIImage(named:"plus"), forState: .Normal)
         timeIcon.addTarget(self, action: "timePicker:", forControlEvents: .TouchUpInside)
-        self.view.addSubview(timeIcon)
-        timeIcon.snp_makeConstraints { (make) -> Void in
-            make.topMargin.equalTo(185)
-            make.leftMargin.equalTo(135)
-            make.width.equalTo(25)
-            make.height.equalTo(25)
-        }
-        self.addDays=timeIcon
         
         let photoView=UIImageView()
         photoView.image = UIImage()
         photoView.userInteractionEnabled = true
-        self.view.addSubview(photoView)
-        photoView.snp_makeConstraints { (make) -> Void in
-            make.topMargin.equalTo(130)
-            make.leftMargin.equalTo(60)
-            make.width.equalTo(50)
-            make.height.equalTo(50)
-        }
-        self.img=photoView
         
         let sv=UIScrollView()
-        //sv.backgroundColor=UIColor.redColor()
+        sv.backgroundColor=UIColor.redColor()
         sv.showsVerticalScrollIndicator=false
         sv.contentSize=CGSizeMake(0,80)
+        
         self.view.addSubview(sv)
+        self.view.addSubview(m)
+        self.view.addSubview(label)
+        self.view.addSubview(textNm)
+        self.view.addSubview(imageViewObject)
+        self.view.addSubview(cameraIcon)
+        self.view.addSubview(timeIcon)
+        self.view.addSubview(photoView)
+        
+        m.snp_makeConstraints { (make) -> Void in
+            make.height.equalTo(self.view.snp_height).multipliedBy(0.4)
+            make.width.equalTo(self.view.snp_width)
+            make.bottomMargin.equalTo(0)
+        }
+        textNm.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(15)
+            make.left.equalTo(view).offset(55)
+            make.right.equalTo(view).offset(-15)
+        }
+        imageViewObject.snp_makeConstraints { (make) -> Void in
+            make.top.left.equalTo(15)
+            make.width.height.equalTo(20)
+        }
+        cameraIcon.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(50)
+            make.left.equalTo(15)
+            make.width.equalTo(27)
+            make.height.equalTo(20)
+        }
+        timeIcon.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(79)
+            make.left.equalTo(145)
+            make.width.height.equalTo(25)
+        }
+        photoView.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(50)
+            make.left.equalTo(60)
+            make.width.height.equalTo(50)
+        }
+        label.snp_makeConstraints { (make) -> Void in
+            make.top.equalTo(80)
+            make.left.equalTo(0).offset(15)
+        }
         sv.snp_makeConstraints { (make) in
             make.width.equalTo(self.view.snp_width)
-            make.height.equalTo(115)
-            make.topMargin.equalTo(215)
+            make.height.equalTo(100)
+            make.top.equalTo(120)
         }
+        
+        self.shopAnnotation=pa
         self.timesView=sv
+        self.img=photoView
+        self.addDays=timeIcon
+        self.textName=textNm
+        self.map = m
         
         actionView.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height/2)
+        
         loadDays()
     }
     func loadDays() {
@@ -311,10 +305,10 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
         record.latitude=NSNumber(double: (coordinates?.latitude)!)
         record.longitude=NSNumber(double: (coordinates?.longitude)!)
         if(self.isImage){
-            let entity2 = NSEntityDescription.entityForName("Shop_image", inManagedObjectContext: localContext)
+            let entity2 = NSEntityDescription.entityForName("ShopImage", inManagedObjectContext: localContext)
             let record2 = Shop_image(entity: entity2!, insertIntoManagedObjectContext: localContext)
             let imageData = NSData(data: UIImageJPEGRepresentation(self.img.image!, 0.5)!)
-            record2.image_name=imageData
+            record2.imageData=imageData
             record2.shopimage_shop=record
         }
         
@@ -327,7 +321,6 @@ class NewShopController: UIViewController,MKMapViewDelegate,UITextFieldDelegate,
         }
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
             navigationController?.popViewControllerAnimated(true)
-        
         }
         else{
             ShowAlert("Nelze uložit", string: "Nový obchod se nepodařilo uložit. Jméno obchodu nesmí být prázdné.")
