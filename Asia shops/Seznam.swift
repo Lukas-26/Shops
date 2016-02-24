@@ -12,7 +12,7 @@ import MagicalRecord
 import MapKit
 import Foundation
 
-class Seznam: UIViewController,UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate {
+class Seznam: UIViewController,UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate, NSFetchedResultsControllerDelegate {
     
     @IBOutlet var Open: UIBarButtonItem!
     var shops=[Shop]()
@@ -46,6 +46,18 @@ class Seznam: UIViewController,UITableViewDelegate,UITableViewDataSource,CLLocat
         self.manager.startUpdatingLocation()
         
         loadShops()
+        shops.sortInPlace(sortByDistance)
+        //shops.sortInPlace({ $0.getAvgRating() > $1.getAvgRating() })
+    }
+    func sortByDistance(this:Shop, that:Shop) -> Bool {
+        let distance1=getDistanceTo((this.latitude)!.doubleValue, longitude: (this.longitude)!.doubleValue, manager: self.manager)
+        let distance2=getDistanceTo((that.latitude)!.doubleValue, longitude: (that.longitude)!.doubleValue, manager: self.manager)
+        if(distance1>distance2){
+            return false
+        }
+        else{
+            return true
+        }
     }
     func loadShops() {
         let sh=Shop.MR_findAll()

@@ -18,7 +18,7 @@ class ShopAnnotation:MKPointAnnotation, NSCopying{
     
     init(name:String,coord:CLLocationCoordinate2D,shop:Shop?=nil) {
         super.init()
-        self.subtitle=String(format:"%.1f", (shop?.getAvgRating())!)
+        self.subtitle="⭐️ "+String(format:"%.1f", (shop?.getAvgRating())!)
         self.title=name
         self.coordinate.latitude=coord.latitude
         self.coordinate.longitude=coord.longitude

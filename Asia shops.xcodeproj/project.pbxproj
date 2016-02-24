@@ -24,6 +24,7 @@
 		1C04D54C9BD700E0D38A8FBA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9B32C42F6D270BA45CA416 /* Pods.framework */; };
 		8004B7DF1C678AAA00444B48 /* NumberClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004B7DE1C678AAA00444B48 /* NumberClickButton.swift */; };
 		80193B8B1C2001B700E0C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80193B891C2001B700E0C8CD /* Main.storyboard */; };
+		8058E4381C70F5A9002CBDBB /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8058E4371C70F5A9002CBDBB /* DateExtensions.swift */; };
 		806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806AAC311C31962500BF14DA /* SWRevealViewController.m */; };
 		808087691C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087571C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift */; };
 		8080876A1C6CA8CA0068B85D /* Shop_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808087581C6CA8CA0068B85D /* Shop_image.swift */; };
@@ -55,12 +56,16 @@
 		80CA39F61C64B5A00023BA30 /* ShopAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */; };
 		80CBC9B51C66268500AD948A /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9B41C66268500AD948A /* ShopController.swift */; };
 		80CBC9DB1C668B3500AD948A /* ButtonWithNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */; };
+		80D18AD71C77ACDE00D0180E /* SortimentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D18AD61C77ACDE00D0180E /* SortimentController.swift */; };
+		80D18AD91C77B93700D0180E /* BottlesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D18AD81C77B93700D0180E /* BottlesTableView.swift */; };
+		80D18ADB1C77BA4000D0180E /* BottleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D18ADA1C77BA4000D0180E /* BottleCell.swift */; };
 		80DE3ADB1C16E43300D09D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */; };
 		80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADC1C16E43300D09D54 /* Map.swift */; };
 		80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE11C16E43300D09D54 /* Assets.xcassets */; };
 		80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE31C16E43300D09D54 /* LaunchScreen.storyboard */; };
 		80DE3AF01C16E43300D09D54 /* Asia_shopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3AEF1C16E43300D09D54 /* Asia_shopsTests.swift */; };
 		80DE3AFB1C16E43300D09D54 /* Asia_shopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3AFA1C16E43300D09D54 /* Asia_shopsUITests.swift */; };
+		80EEE09D1C721424002F5EB0 /* AddDayTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +90,7 @@
 		3D9B32C42F6D270BA45CA416 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8004B7DE1C678AAA00444B48 /* NumberClickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberClickButton.swift; path = ../NumberClickButton.swift; sourceTree = "<group>"; };
 		80193B8A1C2001B700E0C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8058E4371C70F5A9002CBDBB /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		806AAC301C31962500BF14DA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806AAC311C31962500BF14DA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		808087571C6CA8CA0068B85D /* Shop_image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shop_image+CoreDataProperties.swift"; path = "../Shop_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -119,6 +125,9 @@
 		80CA39F51C64B5A00023BA30 /* ShopAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopAnnotation.swift; sourceTree = "<group>"; };
 		80CBC9B41C66268500AD948A /* ShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithNSObject.swift; sourceTree = "<group>"; };
+		80D18AD61C77ACDE00D0180E /* SortimentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortimentController.swift; sourceTree = "<group>"; };
+		80D18AD81C77B93700D0180E /* BottlesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottlesTableView.swift; sourceTree = "<group>"; };
+		80D18ADA1C77BA4000D0180E /* BottleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottleCell.swift; sourceTree = "<group>"; };
 		80D868E41C5BC99000A2A7A4 /* VietnamecUProvyho.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VietnamecUProvyho.gpx; sourceTree = "<group>"; };
 		80DE3AD71C16E43300D09D54 /* Asia shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asia shops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3ADA1C16E43300D09D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +141,7 @@
 		80DE3AF61C16E43300D09D54 /* Asia shopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asia shopsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3AFA1C16E43300D09D54 /* Asia_shopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_shopsUITests.swift; sourceTree = "<group>"; };
 		80DE3AFC1C16E43300D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDayTimeView.swift; sourceTree = "<group>"; };
 		80F4A53B1C640EC100EB917C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		80F4A53C1C640EC100EB917C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D816BFD288B0DD058E13B25C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +273,11 @@
 				80C278791C6DF4D600902839 /* ShopViewCell.swift */,
 				80CBC9DA1C668B3500AD948A /* ButtonWithNSObject.swift */,
 				8004B7DE1C678AAA00444B48 /* NumberClickButton.swift */,
+				8058E4371C70F5A9002CBDBB /* DateExtensions.swift */,
+				80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */,
+				80D18AD61C77ACDE00D0180E /* SortimentController.swift */,
+				80D18AD81C77B93700D0180E /* BottlesTableView.swift */,
+				80D18ADA1C77BA4000D0180E /* BottleCell.swift */,
 			);
 			path = "Asia shops";
 			sourceTree = "<group>";
@@ -463,11 +478,15 @@
 				80C2787A1C6DF4D600902839 /* ShopViewCell.swift in Sources */,
 				8080876E1C6CA8CA0068B85D /* Bottle.swift in Sources */,
 				808087761C6CA8CA0068B85D /* Bottle_image.swift in Sources */,
+				8058E4381C70F5A9002CBDBB /* DateExtensions.swift in Sources */,
+				80D18ADB1C77BA4000D0180E /* BottleCell.swift in Sources */,
 				80C9124A1C18B1AD00EC9C08 /* About.swift in Sources */,
 				8092B52B1C5BDF1A00DCEBB0 /* NewShopController.swift in Sources */,
 				8080876A1C6CA8CA0068B85D /* Shop_image.swift in Sources */,
+				80D18AD91C77B93700D0180E /* BottlesTableView.swift in Sources */,
 				808087711C6CA8CA0068B85D /* Days+CoreDataProperties.swift in Sources */,
 				808087701C6CA8CA0068B85D /* Rating.swift in Sources */,
+				80EEE09D1C721424002F5EB0 /* AddDayTimeView.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,
 				808087791C6CA8CA0068B85D /* Rel+CoreDataProperties.swift in Sources */,
@@ -484,6 +503,7 @@
 				808087781C6CA8CA0068B85D /* Open_time.swift in Sources */,
 				80C9124C1C18B2F100EC9C08 /* Seznam.swift in Sources */,
 				808087721C6CA8CA0068B85D /* Days.swift in Sources */,
+				80D18AD71C77ACDE00D0180E /* SortimentController.swift in Sources */,
 				8080876F1C6CA8CA0068B85D /* Rating+CoreDataProperties.swift in Sources */,
 				80CBC9B51C66268500AD948A /* ShopController.swift in Sources */,
 				8080876B1C6CA8CA0068B85D /* Shop+CoreDataProperties.swift in Sources */,

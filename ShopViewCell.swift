@@ -33,7 +33,11 @@ class ShopViewCell: UITableViewCell {
             make.left.right.equalTo(20)
         }
         self.nameLabel=name
-        
+        self.selectionStyle=UITableViewCellSelectionStyle.None
+        let backgroundView=UIImageView(frame: CGRectMake(0, 0, 15, 25))
+        backgroundView.contentMode = .Right
+        backgroundView.image=UIImage(named: "rightArrow")
+        self.backgroundView=backgroundView
         let dist = UILabel()
         dist.textColor = UIColor.blackColor()
         self.contentView.addSubview(dist)

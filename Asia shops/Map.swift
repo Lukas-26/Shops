@@ -121,9 +121,15 @@ class Map: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
                 pin = MKAnnotationView(annotation: addAnnotation, reuseIdentifier: identifier)
                 //pin?.pinTintColor=UIColor.purpleColor()
                 pin?.canShowCallout = true
-                let pinImage=UIImage(named: "blackPin")
+                var pinImage:UIImage
+                if((addAnnotation as! ShopAnnotation).shop?.isOpen() == true){
+                    pinImage=UIImage(named: "blackPinOpen")!
+                }
+                else{
+                    pinImage=UIImage(named: "blackPinClose")!
+                }
                 pin?.image = pinImage
-                pin?.centerOffset = CGPointMake(0, -(pinImage?.size.height)! / 2);
+                pin?.centerOffset = CGPointMake(0, -(pinImage.size.height) / 2);
                 let button=ButtonWithNSObject(type: .DetailDisclosure) as ButtonWithNSObject
                 let object=(addAnnotation as! ShopAnnotation).shop
                 button.object=object

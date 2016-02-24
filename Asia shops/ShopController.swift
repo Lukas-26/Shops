@@ -33,6 +33,7 @@ class ShopController: UIViewController,UIScrollViewDelegate{
             let object=arr.objectAtIndex(0)
             img.image=UIImage(data: (object.valueForKey("imageData") as? NSData)!)
         }
+        print("Počet otevřených dní: \((self.shop?.shop_opentime?.allObjects.count)!)")
         img.contentMode=UIViewContentMode.ScaleAspectFit
         self.view.addSubview(img)
         img.snp_makeConstraints { (make) in
@@ -139,6 +140,10 @@ class ShopController: UIViewController,UIScrollViewDelegate{
         presentViewController(alert, animated: true, completion: nil)
     }
     func enterToShop(button:UIButton){
-        print("stisknuto")
+        print("sortiment obchodu")
+        let sc=SortimentController()
+        //Bottle.MR_findAllWithPredicate(rel)
+        self.navigationItem.title=self.shop?.name
+        self.navigationController?.pushViewController(sc, animated: true)
     }
 }

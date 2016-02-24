@@ -2,16 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "camerah20.png",
+      "filename" : "addPhotoh20.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "camerah40.png",
+      "filename" : "addPhotoh40.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "addPhotoh60.png",
       "scale" : "3x"
     }
   ],
