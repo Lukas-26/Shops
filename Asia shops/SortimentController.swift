@@ -10,6 +10,7 @@ import Foundation
 import SnapKit
 import PageMenu
 import UIKit
+import ActionSheetPicker_3_0
 
 let color=UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
 
@@ -54,6 +55,6 @@ class SortimentController: UIViewController{
         self.view.addSubview(pageMenu!.view)
     }
     func bottleAdd(target: UIBarButtonItem){
-        print("nova flaska")
+        print("nove prirazeni k obchodu")
     }
 }

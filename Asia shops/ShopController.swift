@@ -157,16 +157,5 @@ class ShopController: UIViewController,UIScrollViewDelegate{
         self.navigationItem.title=self.shop?.name
         self.navigationController?.pushViewController(sc, animated: true)
         
-        
-        
-        /*let bottles=Bottle.MR_findAll() as! [Bottle]
-        for row in 0..<bottles.count{
-            let localContext:NSManagedObjectContext = NSManagedObjectContext.MR_contextForCurrentThread()
-            let entity = NSEntityDescription.entityForName("Rel", inManagedObjectContext: localContext)
-            let record = Rel(entity: entity!, insertIntoManagedObjectContext: localContext)
-            record.rel_shop=self.shop
-            record.rel_bottle=bottles[row]
-            localContext.MR_save()
-        }*/
     }
 }

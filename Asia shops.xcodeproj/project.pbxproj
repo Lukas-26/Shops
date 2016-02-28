@@ -64,6 +64,7 @@
 		80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE11C16E43300D09D54 /* Assets.xcassets */; };
 		80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE31C16E43300D09D54 /* LaunchScreen.storyboard */; };
 		80EEE09D1C721424002F5EB0 /* AddDayTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */; };
+		80F7ACEB1C83A02E001AF3F6 /* NewRelationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F7ACEA1C83A02E001AF3F6 /* NewRelationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDayTimeView.swift; sourceTree = "<group>"; };
 		80F4A53B1C640EC100EB917C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
 		80F4A53C1C640EC100EB917C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		80F7ACEA1C83A02E001AF3F6 /* NewRelationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRelationController.swift; sourceTree = "<group>"; };
 		D816BFD288B0DD058E13B25C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,6 +243,7 @@
 				80D18AD61C77ACDE00D0180E /* SortimentController.swift */,
 				80D18AD81C77B93700D0180E /* BottlesTableView.swift */,
 				80D18ADA1C77BA4000D0180E /* BottleCell.swift */,
+				80F7ACEA1C83A02E001AF3F6 /* NewRelationController.swift */,
 			);
 			path = "Asia shops";
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				80EEE09D1C721424002F5EB0 /* AddDayTimeView.swift in Sources */,
 				80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */,
 				806AAC321C31962500BF14DA /* SWRevealViewController.m in Sources */,
+				80F7ACEB1C83A02E001AF3F6 /* NewRelationController.swift in Sources */,
 				808087791C6CA8CA0068B85D /* Rel+CoreDataProperties.swift in Sources */,
 				808087741C6CA8CA0068B85D /* Alcohol_type.swift in Sources */,
 				808087771C6CA8CA0068B85D /* Open_time+CoreDataProperties.swift in Sources */,
