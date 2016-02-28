@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "74fdf052d786b5658ed6ec7d849e51b3"
+build_time: [510009575, 653865000]
+inputs:
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosAccessibility.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosDefaultSettings.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosLayerHelper.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosLayers.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosLocalizedRating.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosRating.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosSettings.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosSize.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosText.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosTouch.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/Helpers/CosmosTouchTarget.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/CosmosView.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/StarFillMode.swift": [510004559, 0]
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Cosmos/Cosmos/StarLayer.swift": [510004559, 0]

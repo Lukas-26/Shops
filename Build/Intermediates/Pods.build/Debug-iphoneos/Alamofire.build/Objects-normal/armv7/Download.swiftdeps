@@ -16,42 +16,45 @@ provides-member:
 - ["C9Alamofire7Request", "resumeData"]
 - ["C9Alamofire7Request", "DownloadTaskDelegate"]
 provides-dynamic-lookup:
-- "downloadTaskDidResumeAtOffset"
-- "data"
-- "downloadTaskDidFinishDownloadingToURL"
-- "downloadTask"
-- "downloadProgress"
 - "resumeData"
 - "URLSession"
 - "URLSession"
 - "URLSession"
 - "downloadTaskDidWriteData"
+- "downloadTaskDidFinishDownloadingToURL"
+- "downloadTaskDidResumeAtOffset"
+- "data"
+- "downloadTask"
+- "downloadProgress"
 depends-top-level:
-- !private "NSFileManager"
-- "String"
+- "NSURLSessionDownloadTask"
+- !private "CFAbsoluteTimeGetCurrent"
+- "URLRequestConvertible"
+- !private "NSError"
 - "NSURL"
+- "NSData"
+- "URLStringConvertible"
+- "Void"
 - "NSSearchPathDirectory"
-- "Manager"
-- "NSSearchPathDomainMask"
-- "Int64"
-- !private "NSURLRequest"
 - "Method"
 - !private "URLRequest"
+- "NSHTTPURLResponse"
+- "Int64"
+- "String"
 - "ParameterEncoding"
 - "NSURLSessionDownloadDelegate"
+- "Manager"
+- "NSSearchPathDomainMask"
+- "NSURLSession"
+- !private "=="
 - !private "!"
-- "Request"
-- "NSHTTPURLResponse"
 - !private "dispatch_sync"
 - "AnyObject"
-- "URLRequestConvertible"
-- "NSData"
-- "NSURLSessionDownloadTask"
-- "URLStringConvertible"
-- "NSURLSession"
-- !private "NSError"
-- "Void"
+- !private "NSFileManager"
+- "Request"
+- !private "NSURLRequest"
 depends-member:
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
 - ["Ps9AnyObject", "DownloadFileDestination"]
 - !private ["Ps9AnyObject", "DownloadTaskDelegate"]
 - !private ["Ps9AnyObject", "NSFileManager"]
@@ -77,6 +80,7 @@ depends-member:
 - !private ["Ps9AnyObject", "downloadTaskWithResumeData"]
 - !private ["Ps9AnyObject", "error"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialResponseTime"]
 - !private ["Ps9AnyObject", "moveItemAtURL"]
 - !private ["Ps9AnyObject", "progress"]
 - !private ["Ps9AnyObject", "queue"]
@@ -111,6 +115,7 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps11CVarArgType", "Distance"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "NSFileManager"]
@@ -132,6 +137,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "downloadTaskWithResumeData"]
 - !private ["Ps11CVarArgType", "error"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "initialResponseTime"]
 - !private ["Ps11CVarArgType", "moveItemAtURL"]
 - !private ["Ps11CVarArgType", "progress"]
 - !private ["Ps11CVarArgType", "response"]
@@ -149,6 +155,7 @@ depends-member:
 - !private ["Ps14CollectionType", "subscript"]
 - !private ["Ps10Comparable", "Distance"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "CFAbsoluteTimeGetCurrent"]
 - ["Ps28CustomDebugStringConvertible", "DownloadFileDestination"]
 - !private ["Ps28CustomDebugStringConvertible", "DownloadTaskDelegate"]
 - !private ["Ps28CustomDebugStringConvertible", "Generator"]
@@ -175,6 +182,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "downloadTaskWithResumeData"]
 - !private ["Ps28CustomDebugStringConvertible", "error"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialResponseTime"]
 - !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
 - !private ["Ps28CustomDebugStringConvertible", "moveItemAtURL"]
 - !private ["Ps28CustomDebugStringConvertible", "progress"]
@@ -186,6 +194,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "task"]
 - !private ["Ps28CustomDebugStringConvertible", "totalUnitCount"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps23CustomStringConvertible", "Distance"]
 - ["Ps23CustomStringConvertible", "DownloadFileDestination"]
 - !private ["Ps23CustomStringConvertible", "DownloadTaskDelegate"]
@@ -214,6 +223,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "downloadTaskWithResumeData"]
 - !private ["Ps23CustomStringConvertible", "error"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialResponseTime"]
 - !private ["Ps23CustomStringConvertible", "isEmpty"]
 - !private ["Ps23CustomStringConvertible", "moveItemAtURL"]
 - !private ["Ps23CustomStringConvertible", "progress"]
@@ -225,6 +235,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "task"]
 - !private ["Ps23CustomStringConvertible", "totalUnitCount"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["CC9Alamofire7Request20DownloadTaskDelegate", "CFAbsoluteTimeGetCurrent"]
 - ["CC9Alamofire7Request20DownloadTaskDelegate", "Int64"]
 - ["CC9Alamofire7Request20DownloadTaskDelegate", "NSData"]
 - !private ["CC9Alamofire7Request20DownloadTaskDelegate", "NSError"]
@@ -244,9 +255,11 @@ depends-member:
 - ["CC9Alamofire7Request20DownloadTaskDelegate", "downloadTaskDidWriteData"]
 - !private ["CC9Alamofire7Request20DownloadTaskDelegate", "error"]
 - ["CC9Alamofire7Request20DownloadTaskDelegate", "init"]
+- !private ["CC9Alamofire7Request20DownloadTaskDelegate", "initialResponseTime"]
 - !private ["CC9Alamofire7Request20DownloadTaskDelegate", "progress"]
 - ["CC9Alamofire7Request20DownloadTaskDelegate", "resumeData"]
 - !private ["CC9Alamofire7Request20DownloadTaskDelegate", "task"]
+- !private ["Ps9Equatable", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps9Equatable", "Distance"]
 - !private ["Ps9Equatable", "DocumentDirectory"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
@@ -271,6 +284,7 @@ depends-member:
 - !private ["Ps9Equatable", "downloadTaskWithResumeData"]
 - !private ["Ps9Equatable", "error"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialResponseTime"]
 - !private ["Ps9Equatable", "moveItemAtURL"]
 - !private ["Ps9Equatable", "progress"]
 - !private ["Ps9Equatable", "response"]
@@ -283,6 +297,7 @@ depends-member:
 - !private ["Ps16ForwardIndexType", "Distance"]
 - !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps8Hashable", "Distance"]
 - !private ["Ps8Hashable", "DocumentDirectory"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
@@ -306,6 +321,7 @@ depends-member:
 - !private ["Ps8Hashable", "downloadTaskWithResumeData"]
 - !private ["Ps8Hashable", "error"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialResponseTime"]
 - !private ["Ps8Hashable", "moveItemAtURL"]
 - !private ["Ps8Hashable", "progress"]
 - !private ["Ps8Hashable", "response"]
@@ -385,6 +401,7 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "Request"]
 - !private ["PSo16NSMutableCopying", "ResumeData"]
 - !private ["CSo19NSMutableURLRequest", "deinit"]
+- !private ["CSo8NSObject", "CFAbsoluteTimeGetCurrent"]
 - ["CSo8NSObject", "Int64"]
 - ["CSo8NSObject", "NSData"]
 - !private ["CSo8NSObject", "NSError"]
@@ -410,6 +427,7 @@ depends-member:
 - !private ["CSo8NSObject", "downloadTaskWithRequest"]
 - !private ["CSo8NSObject", "downloadTaskWithResumeData"]
 - !private ["CSo8NSObject", "error"]
+- !private ["CSo8NSObject", "initialResponseTime"]
 - !private ["CSo8NSObject", "moveItemAtURL"]
 - !private ["CSo8NSObject", "progress"]
 - !private ["CSo8NSObject", "response"]
@@ -418,6 +436,7 @@ depends-member:
 - !private ["CSo8NSObject", "suggestedFilename"]
 - !private ["CSo8NSObject", "task"]
 - !private ["CSo8NSObject", "totalUnitCount"]
+- !private ["PSo16NSObjectProtocol", "CFAbsoluteTimeGetCurrent"]
 - !private ["PSo16NSObjectProtocol", "NSFileManager"]
 - !private ["PSo16NSObjectProtocol", "Request"]
 - !private ["PSo16NSObjectProtocol", "ResumeData"]
@@ -437,6 +456,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "downloadTaskWithResumeData"]
 - !private ["PSo16NSObjectProtocol", "error"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialResponseTime"]
 - !private ["PSo16NSObjectProtocol", "moveItemAtURL"]
 - !private ["PSo16NSObjectProtocol", "progress"]
 - !private ["PSo16NSObjectProtocol", "response"]
@@ -459,6 +479,7 @@ depends-member:
 - !private ["CSo12NSURLSession", "downloadTaskWithRequest"]
 - !private ["CSo12NSURLSession", "downloadTaskWithResumeData"]
 - !private ["PSo24NSURLSessionDataDelegate", "subscript"]
+- !private ["PSo20NSURLSessionDelegate", "CFAbsoluteTimeGetCurrent"]
 - !private ["PSo20NSURLSessionDelegate", "NSFileManager"]
 - ["PSo20NSURLSessionDelegate", "URLSession"]
 - ["PSo20NSURLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
@@ -467,11 +488,13 @@ depends-member:
 - !private ["PSo20NSURLSessionDelegate", "downloadTaskDidResumeAtOffset"]
 - !private ["PSo20NSURLSessionDelegate", "downloadTaskDidWriteData"]
 - !private ["PSo20NSURLSessionDelegate", "error"]
+- !private ["PSo20NSURLSessionDelegate", "initialResponseTime"]
 - !private ["PSo20NSURLSessionDelegate", "progress"]
 - !private ["PSo20NSURLSessionDelegate", "resumeData"]
 - !private ["PSo20NSURLSessionDelegate", "subscript"]
 - !private ["PSo20NSURLSessionDelegate", "task"]
 - ["PSo20NSURLSessionDelegate", ""]
+- !private ["PSo28NSURLSessionDownloadDelegate", "CFAbsoluteTimeGetCurrent"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "NSFileManager"]
 - ["PSo28NSURLSessionDownloadDelegate", "URLSession"]
 - ["PSo28NSURLSessionDownloadDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
@@ -480,6 +503,7 @@ depends-member:
 - !private ["PSo28NSURLSessionDownloadDelegate", "downloadTaskDidResumeAtOffset"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "downloadTaskDidWriteData"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "error"]
+- !private ["PSo28NSURLSessionDownloadDelegate", "initialResponseTime"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "progress"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "resumeData"]
 - !private ["PSo28NSURLSessionDownloadDelegate", "subscript"]
@@ -489,6 +513,7 @@ depends-member:
 - !private ["PSo26NSURLSessionStreamDelegate", "subscript"]
 - !private ["CSo16NSURLSessionTask", "deinit"]
 - !private ["CSo16NSURLSessionTask", "response"]
+- !private ["PSo24NSURLSessionTaskDelegate", "CFAbsoluteTimeGetCurrent"]
 - !private ["PSo24NSURLSessionTaskDelegate", "NSFileManager"]
 - ["PSo24NSURLSessionTaskDelegate", "URLSession"]
 - ["PSo24NSURLSessionTaskDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
@@ -497,6 +522,7 @@ depends-member:
 - !private ["PSo24NSURLSessionTaskDelegate", "downloadTaskDidResumeAtOffset"]
 - !private ["PSo24NSURLSessionTaskDelegate", "downloadTaskDidWriteData"]
 - !private ["PSo24NSURLSessionTaskDelegate", "error"]
+- !private ["PSo24NSURLSessionTaskDelegate", "initialResponseTime"]
 - !private ["PSo24NSURLSessionTaskDelegate", "progress"]
 - !private ["PSo24NSURLSessionTaskDelegate", "resumeData"]
 - !private ["PSo24NSURLSessionTaskDelegate", "subscript"]
@@ -517,6 +543,7 @@ depends-member:
 - !private ["Ps30RangeReplaceableCollectionType", "subscript"]
 - !private ["Ps16RawRepresentable", "DocumentDirectory"]
 - !private ["Ps16RawRepresentable", "UserDomainMask"]
+- !private ["C9Alamofire7Request", "CFAbsoluteTimeGetCurrent"]
 - ["C9Alamofire7Request", "DownloadFileDestination"]
 - ["C9Alamofire7Request", "DownloadTaskDelegate"]
 - ["C9Alamofire7Request", "Int64"]
@@ -556,6 +583,7 @@ depends-member:
 - !private ["Vs5Slice", "_Element"]
 - !private ["Ps10Strideable", "Distance"]
 - !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["CC9Alamofire7Request12TaskDelegate", "CFAbsoluteTimeGetCurrent"]
 - ["CC9Alamofire7Request12TaskDelegate", "Int64"]
 - ["CC9Alamofire7Request12TaskDelegate", "NSData"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "NSError"]
@@ -575,6 +603,7 @@ depends-member:
 - ["CC9Alamofire7Request12TaskDelegate", "downloadTaskDidWriteData"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "error"]
 - ["CC9Alamofire7Request12TaskDelegate", "init"]
+- !private ["CC9Alamofire7Request12TaskDelegate", "initialResponseTime"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "progress"]
 - ["CC9Alamofire7Request12TaskDelegate", "resumeData"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "task"]
@@ -611,6 +640,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "Distance"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "Distance"]
@@ -707,6 +737,7 @@ depends-nominal:
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
 - "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"

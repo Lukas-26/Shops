@@ -21,37 +21,40 @@ provides-member:
 - ["C9Alamofire7Request", "responsePropertyList"]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
-- !private "NSISOLatin1StringEncoding"
-- "ResponseSerializerType"
-- !private "CFStringConvertEncodingToNSStringEncoding"
-- "AnyObject"
-- !private "NSJSONSerialization"
-- !private "dispatch_get_main_queue"
-- "NSURLRequest"
-- "NSData"
-- "Result"
-- "dispatch_queue_t"
-- "NSStringEncoding"
-- "Request"
-- "ResponseSerializer"
-- "NSHTTPURLResponse"
-- !private "??"
-- !private ">"
-- !private "NSPropertyListSerialization"
-- "NSPropertyListReadOptions"
-- !private "=="
-- !private "Error"
-- "Response"
+- !private "Timeline"
 - !private "CFStringConvertIANACharSetNameToEncoding"
-- "ErrorType"
-- !private "dispatch_async"
-- "StringLiteralType"
-- "NSError"
+- "AnyObject"
+- "NSStringEncoding"
+- "ResponseSerializerType"
+- "String"
+- "NSPropertyListReadOptions"
+- !private "NSJSONSerialization"
+- "NSData"
 - "Void"
+- "NSError"
 - !private "NSNull"
+- "Request"
+- "NSHTTPURLResponse"
+- "Response"
+- "dispatch_queue_t"
+- "Result"
+- !private "dispatch_async"
+- !private "CFAbsoluteTimeGetCurrent"
 - "NSJSONReadingOptions"
+- !private "=="
+- !private ">"
+- "NSURLRequest"
+- "ResponseSerializer"
+- !private "NSPropertyListSerialization"
+- "ErrorType"
+- !private "NSISOLatin1StringEncoding"
+- !private "??"
+- "StringLiteralType"
+- !private "Error"
+- !private "dispatch_get_main_queue"
+- !private "CFStringConvertEncodingToNSStringEncoding"
 depends-member:
+- !private ["Ps9AnyObject", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps9AnyObject", "CFStringConvertEncodingToNSStringEncoding"]
 - !private ["Ps9AnyObject", "CFStringConvertIANACharSetNameToEncoding"]
 - !private ["Ps9AnyObject", "Error"]
@@ -67,6 +70,7 @@ depends-member:
 - !private ["Ps9AnyObject", "Response"]
 - !private ["Ps9AnyObject", "ResponseSerializer"]
 - !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "Timeline"]
 - !private ["Ps9AnyObject", "addOperationWithBlock"]
 - !private ["Ps9AnyObject", "data"]
 - !private ["Ps9AnyObject", "dataResponseSerializer"]
@@ -75,6 +79,7 @@ depends-member:
 - !private ["Ps9AnyObject", "dispatch_get_main_queue"]
 - !private ["Ps9AnyObject", "error"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialResponseTime"]
 - !private ["Ps9AnyObject", "length"]
 - !private ["Ps9AnyObject", "propertyListResponseSerializer"]
 - !private ["Ps9AnyObject", "propertyListWithData"]
@@ -109,6 +114,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "data"]
 - !private ["Ps11CVarArgType", "error"]
 - !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "initialResponseTime"]
 - !private ["Ps11CVarArgType", "length"]
 - !private ["Ps11CVarArgType", "propertyListWithData"]
 - !private ["Ps11CVarArgType", "queue"]
@@ -124,6 +130,7 @@ depends-member:
 - !private ["Ps10Comparable", "PropertyListSerializationFailed"]
 - !private ["Ps10Comparable", "StringSerializationFailed"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps28CustomDebugStringConvertible", "CFStringConvertEncodingToNSStringEncoding"]
 - !private ["Ps28CustomDebugStringConvertible", "CFStringConvertIANACharSetNameToEncoding"]
 - !private ["Ps28CustomDebugStringConvertible", "Error"]
@@ -142,6 +149,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Some"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "Success"]
+- !private ["Ps28CustomDebugStringConvertible", "Timeline"]
 - !private ["Ps28CustomDebugStringConvertible", "addOperationWithBlock"]
 - !private ["Ps28CustomDebugStringConvertible", "data"]
 - !private ["Ps28CustomDebugStringConvertible", "dataResponseSerializer"]
@@ -150,6 +158,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
 - !private ["Ps28CustomDebugStringConvertible", "error"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialResponseTime"]
 - !private ["Ps28CustomDebugStringConvertible", "length"]
 - !private ["Ps28CustomDebugStringConvertible", "propertyListResponseSerializer"]
 - !private ["Ps28CustomDebugStringConvertible", "propertyListWithData"]
@@ -158,6 +167,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "statusCode"]
 - !private ["Ps28CustomDebugStringConvertible", "stringResponseSerializer"]
 - !private ["Ps28CustomDebugStringConvertible", "textEncodingName"]
+- !private ["Ps23CustomStringConvertible", "CFAbsoluteTimeGetCurrent"]
 - !private ["Ps23CustomStringConvertible", "CFStringConvertEncodingToNSStringEncoding"]
 - !private ["Ps23CustomStringConvertible", "CFStringConvertIANACharSetNameToEncoding"]
 - !private ["Ps23CustomStringConvertible", "DataSerializationFailed"]
@@ -179,6 +189,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "StringSerializationFailed"]
 - !private ["Ps23CustomStringConvertible", "Success"]
+- !private ["Ps23CustomStringConvertible", "Timeline"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "addOperationWithBlock"]
 - !private ["Ps23CustomStringConvertible", "data"]
@@ -188,6 +199,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
 - !private ["Ps23CustomStringConvertible", "error"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialResponseTime"]
 - !private ["Ps23CustomStringConvertible", "length"]
 - !private ["Ps23CustomStringConvertible", "propertyListResponseSerializer"]
 - !private ["Ps23CustomStringConvertible", "propertyListWithData"]
@@ -210,6 +222,7 @@ depends-member:
 - !private ["Ps9Equatable", "data"]
 - !private ["Ps9Equatable", "error"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialResponseTime"]
 - !private ["Ps9Equatable", "length"]
 - !private ["Ps9Equatable", "propertyListWithData"]
 - !private ["Ps9Equatable", "queue"]
@@ -232,6 +245,7 @@ depends-member:
 - !private ["Ps8Hashable", "data"]
 - !private ["Ps8Hashable", "error"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialResponseTime"]
 - !private ["Ps8Hashable", "length"]
 - !private ["Ps8Hashable", "propertyListWithData"]
 - !private ["Ps8Hashable", "queue"]
@@ -286,6 +300,7 @@ depends-member:
 - !private ["CSo8NSObject", "data"]
 - !private ["CSo8NSObject", "error"]
 - !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "initialResponseTime"]
 - !private ["CSo8NSObject", "length"]
 - !private ["CSo8NSObject", "propertyListWithData"]
 - !private ["CSo8NSObject", "queue"]
@@ -296,6 +311,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "data"]
 - !private ["PSo16NSObjectProtocol", "error"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialResponseTime"]
 - !private ["PSo16NSObjectProtocol", "length"]
 - !private ["PSo16NSObjectProtocol", "propertyListWithData"]
 - !private ["PSo16NSObjectProtocol", "queue"]
@@ -334,6 +350,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "StringSerializationFailed"]
 - !private ["Ps16RawRepresentable", "init"]
 - ["C9Alamofire7Request", "AnyObject"]
+- !private ["C9Alamofire7Request", "CFAbsoluteTimeGetCurrent"]
 - !private ["C9Alamofire7Request", "CFStringConvertEncodingToNSStringEncoding"]
 - !private ["C9Alamofire7Request", "CFStringConvertIANACharSetNameToEncoding"]
 - !private ["C9Alamofire7Request", "Error"]
@@ -354,12 +371,14 @@ depends-member:
 - ["C9Alamofire7Request", "ResponseSerializer"]
 - ["C9Alamofire7Request", "ResponseSerializerType"]
 - ["C9Alamofire7Request", "String"]
+- !private ["C9Alamofire7Request", "Timeline"]
 - ["C9Alamofire7Request", "Void"]
 - ["C9Alamofire7Request", "dataResponseSerializer"]
 - !private ["C9Alamofire7Request", "delegate"]
 - !private ["C9Alamofire7Request", "dispatch_async"]
 - !private ["C9Alamofire7Request", "dispatch_get_main_queue"]
 - ["C9Alamofire7Request", "dispatch_queue_t"]
+- !private ["C9Alamofire7Request", "endTime"]
 - ["C9Alamofire7Request", "propertyListResponseSerializer"]
 - !private ["C9Alamofire7Request", "request"]
 - ["C9Alamofire7Request", "response"]
@@ -367,6 +386,7 @@ depends-member:
 - ["C9Alamofire7Request", "responseJSON"]
 - ["C9Alamofire7Request", "responsePropertyList"]
 - ["C9Alamofire7Request", "responseString"]
+- !private ["C9Alamofire7Request", "startTime"]
 - ["C9Alamofire7Request", "stringResponseSerializer"]
 - !private ["V9Alamofire8Response", "init"]
 - ["V9Alamofire18ResponseSerializer", "Error"]
@@ -416,7 +436,9 @@ depends-member:
 - !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "data"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "error"]
+- !private ["CC9Alamofire7Request12TaskDelegate", "initialResponseTime"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "queue"]
+- !private ["V9Alamofire8Timeline", "init"]
 - !private ["Su", "deinit"]
 - !private ["Vs6UInt16", "deinit"]
 - !private ["Vs6UInt32", "deinit"]
@@ -536,6 +558,7 @@ depends-nominal:
 - !private "Ps30StringInterpolationConvertible"
 - !private "Ps24StringLiteralConvertible"
 - !private "CC9Alamofire7Request12TaskDelegate"
+- !private "V9Alamofire8Timeline"
 - !private "Su"
 - !private "Vs6UInt16"
 - !private "Vs6UInt32"

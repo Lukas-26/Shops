@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.6 clang-703.0.16)"
+options: "f49b081117664a29d35d96f7290d18c3"
+build_time: [510004337, 990405000]
+inputs:
+  "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/PageMenu/Classes/CAPSPageMenu.swift": [509227396, 0]

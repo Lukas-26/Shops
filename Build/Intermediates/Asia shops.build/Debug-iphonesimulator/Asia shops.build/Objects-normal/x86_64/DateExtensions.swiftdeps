@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6NSDate", ""]
+- ["CSo6NSDate", "dayOfWeek"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "~="
+- "NSDate"
+- !private "NSDateComponents"
+- !private "-"
+- "Int"
+- !private "NSCalendar"
+depends-member:
+- !private ["Ps9AnyObject", "NSCalendar"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "currentCalendar"]
+- ["Ps9AnyObject", "dayOfWeek"]
+- !private ["Ps9AnyObject", "weekday"]
+- !private ["Ps23ArrayLiteralConvertible", "Weekday"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSCalendar"]
+- !private ["Ps11CVarArgType", "components"]
+- !private ["Ps11CVarArgType", "currentCalendar"]
+- ["Ps11CVarArgType", "dayOfWeek"]
+- !private ["Ps11CVarArgType", "weekday"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "currentCalendar"]
+- ["Ps28CustomDebugStringConvertible", "dayOfWeek"]
+- !private ["Ps28CustomDebugStringConvertible", "weekday"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "currentCalendar"]
+- ["Ps23CustomStringConvertible", "dayOfWeek"]
+- !private ["Ps23CustomStringConvertible", "weekday"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "Weekday"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "currentCalendar"]
+- ["Ps9Equatable", "dayOfWeek"]
+- !private ["Ps9Equatable", "weekday"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "currentCalendar"]
+- ["Ps8Hashable", "dayOfWeek"]
+- !private ["Ps8Hashable", "weekday"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["VSC14NSCalendarUnit", "Weekday"]
+- !private ["PSo8NSCoding", "NSCalendar"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "weekday"]
+- !private ["PSo9NSCopying", "NSCalendar"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "weekday"]
+- ["CSo6NSDate", "Int"]
+- !private ["CSo6NSDate", "NSCalendar"]
+- !private ["CSo6NSDate", "NSDateComponents"]
+- ["CSo6NSDate", "dayOfWeek"]
+- !private ["CSo16NSDateComponents", "weekday"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSCalendar"]
+- !private ["CSo8NSObject", "NSDateComponents"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- ["CSo8NSObject", "dayOfWeek"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "weekday"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- ["PSo16NSObjectProtocol", "dayOfWeek"]
+- !private ["PSo16NSObjectProtocol", "weekday"]
+- !private ["PSo14NSSecureCoding", "NSCalendar"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "weekday"]
+- !private ["CSo7NSValue", "deinit"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps13OptionSetType", "Weekday"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "Weekday"]
+- !private ["Ps14SetAlgebraType", "Weekday"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "NSCalendar"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "CSo10NSCalendar"
+- !private "VSC14NSCalendarUnit"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- "Ps21NilLiteralConvertible"
+- !private "Ps13OptionSetType"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- !private "Ps14SetAlgebraType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Modules/PageMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Modules/Cosmos.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Headers/Cosmos-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Headers/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Modules/module.modulemap"
+interface-hash: "78bcc65ce800f4fcac0bbaff1d688f17"

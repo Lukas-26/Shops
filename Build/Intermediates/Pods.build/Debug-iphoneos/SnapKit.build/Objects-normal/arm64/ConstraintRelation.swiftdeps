@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "ConstraintRelation"
-- "NSLayoutRelation"
 - "=="
 - "Int"
 - !private "~="
+- "NSLayoutRelation"
 depends-member:
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]

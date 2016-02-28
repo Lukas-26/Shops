@@ -1,16 +1,22 @@
 PODS:
-  - Alamofire (3.1.5)
+  - ActionSheetPicker-3.0 (2.0.5)
+  - Cosmos (1.2.1)
   - MagicalRecord/Shorthand (2.2)
+  - PageMenu (1.2.9)
   - SnapKit (0.15.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 3.0)
+  - ActionSheetPicker-3.0
+  - Cosmos (~> 1.1)
   - MagicalRecord/Shorthand
+  - PageMenu
   - SnapKit (~> 0.15.0)
 
 SPEC CHECKSUMS:
-  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  ActionSheetPicker-3.0: 8312778b6815578e6a86d630fbcf31dc94c534e7
+  Cosmos: 27ddd077ef5859659a4bbbbd84137ae717f020e8
   MagicalRecord: 2dc87179ae7c1f2a274442624ec65a07d4357a6f
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
   SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
 
 COCOAPODS: 0.39.0

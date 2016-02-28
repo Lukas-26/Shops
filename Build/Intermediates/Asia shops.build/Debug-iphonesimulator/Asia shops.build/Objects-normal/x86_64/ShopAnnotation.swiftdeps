@@ -6,24 +6,23 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops14ShopAnnotation", ""]
 provides-dynamic-lookup:
-- "rating"
 - "name"
 - "shop"
 - "copyWithZone"
 - "color"
 depends-top-level:
-- "NSCopying"
-- "NSManagedObject"
-- "MKPointAnnotation"
-- "NSZone"
-- "ShopAnnotation"
-- "CLLocationCoordinate2D"
-- "String"
-- "UIColor"
-- "AnyObject"
-- "Double"
 - "StringLiteralType"
+- !private "+"
+- "MKPointAnnotation"
+- "String"
+- "NSCopying"
+- "NSZone"
+- "UIColor"
+- "CLLocationCoordinate2D"
+- "Shop"
 - !private "CLLocationCoordinate2DMake"
+- "ShopAnnotation"
+- "AnyObject"
 depends-member:
 - !private ["Ps9AnyObject", "CLLocationCoordinate2DMake"]
 - !private ["Ps9AnyObject", "ShopAnnotation"]
@@ -32,10 +31,10 @@ depends-member:
 - ["Ps9AnyObject", "color"]
 - !private ["Ps9AnyObject", "coordinate"]
 - ["Ps9AnyObject", "copyWithZone"]
+- !private ["Ps9AnyObject", "getAvgRating"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "name"]
 - ["Ps9AnyObject", "purpleColor"]
-- ["Ps9AnyObject", "rating"]
 - ["Ps9AnyObject", "shop"]
 - !private ["Ps9AnyObject", "subtitle"]
 - !private ["Ps9AnyObject", "title"]
@@ -49,10 +48,10 @@ depends-member:
 - ["Ps11CVarArgType", "color"]
 - !private ["Ps11CVarArgType", "coordinate"]
 - ["Ps11CVarArgType", "copyWithZone"]
+- !private ["Ps11CVarArgType", "getAvgRating"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "name"]
 - ["Ps11CVarArgType", "purpleColor"]
-- ["Ps11CVarArgType", "rating"]
 - ["Ps11CVarArgType", "shop"]
 - !private ["Ps11CVarArgType", "subtitle"]
 - !private ["Ps11CVarArgType", "title"]
@@ -65,10 +64,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "color"]
 - !private ["Ps28CustomDebugStringConvertible", "coordinate"]
 - ["Ps28CustomDebugStringConvertible", "copyWithZone"]
+- !private ["Ps28CustomDebugStringConvertible", "getAvgRating"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "name"]
 - ["Ps28CustomDebugStringConvertible", "purpleColor"]
-- ["Ps28CustomDebugStringConvertible", "rating"]
 - ["Ps28CustomDebugStringConvertible", "shop"]
 - !private ["Ps28CustomDebugStringConvertible", "subtitle"]
 - !private ["Ps28CustomDebugStringConvertible", "title"]
@@ -80,15 +79,14 @@ depends-member:
 - ["Ps23CustomStringConvertible", "color"]
 - !private ["Ps23CustomStringConvertible", "coordinate"]
 - ["Ps23CustomStringConvertible", "copyWithZone"]
+- !private ["Ps23CustomStringConvertible", "getAvgRating"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "name"]
 - ["Ps23CustomStringConvertible", "purpleColor"]
-- ["Ps23CustomStringConvertible", "rating"]
 - ["Ps23CustomStringConvertible", "shop"]
 - !private ["Ps23CustomStringConvertible", "subtitle"]
 - !private ["Ps23CustomStringConvertible", "title"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "CLLocationCoordinate2DMake"]
 - !private ["Ps9Equatable", "ShopAnnotation"]
 - !private ["Ps9Equatable", "String"]
@@ -96,10 +94,10 @@ depends-member:
 - ["Ps9Equatable", "color"]
 - !private ["Ps9Equatable", "coordinate"]
 - ["Ps9Equatable", "copyWithZone"]
+- !private ["Ps9Equatable", "getAvgRating"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "name"]
 - ["Ps9Equatable", "purpleColor"]
-- ["Ps9Equatable", "rating"]
 - ["Ps9Equatable", "shop"]
 - !private ["Ps9Equatable", "subtitle"]
 - !private ["Ps9Equatable", "title"]
@@ -112,10 +110,10 @@ depends-member:
 - ["Ps8Hashable", "color"]
 - !private ["Ps8Hashable", "coordinate"]
 - ["Ps8Hashable", "copyWithZone"]
+- !private ["Ps8Hashable", "getAvgRating"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "name"]
 - ["Ps8Hashable", "purpleColor"]
-- ["Ps8Hashable", "rating"]
 - ["Ps8Hashable", "shop"]
 - !private ["Ps8Hashable", "subtitle"]
 - !private ["Ps8Hashable", "title"]
@@ -129,7 +127,6 @@ depends-member:
 - ["PSo12MKAnnotation", "copyWithZone"]
 - ["PSo12MKAnnotation", "init"]
 - ["PSo12MKAnnotation", "name"]
-- ["PSo12MKAnnotation", "rating"]
 - ["PSo12MKAnnotation", "shop"]
 - !private ["PSo12MKAnnotation", "subtitle"]
 - !private ["PSo12MKAnnotation", "title"]
@@ -137,9 +134,8 @@ depends-member:
 - ["CSo17MKPointAnnotation", "AnyObject"]
 - ["CSo17MKPointAnnotation", "CLLocationCoordinate2D"]
 - !private ["CSo17MKPointAnnotation", "CLLocationCoordinate2DMake"]
-- ["CSo17MKPointAnnotation", "Double"]
-- ["CSo17MKPointAnnotation", "NSManagedObject"]
 - ["CSo17MKPointAnnotation", "NSZone"]
+- ["CSo17MKPointAnnotation", "Shop"]
 - !private ["CSo17MKPointAnnotation", "ShopAnnotation"]
 - ["CSo17MKPointAnnotation", "String"]
 - ["CSo17MKPointAnnotation", "UIColor"]
@@ -148,7 +144,6 @@ depends-member:
 - ["CSo17MKPointAnnotation", "copyWithZone"]
 - ["CSo17MKPointAnnotation", "init"]
 - ["CSo17MKPointAnnotation", "name"]
-- ["CSo17MKPointAnnotation", "rating"]
 - ["CSo17MKPointAnnotation", "shop"]
 - !private ["CSo17MKPointAnnotation", "subtitle"]
 - !private ["CSo17MKPointAnnotation", "title"]
@@ -156,9 +151,8 @@ depends-member:
 - ["CSo7MKShape", "AnyObject"]
 - ["CSo7MKShape", "CLLocationCoordinate2D"]
 - !private ["CSo7MKShape", "CLLocationCoordinate2DMake"]
-- ["CSo7MKShape", "Double"]
-- ["CSo7MKShape", "NSManagedObject"]
 - ["CSo7MKShape", "NSZone"]
+- ["CSo7MKShape", "Shop"]
 - !private ["CSo7MKShape", "ShopAnnotation"]
 - ["CSo7MKShape", "String"]
 - ["CSo7MKShape", "UIColor"]
@@ -167,7 +161,6 @@ depends-member:
 - ["CSo7MKShape", "copyWithZone"]
 - ["CSo7MKShape", "init"]
 - ["CSo7MKShape", "name"]
-- ["CSo7MKShape", "rating"]
 - ["CSo7MKShape", "shop"]
 - !private ["CSo7MKShape", "subtitle"]
 - !private ["CSo7MKShape", "title"]
@@ -182,27 +175,26 @@ depends-member:
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "name"]
 - ["PSo9NSCopying", "purpleColor"]
-- !private ["PSo9NSCopying", "rating"]
 - !private ["PSo9NSCopying", "shop"]
 - !private ["PSo9NSCopying", "subtitle"]
 - !private ["PSo9NSCopying", "title"]
 - ["PSo9NSCopying", ""]
+- !private ["CSo15NSManagedObject", "getAvgRating"]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "CLLocationCoordinate2D"]
 - !private ["CSo8NSObject", "CLLocationCoordinate2DMake"]
-- ["CSo8NSObject", "Double"]
-- ["CSo8NSObject", "NSManagedObject"]
 - ["CSo8NSObject", "NSZone"]
+- ["CSo8NSObject", "Shop"]
 - !private ["CSo8NSObject", "ShopAnnotation"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIColor"]
 - ["CSo8NSObject", "color"]
 - !private ["CSo8NSObject", "coordinate"]
 - ["CSo8NSObject", "copyWithZone"]
+- !private ["CSo8NSObject", "getAvgRating"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "purpleColor"]
-- ["CSo8NSObject", "rating"]
 - ["CSo8NSObject", "shop"]
 - !private ["CSo8NSObject", "subtitle"]
 - !private ["CSo8NSObject", "title"]
@@ -213,22 +205,22 @@ depends-member:
 - ["PSo16NSObjectProtocol", "color"]
 - !private ["PSo16NSObjectProtocol", "coordinate"]
 - ["PSo16NSObjectProtocol", "copyWithZone"]
+- !private ["PSo16NSObjectProtocol", "getAvgRating"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "purpleColor"]
-- ["PSo16NSObjectProtocol", "rating"]
 - ["PSo16NSObjectProtocol", "shop"]
 - !private ["PSo16NSObjectProtocol", "subtitle"]
 - !private ["PSo16NSObjectProtocol", "title"]
 - ["PSo16NSObjectProtocol", ""]
 - ["PSo14NSSecureCoding", "purpleColor"]
 - !private ["Ps16OutputStreamType", "init"]
+- !private ["C10Asia_shops4Shop", "getAvgRating"]
 - ["C10Asia_shops14ShopAnnotation", "AnyObject"]
 - ["C10Asia_shops14ShopAnnotation", "CLLocationCoordinate2D"]
 - !private ["C10Asia_shops14ShopAnnotation", "CLLocationCoordinate2DMake"]
-- ["C10Asia_shops14ShopAnnotation", "Double"]
-- ["C10Asia_shops14ShopAnnotation", "NSManagedObject"]
 - ["C10Asia_shops14ShopAnnotation", "NSZone"]
+- ["C10Asia_shops14ShopAnnotation", "Shop"]
 - !private ["C10Asia_shops14ShopAnnotation", "ShopAnnotation"]
 - ["C10Asia_shops14ShopAnnotation", "String"]
 - ["C10Asia_shops14ShopAnnotation", "UIColor"]
@@ -238,7 +230,6 @@ depends-member:
 - ["C10Asia_shops14ShopAnnotation", "deinit"]
 - ["C10Asia_shops14ShopAnnotation", "init"]
 - ["C10Asia_shops14ShopAnnotation", "name"]
-- ["C10Asia_shops14ShopAnnotation", "rating"]
 - ["C10Asia_shops14ShopAnnotation", "shop"]
 - !private ["C10Asia_shops14ShopAnnotation", "subtitle"]
 - !private ["C10Asia_shops14ShopAnnotation", "title"]
@@ -263,7 +254,6 @@ depends-nominal:
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
-- !private "Sd"
 - "Ps9Equatable"
 - !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
 - "Ps8Hashable"
@@ -273,10 +263,12 @@ depends-nominal:
 - !private "Ps14MirrorPathType"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
+- !private "CSo15NSManagedObject"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - !private "Ps16OutputStreamType"
+- !private "C10Asia_shops4Shop"
 - "C10Asia_shops14ShopAnnotation"
 - !private "Vs12StaticString"
 - !private "Ps10Streamable"
@@ -309,7 +301,6 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
@@ -340,4 +331,26 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/MagicalRecord.framework/Modules/module.modulemap"
-interface-hash: "49cee4afd94e9bf593d10cc8091963de"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Modules/PageMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/PageMenu.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Modules/Cosmos.swiftmodule/x86_64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Headers/Cosmos-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Headers/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphonesimulator/Cosmos.framework/Modules/module.modulemap"
+interface-hash: "0755d6f8313a70f1bbcb33c1711bc098"

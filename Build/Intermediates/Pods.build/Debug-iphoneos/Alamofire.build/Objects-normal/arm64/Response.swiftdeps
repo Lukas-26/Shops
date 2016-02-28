@@ -7,19 +7,20 @@ provides-member:
 - ["V9Alamofire8Response", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Result"
+- "Timeline"
+- "NSHTTPURLResponse"
 - "CustomStringConvertible"
+- !private "StringLiteralType"
+- "Result"
+- !private "UnicodeScalarType"
+- !private "!="
+- "CustomDebugStringConvertible"
+- "String"
 - "NSData"
 - "ErrorType"
-- "String"
-- "Response"
-- !private "UnicodeScalarType"
-- "CustomDebugStringConvertible"
-- "NSURLRequest"
-- !private "!="
-- "NSHTTPURLResponse"
-- !private "StringLiteralType"
 - !private "??"
+- "Response"
+- "NSURLRequest"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "length"]
@@ -62,6 +63,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Generator"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Timeline"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
 - !private ["Ps28CustomDebugStringConvertible", "data"]
@@ -73,12 +75,14 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "request"]
 - !private ["Ps28CustomDebugStringConvertible", "response"]
 - !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "timeline"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "Distance"]
 - !private ["Ps23CustomStringConvertible", "Generator"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Timeline"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "append"]
@@ -91,6 +95,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "request"]
 - !private ["Ps23CustomStringConvertible", "response"]
 - !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "timeline"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "Distance"]
@@ -179,6 +184,7 @@ depends-member:
 - ["V9Alamofire8Response", "NSURLRequest"]
 - ["V9Alamofire8Response", "Result"]
 - ["V9Alamofire8Response", "String"]
+- ["V9Alamofire8Response", "Timeline"]
 - ["V9Alamofire8Response", "Value"]
 - ["V9Alamofire8Response", "data"]
 - ["V9Alamofire8Response", "debugDescription"]
@@ -188,6 +194,7 @@ depends-member:
 - ["V9Alamofire8Response", "request"]
 - ["V9Alamofire8Response", "response"]
 - ["V9Alamofire8Response", "result"]
+- ["V9Alamofire8Response", "timeline"]
 - !private ["O9Alamofire6Result", "debugDescription"]
 - !private ["O9Alamofire6Result", "deinit"]
 - !private ["Ps12SequenceType", "Element"]
@@ -207,6 +214,9 @@ depends-member:
 - !private ["SS", "init"]
 - !private ["Ps30StringInterpolationConvertible", "init"]
 - !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["V9Alamofire8Timeline", "debugDescription"]
+- !private ["V9Alamofire8Timeline", "deinit"]
+- !private ["V9Alamofire8Timeline", "init"]
 - !private ["Su", "deinit"]
 - !private ["Vs6UInt16", "deinit"]
 - !private ["Vs6UInt32", "deinit"]
@@ -324,6 +334,7 @@ depends-nominal:
 - !private "SS"
 - !private "Ps30StringInterpolationConvertible"
 - !private "Ps24StringLiteralConvertible"
+- !private "V9Alamofire8Timeline"
 - !private "Su"
 - !private "Vs6UInt16"
 - !private "Vs6UInt32"
@@ -360,4 +371,4 @@ depends-external:
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
-interface-hash: "e51e8a62d3143d5f5629a6f5be999bb4"
+interface-hash: "71a152a0e99931be329e1e5b184d330b"

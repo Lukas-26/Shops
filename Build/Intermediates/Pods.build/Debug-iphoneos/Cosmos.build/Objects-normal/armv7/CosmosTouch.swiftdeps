@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CosmosTouch"
+provides-nominal:
+- "V6Cosmos11CosmosTouch"
+provides-member:
+- ["V6Cosmos11CosmosTouch", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Double"
+- "CosmosTouch"
+- !private "/"
+- "CosmosSettings"
+- !private "+="
+- !private "max"
+- !private "CosmosRating"
+- !private "*"
+- "CGFloat"
+- !private "!="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["V6Cosmos12CosmosRating", "displayedRatingFromPreciseRating"]
+- !private ["V6Cosmos14CosmosSettings", "fillMode"]
+- !private ["V6Cosmos14CosmosSettings", "minTouchRating"]
+- !private ["V6Cosmos14CosmosSettings", "totalStars"]
+- ["V6Cosmos11CosmosTouch", "CGFloat"]
+- !private ["V6Cosmos11CosmosTouch", "CosmosRating"]
+- ["V6Cosmos11CosmosTouch", "CosmosSettings"]
+- ["V6Cosmos11CosmosTouch", "Double"]
+- ["V6Cosmos11CosmosTouch", "init"]
+- !private ["V6Cosmos11CosmosTouch", "max"]
+- ["V6Cosmos11CosmosTouch", "touchRating"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "Precise"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps8Hashable", "Precise"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps16RawRepresentable", "Precise"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["O6Cosmos12StarFillMode", "Precise"]
+- !private ["O6Cosmos12StarFillMode", "RawValue"]
+- !private ["O6Cosmos12StarFillMode", "deinit"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- !private "V6Cosmos12CosmosRating"
+- !private "V6Cosmos14CosmosSettings"
+- "V6Cosmos11CosmosTouch"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps16RawRepresentable"
+- !private "Ps16SignedNumberType"
+- !private "O6Cosmos12StarFillMode"
+- !private "Ps10Strideable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Pods/Target Support Files/Cosmos/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Intermediates/Pods.build/Debug-iphoneos/Cosmos.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "e2430c15a1e035ebb2b3c686c53cdfee"

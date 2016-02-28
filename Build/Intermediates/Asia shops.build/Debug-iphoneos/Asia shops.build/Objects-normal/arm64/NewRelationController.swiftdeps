@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewRelationController"
+provides-nominal:
+- "C10Asia_shops21NewRelationController"
+provides-member:
+- ["C10Asia_shops21NewRelationController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "typePicker"
+depends-top-level:
+- !private "UIColor"
+- "UIViewController"
+- "NewRelationController"
+- !private "ActionSheetCustomPicker"
+- "UIButton"
+depends-member:
+- !private ["CSo25AbstractActionSheetPicker", "init"]
+- !private ["CSo25AbstractActionSheetPicker", "showActionSheetPicker"]
+- !private ["CSo23ActionSheetCustomPicker", "init"]
+- !private ["CSo23ActionSheetCustomPicker", "showActionSheetPicker"]
+- !private ["Ps9AnyObject", "ActionSheetCustomPicker"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "showActionSheetPicker"]
+- ["Ps9AnyObject", "typePicker"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "ActionSheetCustomPicker"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "showActionSheetPicker"]
+- ["Ps11CVarArgType", "typePicker"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "ActionSheetCustomPicker"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "showActionSheetPicker"]
+- ["Ps28CustomDebugStringConvertible", "typePicker"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "ActionSheetCustomPicker"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "showActionSheetPicker"]
+- ["Ps23CustomStringConvertible", "typePicker"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ActionSheetCustomPicker"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "showActionSheetPicker"]
+- ["Ps9Equatable", "typePicker"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "whiteColor"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "ActionSheetCustomPicker"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "showActionSheetPicker"]
+- ["Ps8Hashable", "typePicker"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "whiteColor"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "ActionSheetCustomPicker"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "typePicker"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "ActionSheetCustomPicker"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "typePicker"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "ActionSheetCustomPicker"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "showActionSheetPicker"]
+- ["CSo8NSObject", "typePicker"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "ActionSheetCustomPicker"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "showActionSheetPicker"]
+- ["PSo16NSObjectProtocol", "typePicker"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["C10Asia_shops21NewRelationController", "ActionSheetCustomPicker"]
+- ["C10Asia_shops21NewRelationController", "UIButton"]
+- !private ["C10Asia_shops21NewRelationController", "UIColor"]
+- ["C10Asia_shops21NewRelationController", "deinit"]
+- ["C10Asia_shops21NewRelationController", "init"]
+- ["C10Asia_shops21NewRelationController", "typePicker"]
+- !private ["C10Asia_shops21NewRelationController", "view"]
+- ["C10Asia_shops21NewRelationController", "viewDidLoad"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "ActionSheetCustomPicker"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "typePicker"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "ActionSheetCustomPicker"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "typePicker"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "ActionSheetCustomPicker"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "typePicker"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo27UIPopoverControllerDelegate", "init"]
+- !private ["PSo27UIPopoverControllerDelegate", "showActionSheetPicker"]
+- !private ["CSo11UIResponder", "ActionSheetCustomPicker"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "typePicker"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "ActionSheetCustomPicker"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "typePicker"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "ActionSheetCustomPicker"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "typePicker"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo16UIViewController", "ActionSheetCustomPicker"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "typePicker"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+depends-nominal:
+- !private "CSo25AbstractActionSheetPicker"
+- !private "CSo23ActionSheetCustomPicker"
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "C10Asia_shops21NewRelationController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo27UIPopoverControllerDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/PageMenu.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/Cosmos.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/module.modulemap"
+interface-hash: "fc1b7cb754961024a228308e119437f9"

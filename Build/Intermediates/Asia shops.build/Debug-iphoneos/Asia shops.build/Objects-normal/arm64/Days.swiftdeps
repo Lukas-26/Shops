@@ -6,31 +6,72 @@ provides-nominal:
 provides-member:
 - ["C10Asia_shops4Days", ""]
 provides-dynamic-lookup:
+- "getTag"
 depends-top-level:
-- "NSManagedObject"
+- "Int"
+- !private "=="
 - "Days"
+- "NSManagedObject"
+- !private "StringLiteralType"
 depends-member:
+- ["Ps9AnyObject", "getTag"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "shortcut"]
 - ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "getTag"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "shortcut"]
 - ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "getTag"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "shortcut"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "getTag"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "shortcut"]
 - ["Ps23CustomStringConvertible", ""]
+- ["C10Asia_shops4Days", "Int"]
 - ["C10Asia_shops4Days", "deinit"]
+- ["C10Asia_shops4Days", "getTag"]
 - ["C10Asia_shops4Days", "init"]
+- !private ["C10Asia_shops4Days", "shortcut"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "getTag"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "shortcut"]
 - ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "getTag"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "shortcut"]
 - ["Ps8Hashable", ""]
+- ["CSo15NSManagedObject", "Int"]
+- ["CSo15NSManagedObject", "getTag"]
 - ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "shortcut"]
 - ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "getTag"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "shortcut"]
+- ["PSo16NSObjectProtocol", "getTag"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "shortcut"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
 - "Ps11CVarArgType"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
@@ -40,6 +81,11 @@ depends-nominal:
 - "CSo15NSManagedObject"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
@@ -57,7 +103,6 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
@@ -88,4 +133,26 @@ depends-external:
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
 - "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
-interface-hash: "4ed8a1d1ad760c610c4dc9e5b6d437a4"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/PageMenu.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/Cosmos.swiftmodule/arm64.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/module.modulemap"
+interface-hash: "e88117894d0bb91cb2d70fa568f806cc"

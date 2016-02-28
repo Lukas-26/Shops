@@ -1,0 +1,732 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BottleCell"
+provides-nominal:
+- "C10Asia_shops10BottleCell"
+provides-member:
+- ["C10Asia_shops10BottleCell", ""]
+provides-dynamic-lookup:
+- "prizeLabel"
+- "nameLabel"
+- "bottle"
+depends-top-level:
+- !private "UIImage"
+- "UITableViewCell"
+- "NSCoder"
+- "BottleCell"
+- !private "UIColor"
+- !private "StringLiteralType"
+- !private "UIFont"
+- "UILabel"
+- !private "UIImageView"
+- "Rel"
+- "String"
+- "UITableViewCellStyle"
+- !private "CGRectMake"
+- !private "fatalError"
+- !private "UITableViewCellSelectionStyle"
+depends-member:
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIImageView"]
+- ["Ps9AnyObject", "UILabel"]
+- !private ["Ps9AnyObject", "UITableViewCellSelectionStyle"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "backgroundView"]
+- !private ["Ps9AnyObject", "blackColor"]
+- !private ["Ps9AnyObject", "boldSystemFontOfSize"]
+- ["Ps9AnyObject", "bottle"]
+- !private ["Ps9AnyObject", "bottom"]
+- !private ["Ps9AnyObject", "contentMode"]
+- !private ["Ps9AnyObject", "contentView"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "left"]
+- ["Ps9AnyObject", "nameLabel"]
+- ["Ps9AnyObject", "prizeLabel"]
+- !private ["Ps9AnyObject", "right"]
+- !private ["Ps9AnyObject", "selectionStyle"]
+- !private ["Ps9AnyObject", "snp_makeConstraints"]
+- !private ["Ps9AnyObject", "textColor"]
+- !private ["Ps9AnyObject", "top"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- ["Ps9AnyObject", ""]
+- !private ["C10Asia_shops10BottleCell", "CGRectMake"]
+- ["C10Asia_shops10BottleCell", "NSCoder"]
+- ["C10Asia_shops10BottleCell", "Rel"]
+- ["C10Asia_shops10BottleCell", "String"]
+- !private ["C10Asia_shops10BottleCell", "UIColor"]
+- !private ["C10Asia_shops10BottleCell", "UIFont"]
+- !private ["C10Asia_shops10BottleCell", "UIImage"]
+- !private ["C10Asia_shops10BottleCell", "UIImageView"]
+- ["C10Asia_shops10BottleCell", "UILabel"]
+- !private ["C10Asia_shops10BottleCell", "UITableViewCellSelectionStyle"]
+- ["C10Asia_shops10BottleCell", "UITableViewCellStyle"]
+- !private ["C10Asia_shops10BottleCell", "backgroundColor"]
+- !private ["C10Asia_shops10BottleCell", "backgroundView"]
+- ["C10Asia_shops10BottleCell", "bottle"]
+- !private ["C10Asia_shops10BottleCell", "contentView"]
+- ["C10Asia_shops10BottleCell", "deinit"]
+- !private ["C10Asia_shops10BottleCell", "fatalError"]
+- ["C10Asia_shops10BottleCell", "init"]
+- ["C10Asia_shops10BottleCell", "nameLabel"]
+- ["C10Asia_shops10BottleCell", "prizeLabel"]
+- !private ["C10Asia_shops10BottleCell", "selectionStyle"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "deinit"]
+- !private ["VSC6CGSize", "deinit"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIFont"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "UIImageView"]
+- ["Ps11CVarArgType", "UILabel"]
+- !private ["Ps11CVarArgType", "UITableViewCellSelectionStyle"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "backgroundView"]
+- !private ["Ps11CVarArgType", "blackColor"]
+- !private ["Ps11CVarArgType", "boldSystemFontOfSize"]
+- ["Ps11CVarArgType", "bottle"]
+- !private ["Ps11CVarArgType", "contentMode"]
+- !private ["Ps11CVarArgType", "contentView"]
+- !private ["Ps11CVarArgType", "fatalError"]
+- !private ["Ps11CVarArgType", "font"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "nameLabel"]
+- ["Ps11CVarArgType", "prizeLabel"]
+- !private ["Ps11CVarArgType", "selectionStyle"]
+- !private ["Ps11CVarArgType", "snp_makeConstraints"]
+- !private ["Ps11CVarArgType", "textColor"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- ["Ps11CVarArgType", ""]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "equalTo"]
+- !private ["P7SnapKit31ConstraintDescriptionExtendable", "right"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "equalTo"]
+- !private ["P7SnapKit30ConstraintDescriptionRelatable", "right"]
+- !private ["C7SnapKit14ConstraintItem", "deinit"]
+- !private ["C7SnapKit15ConstraintMaker", "bottom"]
+- !private ["C7SnapKit15ConstraintMaker", "left"]
+- !private ["C7SnapKit15ConstraintMaker", "right"]
+- !private ["C7SnapKit15ConstraintMaker", "top"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImageView"]
+- ["Ps28CustomDebugStringConvertible", "UILabel"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundView"]
+- !private ["Ps28CustomDebugStringConvertible", "blackColor"]
+- !private ["Ps28CustomDebugStringConvertible", "boldSystemFontOfSize"]
+- ["Ps28CustomDebugStringConvertible", "bottle"]
+- !private ["Ps28CustomDebugStringConvertible", "contentMode"]
+- !private ["Ps28CustomDebugStringConvertible", "contentView"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- ["Ps28CustomDebugStringConvertible", "prizeLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "selectionStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "snp_makeConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "textColor"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIImageView"]
+- ["Ps23CustomStringConvertible", "UILabel"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCellSelectionStyle"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "backgroundView"]
+- !private ["Ps23CustomStringConvertible", "blackColor"]
+- !private ["Ps23CustomStringConvertible", "boldSystemFontOfSize"]
+- ["Ps23CustomStringConvertible", "bottle"]
+- !private ["Ps23CustomStringConvertible", "contentMode"]
+- !private ["Ps23CustomStringConvertible", "contentView"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "nameLabel"]
+- ["Ps23CustomStringConvertible", "prizeLabel"]
+- !private ["Ps23CustomStringConvertible", "selectionStyle"]
+- !private ["Ps23CustomStringConvertible", "snp_makeConstraints"]
+- !private ["Ps23CustomStringConvertible", "textColor"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "Default"]
+- !private ["Ps9Equatable", "None"]
+- !private ["Ps9Equatable", "Right"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIImageView"]
+- ["Ps9Equatable", "UILabel"]
+- !private ["Ps9Equatable", "UITableViewCellSelectionStyle"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "backgroundView"]
+- !private ["Ps9Equatable", "blackColor"]
+- !private ["Ps9Equatable", "boldSystemFontOfSize"]
+- ["Ps9Equatable", "bottle"]
+- !private ["Ps9Equatable", "contentMode"]
+- !private ["Ps9Equatable", "contentView"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "nameLabel"]
+- ["Ps9Equatable", "prizeLabel"]
+- !private ["Ps9Equatable", "selectionStyle"]
+- !private ["Ps9Equatable", "snp_makeConstraints"]
+- !private ["Ps9Equatable", "textColor"]
+- !private ["Ps9Equatable", "whiteColor"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "Default"]
+- !private ["Ps8Hashable", "None"]
+- !private ["Ps8Hashable", "Right"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIImageView"]
+- ["Ps8Hashable", "UILabel"]
+- !private ["Ps8Hashable", "UITableViewCellSelectionStyle"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "backgroundView"]
+- !private ["Ps8Hashable", "blackColor"]
+- !private ["Ps8Hashable", "boldSystemFontOfSize"]
+- ["Ps8Hashable", "bottle"]
+- !private ["Ps8Hashable", "contentMode"]
+- !private ["Ps8Hashable", "contentView"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "nameLabel"]
+- ["Ps8Hashable", "prizeLabel"]
+- !private ["Ps8Hashable", "selectionStyle"]
+- !private ["Ps8Hashable", "snp_makeConstraints"]
+- !private ["Ps8Hashable", "textColor"]
+- !private ["Ps8Hashable", "whiteColor"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIImageView"]
+- ["PSo8NSCoding", "UILabel"]
+- !private ["PSo8NSCoding", "UITableViewCellSelectionStyle"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "backgroundView"]
+- !private ["PSo8NSCoding", "blackColor"]
+- ["PSo8NSCoding", "bottle"]
+- !private ["PSo8NSCoding", "contentMode"]
+- !private ["PSo8NSCoding", "contentView"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "nameLabel"]
+- ["PSo8NSCoding", "prizeLabel"]
+- !private ["PSo8NSCoding", "selectionStyle"]
+- !private ["PSo8NSCoding", "snp_makeConstraints"]
+- !private ["PSo8NSCoding", "textColor"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "blackColor"]
+- !private ["PSo9NSCopying", "boldSystemFontOfSize"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "Rel"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UITableViewCellSelectionStyle"]
+- ["CSo8NSObject", "UITableViewCellStyle"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "backgroundView"]
+- !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "boldSystemFontOfSize"]
+- ["CSo8NSObject", "bottle"]
+- !private ["CSo8NSObject", "contentMode"]
+- !private ["CSo8NSObject", "contentView"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "nameLabel"]
+- ["CSo8NSObject", "prizeLabel"]
+- !private ["CSo8NSObject", "selectionStyle"]
+- !private ["CSo8NSObject", "snp_makeConstraints"]
+- !private ["CSo8NSObject", "textColor"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIImageView"]
+- ["PSo16NSObjectProtocol", "UILabel"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCellSelectionStyle"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "backgroundView"]
+- !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "boldSystemFontOfSize"]
+- ["PSo16NSObjectProtocol", "bottle"]
+- !private ["PSo16NSObjectProtocol", "contentMode"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "nameLabel"]
+- ["PSo16NSObjectProtocol", "prizeLabel"]
+- !private ["PSo16NSObjectProtocol", "selectionStyle"]
+- !private ["PSo16NSObjectProtocol", "snp_makeConstraints"]
+- !private ["PSo16NSObjectProtocol", "textColor"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "blackColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["Ps16RawRepresentable", "Default"]
+- !private ["Ps16RawRepresentable", "None"]
+- !private ["Ps16RawRepresentable", "Right"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectMake"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImageView"]
+- ["PSo29UIAccessibilityIdentification", "UILabel"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewCellSelectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundView"]
+- ["PSo29UIAccessibilityIdentification", "bottle"]
+- !private ["PSo29UIAccessibilityIdentification", "contentMode"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- !private ["PSo29UIAccessibilityIdentification", "fatalError"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "nameLabel"]
+- ["PSo29UIAccessibilityIdentification", "prizeLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "selectionStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "snp_makeConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "textColor"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRectMake"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- !private ["PSo12UIAppearance", "UIImageView"]
+- ["PSo12UIAppearance", "UILabel"]
+- !private ["PSo12UIAppearance", "UITableViewCellSelectionStyle"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "backgroundView"]
+- ["PSo12UIAppearance", "bottle"]
+- !private ["PSo12UIAppearance", "contentMode"]
+- !private ["PSo12UIAppearance", "contentView"]
+- !private ["PSo12UIAppearance", "fatalError"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "nameLabel"]
+- ["PSo12UIAppearance", "prizeLabel"]
+- !private ["PSo12UIAppearance", "selectionStyle"]
+- !private ["PSo12UIAppearance", "snp_makeConstraints"]
+- !private ["PSo12UIAppearance", "textColor"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIImageView"]
+- ["PSo21UIAppearanceContainer", "UILabel"]
+- !private ["PSo21UIAppearanceContainer", "UITableViewCellSelectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "backgroundView"]
+- ["PSo21UIAppearanceContainer", "bottle"]
+- !private ["PSo21UIAppearanceContainer", "contentMode"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "nameLabel"]
+- ["PSo21UIAppearanceContainer", "prizeLabel"]
+- !private ["PSo21UIAppearanceContainer", "selectionStyle"]
+- !private ["PSo21UIAppearanceContainer", "snp_makeConstraints"]
+- !private ["PSo21UIAppearanceContainer", "textColor"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "blackColor"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo17UICoordinateSpace", "CGRectMake"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- !private ["PSo17UICoordinateSpace", "UIImageView"]
+- ["PSo17UICoordinateSpace", "UILabel"]
+- !private ["PSo17UICoordinateSpace", "UITableViewCellSelectionStyle"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "backgroundView"]
+- ["PSo17UICoordinateSpace", "bottle"]
+- !private ["PSo17UICoordinateSpace", "contentMode"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- !private ["PSo17UICoordinateSpace", "fatalError"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "nameLabel"]
+- ["PSo17UICoordinateSpace", "prizeLabel"]
+- !private ["PSo17UICoordinateSpace", "selectionStyle"]
+- !private ["PSo17UICoordinateSpace", "snp_makeConstraints"]
+- !private ["PSo17UICoordinateSpace", "textColor"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRectMake"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- !private ["PSo13UIDynamicItem", "UIImageView"]
+- ["PSo13UIDynamicItem", "UILabel"]
+- !private ["PSo13UIDynamicItem", "UITableViewCellSelectionStyle"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "backgroundView"]
+- ["PSo13UIDynamicItem", "bottle"]
+- !private ["PSo13UIDynamicItem", "contentMode"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- !private ["PSo13UIDynamicItem", "fatalError"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "nameLabel"]
+- ["PSo13UIDynamicItem", "prizeLabel"]
+- !private ["PSo13UIDynamicItem", "selectionStyle"]
+- !private ["PSo13UIDynamicItem", "snp_makeConstraints"]
+- !private ["PSo13UIDynamicItem", "textColor"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["VSC12UIEdgeInsets", "deinit"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIImageView"]
+- ["PSo18UIFocusEnvironment", "UILabel"]
+- !private ["PSo18UIFocusEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "backgroundView"]
+- ["PSo18UIFocusEnvironment", "bottle"]
+- !private ["PSo18UIFocusEnvironment", "contentMode"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "nameLabel"]
+- ["PSo18UIFocusEnvironment", "prizeLabel"]
+- !private ["PSo18UIFocusEnvironment", "selectionStyle"]
+- !private ["PSo18UIFocusEnvironment", "snp_makeConstraints"]
+- !private ["PSo18UIFocusEnvironment", "textColor"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "boldSystemFontOfSize"]
+- !private ["PSo27UIGestureRecognizerDelegate", "CGRectMake"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIColor"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIFont"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "UILabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UITableViewCellSelectionStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "backgroundColor"]
+- !private ["PSo27UIGestureRecognizerDelegate", "backgroundView"]
+- ["PSo27UIGestureRecognizerDelegate", "bottle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contentView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "fatalError"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "nameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "prizeLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "selectionStyle"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "contentMode"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "init"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "init"]
+- !private ["CSo7UILabel", "snp_makeConstraints"]
+- !private ["CSo7UILabel", "textColor"]
+- !private ["PSo15UILayoutSupport", "deinit"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "Rel"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
+- !private ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UITableViewCellSelectionStyle"]
+- ["CSo11UIResponder", "UITableViewCellStyle"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "backgroundView"]
+- ["CSo11UIResponder", "bottle"]
+- !private ["CSo11UIResponder", "contentMode"]
+- !private ["CSo11UIResponder", "contentView"]
+- !private ["CSo11UIResponder", "fatalError"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "nameLabel"]
+- ["CSo11UIResponder", "prizeLabel"]
+- !private ["CSo11UIResponder", "selectionStyle"]
+- !private ["CSo11UIResponder", "snp_makeConstraints"]
+- !private ["CSo11UIResponder", "textColor"]
+- !private ["CSo15UITableViewCell", "CGRectMake"]
+- ["CSo15UITableViewCell", "NSCoder"]
+- ["CSo15UITableViewCell", "Rel"]
+- ["CSo15UITableViewCell", "String"]
+- !private ["CSo15UITableViewCell", "UIColor"]
+- !private ["CSo15UITableViewCell", "UIFont"]
+- !private ["CSo15UITableViewCell", "UIImage"]
+- !private ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- !private ["CSo15UITableViewCell", "UITableViewCellSelectionStyle"]
+- ["CSo15UITableViewCell", "UITableViewCellStyle"]
+- !private ["CSo15UITableViewCell", "backgroundColor"]
+- !private ["CSo15UITableViewCell", "backgroundView"]
+- ["CSo15UITableViewCell", "bottle"]
+- !private ["CSo15UITableViewCell", "contentView"]
+- !private ["CSo15UITableViewCell", "fatalError"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "nameLabel"]
+- ["CSo15UITableViewCell", "prizeLabel"]
+- !private ["CSo15UITableViewCell", "selectionStyle"]
+- ["CSo15UITableViewCell", ""]
+- !private ["OSC29UITableViewCellSelectionStyle", "Default"]
+- !private ["OSC29UITableViewCellSelectionStyle", "None"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIImageView"]
+- ["PSo18UITraitEnvironment", "UILabel"]
+- !private ["PSo18UITraitEnvironment", "UITableViewCellSelectionStyle"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "backgroundView"]
+- ["PSo18UITraitEnvironment", "bottle"]
+- !private ["PSo18UITraitEnvironment", "contentMode"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "nameLabel"]
+- ["PSo18UITraitEnvironment", "prizeLabel"]
+- !private ["PSo18UITraitEnvironment", "selectionStyle"]
+- !private ["PSo18UITraitEnvironment", "snp_makeConstraints"]
+- !private ["PSo18UITraitEnvironment", "textColor"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CGRectMake"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "Rel"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIFont"]
+- !private ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- !private ["CSo6UIView", "UITableViewCellSelectionStyle"]
+- ["CSo6UIView", "UITableViewCellStyle"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "backgroundView"]
+- ["CSo6UIView", "bottle"]
+- !private ["CSo6UIView", "contentMode"]
+- !private ["CSo6UIView", "contentView"]
+- !private ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "fatalError"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "nameLabel"]
+- ["CSo6UIView", "prizeLabel"]
+- !private ["CSo6UIView", "selectionStyle"]
+- !private ["CSo6UIView", "snp_makeConstraints"]
+- !private ["CSo6UIView", "textColor"]
+- !private ["OSC17UIViewContentMode", "Right"]
+- !private ["Ps24_ColorLiteralConvertible", "blackColor"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "CGRectMake"]
+- !private ["Ps12_Reflectable", "UIColor"]
+- !private ["Ps12_Reflectable", "UIFont"]
+- !private ["Ps12_Reflectable", "UIImage"]
+- !private ["Ps12_Reflectable", "UIImageView"]
+- ["Ps12_Reflectable", "UILabel"]
+- !private ["Ps12_Reflectable", "UITableViewCellSelectionStyle"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "backgroundView"]
+- ["Ps12_Reflectable", "bottle"]
+- !private ["Ps12_Reflectable", "contentMode"]
+- !private ["Ps12_Reflectable", "contentView"]
+- !private ["Ps12_Reflectable", "fatalError"]
+- !private ["Ps12_Reflectable", "font"]
+- !private ["Ps12_Reflectable", "image"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "nameLabel"]
+- ["Ps12_Reflectable", "prizeLabel"]
+- !private ["Ps12_Reflectable", "selectionStyle"]
+- !private ["Ps12_Reflectable", "snp_makeConstraints"]
+- !private ["Ps12_Reflectable", "textColor"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Asia_shops10BottleCell"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "P7SnapKit31ConstraintDescriptionExtendable"
+- !private "P7SnapKit30ConstraintDescriptionRelatable"
+- !private "C7SnapKit14ConstraintItem"
+- !private "C7SnapKit15ConstraintMaker"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "Si"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- !private "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- "CSo7UILabel"
+- !private "PSo15UILayoutSupport"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- !private "OSC29UITableViewCellSelectionStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "OSC17UIViewContentMode"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/Asia shops-Bridging-Header.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Asia shops/SWRevealViewController.h"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/SnapKit.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/CoreData+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecordShorthand.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ShorthandSupport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Setup.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Options.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+iCloud.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+ErrorHandling.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord+Actions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStoreCoordinator+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSPersistentStore+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectModel+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalThreading.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalSaves.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObjectContext+MagicalObserving.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRequests.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalRecord.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalFinders.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSManagedObject+MagicalAggregation.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSString+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSRelationshipDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSObject+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSNumber+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSEntityDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/NSAttributeDescription+MagicalDataImport.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalImportFunctions.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Headers/MagicalRecord-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/MagicalRecord.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/SWActionSheet.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetMultipleStringPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetLocalePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/DistancePickerView.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDistancePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetDatePicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPickerDelegate.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetCustomPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/AbstractActionSheetPicker.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Headers/ActionSheetPicker-3.0-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/ActionSheetPicker_3_0.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/PageMenu.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/PageMenu.framework/Modules/module.modulemap"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/Cosmos.swiftmodule/arm.swiftmodule"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-Swift.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Headers/Cosmos-umbrella.h"
+- "/Users/lukaspechac/GitHub/Asia shops/Shops/Build/Products/Debug-iphoneos/Cosmos.framework/Modules/module.modulemap"
+interface-hash: "78528b28c57adfacdb886aae62a06aad"
