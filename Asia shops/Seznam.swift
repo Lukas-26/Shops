@@ -47,7 +47,6 @@ class Seznam: UIViewController,UITableViewDelegate,UITableViewDataSource,CLLocat
         
         loadShops()
         shops.sortInPlace(sortByDistance)
-        //shops.sortInPlace({ $0.getAvgRating() > $1.getAvgRating() })
     }
     func sortByDistance(this:Shop, that:Shop) -> Bool {
         let distance1=getDistanceTo((this.latitude)!.doubleValue, longitude: (this.longitude)!.doubleValue, manager: self.manager)
@@ -93,7 +92,7 @@ class Seznam: UIViewController,UITableViewDelegate,UITableViewDataSource,CLLocat
         let cell = ShopViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "ShopCell")
         cell.shop=shops[indexPath.row]
         cell.nameLabel.text=shops[indexPath.row].name
-        cell.distance.text = String(getDistanceTo(shops[indexPath.row].latitude as! Double, longitude: shops[indexPath.row].longitude as! Double, manager: self.manager))
+        cell.distance.text = Shop.printDistance(getDistanceTo(shops[indexPath.row].latitude as! Double, longitude: shops[indexPath.row].longitude as! Double, manager: self.manager))
         return cell
     }
     

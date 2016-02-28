@@ -11,6 +11,7 @@ import UIKit
 import MagicalRecord
 import SnapKit
 import Cosmos
+import CoreData
 
 class ShopController: UIViewController,UIScrollViewDelegate{
     
@@ -65,8 +66,9 @@ class ShopController: UIViewController,UIScrollViewDelegate{
         stars.settings.fillMode = .Precise
         stars.settings.starSize = 25
         stars.settings.starMargin = 5
-        stars.settings.colorFilled = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
-        stars.settings.borderColorEmpty = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+        stars.settings.filledColor = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+        stars.settings.emptyBorderColor = UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+        stars.settings.filledBorderColor=UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
         stars.settings.updateOnTouch = true
         stars.rating=self.shop!.getAvgRating()
         stars.didFinishTouchingCosmos = { rating in
@@ -142,8 +144,29 @@ class ShopController: UIViewController,UIScrollViewDelegate{
     func enterToShop(button:UIButton){
         print("sortiment obchodu")
         let sc=SortimentController()
-        //Bottle.MR_findAllWithPredicate(rel)
+        sc.shop=self.shop!
+        let rels=self.shop?.shop_rel?.allObjects as! [Rel]
+        print("Pocet relaci: \(rels.count)")
+        sc.bottles=rels
+        var types=Set<Alcohol_type>()
+        for row in 0..<rels.count{
+            types.insert((rels[row].rel_bottle?.bottle_alctype)!)
+        }
+        sc.alctypes=Array(types)
+        
         self.navigationItem.title=self.shop?.name
         self.navigationController?.pushViewController(sc, animated: true)
+        
+        
+        
+        /*let bottles=Bottle.MR_findAll() as! [Bottle]
+        for row in 0..<bottles.count{
+            let localContext:NSManagedObjectContext = NSManagedObjectContext.MR_contextForCurrentThread()
+            let entity = NSEntityDescription.entityForName("Rel", inManagedObjectContext: localContext)
+            let record = Rel(entity: entity!, insertIntoManagedObjectContext: localContext)
+            record.rel_shop=self.shop
+            record.rel_bottle=bottles[row]
+            localContext.MR_save()
+        }*/
     }
 }

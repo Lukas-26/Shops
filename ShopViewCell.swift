@@ -27,6 +27,7 @@ class ShopViewCell: UITableViewCell {
         
         let name = UILabel()
         name.textColor = UIColor.blackColor()
+        name.font = UIFont.boldSystemFontOfSize(18.0)
         self.contentView.addSubview(name)
         name.snp_makeConstraints { (make) in
             make.top.equalTo(10)

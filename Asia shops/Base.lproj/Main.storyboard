@@ -87,7 +87,6 @@
         <!--O Aplikaci-->
         <scene sceneID="Thq-FT-Dof">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1cp-Sc-n5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="6BA-6p-HE7" customClass="About" customModule="Asia_shops" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="85T-MW-xzg"/>
@@ -107,6 +106,7 @@
                         <outlet property="Open" destination="jG5-Z9-xTh" id="yft-ZS-8tg"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1cp-Sc-n5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="604" y="-1627"/>
         </scene>
@@ -233,7 +233,7 @@
         <image name="MenuIcon" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EUm-J6-kqa"/>
+        <segue reference="Q8x-aI-ykz"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

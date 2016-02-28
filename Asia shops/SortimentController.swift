@@ -11,45 +11,49 @@ import SnapKit
 import PageMenu
 import UIKit
 
-class SortimentController: UIViewController,CAPSPageMenuDelegate{
+let color=UIColor(colorLiteralRed: 0.235, green: 0.38, blue: 0.847, alpha: 1)
+
+class SortimentController: UIViewController{
     var pageMenu : CAPSPageMenu?
-    var bottles = [Rel]()
+    var alctypes : [Alcohol_type]!
+    var bottles : [Rel]?
+    var shop : Shop?
+    
     override func viewDidLoad() {
-        
-        pageMenu!.delegate = self
-        // Array to keep track of controllers in page menu
+        super.viewDidLoad()
+        self.navigationController?.navigationBar.barTintColor=color
+        self.navigationController?.navigationBar.backgroundColor=color
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "bottleAdd:")
+        if(alctypes.count<=0){
+            return
+        }
         var controllerArray : [BottlesTableView] = []
         
-        // Create variables for all view controllers you want to put in the
-        // page menu, initialize them, and add each to the controller array.
-        // (Can be any UIViewController subclass)
-        // Make sure the title property of all view controllers is set
-        // Example:
-        //for row in 0..<self.bottles....
-        let controller : BottlesTableView = BottlesTableView(nibName: "controllerNibName", bundle: nil)
-        controller.title = "->TITLE<-"
-        controllerArray.append(controller)
-        
-        // Customize page menu to your liking (optional) or use default settings by sending nil for 'options' in the init
-        // Example:
+        for row in 0..<self.alctypes!.count{
+            let controller1 : BottlesTableView = BottlesTableView()
+            controller1.view.backgroundColor = UIColor.whiteColor()
+            controller1.title = alctypes![row].type
+            var currentRel=[Rel]()
+            for row2 in 0..<bottles!.count{
+                if(bottles![row2].rel_bottle?.bottle_alctype==alctypes![row]){
+                    currentRel.append(bottles![row2])
+                }
+            }
+            controller1.bottles=currentRel
+            controllerArray.append(controller1)
+        }
         let parameters: [CAPSPageMenuOption] = [
-            .MenuItemSeparatorWidth(4.3),
-            .UseMenuLikeSegmentedControl(true),
-            .MenuItemSeparatorPercentageHeight(0.1)
+            .MenuItemSeparatorWidth(0),
+            .MenuItemSeparatorPercentageHeight(0),
+            .UseMenuLikeSegmentedControl(false),
+            .MenuHeight(50),
+            .ScrollMenuBackgroundColor(color),
+            .BottomMenuHairlineColor(color)
         ]
-        
-        // Initialize page menu with controller array, frame, and optional parameters
         pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRectMake(0.0, 0.0, self.view.frame.width, self.view.frame.height), pageMenuOptions: parameters)
-        
-        // Lastly add page menu as subview of base view controller view
-        // or use pageMenu controller in you view hierachy as desired
         self.view.addSubview(pageMenu!.view)
     }
-    func willMoveToPage(controller: UIViewController, index: Int){
-    
-    }
-    
-    func didMoveToPage(controller: UIViewController, index: Int){
-    
+    func bottleAdd(target: UIBarButtonItem){
+        print("nova flaska")
     }
 }

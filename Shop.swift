@@ -23,7 +23,7 @@ class Shop: NSManagedObject {
             sum+=(array.objectAtIndex(row) as! Rating).star!.doubleValue
         }
         let value=sum/Double(nrRow)
-        return Double(round(10*value)/10) //10 = zaokrouhleni na 1 desetinne misto, 100 = 2 des. mista...
+        return Double(round(10*value)/10)
     }
     
     func isOpen() -> Bool{
@@ -61,6 +61,15 @@ class Shop: NSManagedObject {
             return true
         }
         return false
+    }
+    
+    static func printDistance(meters: Int) -> String{
+        if(meters<1000){
+            return "\(meters) m"
+        }
+        else{
+            return String(format: "%.1f km",(round(100 * Double(meters))/100)/1000)
+        }
     }
 
 }

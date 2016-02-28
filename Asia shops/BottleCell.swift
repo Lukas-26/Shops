@@ -14,17 +14,18 @@ import CoreData
 
 class BottleCell: UITableViewCell {
     
-    weak var bottle:Bottle!
-    var nameLabel=UILabel()
     
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:)")
-    }
+    weak var bottle:Rel!
+    var nameLabel=UILabel()
+    var prizeLabel=UILabel()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.selectionStyle=UITableViewCellSelectionStyle.Default
+        self.backgroundColor=UIColor.whiteColor()
         
         let name = UILabel()
+        name.font = UIFont.boldSystemFontOfSize(20.0)
         name.textColor = UIColor.blackColor()
         self.contentView.addSubview(name)
         name.snp_makeConstraints { (make) in
@@ -32,7 +33,22 @@ class BottleCell: UITableViewCell {
             make.left.right.equalTo(20)
         }
         self.nameLabel=name
-        self.selectionStyle=UITableViewCellSelectionStyle.None
+        let backgroundView=UIImageView(frame: CGRectMake(0, 0, 15, 25))
+        backgroundView.contentMode = .Right
+        backgroundView.image=UIImage(named: "rightArrow")
+        self.backgroundView=backgroundView
+        let prize = UILabel()
+        prize.textColor = UIColor.blackColor()
+        self.contentView.addSubview(prize)
+        prize.snp_makeConstraints { (make) in
+            make.right.equalTo(20)
+            make.left.equalTo(20)
+            make.bottom.equalTo(-10)
+        }
+        self.prizeLabel=prize
     }
     
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:)")
+    }
 }

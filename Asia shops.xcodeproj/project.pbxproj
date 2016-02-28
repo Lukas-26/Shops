@@ -63,27 +63,8 @@
 		80DE3ADD1C16E43300D09D54 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3ADC1C16E43300D09D54 /* Map.swift */; };
 		80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE11C16E43300D09D54 /* Assets.xcassets */; };
 		80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DE3AE31C16E43300D09D54 /* LaunchScreen.storyboard */; };
-		80DE3AF01C16E43300D09D54 /* Asia_shopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3AEF1C16E43300D09D54 /* Asia_shopsTests.swift */; };
-		80DE3AFB1C16E43300D09D54 /* Asia_shopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE3AFA1C16E43300D09D54 /* Asia_shopsUITests.swift */; };
 		80EEE09D1C721424002F5EB0 /* AddDayTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		80DE3AEC1C16E43300D09D54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80DE3ACF1C16E43300D09D54 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80DE3AD61C16E43300D09D54;
-			remoteInfo = "Asia shops";
-		};
-		80DE3AF71C16E43300D09D54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80DE3ACF1C16E43300D09D54 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80DE3AD61C16E43300D09D54;
-			remoteInfo = "Asia shops";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		35F22A42912903B3ADFA8ED5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,10 +116,8 @@
 		80DE3AE11C16E43300D09D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DE3AE41C16E43300D09D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80DE3AE61C16E43300D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80DE3AEB1C16E43300D09D54 /* Asia shopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asia shopsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3AEF1C16E43300D09D54 /* Asia_shopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_shopsTests.swift; sourceTree = "<group>"; };
 		80DE3AF11C16E43300D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80DE3AF61C16E43300D09D54 /* Asia shopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asia shopsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DE3AFA1C16E43300D09D54 /* Asia_shopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asia_shopsUITests.swift; sourceTree = "<group>"; };
 		80DE3AFC1C16E43300D09D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80EEE09C1C721424002F5EB0 /* AddDayTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDayTimeView.swift; sourceTree = "<group>"; };
@@ -153,20 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C04D54C9BD700E0D38A8FBA /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DE3AE81C16E43300D09D54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DE3AF31C16E43300D09D54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,8 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				80DE3AD71C16E43300D09D54 /* Asia shops.app */,
-				80DE3AEB1C16E43300D09D54 /* Asia shopsTests.xctest */,
-				80DE3AF61C16E43300D09D54 /* Asia shopsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,42 +284,6 @@
 			productReference = 80DE3AD71C16E43300D09D54 /* Asia shops.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80DE3AEA1C16E43300D09D54 /* Asia shopsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80DE3B021C16E43300D09D54 /* Build configuration list for PBXNativeTarget "Asia shopsTests" */;
-			buildPhases = (
-				80DE3AE71C16E43300D09D54 /* Sources */,
-				80DE3AE81C16E43300D09D54 /* Frameworks */,
-				80DE3AE91C16E43300D09D54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80DE3AED1C16E43300D09D54 /* PBXTargetDependency */,
-			);
-			name = "Asia shopsTests";
-			productName = "Asia shopsTests";
-			productReference = 80DE3AEB1C16E43300D09D54 /* Asia shopsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		80DE3AF51C16E43300D09D54 /* Asia shopsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80DE3B051C16E43300D09D54 /* Build configuration list for PBXNativeTarget "Asia shopsUITests" */;
-			buildPhases = (
-				80DE3AF21C16E43300D09D54 /* Sources */,
-				80DE3AF31C16E43300D09D54 /* Frameworks */,
-				80DE3AF41C16E43300D09D54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80DE3AF81C16E43300D09D54 /* PBXTargetDependency */,
-			);
-			name = "Asia shopsUITests";
-			productName = "Asia shopsUITests";
-			productReference = 80DE3AF61C16E43300D09D54 /* Asia shopsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -370,16 +297,6 @@
 					80DE3AD61C16E43300D09D54 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = HZ8BEX7Z5S;
-					};
-					80DE3AEA1C16E43300D09D54 = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = HZ8BEX7Z5S;
-						TestTargetID = 80DE3AD61C16E43300D09D54;
-					};
-					80DE3AF51C16E43300D09D54 = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = HZ8BEX7Z5S;
-						TestTargetID = 80DE3AD61C16E43300D09D54;
 					};
 					80F4A5361C640BBB00EB917C = {
 						CreatedOnToolsVersion = 7.3;
@@ -401,8 +318,6 @@
 			projectRoot = "";
 			targets = (
 				80DE3AD61C16E43300D09D54 /* Asia shops */,
-				80DE3AEA1C16E43300D09D54 /* Asia shopsTests */,
-				80DE3AF51C16E43300D09D54 /* Asia shopsUITests */,
 				80F4A5361C640BBB00EB917C /* Mogenerator */,
 			);
 		};
@@ -418,20 +333,6 @@
 				80DE3AE51C16E43300D09D54 /* LaunchScreen.storyboard in Resources */,
 				809F79DE1C5A440400A366BE /* Home.gpx in Resources */,
 				80DE3AE21C16E43300D09D54 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DE3AE91C16E43300D09D54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DE3AF41C16E43300D09D54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,36 +414,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80DE3AE71C16E43300D09D54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80DE3AF01C16E43300D09D54 /* Asia_shopsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80DE3AF21C16E43300D09D54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80DE3AFB1C16E43300D09D54 /* Asia_shopsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		80DE3AED1C16E43300D09D54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80DE3AD61C16E43300D09D54 /* Asia shops */;
-			targetProxy = 80DE3AEC1C16E43300D09D54 /* PBXContainerItemProxy */;
-		};
-		80DE3AF81C16E43300D09D54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80DE3AD61C16E43300D09D54 /* Asia shops */;
-			targetProxy = 80DE3AF71C16E43300D09D54 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80193B891C2001B700E0C8CD /* Main.storyboard */ = {
@@ -676,54 +548,6 @@
 			};
 			name = Release;
 		};
-		80DE3B031C16E43300D09D54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Asia shopsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lukas.Asia-shopsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia shops.app/Asia shops";
-			};
-			name = Debug;
-		};
-		80DE3B041C16E43300D09D54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Asia shopsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lukas.Asia-shopsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asia shops.app/Asia shops";
-			};
-			name = Release;
-		};
-		80DE3B061C16E43300D09D54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Asia shopsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lukas.Asia-shopsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Asia shops";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		80DE3B071C16E43300D09D54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Asia shopsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lukas.Asia-shopsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Asia shops";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 		80F4A5381C640BBB00EB917C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -755,24 +579,6 @@
 			buildConfigurations = (
 				80DE3B001C16E43300D09D54 /* Debug */,
 				80DE3B011C16E43300D09D54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80DE3B021C16E43300D09D54 /* Build configuration list for PBXNativeTarget "Asia shopsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80DE3B031C16E43300D09D54 /* Debug */,
-				80DE3B041C16E43300D09D54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80DE3B051C16E43300D09D54 /* Build configuration list for PBXNativeTarget "Asia shopsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80DE3B061C16E43300D09D54 /* Debug */,
-				80DE3B071C16E43300D09D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

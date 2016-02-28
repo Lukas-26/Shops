@@ -11,11 +11,12 @@ import UIKit
 
 class BottlesTableView: UITableViewController {
     
-    var bottles = [Bottle]()
+    var bottles = [Rel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.None
+        //self.tableView.separatorStyle = UITableViewCellSeparatorStyle.None
+        print("bottlestableviewdidload")
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -26,9 +27,14 @@ class BottlesTableView: UITableViewController {
     return self.bottles.count
     }
     
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 80
+    }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! BottleCell
-    cell.nameLabel.text="NazevFlasky"
-    return cell
+        let cell = BottleCell(style: UITableViewCellStyle.Default, reuseIdentifier: "BottleCell")
+        cell.bottle=self.bottles[indexPath.row]
+        cell.nameLabel.text=self.bottles[indexPath.row].rel_bottle!.name
+        cell.prizeLabel.text="\(self.bottles[indexPath.row].prize!),-"
+        return cell
     }
 }
